@@ -116,22 +116,18 @@ If you have any doubts please ask, I am not an expert, but will gladly help in w
 
 ## ❓ Questions I answered in the GBA Temp forum.
 These are some questions I took time to answer in the GBA Forum and Reddit where I originally posted my guide. 
+   
+### 📍 Q1 - Can I swap my broken power supply with the power supply of another ps2?
+- Technically you could but you will probably run into some issues. <mark>From one revision to another, or model to another, the PSU changes in physical shape and won't fit into the console correctly.</mark> The 12V pins socket will be moved and so will be the L-N connector. This will make it practically impossible to re-assemble the unit correctly giving you some frankentseiny-ps2.
 
-- Q1 - Can i swap my broken power supply with the power supply of another ps2?
-- A1 - Technically  you could but you will probably run into some issues. From one revision to another, or model to another, the PSU could change in phisical shape and probably won't fit into the console correctly. The 12V pins socket will be moved and so will be the L-N connector. This will make it practically impossible to re-assemble the unit correctly giving you some frankentseiny-ps2.
+### 📍 Q2 - I Can't repair my psu, i can't find a replacement, what do i do?
+- You can buy an external PSU with the correct values and hook it up to the console's input pins. I've done this to test consoles and check if it really was the PSU causing issues and it worked fine. You can check original board for the values you need for the PSU. Some console modders also integrated this idea in their units with some great results, even using USB-C chargers!
 
----
-
-- Q2 - I Can't repair my psu, i can't find a replacement, what do i do?
-- A2 - You can buy an external PSU with the correct values and hook it up to the console's input pins. I've done this to test consoles and check if it really was the PSU causing issues and it worked fine. You can check original board for the values you need for the PSU.
-
- Im talking about this kind of external PSU.
-
----
-
-Q3 - Information about the MOSFET.
-
-A3 - I honestly can't recall the specs and i can't currently check, if you happen to need this information you can take the mosfet out of the board and see what's written on it, googling this should bring info up.
-
+I'm talking about this kind of external PSU.
+<img  width="180" height="180" alt="zd18v" src="https://github.com/user-attachments/assets/8037bc42-9e79-411a-8b6e-1ead93da39b6" />   
+    
+### 📍 Q3 - Information about the MOSFET.
+I honestly can't recall the specs and I can't currently check, if you happen to need this information you can take the mosfet out of the board and see what's written on it, googling this should bring info up.
 Example: On one of the sides, there is stuff written, one of these is the name of the brand, the voltage and the model, look for the model name.
+<img width="150" height="150" alt="examplemosfet" src="https://github.com/user-attachments/assets/0f289d5d-9a21-4eed-ad07-a6be0e1218ab" />
 
