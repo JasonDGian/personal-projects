@@ -161,7 +161,9 @@ Acording to a user that reported his progress in the forums, the culprit was the
 
 <img width="150" height="150" alt="C1" src="https://github.com/user-attachments/assets/9ced4b13-851f-44ea-8189-9b18fd915e3c" />
 
-
+### 🔸Q7 - I hear a clicking sound from the board when turned on. What could it be?
+For me, it was `C3` that was causing the issue. Oddly enough, C3 was still reading 33uf on my multi-meter, but after replacing it, the PSU came to life. There was no sign of the cap leaking either. I can only assume it was failing at a specific voltage, which my multi-meter was not stressing while metering it. 
+A user commented: A tell tail sign of the C3 failure is if you can hear a 'clicking' noise from the `SMPS` transformer, as it is trying to energize, but shutdown a moment later, due to a a fault detection. 
 
 
 
