@@ -11,7 +11,7 @@ I will be referring often to this picture of my PSU and mention the marked eleme
     
 **In the image we can see the following elements:**
 - **A**: Landline connector. This connector connects to live **high voltage (220-240)**. Handle with extreme care. <mark>Do not touch the metal contacts when connected.</mark>
-- **B**: Double 12V Output connector. This is the connector where the transformed power should come out and feed the console. 
+- **B**: DUAL 12V Output connector. This is the connector where the transformed power should come out and feed the console. Like this: |+12V|+12V|GND|GND|
 - **C**: 2.5A/250V fuse. This fuse breaks the circuit in case of over-current or over-voltage to protect the board and console.
 - **D**: Capacitor C20. 22uf 50V 105ª
 - **E**: Capacitor C3. 33uf 35V 105ª
@@ -114,22 +114,42 @@ If you have any doubts please ask, I am not an expert, but will gladly help in w
 ---
     
 
-## ❓ Questions I answered in the GBA Temp forum.
+## ❔ Questions I answered in the GBA Temp forum.
 These are some questions I took time to answer in the GBA Forum and Reddit where I originally posted my guide. 
    
-### 📍 Q1 - Can I swap my broken power supply with the power supply of another ps2?
-- Technically you could but you will probably run into some issues. <mark>From one revision to another, or model to another, the PSU changes in physical shape and won't fit into the console correctly.</mark> The 12V pins socket will be moved and so will be the L-N connector. This will make it practically impossible to re-assemble the unit correctly giving you some frankentseiny-ps2.
+### 🔸Q1 - Can I swap my broken power supply with the power supply of another ps2?
+Technically you could but you will probably run into some issues. <mark>From one revision to another, or model to another, the PSU changes in physical shape and won't fit into the console correctly.</mark> The 12V pins socket will be moved and so will be the L-N connector. This will make it practically impossible to re-assemble the unit correctly giving you some frankentseiny-ps2.
 
-### 📍 Q2 - I Can't repair my psu, i can't find a replacement, what do i do?
-- You can buy an external PSU with the correct values and hook it up to the console's input pins. I've done this to test consoles and check if it really was the PSU causing issues and it worked fine. You can check original board for the values you need for the PSU. Some console modders also integrated this idea in their units with some great results, even using USB-C chargers!
+### 🔸Q2 - I Can't repair my psu, i can't find a replacement, what do i do?
+You can buy an external PSU with the correct values and hook it up to the console's input pins. I've done this to test consoles and check if it really was the PSU causing issues and it worked fine. You can check original board for the values you need for the PSU. Some console modders also integrated this idea in their units with some great results, even using USB-C chargers!
 
 I'm talking about this kind of external PSU.
      
 <img  width="180" height="180" alt="zd18v" src="https://github.com/user-attachments/assets/8037bc42-9e79-411a-8b6e-1ead93da39b6" />   
     
-### 📍 Q3 - Information about the MOSFET.
+### 🔸Q3 - Information about the MOSFET.
 I honestly can't recall the specs and I can't currently check, if you happen to need this information you can take the mosfet out of the board and see what's written on it, googling this should bring info up.
 Example: On one of the sides, there is stuff written, one of these is the name of the brand, the voltage and the model, look for the model name.
      
 <img width="150" height="150" alt="examplemosfet" src="https://github.com/user-attachments/assets/0f289d5d-9a21-4eed-ad07-a6be0e1218ab" />
+
+### 🔸Q4a - How do I know if the diodes are really fault?
+I would start with a physical inspection, if you happen to have one of those cheap digital microscopes they can be quite helpful, otherwise some phone cameras can work miracles and help you see zoomed pictures, as many times you can clearly see if it is or not actually physically damaged or broken. The best way to go about this is to unsolder them from the board and check for resistance and continuity. If you test the diodes while on the board you can get false positives and end up replacing the wrong item.
+
+### 🔸Q4b - How do I know the values of the components? 
+I have listed the components on my own boards. It is a good idea to check your own component. You must read the values they have written on and google the datasheet to have the full picture. Once you are sure of the values
+you can get replacements, not necessarly the same exact brand.
+Some users report using **`1N4148`** zener diodes.
+
+### 🔸Q5 - Can I replace the C20 and C3 with bigger capacity and voltage capacitors?
+For temporary testing only. Higher-capacitance electrolytics will usually not immediately “destroy” the PSU, but they can cause unwanted side-effects (inrush stress, regulator instability, wrong ESR) so treat the swap as temporary and for testing only.
+- Using higher voltage is fine.
+- Higher Capacitance can be disruptive or destructive.
+Some users report that using **`47uf`** rather than **`33uf`** works fine in **`PAL39002`** models. 
+
+### 🔸Q6 - The board works but it is very slow to build up the voltage needed. What can be causing the issue?
+Acording to a user that reported his progress in the forums, the culprit was the capacitor C1, of values `82 uf 400 v`, that was damaged and lost capacitance. The console worked but could only play PS1 games propperly. Changing C1 the console was back to it's former glory.
+
+<img width="150" height="150" alt="C1" src="https://github.com/user-attachments/assets/9ced4b13-851f-44ea-8189-9b18fd915e3c" />
+
 
