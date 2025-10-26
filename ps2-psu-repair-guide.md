@@ -124,10 +124,12 @@ These are some questions I took time to answer in the GBA Forum and Reddit where
 - You can buy an external PSU with the correct values and hook it up to the console's input pins. I've done this to test consoles and check if it really was the PSU causing issues and it worked fine. You can check original board for the values you need for the PSU. Some console modders also integrated this idea in their units with some great results, even using USB-C chargers!
 
 I'm talking about this kind of external PSU.
+     
 <img  width="180" height="180" alt="zd18v" src="https://github.com/user-attachments/assets/8037bc42-9e79-411a-8b6e-1ead93da39b6" />   
     
 ### 📍 Q3 - Information about the MOSFET.
 I honestly can't recall the specs and I can't currently check, if you happen to need this information you can take the mosfet out of the board and see what's written on it, googling this should bring info up.
 Example: On one of the sides, there is stuff written, one of these is the name of the brand, the voltage and the model, look for the model name.
+     
 <img width="150" height="150" alt="examplemosfet" src="https://github.com/user-attachments/assets/0f289d5d-9a21-4eed-ad07-a6be0e1218ab" />
 
