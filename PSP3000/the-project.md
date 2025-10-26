@@ -27,3 +27,7 @@ The consoles I've bought are some of the cheapest PSP-3004 in functionin status 
 
 <img width="1635" height="445" alt="PSPs" src="https://github.com/user-attachments/assets/a96e9553-bfe0-47ac-aadb-34b1e4d1d83c" />
 -->
+
+## Mods I am Considering.
+Dual Analog mod.
+- https://www.youtube.com/watch?v=H7OqdUDciTg
