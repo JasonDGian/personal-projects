@@ -54,7 +54,6 @@ If the multimeter shows around 24 volts DC, then the unit is fine and working pr
 - Check the thermoresistor (NTC1) 
 - Check the octocoupler (IC2)
 - Replace Electrolytic capacitor C20 and C3, by the age of the board, these two are most likely gone.
-- 
 
 ## 📍 Possible issues:
 Now that we confirmed that the unit is not working propperly, let us see the possible issues.
