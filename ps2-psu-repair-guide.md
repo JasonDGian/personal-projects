@@ -54,42 +54,62 @@ Now that we confirmed that the unit is not working propperly, let us see the pos
 4. Octocoupler is not working.
 5. Zener Diodes / Diodes broke.
 6. Burned Mosfet.
-
+     
 ---
-
+     
 <img align="left" width="200" height="200" alt="Fuse" src="https://github.com/user-attachments/assets/693dc6dc-6301-4ea3-8316-a6c325289aae" />
-   
+     
 ### 🔸 The Fuse
 The first thing to test is the F1 Fuse (Point C), simply set the multimeter on "continuity" or "resistance (Ω)" and if the multimeter beeps or shows 0 Ω then the fuse is OK and working.
 In case the fuse presents no continuity it would mean it is burned and needs to be replaced. In my case, all units i repaired were PAL units and the fuse was 250V 2.5A but these may differ for other regions, so be sure to check your fuse before you buy a replacement, if you don't find the exact same fuse, buy one slightly lower as close to the original as possible.
-   
+     
 --- 
-    
-<img align="left" width="200" height="200" alt="Fuse" src="https://github.com/user-attachments/assets/96776de8-7ab0-4760-92ca-1a3f934eea53" />
-    
+      
+<img align="left" width="200" height="200" alt="blown-capacitor" src="https://github.com/user-attachments/assets/96776de8-7ab0-4760-92ca-1a3f934eea53" />
+      
 ### 🔸 Blown Capacitors
 Most of the time blown capacitors are quite easy to identify as their phisical appearence change and some even smell bad. If a capacitor is showing a "bulge" on top, it means it most certainly needs replacement. To test them with the multimeter, connect one pin to ground or negative (3rd or 4th socket on point B)  and test both "legs" of the capacitor on the under side of the board. One leg should give continuity to ground/negative while the other should NOT give continuity (positve "leg" should not). If one capacitor does give continuity in both legs, means is broken and needs to be replaced.
-In case you need to replace one of these capacitors, check what is written on them, the Capacitance, the volts, and the temperature. for istance: 680Uf - 16V - 105º.
-
----
-
+In case you need to replace one of these capacitors, check what is written on them, the Capacitance, the volts, and the temperature. for istance: 680Uf - 16V - 105º.    
+_Click to enhance_   
+    
+--- 
+    
+<img align="left" width="200" height="200"  alt="lost-capacitance" src="https://github.com/user-attachments/assets/4f8799cf-cd1a-466d-bf94-d1d9e2b0a2e8" />
+    
 ### 🔸 Capacitors lost capacitance
-This is the absolutely most common issue i have encountered with these power boards.
+<mark>**This is the absolutely most common issue i have encountered with these power boards.**</mark>
 Mainly C20 and C3 (point D and E) tend to lose capacitance making it impossible for the board to do its job.
 To propperly test the capacitance of a capacitor is kind of quirky afaik, so the next best thing is to simply buy one of each online and change them both. I bought 2 packs of 10 each for about 2 euros, and almost finished them due to how common this issue is, so in any case, sooner or later, you may need to replace them so why not now that you are working on it.
-
+    
+---
+    
+<img align="left" width="200" height="200" alt="octocopler" src="https://github.com/user-attachments/assets/93676a63-9843-42cb-8a9c-3df5d02f1251" />    
+       
 ### 🔸 Octocoupler.
-This spider looking fella only troubled me once, but is worth checking out nontheless.
-In my case the OC was a PC123 equivalent.
-You can google how to test an octocoupler. Is quite simple.
-
+This spider looking fella only troubled me once, but is worth checking out nontheless.   
+In my case the OC was a PC123 equivalent.    
+You can google how to test an octocoupler. Is quite simple.    
+<br/>
+<br/>
+<br/>
+    
+---   
+       
+<img align="left" width="200" height="200" alt="zd18v" src="https://github.com/user-attachments/assets/421e197c-d4c9-41f4-8a79-deb3249312c6" />   
+      
 ### 🔸 Zener diodes / Diodes.
-Set your multimeter to continuity and test the diodes both way. A working diode gives continuity in only "one way". The diodes have a "direction" in which they block or allow current. Test your diode both ways, in one way it should block the current while in the other it should allow it. If the diode gives continuity both ways, or gives no cintuinity at all, is broken. The most common diode to fail is ZD1 and ZD3. You may also want to check the top left corner diodes D10 D9 D7 D8. Testing all the diodes present in the circuit is not a bad idea, just an extra security and is often among the first things  you want to rule out.
-
+Set your multimeter to continuity and test the diodes both way. A working diode gives continuity in only "one way". The diodes have a "direction" in which they block or allow current. Test your diode both ways, in one way it should block the current while in the other it should allow it. If the diode gives continuity both ways, or gives no cintuinity at all, is broken. The most common diode to fail is ZD1 and ZD3. You may also want to check the top left corner diodes D10 D9 D7 D8. Testing all the diodes present in the circuit is not a bad idea, just an extra security and is often among the first things  you want to rule out.   
+    
+---
+      
+<img align="left" width="200" height="200" alt="zd18v" src="https://github.com/user-attachments/assets/1586a2b9-fbc1-43b2-a311-c4531e182197" />   
+    
 ### 🔸 Broken mosfets.
-I never found an issue with these but i've heard of people that did.
-In the picture you will notice 2 heatsinks running vertically near the capacitors on the left and near the Zener diodes. If everything else you have tested up until now is working well and you still have issues, these little guys may be the problem.
+I never found an issue with these but i've heard of people that did.    
+In the picture you will notice 2 heatsinks running vertically near the capacitors on the left and near the Zener diodes. If everything else you have tested up until now is working well and you still have issues, these little guys may be the problem.    
 If you have any doubts please ask, I am not an expert, but will gladly help in what i can.
+
+---
 
 
 ## ❓ Questions I answered in the GBA Temp forum.
