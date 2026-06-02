@@ -23,3 +23,31 @@ The controller i Chose is the T-29 Wireless controller. I tested it with my PC a
 # Step 2, analyze the motherboard.
 This part is crucial to know if viable and how difficult the soldering step will be.
 I have to identify the test pads for each button i want to extract to my fightstick and solder to each one a very small wire that will activate the related input.
+
+# Step 3, motherboard box prototyping.
+Once I've identified the testing pads I will use as solderpoints i will start measuring the motherboard and will prototype a holder for it. 
+The idea her is to create sort of a box that will contain the motherboard and protect it from unintentional pulling of wires that may strip the pad from the board or break the wire. 
+HAving the motherboard enclosed also allows me to design a mounting place for it within the mixbox and replace it with another motherboard in the future with different fucntion, like one compatible with PS5 or something else.
+The key here is to decide whether you are going to apply constructive changes or destructive changes. In my case, i do not plan on reusing the motherboard within the controller so i do not really mind making destructive changes or hard to reverse ones. 
+
+To start prototyping the mobo-box the first thing is to decide how to secure the motherboard to it's new home. In my case i decided to go for 3 specific holes in the middle of it with screws, this will give me enough freedom to design the box as i may need it and is pretty easy to measure. In the past I have used more convoluted ways that were quite annoing and needed many prototypes before i was satisfied with the result, so this time i will simplify things and improve as may be needed. 
+
+
+
+- Get a base controller with an easy to work on motherboard. It must have the functionalities you are looking for in a mixbox.
+- Analyze and measure the motherboard.
+  - Identify the testing pads for the inputs.
+  - Identify the mounting points for the screws.
+- Prototype and test a mounting box.
+  - It must secure the motherboard precisely.
+  - Keep in mind the charging port and battery.
+  - Decide wether to keep the analog sticks or to remove them, do you want them in your mixbox or get rid of them?
+- Once the mounting box is done, you can start designing the mixbox itself.
+- Test your hands claw position, imagine you are pressin buttons.
+  - Create a drawing, or scan your hand to check your claw position.
+- Once your claw is clear, start thinkin of the buttons you want to include, you want anything custom?
+- Once the design is clear, decide if you want big or small buttons, keyboard style or arcade style? a mix of both?
+- Then you can start designing, positionin and testing stuff.
+- Once your design is completed, you have to calculate the height of the box considering the mobo-box and the buttons profile, then start fitting them together to create the main body.
+
+
