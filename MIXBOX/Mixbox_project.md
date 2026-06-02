@@ -13,7 +13,7 @@ I tested my most of the skills i accumultaed over the hears as a hobbist. It inv
 - Patience, patience, patience.
 
 This is the final result of the piece i gifted my brother from another mother.
-[Picture]
+![T-29 controller](https://github.com/JasonDGian/personal-projects/blob/main/MIXBOX/T-29.png)
 
 In this document i will gather the steps i have followed to obtain the final result, but this time i will be building it for myself, years later, with a different 3d printer and different 3d modeling software. Hopefully i can achieve the same result or better. 
 
