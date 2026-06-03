@@ -105,7 +105,10 @@ Chossing the action buttons was a trip in itself. There were so many options it 
 
 ## Choosing direciton buttons.
 
-## Action button ergonomics.
+# Buttons layout.
+In this section i will discuss how I decided to place the buttons the way i did.
+
+## Action button ergonomics .
 This part of the build is crucial to make the controller feel comfortable and your own.
 I wanted to have two arrays of buttons and make them both feel natural and comfortable for my hand.
     
@@ -130,19 +133,9 @@ This would become the second buttons array.
 > [!IMPORTANT] 
 > Following this process eliminated much of the guesswork and trial-and-error. In the end, I discarded several buttons that I had previously tested and initially considered good candidates. Although those buttons were only a few millimeters larger than the ones I ultimately chose, that small difference accumulated enough to make the overall hand position uncomfortable. The smaller buttons allowed me to keep my fingers in a more natural, compact position while also leaving room to fit two additional buttons for potential future functions.
 
-## Direction button ergonomics.
-
-
-
-
-
-
-
-
-
 # Choosing the action buttons.
-For the action buttons I decided to go with led-backlit buttons that looked quite cool and An idea bloomed in my mind to make it look cooler. 
-I tested both cheap and not so cheap buttons and landed on these three sets. All these are backlit and felt decent. In the end 
+For the action buttons I decided to go with led-backlit buttons that looked quite cool and an idea bloomed in my mind to make it look cooler (upon which i will expand later). 
+I tested both cheap and not so cheap buttons and landed on these three sets. All these are backlit and felt decent. While testing ergonomics though I discarded the first set and with further details i notice i preferred the feeling of the third set, which was more pricey but given the overall feeling was worth the money.
 
 <table border="1">
     <thead>
@@ -168,9 +161,45 @@ I tested both cheap and not so cheap buttons and landed on these three sets. All
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
 
-What played a major role in choosing the buttons. 
+The ergonomics and comfort played a major role in the selection of the buttons since the bigger ones (33mm diameter) were just too big to be compact enough to secure comfort. Once i started testing i felt the difference between set 2 and 3 and even if Set 3 depended on a big plastic nut that was too big I was certain i would be able to fix it somehow. Set 3 was the one i neded up choosing. 
 
 
 
+
+
+
+
+
+
+
+
+
+---
+   
+# Revised text
+
+# Action buttons ergonomics.
+The ergonomics of the action buttons are one of the most important aspects of the controller. A good layout should feel natural, reduce strain during long play sessions, and allow every button to be reached comfortably without forcing awkward finger movements.
+   
+Rather than copying the layout of an existing controller, I decided to design the button placement around the natural resting position of my own hand.
+    
+1. I placed my hand on a sheet of paper and allowed my fingers to settle into a relaxed position. I referred to this posture as "the claw".
+<img width="1554" height="900" alt="ergonomics" src="https://github.com/user-attachments/assets/ea21dbd3-6ff5-40be-8a89-858dbfd8d0ce" />    
+     
+2. Once my hand felt comfortable, I moved my fingers up and down several times and readjusted them until they consistently returned to the same resting position. I then marked the points where my fingertips contacted the paper. The resulting pattern resembled an inverted teardrop shape and became the basis for the primary button array.
+<img width="1554" height="900" alt="ergonomics_study_1" src="https://github.com/user-attachments/assets/7e0fd43c-d5be-4650-916e-fcdbc00216b3" />     
+     
+3. Next, I brought my fingers into a slightly more closed position while maintaining comfort and repeated the process. This produced a second set of contact points that would later become the secondary button array.
+<img width="1554" height="900" alt="ergonomics_study_2" src="https://github.com/user-attachments/assets/b25514f1-1684-40c1-a2bb-f259943f4984" />    
+    
+4. Using these markings as a reference, I created the first ergonomic prototype in Blender.
+<img width="1125" height="694" alt="ergonomics_proto_design" src="https://github.com/user-attachments/assets/4afa50fa-a055-4dde-85ce-b0974755a993" />    
+    
+5. To validate the design before committing to a full print, I produced a small test piece containing only the button layout. This allowed me to evaluate the spacing, reachability, and overall comfort while minimizing both print time and material usage.
+<img width="1554" height="900" alt="ergonomics_prototype_1" src="https://github.com/user-attachments/assets/65edc0cc-0215-4e6f-9068-a90db07faa1f" />
+<img width="1554" height="900" alt="ergonomics_proto_1" src="https://github.com/user-attachments/assets/bd6c3bd3-2dc2-4114-86e9-768225cd480e" />
+
+> [!IMPORTANT]
+> This process significantly reduced the amount of guesswork involved in the design. Instead of adapting my hand to a predetermined layout, the layout was designed around my hand. The resulting prototype also established several dimensional constraints that would later influence the selection of the action buttons themselves.
