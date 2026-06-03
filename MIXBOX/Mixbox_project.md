@@ -82,6 +82,9 @@ So i started testing with certain tolerances this new pitch.
 The positive i used was 24.2mm external diameter and 22.40mm internal diameter with 1.88mm pitch.
 The extra 0.2 to both internal and external diameter was just for tolerance.
 <img width="1137" height="764" alt="image" src="https://github.com/user-attachments/assets/b3685cb0-f92b-4538-b7d8-5c673c644d1e" />
-
+    
+<img width="1318" height="622" alt="image" src="https://github.com/user-attachments/assets/bb1646d5-90a6-4ec2-b5e7-f04716a0c6e1" />
+    
+<img width="1227" height="534" alt="image" src="https://github.com/user-attachments/assets/c9356bf1-7c07-43fb-9e41-6c590069e1a7" />
 
 
