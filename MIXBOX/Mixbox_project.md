@@ -171,16 +171,18 @@ The ergonomics and comfort played a major role in the selection of the buttons s
 
 
 
-
-
-
-
-
----
-   
+    
+---    
+    
+---   
+    
+---   
+       
 # Revised text
-
-# Action buttons ergonomics.
+    
+---    
+    
+## 🔸 Action buttons ergonomics.
 The ergonomics of the action buttons are one of the most important aspects of the controller. A good layout should feel natural, reduce strain during long play sessions, and allow every button to be reached comfortably without forcing awkward finger movements.
    
 Rather than copying the layout of an existing controller, I decided to design the button placement around the natural resting position of my own hand.
@@ -203,3 +205,50 @@ Rather than copying the layout of an existing controller, I decided to design th
 
 > [!IMPORTANT]
 > This process significantly reduced the amount of guesswork involved in the design. Instead of adapting my hand to a predetermined layout, the layout was designed around my hand. The resulting prototype also established several dimensional constraints that would later influence the selection of the action buttons themselves.
+    
+---    
+    
+## 🔸 Direction buttons ergonomics.
+The ergonomics of the directional controls were just as important as those of the action buttons. During my research, I noticed that several commercial Mixbox-style controllers, including some premium models, used a fixed key orientation that did not feel particularly natural for my hand position.
+
+Rather than accepting a predetermined angle, I wanted the directional controls to adapt to my preferred playing posture.
+
+To achieve this, I designed the directional button assembly as a rotating platform. This allowed me to experiment with different orientations and evaluate them during actual gameplay instead of committing to a fixed position from the start.
+
+The adjustable design made it possible to test multiple angles and determine which one provided the most comfortable wrist and finger alignment. Once a preferred position was identified, I could either leave the assembly adjustable or permanently fix it in place.
+
+The final decision depended on the overall finish of the controller. For example, applying a custom vinyl overlay would require the directional controls to remain in a fixed orientation to preserve the visual design and alignment of the artwork.
+
+As with the action button layout, the goal was not to replicate an existing controller but to create a control scheme tailored to the natural resting position of my hand. By prioritizing adjustability during the prototyping phase, I was able to evaluate different configurations and select the one that felt most comfortable during extended play sessions.
+
+# Choosing the action buttons.
+For the action buttons I decided to go with led-backlit buttons that looked quite cool and an idea bloomed in my mind to make it look cooler (upon which i will expand later). 
+I tested both cheap and not so cheap buttons and landed on these three sets. All these are backlit and felt decent. While testing ergonomics though I discarded the first set and with further details i notice i preferred the feeling of the third set, which was more pricey but given the overall feeling was worth the money.
+
+<table border="1">
+    <thead>
+        <tr>
+            <th><strong>33 mm diameter</strong></th>
+            <th><strong>27 mm diameter</strong></th>
+            <th><strong>27 mm diameter</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img width="2235" height="1001" alt="BTN_SET_1" src="https://github.com/user-attachments/assets/214e95f4-178d-46ef-a982-85e84cdd8f1e" /></td>
+            <td><img width="2234" height="1001" alt="BTN_SET_2" src="https://github.com/user-attachments/assets/46f90910-fa56-4e3f-999c-62560dd0e919" /></td>
+            <td><img width="2235" height="1001" alt="BTN_SET_3" src="https://github.com/user-attachments/assets/b36b048d-3483-4a1e-8439-fc733937605c" /></td>
+        </tr>
+        <tr>
+            <td>
+              Diameter: 33mm </br>Total height: 40mm </br>Snap-fit or snap-lock system.
+            </td>
+            <td>Diameter: 27mm </br>Total height: 30mm </br>Snap-fit or snap-lock system.
+            </td>
+            <td>Diameter: 27mm</br>Total height: 36mm </br>Threaded plastic nut system.
+            </td>
+        </tr>
+    </tbody>
+</table> 
+
+The ergonomics and comfort played a major role in the selection of the buttons since the bigger ones (33mm diameter) were just too big to be compact enough to secure comfort. Once i started testing i felt the difference between set 2 and 3 and even if Set 3 depended on a big plastic nut that was too big I was certain i would be able to fix it somehow. Set 3 was the one i neded up choosing. 
