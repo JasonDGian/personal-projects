@@ -91,10 +91,21 @@ The extra 0.2 to both internal and external diameter was just for tolerance.
 
 
 
+   
+---
+   
+---
+   
+# Design and customization.
+
+## Choosing action buttons.
+Chossing the action buttons was a trip in itself. There were so many options it was hard to choose. In the end I decided to go with the backlit led buttons. I tried two main sized, one had a circumference of 33mm of diameter and the other 27mm diameter.
 
 
 
-# Ergonomics
+## Choosing direciton buttons.
+
+## Action button ergonomics.
 This part of the build is crucial to make the controller feel comfortable and your own.
 I wanted to have two arrays of buttons and make them both feel natural and comfortable for my hand.
     
@@ -118,6 +129,8 @@ This would become the second buttons array.
 
 > [!IMPORTANT] 
 > Following this process eliminated much of the guesswork and trial-and-error. In the end, I discarded several buttons that I had previously tested and initially considered good candidates. Although those buttons were only a few millimeters larger than the ones I ultimately chose, that small difference accumulated enough to make the overall hand position uncomfortable. The smaller buttons allowed me to keep my fingers in a more natural, compact position while also leaving room to fit two additional buttons for potential future functions.
+
+## Direction button ergonomics.
 
 
 
