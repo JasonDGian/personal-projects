@@ -134,3 +134,43 @@ This would become the second buttons array.
 
 
 
+
+
+
+
+
+
+# Choosing the action buttons.
+For the action buttons I decided to go with led-backlit buttons that looked quite cool and An idea bloomed in my mind to make it look cooler. 
+I tested both cheap and not so cheap buttons and landed on these three sets. All these are backlit and felt decent. In the end 
+
+<table border="1">
+    <thead>
+        <tr>
+            <th><strong>33 mm diameter</strong></th>
+            <th><strong>27 mm diameter</strong></th>
+            <th><strong>27 mm diameter</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img width="2235" height="1001" alt="BTN_SET_1" src="https://github.com/user-attachments/assets/214e95f4-178d-46ef-a982-85e84cdd8f1e" /></td>
+            <td><img width="2234" height="1001" alt="BTN_SET_2" src="https://github.com/user-attachments/assets/46f90910-fa56-4e3f-999c-62560dd0e919" /></td>
+            <td><img width="2235" height="1001" alt="BTN_SET_3" src="https://github.com/user-attachments/assets/b36b048d-3483-4a1e-8439-fc733937605c" /></td>
+        </tr>
+        <tr>
+            <td>
+              Diameter: 33mm </br>Total height: 40mm </br>Snap-fit or snap-lock system.
+            </td>
+            <td>Diameter: 27mm </br>Total height: 30mm </br>Snap-fit or snap-lock system.
+            </td>
+            <td>Diameter: 27mm</br>Total height: 36mm </br>Threaded plastic nut system.
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+What played a major role in choosing the buttons. 
+
+
+
