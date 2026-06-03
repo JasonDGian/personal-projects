@@ -221,6 +221,31 @@ The final decision depended on the overall finish of the controller. For example
 
 As with the action button layout, the goal was not to replicate an existing controller but to create a control scheme tailored to the natural resting position of my hand. By prioritizing adjustability during the prototyping phase, I was able to evaluate different configurations and select the one that felt most comfortable during extended play sessions.
 
+<table border="1">
+    <thead>
+        <tr>
+            <th><strong>Mixbox</strong></th>
+            <th><strong>Mayflash</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img width="2235" height="1001" alt="BTN_SET_1" src="https://github.com/user-attachments/assets/214e95f4-178d-46ef-a982-85e84cdd8f1e" /></td>
+            <td><img width="2234" height="1001" alt="BTN_SET_2" src="https://github.com/user-attachments/assets/46f90910-fa56-4e3f-999c-62560dd0e919" /></td>
+
+        </tr>
+        <tr>
+            <td>
+              Diameter: 33mm </br>Total height: 40mm </br>Snap-fit or snap-lock system.
+            </td>
+            <td>Diameter: 27mm </br>Total height: 30mm </br>Snap-fit or snap-lock system.
+            </td>
+            <td>Diameter: 27mm</br>Total height: 36mm </br>Threaded plastic nut system.
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 # Choosing the action buttons.
 For the action buttons I decided to go with led-backlit buttons that looked quite cool and an idea bloomed in my mind to make it look cooler (upon which i will expand later). 
 I tested both cheap and not so cheap buttons and landed on these three sets. All these are backlit and felt decent. While testing ergonomics though I discarded the first set and with further details i notice i preferred the feeling of the third set, which was more pricey but given the overall feeling was worth the money.
@@ -252,3 +277,126 @@ I tested both cheap and not so cheap buttons and landed on these three sets. All
 </table> 
 
 The ergonomics and comfort played a major role in the selection of the buttons since the bigger ones (33mm diameter) were just too big to be compact enough to secure comfort. Once i started testing i felt the difference between set 2 and 3 and even if Set 3 depended on a big plastic nut that was too big I was certain i would be able to fix it somehow. Set 3 was the one i neded up choosing. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Building a Custom Fightstick Controller
+
+## 1. Project Goals
+
+- Why I decided to build my own controller.
+- Design objectives.
+- Features I wanted to include.
+- Constraints (size, portability, budget, aesthetics, etc.).
+
+---
+
+# 2. Ergonomics and Layout Design
+
+## 2.1 Action Button Ergonomics
+
+- Hand tracing process.
+- Primary and secondary button arrays.
+- Prototype testing.
+- Ergonomic findings.
+
+## 2.2 Direction Button Ergonomics
+
+- Problems found in existing Mixbox layouts.
+- Rotating platform concept.
+- Testing different orientations.
+- Final directional layout.
+
+---
+
+# 3. Component Selection
+
+## 3.1 Choosing the Action Buttons
+
+- Candidate sets.
+- Comparison.
+- Why Set 3 was selected.
+
+## 3.2 Choosing the Direction Buttons
+
+- Keycaps.
+- Switches.
+- Feel and travel considerations.
+
+## 3.3 Choosing the Controller PCB
+
+- Requirements.
+- Compatibility.
+- Final motherboard choice.
+
+## 3.4 LEDs and Lighting
+
+- Backlighting goals.
+- LED selection.
+- Power considerations.
+
+## 3.5 Battery and Charging System
+
+- Why a battery was included.
+- Charging solution.
+- Runtime expectations.
+
+---
+
+# 4. Case Design
+
+## 4.1 Overall Design
+
+- Design language.
+- Dimensions.
+- Internal organization.
+
+## 4.2 Mounting System
+
+- Button mounting.
+- PCB mounting.
+- Battery mounting.
+- Serviceability considerations.
+
+---
+
+# 5. Wiring and Electronics
+
+## 5.1 Wiring Layout
+
+- Signal wiring.
+- Power distribution.
+- Cable management.
+
+## 5.2 Final Assembly
+
+- Installing components.
+- Connecting electronics.
+- Testing.
+
+---
+
+# 6. Finishing Touches
+
+## 6.1 Vinyl Cover Design
+
+- Artwork.
+- Alignment considerations.
+- Manufacturing process.
+
+## 6.2 Final Appearance
+
+- Completed controller.
+- Lessons learned.
+- Future improvements.
+
