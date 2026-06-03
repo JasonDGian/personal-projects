@@ -88,3 +88,35 @@ The extra 0.2 to both internal and external diameter was just for tolerance.
 <img width="1227" height="534" alt="image" src="https://github.com/user-attachments/assets/c9356bf1-7c07-43fb-9e41-6c590069e1a7" />
 
 
+
+
+
+
+
+
+# Ergonomics
+This part of the build is crucial to make the controller feel comfortable and your own.
+I wanted to have two arrays of buttons and make them both feel natural and comfortable for my hand.
+    
+1. I positioned my hand on a piece of paper and allowed my fingers to rest in a comfortable position, a position i called "the claw".   
+<img width="1554" height="900" alt="ergonomics" src="https://github.com/user-attachments/assets/ea21dbd3-6ff5-40be-8a89-858dbfd8d0ce" />
+     
+2. Once my hand was comfortable I tried moving my fingers up and down and regulated the position again.    
+Once I was sure of the position i marked the place where the fingers touched the paper, sort of a "tear drop" shape. This would become the main array of buttons.   
+<img width="1554" height="900" alt="ergonomics_study_1" src="https://github.com/user-attachments/assets/7e0fd43c-d5be-4650-916e-fcdbc00216b3" />
+     
+3. After the main array was traced I moved my fingers in a more closed position, keeping a comfortable position and marked again the points of contact, again the inverted tear drop shape.   
+This would become the second buttons array.   
+<img width="1554" height="900" alt="ergonomics_study_2" src="https://github.com/user-attachments/assets/b25514f1-1684-40c1-a2bb-f259943f4984" />
+    
+4. I then used the resulting drawing as a reference image to develop the first ergonomics test piece.    
+<img width="1125" height="694" alt="ergonomics_proto_design" src="https://github.com/user-attachments/assets/4afa50fa-a055-4dde-85ce-b0974755a993" />
+
+5. Then I printed a small test piece to save time and plastic to fit the buttons in and see how it felt.
+<img width="1554" height="900" alt="ergonomics_prototype_1" src="https://github.com/user-attachments/assets/65edc0cc-0215-4e6f-9068-a90db07faa1f" />
+<img width="1554" height="900" alt="ergonomics_proto_1" src="https://github.com/user-attachments/assets/bd6c3bd3-2dc2-4114-86e9-768225cd480e" />
+
+
+
+
+
