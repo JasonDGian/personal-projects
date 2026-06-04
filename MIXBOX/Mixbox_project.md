@@ -292,6 +292,147 @@ The ergonomics and comfort played a major role in the selection of the buttons s
 
 # Building a Custom Fightstick Controller
 
+# 1. Project Goals
+
+## Motivation
+
+Since I started playing fighting games, I have always wanted to own a dedicated fight stick or MixBox-style controller. The precision, tactile feedback, and overall experience offered by these devices appealed to me far more than a standard gamepad. However, when I began researching commercial options, I quickly realized that quality controllers are often expensive, while more affordable alternatives frequently lack features such as ergonomic layouts, suitable dimensions, or the overall quality I was looking for.
+
+This is not my first attempt at building an arcade controller. Several years ago, after getting into 3D printing, I designed and built a custom controller for a close friend. That project involved a great deal of experimentation and problem-solving, while helping me develop skills in design, manufacturing, electronics, and prototyping. This time, I want to apply those skills to create a controller for myself.
+
+Cost is one of the motivations behind this project. Building a custom controller can be considerably cheaper than purchasing a high-end commercial product. More importantly, it provides complete freedom over the design. Every aspect of the controller—from its size and ergonomics to its appearance and functionality—can be tailored to my own preferences. Even if the final cost is similar to that of a commercial product, the result should be a much better fit for my needs.
+
+Although I do not currently participate in official tournaments, one of the design goals of this project is to keep the controller as compliant with common competitive regulations as possible. Features such as macros, turbo functions, or any form of input automation will be avoided, and accepted standards for custom and leverless controllers will be considered throughout the design process. While comfort and customization remain the primary objectives, maintaining compatibility with tournament rules will help ensure that the controller remains a practical, versatile, and fair input device.
+
+Finally, I decided to document the entire process. By sharing both the successes and challenges encountered during development, I hope this project can serve as a useful reference for others interested in building their own custom arcade controller.
+
+## Design Objectives
+
+The primary objective of this project is to design an ergonomic controller that is comfortable, practical, and enjoyable to use. In addition to functionality, the controller should have a personalized appearance, incorporating custom colors and button designs that reflect my own tastes and interests.
+
+## Desired Features
+
+One of the key features is a keyboard-style directional input system. Instead of a traditional joystick, the controller will use directional buttons similar to keyboard cursor keys, creating a hybrid between a keyboard and an arcade fight stick. This layout, commonly known as a MixBox, combines the precision of keyboard inputs with the tactile feel of arcade buttons.
+
+The controller is primarily intended for PC use, but compatibility with PlayStation systems is also desirable. PlayStation 4 support is a practical goal, while PlayStation 5 compatibility would be a welcome addition if it can be achieved without significantly increasing the project's complexity or cost.
+
+## Constraints
+
+The main constraints for this project are time and budget. As a personal project, it must be developed within the limits of my available resources while maintaining a balance between quality, functionality, and affordability.
+
+Another important constraint is tournament legality. While the controller is not being designed specifically for competitive play, it should comply with commonly accepted tournament regulations whenever possible. This requirement will influence both the hardware and firmware design choices throughout the project.
+
+Size and portability are also important considerations. The controller should be as compact and lightweight as possible, both to minimize desk space requirements and to improve comfort during transportation and extended use.
+  
+
+---
+
+# 2. Ergonomics and Layout Design
+
+## 2.1 Action Button Ergonomics
+
+- Hand tracing process.
+- Primary and secondary button arrays.
+- Prototype testing.
+- Ergonomic findings.
+
+## 2.2 Direction Button Ergonomics
+
+- Problems found in existing Mixbox layouts.
+- Rotating platform concept.
+- Testing different orientations.
+- Final directional layout.
+
+---
+
+# 3. Component Selection
+
+## 3.1 Choosing the Action Buttons
+
+- Candidate sets.
+- Comparison.
+- Why Set 3 was selected.
+
+## 3.2 Choosing the Direction Buttons
+
+- Keycaps.
+- Switches.
+- Feel and travel considerations.
+
+## 3.3 Choosing the Controller PCB
+
+- Requirements.
+- Compatibility.
+- Final motherboard choice.
+
+## 3.4 LEDs and Lighting
+
+- Backlighting goals.
+- LED selection.
+- Power considerations.
+
+## 3.5 Battery and Charging System
+
+- Why a battery was included.
+- Charging solution.
+- Runtime expectations.
+
+---
+
+# 4. Case Design
+
+## 4.1 Overall Design
+
+- Design language.
+- Dimensions.
+- Internal organization.
+
+## 4.2 Mounting System
+
+- Button mounting.
+- PCB mounting.
+- Battery mounting.
+- Serviceability considerations.
+
+---
+
+# 5. Wiring and Electronics
+
+## 5.1 Wiring Layout
+
+- Signal wiring.
+- Power distribution.
+- Cable management.
+
+## 5.2 Final Assembly
+
+- Installing components.
+- Connecting electronics.
+- Testing.
+
+---
+
+# 6. Finishing Touches
+
+## 6.1 Vinyl Cover Design
+
+- Artwork.
+- Alignment considerations.
+- Manufacturing process.
+
+## 6.2 Final Appearance
+
+- Completed controller.
+- Lessons learned.
+- Future improvements.
+
+
+---
+
+
+
+# Building a Custom Fightstick Controller
+
 ## 1. Project Goals
 
 - Why I decided to build my own controller.
@@ -399,4 +540,5 @@ The ergonomics and comfort played a major role in the selection of the buttons s
 - Completed controller.
 - Lessons learned.
 - Future improvements.
+
 
