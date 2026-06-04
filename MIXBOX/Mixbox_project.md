@@ -542,3 +542,16 @@ Size and portability are also important considerations. The controller should be
 - Future improvements.
 
 
+
+
+
+
+
+# Motherboard box.
+
+To build the motherboard box I started by modeling an aproximation of the motherboard itself. I wanted it as exact as possible in case I wanted something extremely specific but this approach was unnecesary. 
+It took me a while to measure and model and I as i went on i test fitted the pieces I were creating in order to avoid a snowball of mistakes, and catch errores in time before they created a cascade effect. 
+In 
+
+
+As I printed the test fitting pieces I wrote down the points that needed fixing and then tested again. I made sure to analyze well each test print to know what should be changed. In the end I created 6 test fittings to find a satisfactory positive for the mother board box. 
