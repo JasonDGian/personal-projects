@@ -588,6 +588,9 @@ _Measures passed into blender vertices_
 ## 2. Test fit and corrections.
 Once the initial image was created I started testing every side to see how each side individually would fit. Once every side was tested and confirmed a good fit I started combining LEFT with TOP then RIGHT and finall BOTTOM SIDE, testing each new combination and taking notes of what was colliding impropperly, what needed to correct tolerance values and more.
     
+>![CAUTION]
+> I found useful to keep one vertix as the "fixed reference point" to apply all the corrections from, this way correcting one measure would not mess up another.
+
 _Testing sides and writing down impropper collision or measurements, noting tolerances_
 <img width="1385" height="900" alt="TEST-FITS" src="https://github.com/user-attachments/assets/0751385f-0856-45f6-b70a-361d08ead9b9" />
 
