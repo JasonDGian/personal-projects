@@ -581,6 +581,9 @@ At first I measured the external outline of the motherboard's shape. The idea is
 _Drawing with the aproximate measurements._
 <img width="1847" height="1080" alt="ROUGH MEASURE" src="https://github.com/user-attachments/assets/5e9dfca1-7d3a-412c-8c75-c2f786a90103" />
 
+## 2. Creating first rough version.
+When creating the object in blender with the found measurements I kept in mind I wanted to leave a tolerance value of 0.30 mm to make sure stuff would fit. The idea is not to replicate exactly the motherboard but a slightly bigger piece to make sure stuff does not fit "too exactly" introducing friction or whatever kind of problems that can originate from low tolerance.
+
 _Measures passed into blender vertices_
 <img width="1235" height="770" alt="image" src="https://github.com/user-attachments/assets/c13131eb-2f4f-46da-aef0-3bc89619cc43" />
 
