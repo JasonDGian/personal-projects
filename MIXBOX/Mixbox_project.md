@@ -549,9 +549,46 @@ Size and portability are also important considerations. The controller should be
 
 # Motherboard box.
 
+The mother board box (from now on mo-box), is the piece that will hold the motherboard extracted from the controller. This piece will protect the fragile connections of the wires soldered to the motherboard testing pads. 
+I decided, because i
+
+
+To properly mount the motherboard within the controller and secure it and organize the connections and wiring I decided to create sort of an enclosure of the motherboard of the controller. 
+To build the motherboard I went a little bit overkill and decided to first model an aproximation of the motherboard itselt to see how could i play around with it in the controller body space.
+To model the motherboard I went and measured every detail and checked for precision with simple tests. 
+I would measure one side with it's details and print the piece and write down the mistakes if there were any. 
+The result would be precise enough to have decent aproximation of the motherboard and 
+
+<img width="949" height="588" alt="image" src="https://github.com/user-attachments/assets/3399628d-ce43-4fc7-86f0-781b49128192" />
+
+
+
 To build the motherboard box I started by modeling an aproximation of the motherboard itself. I wanted it as exact as possible in case I wanted something extremely specific but this approach was unnecesary. 
 It took me a while to measure and model and I as i went on i test fitted the pieces I were creating in order to avoid a snowball of mistakes, and catch errores in time before they created a cascade effect. 
 In 
 
 
 As I printed the test fitting pieces I wrote down the points that needed fixing and then tested again. I made sure to analyze well each test print to know what should be changed. In the end I created 6 test fittings to find a satisfactory positive for the mother board box. 
+
+
+
+## 1. Rough external shape.
+At first I measured the external outline of the motherboard's shape. The idea is to recreate an aproximate yet still somewhat precise shape to use as a base. It is important to keep one single point as the fixed starting point, the fixed point in the shape to take as a reference. I took the bottom left corner to use as the reference point for all the other measurements where possible. Once I had the rough image on paper y brought that into blender and started testing sides one by one to see how they fit.
+
+>![Tip]
+>The drawing on paper must no be perfect, it must be clear enough to understand the part being measured and the value assigned to it, it must not be 1:1 precise. The precision must come into the program. Also, using the paper is not mandatory, you can measure and create the 2d image as you go, but this is my modus operandi.
+
+_Drawing with the aproximate measurements._
+<img width="1847" height="1080" alt="ROUGH MEASURE" src="https://github.com/user-attachments/assets/5e9dfca1-7d3a-412c-8c75-c2f786a90103" />
+
+_Measures passed into blender vertices_
+<img width="1235" height="770" alt="image" src="https://github.com/user-attachments/assets/c13131eb-2f4f-46da-aef0-3bc89619cc43" />
+
+
+## 2. Test fit and corrections.
+Once the initial image was created I started testing every side to see how each side individually would fit. Once every side was tested and confirmed a good fit I started combining LEFT with TOP then RIGHT and finall BOTTOM SIDE, testing each new combination and taking notes of what was colliding impropperly, what needed to correct tolerance values and more.
+    
+_Testing sides and writing down impropper collision or measurements, noting tolerances_
+<img width="1385" height="900" alt="TEST-FITS" src="https://github.com/user-attachments/assets/0751385f-0856-45f6-b70a-361d08ead9b9" />
+
+
