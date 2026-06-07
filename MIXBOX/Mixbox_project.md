@@ -678,5 +678,13 @@ By this stage, the validated external geometry provided a solid foundation, allo
 
 _Approximate motherboard model used as the reference geometry for the enclosure design._
 <img width="1774" height="766" alt="image" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/motherboard_modeled_reference.png" />
+   
+<img width="1295" height="680" alt="image" src="https://github.com/user-attachments/assets/f3c0d155-3124-449f-9073-02c6583217e8" />
+
+
+## Modeling the Motherboard
+At this point i had my reference to start working on the MO-box. 
+
+
 
 ----
