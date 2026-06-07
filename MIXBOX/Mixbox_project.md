@@ -1,3 +1,4 @@
+<!--
 I started this project because I am a fan of fighting games and with some friends I've met online I often play titles like Street fighter, Soul Calibur or Tekken. 
 I've played for years and for a lot of time I've wanted to get myself a fightstick or a mixbox. I've tried many times to fetch a decent one but these things are quite pricey and the models i like the most go for up to 700€ which might be excusable for some pros but for noobs like me that play casually that's just too much.
 In my 3d printing adventures i started modifying stuff and one day a friend, one of them who plays with me, complained his fightstick (expensive one) broke and was no longer working. That day my lightbulb turned on and i decided to make a fightstick out of a normal contgroller. 
@@ -541,7 +542,7 @@ Size and portability are also important considerations. The controller should be
 - Lessons learned.
 - Future improvements.
 
-
+-->
 
 
 
