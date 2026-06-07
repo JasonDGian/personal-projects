@@ -690,3 +690,20 @@ At this point i had my reference to start working on the MO-box.
 
 
 ----
+
+
+
+# Integrating the light module.
+
+
+## Finding out the bevel arch.
+This was tricky, i did not have te mental capacity nor skill to find this out in a non cheesy way. I ended up creating several bevel testers to see which one coincided. 
+To create the tester i simply created a cube with beveled corners and compared to the piece. 
+<img width="1056" height="578" alt="image" src="https://github.com/user-attachments/assets/3ca93bdd-d489-461c-8586-c29b31d211ff" />
+Each corner had a different circumference positive, finding out the circumference would allow me to model the piece with no problem.
+
+
+
+
+
+
