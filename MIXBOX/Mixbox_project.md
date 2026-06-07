@@ -703,7 +703,8 @@ To create the tester i simply created a cube with beveled corners and compared t
 Each corner had a different circumference positive, finding out the circumference would allow me to model the piece with no problem.
 
 
+I created two sets of archs to check which one were compatible. 
+<img width="1406" height="743" alt="image" src="https://github.com/user-attachments/assets/d047ad17-b6eb-4d85-b422-5cbd987480f4" />
 
-
-
+Testing the pieces I found the correct ones and started modeling.
 
