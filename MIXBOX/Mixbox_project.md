@@ -679,6 +679,8 @@ By this stage, the validated external geometry provided a solid foundation, allo
 _Approximate motherboard model used as the reference geometry for the enclosure design._
 <img width="1774" height="766" alt="image" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/motherboard_modeled_reference%20(1).png" />
         
+By using the validated motherboard reference model and incorporating the defined tolerance values, the final printed test piece fits as intended, requiring little to no additional adjustment.
+   
 <img width="1774" height="676" alt="motherboard_positive_fitting_test" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/motherboard_positive_fitting_test.png" />
 
 
