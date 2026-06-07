@@ -677,7 +677,7 @@ The same workflow used to validate the external outline was applied to the board
 By this stage, the validated external geometry provided a solid foundation, allowing additional details to be incorporated with confidence while preserving the dimensional accuracy achieved during the test-fitting phase.
 
 _Approximate motherboard model used as the reference geometry for the enclosure design._
-<img width="1774" height="766" alt="image" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/motherboard_modeled_reference.png" />
+<img width="1774" height="766" alt="image" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/motherboard_modeled_reference%20(1).png" />
         
 <img width="1774" height="676" alt="motherboard_positive_fitting_test" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/motherboard_positive_fitting_test.png" />
 
