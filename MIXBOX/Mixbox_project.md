@@ -542,17 +542,13 @@ Size and portability are also important considerations. The controller should be
 - Lessons learned.
 - Future improvements.
 
--->
 
 
 
 
 
-# Motherboard box.
 
-The mother board box (from now on mo-box), is the piece that will hold the motherboard extracted from the controller. This piece will protect the fragile connections of the wires soldered to the motherboard testing pads. 
-I decided, because i
-
+   
 
 To properly mount the motherboard within the controller and secure it and organize the connections and wiring I decided to create sort of an enclosure of the motherboard of the controller. 
 To build the motherboard I went a little bit overkill and decided to first model an aproximation of the motherboard itselt to see how could i play around with it in the controller body space.
@@ -560,7 +556,7 @@ To model the motherboard I went and measured every detail and checked for precis
 I would measure one side with it's details and print the piece and write down the mistakes if there were any. 
 The result would be precise enough to have decent aproximation of the motherboard and 
 
-<img width="949" height="588" alt="image" src="https://github.com/user-attachments/assets/3399628d-ce43-4fc7-86f0-781b49128192" />
+<img width="949" height="588" alt="image" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/motherboard-measurements-intro-blender.png" />
 
 
 
@@ -599,3 +595,88 @@ _Testing sides and writing down impropper collision or measurements, noting tole
 <img width="1385" height="900" alt="TEST-FITS" src="https://github.com/user-attachments/assets/0751385f-0856-45f6-b70a-361d08ead9b9" />
 
 
+
+-->
+
+
+
+
+# Motherboard box.
+
+## Purpose.
+The Motherboard Box (from now on MO-Box) is the enclosure designed to house the controller's motherboard after it has been extracted from the original assembly. Its primary purpose is to protect the fragile wire connections soldered to the motherboard's test pads while also providing a secure and organized mounting solution inside the mixbox body or shell.
+    
+Beyond protection, the MO-Box serves as a structural component that helps manage cable routing and prevents unnecessary stress from being applied to the soldered connections during assembly and maintenance.
+    
+## Design Methodology
+My initial approach was intentionally thorough. Before designing the enclosure itself, I created a detailed 3D model of the motherboard. The goal was to understand exactly how the board occupied the available space inside the controller and to provide a reliable reference for future design decisions.
+    
+>[!Note]
+>In hindsight, this level of detail was more extensive than strictly necessary for the enclosure design. However, the process provided a highly accurate representation of the motherboard and allowed me to confidently explore different mounting solutions.
+    
+To achieve this, I carefully measured the motherboard and repeatedly validated the measurements through physical test prints. Rather than measuring everything at once and hoping for the best, I modeled and verified individual sections incrementally. This approach allowed errors to be identified early before they accumulated into larger dimensional inaccuracies.
+   
+The mother board box (from now on mo-box), is the piece that will hold the motherboard extracted from the controller. This piece will protect the fragile connections of the wires soldered to the motherboard testing pads. 
+I decided, because i
+
+## Modeling the Motherboard 
+   
+### 1. Defining the External Shape
+The first step was to capture the motherboard's overall outline. The objective was not to create a perfect digital twin but rather a sufficiently accurate approximation that could serve as a reliable design reference.
+    
+To maintain consistency throughout the measurement process, I selected a single fixed reference point: the bottom-left corner of the motherboard. Whenever possible, all measurements were taken relative to this point. Using a common reference minimized the risk of cumulative measurement errors and simplified later corrections. 
+     
+After sketching the motherboard outline and recording the dimensions, the information was transferred into Blender, where the initial 2D profile was created.
+
+>[!Note]
+>The paper sketch does not need to be perfectly scaled or highly detailed. Its purpose is simply to record dimensions and identify measured features clearly. The actual precision is achieved during the digital modeling stage.
+   
+_Drawing showing the dimensions of the motherboard._
+<img width="1847" height="1080" alt="ROUGH MEASURE" src="https://github.com/user-attachments/assets/5e9dfca1-7d3a-412c-8c75-c2f786a90103" />
+    
+### 2. Creating the Initial Model
+Once the measurements had been collected, I recreated the motherboard outline in Blender using the recorded dimensions. At this stage, the model was intended to match the measured geometry as closely as possible, without any additional tolerance applied.
+
+This initial version served as the baseline from which all future fitting tests and adjustments would be made.
+
+_Dimensions transferred into Blender to create the initial motherboard profile._
+<img width="1235" height="770" alt="image" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/motherboard-measurements-intro-blender.png" />
+    
+### 3. Validation Through Test Fitting
+After creating the initial model, I began an iterative test-fitting process to validate the measurements and refine the geometry.
+
+At this stage, a dimensional tolerance of approximately 0.30 mm was introduced. The objective was not to replicate the motherboard exactly, but to create a slightly oversized model that would provide sufficient clearance when designing the surrounding enclosure.
+
+> [!Tip]
+> Adding a small tolerance helps prevent issues caused by excessively tight fits, such as assembly difficulties, friction, and dimensional variations introduced by the 3D printing process.
+
+Rather than validating the entire model at once, <mark>individual sections were tested independently</mark>. Each edge and contour was checked before progressing to larger combinations of features. This approach made it easier to identify the source of any fitting issues and prevented small errors from propagating throughout the model.
+
+The validation process followed these stages:
+
+1. Verify each side independently.
+2. Combine and verify the left and top sections.
+3. Add and verify the right side.
+4. Integrate the bottom section and validate the complete outline.
+
+For every iteration, a test piece was printed and physically fitted against the motherboard. **These test pieces were not replicas of the motherboard itself; instead, they represented the surrounding enclosure geometry that would eventually contain the motherboard.** In practice, the printed parts were the **negative** of the motherboard shape; the cavity into which the motherboard would fit. This approach allowed the enclosure dimensions to be validated directly while reducing print time and material usage.
+
+After each fitting test, any discrepancies were documented and analyzed before modifications were made to the model. Once the necessary corrections were applied, a new test piece was printed and evaluated.
+       
+_Test-fitting a printed section and documenting areas requiring correction._
+<img width="1385" height="900" alt="motherboard-test-fit-and-corrections-steps" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/motherboard-test-fit-and-corrections-steps.png" />
+
+> [!Important]
+> Throughout the validation process, a single reference vertex was maintained as the fixed origin for all measurements and corrections. Applying modifications relative to the same reference point ensured that changes made to one feature would not unintentionally affect dimensions that had already been validated.
+
+### 4. Creating the Final Motherboard Model
+Once the overall dimensions had been validated and the test pieces demonstrated a satisfactory fit, I proceeded to model the remaining features of the motherboard.
+
+The same workflow used to validate the external outline was applied to the board's other significant elements. Each feature was measured, modeled, and adjusted while maintaining the established tolerance values. The objective was to create a rather a sufficiently accurate representation that could be reliably used as a reference when designing the motherboard enclosure and its mounting features.
+
+By this stage, the validated external geometry provided a solid foundation, allowing additional details to be incorporated with confidence while preserving the dimensional accuracy achieved during the test-fitting phase.
+
+_Approximate motherboard model used as the reference geometry for the enclosure design._
+<img width="1774" height="766" alt="image" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/motherboard_modeled_reference.png" />
+
+----
