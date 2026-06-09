@@ -717,12 +717,40 @@ Once the correct radii had been identified, recreating the module's outline in B
 _3D-printed fillet gauges compared against the original module._
 <img width="1774" height="518" alt="lightmodule_front_side_bevel_measuring" src="https://github.com/JasonDGian/personal-projects/blob/main/MIXBOX/IMG/lightmodule_front_side_bevel_measuring.png" />
    
-### 2. Measuring the Top Surface Curvature
+### 2. Measuring the Front, Top and Side Surface Curvature
+Many of the module's curved surfaces could not be measured reliably using the custom gauges described previously. Accurately reproducing these features was important, as even small dimensional deviations become noticeable when the module is mounted flush with the enclosure.
+      
+The most practical solution I could devise was to trace the difficult-to-measure profiles onto paper and use those tracings as references during the modeling process. The drawings were scanned and imported into Blender, where they served as reference images for creating the initial geometry.
+        
+Although a number of direct measurements were also taken, I relied primarily on the traced profiles to establish the overall shape. From these references, I modeled a series of test pieces representing the negative geometry of the module and used them to validate the fit against the original component.
+   
+<img width="1774" height="447" alt="lightmodule_traced_on_paper" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/lightmodule_traced_on_paper.png" />
+    
+The process required a fair amount of patience and iteration, but it ultimately produced results that were accurate enough for the project.
+   
+**Validating the Side Profile Curvature**        
+The upper surface of the LED module incorporates a subtle compound curvature that would have been difficult to reproduce through direct measurement alone.
 
-The upper surface of the LED module is not completely flat and incorporates a subtle compound curvature. Capturing this geometry accurately was important because even small deviations become noticeable when the component is mounted flush with the enclosure.
+Using the scanned side-profile tracing as a reference, I modeled the corresponding negative geometry and produced a series of test prints. After several fitting iterations and minor adjustments, the printed test piece achieved a satisfactory match to the original module.
+   
+_Side-profile tracing and curvature validation test pieces._    
+<img width="1774" height="447" alt="light_module_top_surface_design" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/light_module_top_surface_design.png" />
+    
+**Validating the Front Profile Curvature**    
+The front profile proved much easier to reproduce. The traced reference matched the original component closely enough that the first test print required little to no adjustment.
 
-[Here I will explain the process used to measure and reproduce the top surface curvature.]
+Because the rear fillet radii had already been validated using the printed gauges, the front profile aligned correctly with the surrounding geometry. With the individual features already confirmed, I was able to proceed directly to testing the complete horizontal profile rather than creating additional intermediate validation pieces.
+    
+_Front-profile model and test fit._
+<img width="1774" height="970" alt="lightmodule_front_surface_curve" src="https://github.com/user-attachments/assets/e6a7a111-592e-47f2-9cef-8b626e0ffaf6" />
 
+
+
+
+
+
+
+    
 ### 3. Measuring the Flex Resting Bar
 
 The module includes a small support feature that serves as a resting surface for the flexible circuit connecting the button and touch sensor assembly.
