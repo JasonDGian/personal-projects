@@ -599,8 +599,6 @@ _Testing sides and writing down impropper collision or measurements, noting tole
 -->
 
 # Motherboard box.
-
-## Purpose.
 The Motherboard Box (from now on MO-Box) is the enclosure designed to house the controller's motherboard after it has been extracted from the original assembly. Its primary purpose is to protect the fragile wire connections soldered to the motherboard's test pads while also providing a secure and organized mounting solution inside the mixbox body or shell.
     
 Beyond protection, the MO-Box serves as a structural component that helps manage cable routing and prevents unnecessary stress from being applied to the soldered connections during assembly and maintenance.
@@ -690,8 +688,6 @@ At this point i had my reference to start working on the MO-box.
     
 
 # LED module and Touch Sensor.
-
-## Purpose.
 The LED module is responsible for communicating the controller's status to the user. It provides visual feedback for Bluetooth connectivity, battery level, charging state, and other system functions.
    
 My goal was to integrate the original LED module into the Mixbox enclosure while preserving all of its functionality. By reusing the original component, I could retain not only the status indicators but also the capacitive touch sensor and the integrated push button without requiring any modifications to the controller electronics.    
