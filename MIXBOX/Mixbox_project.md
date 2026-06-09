@@ -694,17 +694,33 @@ At this point i had my reference to start working on the MO-box.
 
 
 # Integrating the light module.
+The LED module is the part of the controller responsible for indicating its status, including Bluetooth connectivity, battery level, and other system information. 
+I wanted to integrate the original controller's LED module into the main body of the Mixbox in order to preserve all of its functionality. This includes not only the status LEDs, but also the touch sensor and the integrated click button.
+         
+_Led module and Controller_
+<img width="1774" height="865" alt="lightmodule_presentation" src="https://github.com/JasonDGian/personal-projects/blob/main/MIXBOX/IMG/lightmodule_presentation.png" />
+      
+>[!NOTE]
+>Modeling this part proved more challenging than expected. Rather than relying solely on direct measurements or pure trial and error, I combined several techniques: traditional measuring tools, custom 3D-printed gauges, and paper tracings of the module's profile.
+   
+## Measuring the module. 
+   
+**Measuring the Corner Fillets.**   
+Determining the radii of the corner fillets was the first challenge. To do this, I designed and printed a series of test pieces, each featuring different fillet radii labeled directly on the model.
+The process was simple: compare each test piece against the original module and identify which radius provided the closest match. Since the module did not use the same radius on every profile, I produced multiple sets of test pieces to cover the different geometries.
+   
+Once the correct fillet radii had been identified, reproducing the outline of the part in BELNDER became much more straightforward.
+   
+_3D-printed fillet gauges compared against the original module._
+<img width="1774" height="518" alt="lightmodule_front_side_bevel_measuring" src="https://github.com/JasonDGian/personal-projects/blob/main/MIXBOX/IMG/lightmodule_front_side_bevel_measuring.png" />
+
+**Measuring the Top Surface Curvature.**
+[here i will explain the top side curvature measruement process.]
 
 
-## Finding out the bevel arch.
-This was tricky, i did not have te mental capacity nor skill to find this out in a non cheesy way. I ended up creating several bevel testers to see which one coincided. 
-To create the tester i simply created a cube with beveled corners and compared to the piece. 
-<img width="1056" height="578" alt="image" src="https://github.com/user-attachments/assets/3ca93bdd-d489-461c-8586-c29b31d211ff" />
-Each corner had a different circumference positive, finding out the circumference would allow me to model the piece with no problem.
+**Measuring the flex resting bar**
+[here i will explain the resting bar measurement process]
 
 
-I created two sets of archs to check which one were compatible. 
-<img width="1406" height="743" alt="image" src="https://github.com/user-attachments/assets/d047ad17-b6eb-4d85-b422-5cbd987480f4" />
 
-Testing the pieces I found the correct ones and started modeling.
 
