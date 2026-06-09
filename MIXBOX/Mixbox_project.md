@@ -713,9 +713,10 @@ To accomplish this, I designed and printed a series of test gauges containing fi
 Rather than attempting to calculate the radii mathematically, I simply compared each gauge against the corresponding corner and selected the radius that provided the closest match. Since different sections of the module used different fillet radii, multiple gauge sets were required to characterize the entire profile.
 
 Once the correct radii had been identified, recreating the module's outline in Blender became significantly more straightforward.
-
-3D-printed fillet gauges used to determine the corner radii.
-
+    
+_3D-printed fillet gauges compared against the original module._
+<img width="1774" height="518" alt="lightmodule_front_side_bevel_measuring" src="https://github.com/JasonDGian/personal-projects/blob/main/MIXBOX/IMG/lightmodule_front_side_bevel_measuring.png" />
+   
 ### 2. Measuring the Top Surface Curvature
 
 The upper surface of the LED module is not completely flat and incorporates a subtle compound curvature. Capturing this geometry accurately was important because even small deviations become noticeable when the component is mounted flush with the enclosure.
