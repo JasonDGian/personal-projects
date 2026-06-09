@@ -703,8 +703,8 @@ Rather than relying exclusively on direct measurements or repeated trial and err
 >[!Note]
 >This workflow is neither particularly elegant nor professional, I would guess. but it allowed the geometry to be reproduced with sufficient accuracy using the tools and skills available to me.
     
-Measuring the Module
-1. Measuring the Corner Fillets
+## Measuring the Module
+### 1. Measuring the Corner Fillets
 
 The first challenge was determining the radii of the various corner fillets that define the module's external profile.
 
@@ -716,13 +716,13 @@ Once the correct radii had been identified, recreating the module's outline in B
 
 3D-printed fillet gauges used to determine the corner radii.
 
-2. Measuring the Top Surface Curvature
+### 2. Measuring the Top Surface Curvature
 
 The upper surface of the LED module is not completely flat and incorporates a subtle compound curvature. Capturing this geometry accurately was important because even small deviations become noticeable when the component is mounted flush with the enclosure.
 
 [Here I will explain the process used to measure and reproduce the top surface curvature.]
 
-3. Measuring the Flex Resting Bar
+### 3. Measuring the Flex Resting Bar
 
 The module includes a small support feature that serves as a resting surface for the flexible circuit connecting the button and touch sensor assembly.
 
