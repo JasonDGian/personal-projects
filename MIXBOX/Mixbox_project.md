@@ -730,13 +730,12 @@ Although geometrically simple, this feature plays an important role in positioni
 
 [Here I will explain the process used to measure and model the flex resting bar.]
 
-Modeling the Module
-
+## Modeling the Module
 Once the primary dimensions, fillet radii, and surface profiles had been characterized, the information was transferred into Blender to create a reference model of the LED module.
-
+   
 As with the motherboard model, the objective was not to create a perfect digital replica. Instead, the goal was to produce a sufficiently accurate representation that could be used to design the mounting features and surrounding enclosure geometry while maintaining the required clearances and alignment.
-
-Completed LED module reference model used during enclosure design.
+   
+_Completed LED module reference model used during enclosure design._
 
 
 
