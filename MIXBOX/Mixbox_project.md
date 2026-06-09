@@ -598,9 +598,6 @@ _Testing sides and writing down impropper collision or measurements, noting tole
 
 -->
 
-
-
-
 # Motherboard box.
 
 ## Purpose.
@@ -690,8 +687,79 @@ At this point i had my reference to start working on the MO-box.
 
 
 ----
+    
+
+# LED module and Touch Sensor.
+
+## Purpose.
+The LED module is responsible for communicating the controller's status to the user. It provides visual feedback for Bluetooth connectivity, battery level, charging state, and other system functions.
+   
+My goal was to integrate the original LED module into the Mixbox enclosure while preserving all of its functionality. By reusing the original component, I could retain not only the status indicators but also the capacitive touch sensor and the integrated push button without requiring any modifications to the controller electronics.    
+   
+_Led module vs Controller_
+<img width="1774" height="865" alt="lightmodule_presentation" src="https://github.com/JasonDGian/personal-projects/blob/main/MIXBOX/IMG/lightmodule_presentation.png" />
+         
+## Design Methodology
+Unlike the motherboard, the LED module contains several complex curved external surfaces that are difficult to measure directly using conventional tools. Accurately reproducing these features was necessary to ensure proper fitment and alignment within the Mixbox enclosure (mainly to remain aesthetically coherent).
+
+Rather than relying exclusively on direct measurements or repeated trial and error, I adopted a combination of measurement techniques. These included traditional caliper measurements, custom 3D-printed gauges, and profile tracing. The traced profiles were later scanned and imported into Blender, where they could be used as reference images during the modeling process.
+   
+>[!Note]
+>This workflow is neither particularly elegant nor professional, I would guess. but it allowed the geometry to be reproduced with sufficient accuracy using the tools and skills available to me.
+    
+Measuring the Module
+1. Measuring the Corner Fillets
+
+The first challenge was determining the radii of the various corner fillets that define the module's external profile.
+
+To accomplish this, I designed and printed a series of test gauges containing fillets of known radii. Each radius value was labeled directly on the printed part, allowing rapid comparison against the original module.
+
+Rather than attempting to calculate the radii mathematically, I simply compared each gauge against the corresponding corner and selected the radius that provided the closest match. Since different sections of the module used different fillet radii, multiple gauge sets were required to characterize the entire profile.
+
+Once the correct radii had been identified, recreating the module's outline in Blender became significantly more straightforward.
+
+3D-printed fillet gauges used to determine the corner radii.
+
+2. Measuring the Top Surface Curvature
+
+The upper surface of the LED module is not completely flat and incorporates a subtle compound curvature. Capturing this geometry accurately was important because even small deviations become noticeable when the component is mounted flush with the enclosure.
+
+[Here I will explain the process used to measure and reproduce the top surface curvature.]
+
+3. Measuring the Flex Resting Bar
+
+The module includes a small support feature that serves as a resting surface for the flexible circuit connecting the button and touch sensor assembly.
+
+Although geometrically simple, this feature plays an important role in positioning the flex cable and preventing unnecessary stress during assembly.
+
+[Here I will explain the process used to measure and model the flex resting bar.]
+
+Modeling the Module
+
+Once the primary dimensions, fillet radii, and surface profiles had been characterized, the information was transferred into Blender to create a reference model of the LED module.
+
+As with the motherboard model, the objective was not to create a perfect digital replica. Instead, the goal was to produce a sufficiently accurate representation that could be used to design the mounting features and surrounding enclosure geometry while maintaining the required clearances and alignment.
+
+Completed LED module reference model used during enclosure design.
 
 
+
+
+
+## Modeling the LED module. 
+   
+### 1. Defining the External Shape
+
+### 2. Creating the Initial Model
+
+### 3. Validation Through Test Fitting
+
+### 4. Creating the Final Motherboard Model
+
+## Modeling the motherboard enclosure.
+   
+----
+   
 
 # Integrating the light module.
 The LED module is the part of the controller responsible for indicating its status, including Bluetooth connectivity, battery level, and other system information. 
