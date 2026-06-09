@@ -784,7 +784,7 @@ _Completed LED module reference model used during enclosure design._
    
 ----
    
-
+<!--
 # Integrating the light module.
 The LED module is the part of the controller responsible for indicating its status, including Bluetooth connectivity, battery level, and other system information. 
 I wanted to integrate the original controller's LED module into the main body of the Mixbox in order to preserve all of its functionality. This includes not only the status LEDs, but also the touch sensor and the integrated click button.
@@ -812,7 +812,7 @@ _3D-printed fillet gauges compared against the original module._
 
 **Measuring the flex resting bar**
 [here i will explain the resting bar measurement process]
-
+-->
 
 
 
