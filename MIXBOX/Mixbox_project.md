@@ -743,23 +743,49 @@ Because the rear fillet radii had already been validated using the printed gauge
     
 _Front-profile model and test fit._
 <img width="1774" height="970" alt="lightmodule_front_surface_curve" src="https://github.com/user-attachments/assets/e6a7a111-592e-47f2-9cef-8b626e0ffaf6" />
-
-
-
-
-
-
-
     
-### 3. Measuring the Flex Resting Bar
+### 3. Measuring the module vertical movement limitation strut.
+The click button that is enclosed within the module is based on a flexible plastinc support that is in contact with 3 points extruded from the controller internal button support body. 
+Two of those three points (marked in CYAN in the image), are used to provide a support column to the flexible plastic that brings the module back to its normal resting place. 
+The central column (marked in YELLOW), is the one that pushes the click button within the module. 
+The vertical movement limitation strut function is to limit the module movement, so it does not overxtend and break the click button or the flexible plastic arms. 
+     
+_Led module support points and button activator_
+<img width="2191" height="749" alt="lightmodule_support_points" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/lightmodule_support_points.png" />
+     
+_Led module assembled resting position_
+<img width="2191" height="749" alt="light_module_resting_place" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/light_module_resting_place.png" />
+     
+To position this element in the 3d space i first marked the test piece i used to test the horizontal fillets and measured the vertical distance that the controller allows the module to move. 
+Marking the test piece directly allowed me to easily translate those marks into the attachments of the strut to the next test piece and begin testing without many more measurement headaches involved.
+This way i knew that, aproximately , i had to give about 0.85mm of play and the relative position based on the mentioned test piece. Although some trial and error was involved this part was rather easy to iterate.
+    
+_Measures and marked tes piece for reference_
+<img width="2191" height="734" alt="lightmodule_rest_bar_measures_and_marks" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/lightmodule_rest_bar_measures_and_marks.png" />
 
-The module includes a small support feature that serves as a resting surface for the flexible circuit connecting the button and touch sensor assembly.
+_3D test model used to iterate_
+<img width="2191" height="885" alt="image" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/lightmodule_rest_bar_model.png" />
 
-Although geometrically simple, this feature plays an important role in positioning the flex cable and preventing unnecessary stress during assembly.
+_Test fit result_
+<img width="2191" height="726" alt="image" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/lightmodule_resting_bar_testpiece.png" />
 
 [Here I will explain the process used to measure and model the flex resting bar.]
 
-## Modeling the Module
+   
+---
+   
+---
+   
+## Modeling the Module positive
+
+
+
+### Combining the vaslidated profiles to creat a positive.
+With the top, front and side view measures validated I could now combine them into a single piece that would represent a more accurate aproximation of the light module.
+
+
+
+
 Once the primary dimensions, fillet radii, and surface profiles had been characterized, the information was transferred into Blender to create a reference model of the LED module.
    
 As with the motherboard model, the objective was not to create a perfect digital replica. Instead, the goal was to produce a sufficiently accurate representation that could be used to design the mounting features and surrounding enclosure geometry while maintaining the required clearances and alignment.
