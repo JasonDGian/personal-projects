@@ -745,33 +745,31 @@ _Front-profile model and test fit._
 <img width="1774" height="970" alt="lightmodule_front_surface_curve" src="https://github.com/user-attachments/assets/e6a7a111-592e-47f2-9cef-8b626e0ffaf6" />
     
 ### 3. Measuring the module vertical movement limitation strut.
-The click button that is enclosed within the module is based on a flexible plastinc support that is in contact with 3 points extruded from the controller internal button support body. 
-Two of those three points (marked in CYAN in the image), are used to provide a support column to the flexible plastic that brings the module back to its normal resting place. 
-The central column (marked in YELLOW), is the one that pushes the click button within the module. 
-The vertical movement limitation strut function is to limit the module movement, so it does not overxtend and break the click button or the flexible plastic arms. 
+The click button enclosed within the module is supported by a flexible plastic structure that contacts three support points protruding from the controller's internal button support body.
+
+Two of these support points (highlighted in cyan in the image) serve as contact surfaces for the module's flexible plastic arms. When the module is pressed, these arms deflect against the support points and generate the restoring force that returns the module to its normal resting position. The central support point (highlighted in yellow) is responsible for actuating the internal click button.
+
+The purpose of the vertical movement limitation strut is to **restrict the module's downward travel**, preventing excessive displacement that could damage either the click button mechanism or the flexible plastic arms within the module.
      
-_Led module support points and button activator_
+_LED module support points and button actuator_
 <img width="2191" height="749" alt="lightmodule_support_points" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/lightmodule_support_points.png" />
      
-_Led module assembled resting position_
+_LED module assembled in resting position without the controller housing_
 <img width="2191" height="749" alt="light_module_resting_place" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/light_module_resting_place.png" />
      
-To position this element in the 3d space i first marked the test piece i used to test the horizontal fillets and measured the vertical distance that the controller allows the module to move. 
-Marking the test piece directly allowed me to easily translate those marks into the attachments of the strut to the next test piece and begin testing without many more measurement headaches involved.
-This way i knew that, aproximately , i had to give about 0.85mm of play and the relative position based on the mentioned test piece. Although some trial and error was involved this part was rather easy to iterate.
+To determine the correct position of the strut in 3D space in Blender, I first marked the test piece previously used to evaluate the horizontal fillets and measured the maximum vertical travel allowed by the controller. Marking the test piece directly made it easy to transfer the reference locations to subsequent prototypes and position the strut attachments without requiring extensive additional measurements.
     
-_Measures and marked tes piece for reference_
+_Measurements and marked test piece used as reference_
 <img width="2191" height="734" alt="lightmodule_rest_bar_measures_and_marks" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/lightmodule_rest_bar_measures_and_marks.png" />
 
-_3D test model used to iterate_
+Using this approach, I established that the module required approximately 0.85 mm of vertical clearance, along with the corresponding relative position derived from the reference test piece. Although some trial-and-error adjustment was still necessary, this feature proved relatively straightforward to iterate and refine.
+
+_3D test model used for iteration_
 <img width="2191" height="885" alt="image" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/lightmodule_rest_bar_model.png" />
 
-_Test fit result_
+_Test-fit result_
 <img width="2191" height="726" alt="image" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/lightmodule_resting_bar_testpiece.png" />
-
-[Here I will explain the process used to measure and model the flex resting bar.]
-
-   
+  
 ---
    
 ---
