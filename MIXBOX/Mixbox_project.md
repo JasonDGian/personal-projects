@@ -689,67 +689,67 @@ At this point i had my reference to start working on the MO-box.
 
 # LED module and Touch Sensor.
 The LED module is responsible for communicating the controller's status to the user. It provides visual feedback for Bluetooth connectivity, battery level, charging state, and other system functions.
-   
-My goal was to integrate the original LED module into the Mixbox enclosure while preserving all of its functionality. By reusing the original component, I could retain not only the status indicators but also the capacitive touch sensor and the integrated push button without requiring any modifications to the controller electronics.    
+
+My goal was to integrate the original LED module into the Mixbox enclosure while preserving all of its functionality. By reusing the original component, I could retain not only the status indicators but also the capacitive touch sensor and integrated push button without requiring any modifications to the controller electronics.   
    
 _Led module vs Controller_
 <img width="1774" height="865" alt="lightmodule_presentation" src="https://github.com/JasonDGian/personal-projects/blob/main/MIXBOX/IMG/lightmodule_presentation.png" />
          
 ## Design Methodology
-Unlike the motherboard, the LED module contains several complex curved external surfaces that are difficult to measure directly using conventional tools. Accurately reproducing these features was necessary to ensure proper fitment and alignment within the Mixbox enclosure (mainly to remain aesthetically coherent).
+Integrating the LED module presented a different challenge from integrating the motherboard. While most motherboard features could be measured directly using conventional tools, the LED module contains several complex curved surfaces that form part of the controller's visible exterior. Reproducing these surfaces accurately was important both for proper fitment and for maintaining the visual appearance of the original design.
 
-Rather than relying exclusively on direct measurements or repeated trial and error, I adopted a combination of measurement techniques. These included traditional caliper measurements, custom 3D-printed gauges, and profile tracing. The traced profiles were later scanned and imported into Blender, where they could be used as reference images during the modeling process.
+To capture the required geometry, I adopted a combination of measurement techniques rather than relying solely on direct measurements or repeated trial and error. These included traditional caliper measurements, custom 3D-printed gauges, and profile tracing. The traced profiles were later scanned and imported into Blender, where they served as reference images during the modeling process.
    
 >[!Note]
 >This workflow is neither particularly elegant nor professional, I would guess. but it allowed the geometry to be reproduced with sufficient accuracy using the tools and skills available to me.
     
 ## Measuring the Module
-### 1. Measuring the Corner Fillets
-
-The first challenge was determining the radii of the various corner fillets that define the module's external profile.
-
-To accomplish this, I designed and printed a series of test gauges containing fillets of known radii. Each radius value was labeled directly on the printed part, allowing rapid comparison against the original module.
-
-Rather than attempting to calculate the radii mathematically, I simply compared each gauge against the corresponding corner and selected the radius that provided the closest match. Since different sections of the module used different fillet radii, multiple gauge sets were required to characterize the entire profile.
-
-Once the correct radii had been identified, recreating the module's outline in Blender became significantly more straightforward.
+### 1. Measuring Corner Fillets
+Conventional caliper measurements proved insufficient for accurately identifying these radii. To simplify the process, I designed and printed a series of comparison gauges containing fillets of known dimensions. Each radius value was labeled directly on the printed part, allowing rapid comparison against the original module.
     
+Rather than calculating the radii mathematically, I compared each gauge against the corresponding feature and selected the radius that provided the closest match. Because different areas of the module used different fillet radii, multiple gauge sets were required to characterize the complete profile.
+    
+Once the radii had been identified, recreating the module's outline in Blender became significantly more straightforward.
+     
 _3D-printed fillet gauges compared against the original module._
 <img width="1774" height="518" alt="lightmodule_front_side_bevel_measuring" src="https://github.com/JasonDGian/personal-projects/blob/main/MIXBOX/IMG/lightmodule_front_side_bevel_measuring.png" />
    
 ### 2. Measuring the Front, Top and Side Surface Curvature
-Many of the module's curved surfaces could not be measured reliably using the custom gauges described previously. Accurately reproducing these features was important, as even small dimensional deviations become noticeable when the module is mounted flush with the enclosure.
-      
-The most practical solution I could devise was to trace the difficult-to-measure profiles onto paper and use those tracings as references during the modeling process. The drawings were scanned and imported into Blender, where they served as reference images for creating the initial geometry.
-        
+Several of the module's curved surfaces could not be measured reliably using either calipers or the custom gauges described previously. Accurately reproducing these features was important, as even small dimensional deviations become noticeable when the module is mounted flush with the enclosure.
+
+The most practical solution I could devise was to trace the difficult-to-measure profiles onto paper and use those tracings as references during the modeling process. After scanning the drawings, the images were imported into Blender and scaled using dimensions obtained from direct measurements. This allowed the traced profiles to serve as geometrically accurate references rather than purely visual guides.
+
 Although a number of direct measurements were also taken, I relied primarily on the traced profiles to establish the overall shape. From these references, I modeled a series of test pieces representing the negative geometry of the module and used them to validate the fit against the original component.
-   
+      
+_Traced profiles used as modeling references._
 <img width="1774" height="447" alt="lightmodule_traced_on_paper" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/lightmodule_traced_on_paper.png" />
     
-The process required a fair amount of patience and iteration, but it ultimately produced results that were accurate enough for the project.
-   
-**Validating the Side Profile Curvature**        
-The upper surface of the LED module incorporates a subtle compound curvature that would have been difficult to reproduce through direct measurement alone.
+>[!NOTE]
+> The process required a fair amount of patience and iteration, but it ultimately produced results that were accurate enough for the project.
 
-Using the scanned side-profile tracing as a reference, I modeled the corresponding negative geometry and produced a series of test prints. After several fitting iterations and minor adjustments, the printed test piece achieved a satisfactory match to the original module.
+### 2.1 Side profile validation.
+The upper surface of the LED module incorporates a subtle compound curvature that would have been difficult to reproduce through direct measurement alone.
+   
+Using the scanned side-profile tracing as a reference, I modeled the corresponding negative geometry and produced a series of test prints. After several fitting iterations and minor adjustments, the printed test piece achieved a satisfactory match to the original module. The final test piece seated against the module without any visually noticeable gaps, indicating that the traced profile captured the curvature with sufficient accuracy for the intended application.
    
 _Side-profile tracing and curvature validation test pieces._    
 <img width="1774" height="447" alt="light_module_top_surface_design" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/light_module_top_surface_design.png" />
     
-**Validating the Front Profile Curvature**    
+### 2.2 Front Profile Validation   
 The front profile proved much easier to reproduce. The traced reference matched the original component closely enough that the first test print required little to no adjustment.
 
 Because the rear fillet radii had already been validated using the printed gauges, the front profile aligned correctly with the surrounding geometry. With the individual features already confirmed, I was able to proceed directly to testing the complete horizontal profile rather than creating additional intermediate validation pieces.
     
-_Front-profile model and test fit._
+_Front-profile model and test-fit._
 <img width="1774" height="970" alt="lightmodule_front_surface_curve" src="https://github.com/user-attachments/assets/e6a7a111-592e-47f2-9cef-8b626e0ffaf6" />
     
-### 3. Measuring the module vertical movement limitation strut.
+### 3. Measuring the Vertical Travel Limitation Strut.
 The click button enclosed within the module is supported by a flexible plastic structure that contacts three support points protruding from the controller's internal button support body.
+   
+<!-- <img width="2191" height="749" alt="lightmodule_workings" src="https://github.com/user-attachments/assets/0f0170fd-3c87-4bce-8834-60eabd07cc24" />
+Two of these support points (highlighted in cyan in the image) serve as contact surfaces for the module's flexible plastic arms. When the module is pressed, these arms deflect against the support points and generate the restoring force that returns the module to its normal resting position. The central support point (highlighted in yellow) is responsible for actuating the internal click button. -->
 
-Two of these support points (highlighted in cyan in the image) serve as contact surfaces for the module's flexible plastic arms. When the module is pressed, these arms deflect against the support points and generate the restoring force that returns the module to its normal resting position. The central support point (highlighted in yellow) is responsible for actuating the internal click button.
-
-The purpose of the vertical movement limitation strut is to **restrict the module's downward travel**, preventing excessive displacement that could damage either the click button mechanism or the flexible plastic arms within the module.
+The purpose of the vertical travel limitation strut is to restrict the module's downward movement, preventing excessive displacement that could damage either the click button mechanism or the flexible support arms within the module. If positioned too high, the button travel would be restricted and the switch might not actuate reliably. If positioned too low, excessive travel could overload the flexible support structure and internal button mechanism.
      
 _LED module support points and button actuator_
 <img width="2191" height="749" alt="lightmodule_support_points" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/lightmodule_support_points.png" />
@@ -757,7 +757,7 @@ _LED module support points and button actuator_
 _LED module assembled in resting position without the controller housing_
 <img width="2191" height="749" alt="light_module_resting_place" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/light_module_resting_place.png" />
      
-To determine the correct position of the strut in 3D space in Blender, I first marked the test piece previously used to evaluate the horizontal fillets and measured the maximum vertical travel allowed by the controller. Marking the test piece directly made it easy to transfer the reference locations to subsequent prototypes and position the strut attachments without requiring extensive additional measurements.
+To determine the correct position of the strut in 3D space, I first marked the test piece previously used to evaluate the horizontal profile and measured the maximum vertical travel permitted by the controller. Marking the test piece directly simplified the transfer of reference locations to subsequent prototypes and allowed the strut attachment points to be positioned without requiring extensive additional measurements.
     
 _Measurements and marked test piece used as reference_
 <img width="2191" height="734" alt="lightmodule_rest_bar_measures_and_marks" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/lightmodule_rest_bar_measures_and_marks.png" />
@@ -770,19 +770,8 @@ _3D test model used for iteration_
 _Test-fit result_
 <img width="2191" height="726" alt="image" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/lightmodule_resting_bar_testpiece.png" />
   
----
-   
----
-   
-## Modeling the Module positive
-
-
-
-### Combining the vaslidated profiles to creat a positive.
+## Reconstructing the Module Geometry
 With the top, front and side view measures validated I could now combine them into a single piece that would represent a more accurate aproximation of the light module.
-
-
-
 
 Once the primary dimensions, fillet radii, and surface profiles had been characterized, the information was transferred into Blender to create a reference model of the LED module.
    
