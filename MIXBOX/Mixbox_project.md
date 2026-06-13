@@ -771,30 +771,57 @@ _Test-fit result_
 <img width="2191" height="726" alt="image" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/lightmodule_resting_bar_testpiece.png" />
   
 ## Reconstructing the Module Geometry
-With the top, front and side view measures validated I could now combine them into a single piece that would represent a more accurate aproximation of the light module.
-
-Once the primary dimensions, fillet radii, and surface profiles had been characterized, the information was transferred into Blender to create a reference model of the LED module.
+With the top, front, and side profiles validated, along with the measurements for the vertical travel-limitation strut and other key features, I could finally begin reconstructing the LED module in Blender.
    
-As with the motherboard model, the objective was not to create a perfect digital replica. Instead, the goal was to produce a sufficiently accurate representation that could be used to design the mounting features and surrounding enclosure geometry while maintaining the required clearances and alignment.
+As with the motherboard model, the objective was not to create a perfect digital replica of the original component. Instead, the goal was to produce a sufficiently accurate reference model that could later be used to design the mounting features and surrounding enclosure geometry.
    
-_Completed LED module reference model used during enclosure design._
+### 1. Creating the Upper Surface
+The reconstruction process began by combining the validated side profile with the front curvature profile. Aligning these two references made it possible to recreate the compound curvature that defines both the upper surface and front face of the module.
+
+This generated a continuous 3D surface that accurately matched the measured geometry in both directions and served as the foundation for the remainder of the model.
+
+_Combined side and front profiles, resulting geometry, and test-fit._
+<img width="2191" height="550" alt="lightmodule_combined_test_fit" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/lightmodule_combined_test_fit.png" />
+
+### 2. Creating the Base Body
+With the upper surface established, the lower body was reconstructed using the validated side and top-view dimensions. The previously measured fillet radii were incorporated to ensure that the horizontal profile matched the original component.
+
+_Base body with top-view profiles applied._
+<img width="2191" height="638" alt="lightmodule_base_piece" src="https://github.com/user-attachments/assets/a1edf80c-d202-4e78-a96c-3ce8f0726751" />
 
 
+### 3. Integrating the Geometry
+Once the base body had been created, the reconstructed upper surface and front profile were applied to it. These validated profiles transformed the simplified body into a geometry that closely matched the external appearance of the original module.
+      
+By combining the independently validated measurements and profiles, the final model inherited the accuracy of each previous validation step. This reduced the need for further iteration and provided confidence that the reconstructed geometry would serve as a reliable reference for the enclosure design.
 
-
-
-## Modeling the LED module. 
+_Upper surface profile applied._
+<img width="2191" height="533" alt="lightmodule_base_piede_profile_1_applied" src="https://github.com/user-attachments/assets/ec326625-81bd-493d-aff5-7c7e14e122f9" />
+     
+_Frontal fillet profile applied._
+<img width="2191" height="533" alt="lightmodule_base_piede_profile_2_applied" src="https://github.com/user-attachments/assets/1a810a22-22d2-4adb-8eff-90eb401b9ce3" />
    
-### 1. Defining the External Shape
+### 4. Tolerances.
+No dimensional tolerances were intentionally incorporated during the reconstruction of the LED module. The objective at this stage was to reproduce the original component's geometry as accurately as possible and create a reliable reference model.
 
-### 2. Creating the Initial Model
+Any required clearances and manufacturing tolerances will be introduced later during the enclosure design process, where the module's interaction with the surrounding geometry can be evaluated more effectively.
 
-### 3. Validation Through Test Fitting
+## final result.
+After combining the validated profiles, dimensional measurements, and functional features, the LED module was successfully reconstructed as a complete reference model.
 
-### 4. Creating the Final Motherboard Model
+Although the model is not intended to be a perfect digital replica of the original component, it reproduces the external geometry and critical functional features with sufficient accuracy for enclosure design purposes.
+    
+_Completed LED module reference model._
+<img width="2000" height="1456" alt="image" src="https://github.com/user-attachments/assets/d56201eb-6641-4216-b502-60a07e02ffe5" />
+    
+_Final test-fit._
+<img width="2000" height="622" alt="lightmodule_positive_final_testfit" src="https://github.com/user-attachments/assets/2b0f7b1d-2e83-4c83-b366-8bf0f3d8abe6" />
+    
+_Comparison between the original module and the reconstructed model._
+<img width="2000" height="900" alt="18a5f713-84eb-432e-8cf8-55b7464a4d84" src="https://github.com/user-attachments/assets/27d26003-65cd-413a-bc28-ccb90c950c2e" />
 
-## Modeling the motherboard enclosure.
-   
+
+
 ----
    
 <!--
