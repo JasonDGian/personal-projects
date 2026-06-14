@@ -41,12 +41,14 @@ Portability is another key constraint. The controller should stay reasonably com
 # 2. Selection of components.
 
 ## 2.1 Motherboard - Base controller.
-To simplify the project, I decided to use an existing wireless controller as the base platform instead of designing a controller PCB from scratch. This allows me to reuse features such as Bluetooth connectivity, battery management, charging circuitry, and PlayStation 4 compatibility, while focusing my efforts on the enclosure and custom input system.
-    
-The controller selected for this purpose is the T-29 Wireless Controller. During testing, it connected reliably to both PC and PlayStation 4 systems and automatically reconnected after being powered on. This behavior was more consistent than with other controllers I evaluated, making it a solid foundation for the project.
+To simplify the project, I decided to use an existing wireless controller as the base platform instead of designing a custom PCB from scratch. This approach allows me to reuse features such as Bluetooth connectivity, battery management, charging circuitry, and PlayStation 4 compatibility, while focusing my efforts on the enclosure and custom input system.
+
+Although designing a custom motherboard was considered, it would have significantly increased the project's scope and development time. Implementing and validating features such as wireless communication, power management, and console compatibility would have diverted attention from the main objective of the project: designing and building a custom arcade controller. Given the available time, reusing an existing controller was the most practical solution.
+
+The selected controller is the T-29 Wireless Controller. During testing, it connected reliably to both PC and PlayStation 4 systems and automatically reconnected after being powered on. Compared to other controllers I evaluated, it offered more consistent connectivity and better overall usability.
 
 >[!IMPORTANT]
-> To determine whether the controller could be modified, I inspected both sides of the PCB for accessible test pads and signal traces. These points will later be used to connect the custom button layout. The T-29 provided sufficient access to these signals, making it suitable for the intended modifications.
+> Before selecting it, I inspected the PCB to verify that the button signals were accessible through test pads that could later be connected to the custom button layout. The T-29 provided sufficient access to these signals, making it suitable for modification.
    
 <table>
     <tr>
@@ -62,7 +64,10 @@ The controller selected for this purpose is the T-29 Wireless Controller. During
     </tr>
 </table>
     
-Several cheaper alternatives were considered but ultimately rejected due to issues such as inaccessible PCBs, missing test pads, unreliable Bluetooth connectivity, or lack of PlayStation 4 compatibility. Although the T-29 was slightly more expensive at €27.99, it offered the best balance of reliability, modifiability, and overall quality.
+Several cheaper alternatives were considered but ultimately rejected due to issues such as inaccessible PCBs, missing test pads, unreliable connectivity, or lack of PlayStation 4 compatibility. Although the T-29 was slightly more expensive at €27.99, it offered the best balance of reliability, modifiability, and cost.
+
+**Why dissect a controller and not create my own motherboard?**
+While i did observe this possibility, i decided that it would not allow me to pursue this project within reasonable time limits. I don't have much time to dedicate to this project and this is one of the main reasons of why i did not go with the route of reseach and develop my own input system, with bluetooth con and PS4 coonnecitivity. That route would occupy too much of the time i have available for this project and would make all the other parts of the project have a lot less time set a part for them.
     
 ## 2.2 Action buttons.
 
