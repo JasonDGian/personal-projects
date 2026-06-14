@@ -39,12 +39,41 @@ Portability is another key constraint. The controller should stay reasonably com
 ---
    
 # 2. Selection of components.
-## 2.1 Base controller.
+
+## 2.1 Motherboard - Base controller.
+To simplify the project, I decided to use an existing wireless controller as the base platform instead of designing a controller PCB from scratch. This allows me to reuse features such as Bluetooth connectivity, battery management, charging circuitry, and PlayStation 4 compatibility, while focusing my efforts on the enclosure and custom input system.
+    
+The controller selected for this purpose is the T-29 Wireless Controller. During testing, it connected reliably to both PC and PlayStation 4 systems and automatically reconnected after being powered on. This behavior was more consistent than with other controllers I evaluated, making it a solid foundation for the project.
+
+>[!IMPORTANT]
+> To determine whether the controller could be modified, I inspected both sides of the PCB for accessible test pads and signal traces. These points will later be used to connect the custom button layout. The T-29 provided sufficient access to these signals, making it suitable for the intended modifications.
+   
+<table>
+    <tr>
+        <th>Controller</th>
+        <th>Motherboard</th>
+    </tr>
+        <td><img width="900" height="900" alt="OIP" src="https://github.com/user-attachments/assets/de0a148b-868f-4a2b-bfec-5acb7c08d841" /></td>
+        <td><img width="1573" height="900" alt="controller-motherboard-stripped" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/controller-motherboard-stripped.png" /></td>
+    </tr>
+    <tr>
+        <td>T29 Wireless Controller</td>
+        <td>ZM-T29 MAB1437-B v1.2 (2025.09.29)</td>
+    </tr>
+</table>
+    
+Several cheaper alternatives were considered but ultimately rejected due to issues such as inaccessible PCBs, missing test pads, unreliable Bluetooth connectivity, or lack of PlayStation 4 compatibility. Although the T-29 was slightly more expensive at €27.99, it offered the best balance of reliability, modifiability, and overall quality.
+    
 ## 2.2 Action buttons.
+
 ## 2.3 Arrow buttons.
-## 2.4 Led module.
+
+## 2.4 Status indicatore & touch sensor module.
+
 ## 2.5 Stop switch for led functionality.
+
 ## 2.6 Base printing material.   
+
 ---
    
 # 3. Product design
@@ -105,6 +134,15 @@ Portability is another key constraint. The controller should stay reasonably com
    
 # 7. Conclusions and Future Improvements
 ## 7.1 Lessons Learned
+<!-- 
+I tested most of the skills I accumultaed over the years as a hobbist. It involved knowledge in many fields:
+- Printing media
+- Photographi paper handling and long term protection.
+- Image edition for customization.
+- 3d Printing
+- 3d modeling and prototyping
+- Soldering and electronics in general.
+- Patience, patience, patience. -->
 ## 7.2 What I Would Do Differently
    
 ---
@@ -115,3 +153,38 @@ Portability is another key constraint. The controller should stay reasonably com
 ## 8.3 Key Features Demonstration
    
 ---
+
+# Costs
+Buget notes. 
+<table>
+<tr>
+    <th>Component</th>
+    <th>Cost</th>
+    <th>Link</th>
+</tr>
+<tr>
+    <td>Controller (Motherboard)</td>
+    <td>27.99€</td>
+    <td>https://www.amazon.es/dp/B0CBRC7MKL?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1</td>
+</tr>
+<tr>
+    <td>Arcade buttons</td>
+    <td>26.68 (12.70 per unit + shipping)</td>
+    <td>https://www.amazon.es/dp/B08RC4JC1C?ref=ppx_yo2ov_dt_b_fed_asin_title</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+</table>
