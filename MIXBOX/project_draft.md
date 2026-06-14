@@ -47,8 +47,7 @@ Although designing a custom motherboard was considered, it would have significan
 
 The selected controller is the T-29 Wireless Controller. During testing, it connected reliably to both PC and PlayStation 4 systems and automatically reconnected after being powered on. Compared to other controllers I evaluated, it offered more consistent connectivity and better overall usability.
 
->[!IMPORTANT]
-> Before selecting it, I inspected the PCB to verify that the button signals were accessible through test pads that could later be connected to the custom button layout. The T-29 provided sufficient access to these signals, making it suitable for modification.
+Before selecting it, I inspected the PCB to verify that the button signals were accessible through test pads that could later be connected to the custom button layout. The T-29 provided sufficient access to these signals, making it suitable for modification.
    
 <table>
     <tr>
@@ -64,10 +63,44 @@ The selected controller is the T-29 Wireless Controller. During testing, it conn
     </tr>
 </table>
     
-Several cheaper alternatives were considered but ultimately rejected due to issues such as inaccessible PCBs, missing test pads, unreliable connectivity, or lack of PlayStation 4 compatibility. Although the T-29 was slightly more expensive at €27.99, it offered the best balance of reliability, modifiability, and cost.
+>[!NOTE]
+>Several cheaper alternatives were considered but ultimately rejected due to issues such as inaccessible PCBs, missing test pads, unreliable connectivity, or lack of PlayStation 4 compatibility. Although the T-29 was slightly more expensive at €27.99, it offered the best balance of reliability, modifiability, and cost.
         
 ## 2.2 Action buttons.
+Selecting the action buttons proved to be more difficult than expected due to the large number of available options. From the beginning, I knew I wanted LED-backlit buttons, both for their appearance and because they would support some aesthetic ideas planned for later in the project.
 
+To evaluate the available options, I tested several button sets in two main sizes: 33 mm and 27 mm diameter. While all of the tested buttons were functional and reasonably well-built, ergonomics and overall comfort became the deciding factors.
+
+The larger 33 mm buttons were ultimately discarded because they required more space, making it harder to achieve a compact layout. Among the remaining options, I noticed a clear preference for the third button set during testing. Although it was the most expensive option and used a large mounting nut that complicated installation, its feel and overall quality were noticeably better than the alternatives.
+
+As a result, the third button set was selected for the final design. The mounting issue would later be addressed during the enclosure design.
+
+<table border="1">
+    <thead>
+        <tr>
+            <th><strong>33 mm diameter</strong></th>
+            <th><strong>27 mm diameter</strong></th>
+            <th><strong>27 mm diameter</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img width="2235" height="1001" alt="BTN_SET_1" src="https://github.com/user-attachments/assets/214e95f4-178d-46ef-a982-85e84cdd8f1e" /></td>
+            <td><img width="2234" height="1001" alt="BTN_SET_2" src="https://github.com/user-attachments/assets/46f90910-fa56-4e3f-999c-62560dd0e919" /></td>
+            <td><img width="2235" height="1001" alt="BTN_SET_3" src="https://github.com/user-attachments/assets/b36b048d-3483-4a1e-8439-fc733937605c" /></td>
+        </tr>
+        <tr>
+            <td>
+              Diameter: 33mm </br>Total height: 40mm </br>Snap-fit or snap-lock system.
+            </td>
+            <td>Diameter: 27mm </br>Total height: 30mm </br>Snap-fit or snap-lock system.
+            </td>
+            <td>Diameter: 27mm</br>Total height: 36mm </br>Threaded plastic nut system.
+            </td>
+        </tr>
+    </tbody>
+</table> 
+   
 ## 2.3 Arrow buttons.
 
 ## 2.4 Status indicatore & touch sensor module.
