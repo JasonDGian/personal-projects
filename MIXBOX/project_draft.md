@@ -154,7 +154,12 @@ _Comparison lowprofile vs full height_
 *Referenced datasheets:*
 - https://cdn.shopify.com/s/files/1/0565/8070/2297/files/SPEC-KS-9H10B045NN-Y35-G_Red_PRO_2.0_Switch.pdf?v=1667273849
 - https://cdn.shopify.com/s/files/1/0565/8070/2297/files/SPEC-KS-27H10B050NN-X5-Low_Profile_Red_Switch.pdf?v=1667274433
+
      
+# <mark>TODO</mark>   
+<mark>Write section about keycaps types.**</mark></br>
+<mark>R1,R2,R3,R4, how could this impact the project design and why R3 was chosen.**</mark>
+
 ## 2.4 Status indicatore & touch sensor module.
 
 ## 2.5 Stop switch for led functionality.
