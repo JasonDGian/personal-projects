@@ -102,19 +102,19 @@ As a result, the third button set was selected for the final design. The mountin
 </table> 
    
 ## 2.3 Arrow buttons.
-For the directional inputs, I chose mechanical keyboard switches and keycaps instead of traditional arcade buttons. Since the controller follows a MixBox-style layout, keyboard-style inputs are a more natural and familiar solution.
+For the directional inputs, I chose mechanical keyboard switches and keycaps instead of traditional arcade buttons. Since the controller follows a MixBox-style layout, keyboard-style inputs provide a more natural and familiar solution.
 
-Mechanical switches were selected over membrane alternatives due to their consistency, durability, and serviceability. They can also be replaced individually without modifying the controller, supporting future customization and testing of different switch types.
+Mechanical switches were selected over membrane alternatives due to their serviceability and ease of replacement. Using a hot-swap approach allows individual switches to be replaced without modifying the controller, improving long-term maintenance and user repairability, even if it adds complexity to the design.
 
-During development, both Gateron Red and Brown switches were tested with standard keycaps. However, **the exact switch type was not a key design factor, as the system is intended to support any Cherry MX-style switch**.
+During development, both Gateron Red and Brown switches were tested with standard keycaps. However, the exact switch type was not a key design factor, as the system is intended to support any Cherry MX-style switch.
 
 The main design decision was between low-profile and full-height switches, which affects enclosure height, input feel, and internal layout.
-
+   
 <div align="center">
 <img width="900" height="415" alt="cherry-mx-ultra-low-profile-sravnenie" src="https://github.com/user-attachments/assets/96b7a78a-b38c-4285-8ce2-f4538c1c67b5" />
 </div>
-
-Although low-profile switches would allow a thinner design, full-height switches provided a better overall feel. They also improve compatibility with keycaps and the broader MX ecosystem, supporting long-term serviceability.
+    
+Although low-profile switches would allow for a thinner design, full-height switches provided a better overall feel during testing. They also offer greater compatibility with standard keycaps and the wider MX ecosystem, improving long-term serviceability.
 
 As a result, the final design uses full-height Cherry MX-compatible switches and standard keycaps for the directional inputs.
       
@@ -132,13 +132,13 @@ _Comparison lowprofile vs full height_
         </th>
     </tr>
     <tr>
-        <td>Full-height Cherry MX switch</td>        
+        <td>Full-Height Gateron Red Switch</td>        
         <td><img height="450" alt="fp-mx-sw" src="https://github.com/user-attachments/assets/5c2686dc-97cd-46d0-afbc-cba264c61c81" /></td>
         <td><img height="450" alt="image" src="https://github.com/user-attachments/assets/86cba1cb-1c10-4b9f-8dd6-2b188d9bd850" /></td>
     </tr>
     <tr>
     <td>
-        Low-profile Cherry MX switch.        
+        Low-profile Gateron Red Switch.        
     </td>
     <td>
         <img height="450" alt="lp-sw" src="https://github.com/user-attachments/assets/016d6c0a-8756-4ee6-9c12-eecdd5179d27" />
@@ -148,11 +148,11 @@ _Comparison lowprofile vs full height_
     </td>
     </tr>
 </table>
-   
+      
 *Referenced datasheets:*
 - https://cdn.shopify.com/s/files/1/0565/8070/2297/files/SPEC-KS-9H10B045NN-Y35-G_Red_PRO_2.0_Switch.pdf?v=1667273849
 - https://cdn.shopify.com/s/files/1/0565/8070/2297/files/SPEC-KS-27H10B050NN-X5-Low_Profile_Red_Switch.pdf?v=1667274433
-   
+     
 ## 2.4 Status indicatore & touch sensor module.
 
 ## 2.5 Stop switch for led functionality.
