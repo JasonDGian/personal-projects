@@ -27,6 +27,8 @@ The goal of this project is to **build an ergonomic arcade controller** that fee
 The project is limited by time and budget, since it’s a personal build. All decisions need to stay realistic in terms of cost, complexity, and what I can actually build and test.
 
 Tournament legality is also important. Even though I’m not building this specifically for competitive play, I want it to follow common tournament rules where possible, so I avoid things like macros, turbo functions, or any form of input automation.
+    
+The controller is intended for use on both PC and PlayStation 4, so compatibility with these platforms is a key requirement.    
    
 Portability is another key constraint. The controller should stay reasonably compact and lightweight so it doesn’t take up too much desk space and is easy to move around when needed.
 
