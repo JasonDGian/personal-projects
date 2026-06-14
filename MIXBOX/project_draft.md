@@ -73,8 +73,8 @@
 ---
    
 # 7. Conclusions and Future Improvements
-# 7.1 Lessons Learned
-# 7.2 What I Would Do Differently
+## 7.1 Lessons Learned
+## 7.2 What I Would Do Differently
    
 ---
    
