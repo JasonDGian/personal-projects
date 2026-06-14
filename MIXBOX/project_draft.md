@@ -44,7 +44,7 @@ Portability is another key constraint. The controller should stay reasonably com
 ## 2.3 Arrow buttons.
 ## 2.4 Led module.
 ## 2.5 Stop switch for led functionality.
-   
+## 2.6 Base printing material.   
 ---
    
 # 3. Product design
