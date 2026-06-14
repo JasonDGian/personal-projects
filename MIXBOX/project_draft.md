@@ -230,8 +230,13 @@ I tested most of the skills I accumultaed over the years as a hobbist. It involv
 - 3d modeling and prototyping
 - Soldering and electronics in general.
 - Patience, patience, patience. -->
+
 ## 7.2 What I Would Do Differently
-   
+<!--
+- Would've bough a Fillet gauge.
+- Would've bought a Screw Pitch gauge.
+- Would've organized my blender files differently.
+--> 
 ---
    
 # 8. Product showcase.
