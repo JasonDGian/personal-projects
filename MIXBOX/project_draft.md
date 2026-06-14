@@ -106,18 +106,18 @@ For the directional inputs, I chose mechanical keyboard switches and keycaps ins
 
 Mechanical switches were selected over membrane alternatives due to their serviceability and ease of replacement. Using a hot-swap approach allows individual switches to be replaced without modifying the controller, improving long-term maintenance and user repairability, even if it adds complexity to the design.
 
-During development, both Gateron Red and Brown switches were tested with standard keycaps. However, the exact switch type was not a key design factor, as the system is intended to support any Cherry MX-style switch.
+During development, linear and tactile mechanical switches were tested using standard keycaps. However, the exact switch type was not a key design factor, as the system is intended to support any MX-compatible mechanical switch.
 
-The main design decision was between low-profile and full-height switches, which affects enclosure height, input feel, and internal layout.
+**The main design decision was between low-profile and full-height switches**, which affects ergonomics, input feel, and adapter.
    
 <div align="center">
 <img width="900" height="415" alt="cherry-mx-ultra-low-profile-sravnenie" src="https://github.com/user-attachments/assets/96b7a78a-b38c-4285-8ce2-f4538c1c67b5" />
 </div>
-    
-Although low-profile switches would allow for a thinner design, full-height switches provided a better overall feel during testing. They also offer greater compatibility with standard keycaps and the wider MX ecosystem, improving long-term serviceability.
 
-As a result, the final design uses full-height Cherry MX-compatible switches and standard keycaps for the directional inputs.
-      
+Although low-profile switches would allow for a thinner design, full-height switches provided a better overall feel during testing. They also offer greater compatibility with standard keycaps and the wider mechanical switch ecosystem, improving long-term serviceability.
+
+As a result, the final design uses full-height MX-compatible switches and standard keycaps for the directional inputs.
+         
 _Comparison lowprofile vs full height_
 <table>
     <tr>
