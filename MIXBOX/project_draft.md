@@ -1,34 +1,34 @@
 ---
    
 # 1. Introduction
-Fighting games have long been one of my favorite genres, and I have always wanted a dedicated arcade controller. While commercial fight sticks and MixBox-style controllers offer an excellent playing experience, high-quality options are often expensive and may not fully match my preferences in terms of ergonomics, size, or appearance.
+Fighting games have long been one of my favorite genres, and I have always wanted a dedicated arcade controller. While commercial fight sticks and MixBox-style controllers offer a great experience, high-quality options are often expensive and still don’t fully match what I personally want in terms of ergonomics, size, or appearance.
 
-This project focuses on the design and construction of a custom MixBox-style controller tailored to my own requirements. Building the controller provides complete control over its layout, dimensions, aesthetics, and functionality, resulting in a device better suited to my needs than a commercial alternative.
+This project is about designing and building a custom MixBox-style controller tailored to my own preferences. Building it gives me full control over layout, dimensions, aesthetics, and functionality, so the final result can fit my needs better than a commercial product.
 
-This is not my first arcade controller project. Several years ago, I designed and built a custom controller for a friend, gaining experience in CAD design, 3D printing, electronics, and prototyping. This project builds upon that experience while providing an opportunity to further develop those skills.
+This is not my first arcade controller project. A few years ago, I built a custom controller for a friend, which gave me hands-on experience with CAD design, 3D printing, electronics, and general prototyping. This project builds on that experience and gives me a chance to improve those skills further.
 
-The entire design and development process will be documented, both as a record of the project and as a potential reference for others interested in building custom arcade controllers.
+I will also document the entire process, both as a personal record and so that others interested in building their own controllers can learn from my approach, including what worked and what didn’t.
     
 ## 1.1 Motivation
-The main motivation behind this project is to create a controller that better matches my ergonomic preferences while including the features I want at an affordable price. Commercial controllers often involve compromises in layout, comfort, functionality, or cost, so building a custom solution allows me to design a device tailored specifically to my needs.
+The main motivation behind this project is to create a controller that better matches my ergonomic preferences and desired features at an affordable price. Commercial controllers often involve compromises, so building my own gives me the freedom to design something that fits my needs more closely.
 
-A secondary motivation is to document the development process. By sharing my methods, decisions, and mistakes, I hope this project can help others learn from the experience and make it easier for them to build their own custom arcade controllers.
+A secondary motivation is to document the process in a useful way. By sharing my decisions, methods, and mistakes, I hope it can help others who want to build their own arcade controllers and avoid some of the trial and error.
     
 ## 1.2 Goals and Objectives
-The primary objective of this project is to design and manufacture an ergonomic arcade controller that is comfortable, practical, and enjoyable to use during extended gaming sessions.
+The goal of this project is to **build an ergonomic arcade controller** that feels good to use, works reliably, and is enjoyable during long play sessions, **while staying within a reasonable budget**.
 
 **Key design goals include:**
-- Providing a compact form factor suitable for desktop use and transport.
-- Ensuring an ergonomic layout that minimizes strain and fatigue during extended use.
-- Designing the controller for easy access to internal components, supporting maintenance and replacement of parts such as buttons and wiring.
-- Allowing customization of the external appearance, including features such as LED backlighting.
+- Keeping the controller compact and easy to transport
+- Making the layout comfortable and reducing strain during extended use
+- Designing it so internal parts are easy to access, repair, or replace
+- Customizing the look and feel, including things like LED lighting
      
 ## 1.3 Requirements and Constraints
-The project is constrained by available time and budget, as it is a personal development project. All design decisions must balance cost, complexity, and overall quality.
+The project is limited by time and budget, since it’s a personal build. All decisions need to stay realistic in terms of cost, complexity, and what I can actually build and test.
 
-Tournament legality is an important constraint. Although the controller is not intended specifically for competitive play, it should comply with commonly accepted tournament regulations whenever possible. 
+Tournament legality is also important. Even though I’m not building this specifically for competitive play, I want it to follow common tournament rules where possible, so I avoid things like macros, turbo functions, or any form of input automation.
    
-Size and portability are also key considerations. The controller should be as compact and lightweight as practical in order to reduce desk space usage and improve portability for transport and extended use.
+Portability is another key constraint. The controller should stay reasonably compact and lightweight so it doesn’t take up too much desk space and is easy to move around when needed.
 
 ---
    
