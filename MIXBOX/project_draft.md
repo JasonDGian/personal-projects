@@ -65,10 +65,7 @@ The selected controller is the T-29 Wireless Controller. During testing, it conn
 </table>
     
 Several cheaper alternatives were considered but ultimately rejected due to issues such as inaccessible PCBs, missing test pads, unreliable connectivity, or lack of PlayStation 4 compatibility. Although the T-29 was slightly more expensive at €27.99, it offered the best balance of reliability, modifiability, and cost.
-
-**Why dissect a controller and not create my own motherboard?**
-While i did observe this possibility, i decided that it would not allow me to pursue this project within reasonable time limits. I don't have much time to dedicate to this project and this is one of the main reasons of why i did not go with the route of reseach and develop my own input system, with bluetooth con and PS4 coonnecitivity. That route would occupy too much of the time i have available for this project and would make all the other parts of the project have a lot less time set a part for them.
-    
+        
 ## 2.2 Action buttons.
 
 ## 2.3 Arrow buttons.
