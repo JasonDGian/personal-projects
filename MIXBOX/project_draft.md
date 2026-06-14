@@ -1,3 +1,7 @@
+# Building a Custom Fightstick Controller
+    
+<mark>[insert picture of building chaos]</mark>
+   
 ---
    
 # 1. Introduction
