@@ -266,18 +266,18 @@ Buget notes.
 </tr>
 <tr>
     <td>Arcade buttons</td>
-    <td>26.68 (12.70 per unit + shipping)</td>
+    <td>26.68€ (x2 - 13.34€/unit)</td>
     <td>https://www.amazon.es/dp/B08RC4JC1C?ref=ppx_yo2ov_dt_b_fed_asin_title</td>
 </tr>
 <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>KB Switch Hostswap socket</td>
+    <td>4.69€ ( x30 - 0.1563€/unit)</td>
+    <td>https://es.aliexpress.com/item/1005006610506123.html?spm=a2g0o.order_detail.order_detail_item.3.1b1858bfTuxPj5&gatewayAdapt=glo2esp</td>
 </tr>
 <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>2 Pins terminal block</td>
+    <td>4.49€ (x50 - 0.0898€/unit)</td>
+    <td>https://es.aliexpress.com/item/1005009002216100.html?spm=a2g0o.order_detail.order_detail_item.4.400a58bfZ1Ur7X&gatewayAdapt=glo2esp</td>
 </tr>
 <tr>
     <td></td>
