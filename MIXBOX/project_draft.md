@@ -113,11 +113,13 @@ During development, linear and tactile mechanical switches were tested using sta
 <div align="center">
 <img width="900" height="415" alt="cherry-mx-ultra-low-profile-sravnenie" src="https://github.com/user-attachments/assets/96b7a78a-b38c-4285-8ce2-f4538c1c67b5" />
 </div>
-
+   
+   
 Although low-profile switches would allow for a thinner design, full-height switches provided a better overall feel during testing. They also offer greater compatibility with standard keycaps and the wider mechanical switch ecosystem, improving long-term serviceability.
-
+   
 As a result, the final design uses full-height MX-compatible switches and standard keycaps for the directional inputs.
-         
+    
+<!--          
 _Comparison lowprofile vs full height_
 <table>
     <tr>
@@ -147,7 +149,7 @@ _Comparison lowprofile vs full height_
         <img height="450" alt="image" src="https://github.com/user-attachments/assets/d2cd2434-d22a-4a7b-ac02-21c21e07c57c" />
     </td>
     </tr>
-</table>
+</table-->
       
 *Referenced datasheets:*
 - https://cdn.shopify.com/s/files/1/0565/8070/2297/files/SPEC-KS-9H10B045NN-Y35-G_Red_PRO_2.0_Switch.pdf?v=1667273849
