@@ -1,10 +1,35 @@
 ---
    
 # 1. Introduction
+Fighting games have long been one of my favorite genres, and I have always wanted a dedicated arcade controller. While commercial fight sticks and MixBox-style controllers offer an excellent playing experience, high-quality options are often expensive and may not fully match my preferences in terms of ergonomics, size, or appearance.
+
+This project focuses on the design and construction of a custom MixBox-style controller tailored to my own requirements. Building the controller provides complete control over its layout, dimensions, aesthetics, and functionality, resulting in a device better suited to my needs than a commercial alternative.
+
+This is not my first arcade controller project. Several years ago, I designed and built a custom controller for a friend, gaining experience in CAD design, 3D printing, electronics, and prototyping. This project builds upon that experience while providing an opportunity to further develop those skills.
+
+The entire design and development process will be documented, both as a record of the project and as a potential reference for others interested in building custom arcade controllers.
+    
 ## 1.1 Motivation
+The main motivation behind this project is to create a controller that better matches my ergonomic preferences while including the features I want at an affordable price. Commercial controllers often involve compromises in layout, comfort, functionality, or cost, so building a custom solution allows me to design a device tailored specifically to my needs.
+
+A secondary motivation is to document the development process. By sharing my methods, decisions, and mistakes, I hope this project can help others learn from the experience and make it easier for them to build their own custom arcade controllers.
+    
 ## 1.2 Goals and Objectives
+The primary objective of this project is to design and manufacture an ergonomic arcade controller that is comfortable, practical, and enjoyable to use during extended gaming sessions.
+
+**Key design goals include:**
+- Providing a compact form factor suitable for desktop use and transport.
+- Ensuring an ergonomic layout that minimizes strain and fatigue during extended use.
+- Designing the controller for easy access to internal components, supporting maintenance and replacement of parts such as buttons and wiring.
+- Allowing customization of the external appearance, including features such as LED backlighting.
+     
 ## 1.3 Requirements and Constraints
+The project is constrained by available time and budget, as it is a personal development project. All design decisions must balance cost, complexity, and overall quality.
+
+Tournament legality is an important constraint. Although the controller is not intended specifically for competitive play, it should comply with commonly accepted tournament regulations whenever possible. 
    
+Size and portability are also key considerations. The controller should be as compact and lightweight as practical in order to reduce desk space usage and improve portability for transport and extended use.
+
 ---
    
 # 2. Selection of components.
