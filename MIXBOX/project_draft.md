@@ -165,7 +165,80 @@ _Comparison lowprofile vs full height_
 ## 2.5 Stop switch for led functionality.
 
 ## 2.6 Base printing material.   
+For the enclosure, I selected PLA+ as the primary printing material. While alternatives such as ABS and PETG were considered, they offered few practical advantages for this project while introducing additional printing challenges.
 
+The controller is not expected to experience high temperatures or significant mechanical loads, so the strength of PLA+ is more than sufficient. Furthermore, the enclosure is designed to obtain its rigidity from its geometry rather than relying solely on the material's mechanical properties.
+
+PLA+ was chosen mainly because it is easy to print, produces a good surface finish, produces minimal stringing, and does not require an enclosed printer. It is also less prone to warping than ABS, making the manufacturing process more reliable and reducing the amount of time spent troubleshooting print-related issues.
+
+Although PLA+ may not be the strongest material available, it provides the best balance between printability, appearance, and performance for the intended application.
+
+<table border="1px">
+    <caption><i>Comparison of common FDM printing materials considered for the enclosure design.</i></caption>
+    <thead>
+        <tr>
+            <th>Factor</th>
+            <th>PLA</th>
+            <th>ABS</th>
+            <th>PETG</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Print difficulty</strong></td>
+            <td><strong>Low</strong></td>
+            <td>High</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td><strong>Warping tendency</strong></td>
+            <td><strong>Low</strong></td>
+            <td>High</td>
+            <td>Low to Medium</td>
+        </tr>
+        <tr>
+            <td>Heat resistance</td>
+            <td>Low</td>
+            <td>High</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>Strength</td>
+            <td>High tensile strength, but brittle</td>
+            <td>Impact-resistant</td>
+            <td>Well-balanced</td>
+        </tr>
+        <tr>
+            <td>Odor during printing</td>
+            <td>Minimal</td>
+            <td>Noticeable</td>
+            <td>Low</td>
+        </tr>
+        <tr>
+            <td>Stringing tendency</td>
+            <td>Relatively low</td>
+            <td>Moderate</td>
+            <td>More prone to stringing</td>
+        </tr>
+        <tr>
+            <td>Transparency</td>
+            <td>Difficult</td>
+            <td>Difficult</td>
+            <td>Achievable</td>
+        </tr>
+        <tr>
+            <td>Typical uses</td>
+            <td>Prototypes, decorative parts, learning</td>
+            <td>High-temperature and functional parts</td>
+            <td>Functional parts, humid environments, general-purpose use</td>
+        </tr>
+    </tbody>
+</table>
+    
+Referenced articles: 
+- [Comparison table](https://3dstarter.com/en/material/pla-vs-abs)
+- [PLA vs PETG vs ABS](https://ultimaker.com/learn/petg-vs-pla-vs-abs-3d-printing-strength-comparison/)
+    
 ---
    
 # 3. Product design
