@@ -62,9 +62,29 @@ Before selecting it, I inspected the PCB to verify that the button signals were 
         <td>ZM-T29 MAB1437-B v1.2 (2025.09.29)</td>
     </tr>
 </table>
-    
+
 >[!NOTE]
 >Several cheaper alternatives were considered but ultimately rejected due to issues such as inaccessible PCBs, missing test pads, unreliable connectivity, or lack of PlayStation 4 compatibility. Although the T-29 was slightly more expensive at €27.99, it offered the best balance of reliability, modifiability, and cost.
+    
+<!--
+</br>
+<div align="center">
+<table>
+    <tr>
+        <th colspan=3>Selected product</th>
+    </tr>
+<tr>
+    <td>T-29 Wireless controller</td>
+    <td>27.99€</td>
+    <td><a href="https://www.amazon.es/dp/B0CBRC7MKL?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1">CHEREEKI Wireless controller for PS4/Pro/Slim</a></td>
+</tr>
+</table>
+</div>
+</br> -->
+
+</br>
+
+Link to the product: [T-29 Wireless controller](https://www.amazon.es/dp/B0CBRC7MKL?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
         
 ## 2.2 Action buttons.
 Selecting the action buttons proved to be more difficult than expected due to the large number of available options. From the beginning, I knew I wanted LED-backlit buttons, both for their appearance and because they would support some aesthetic ideas planned for later in the project.
@@ -100,6 +120,26 @@ As a result, the third button set was selected for the final design. The mountin
         </tr>
     </tbody>
 </table> 
+
+<!--
+</br>
+<div align="center">
+<table>
+    <tr>
+        <th colspan=3>Selected product</th>
+    </tr>
+<tr>
+    <td>Arcade buttons</td>
+    <td>26.68€ (x2 - 13.34€/unit)</td>
+    <td>https://www.amazon.es/dp/B08RC4JC1C?ref=ppx_yo2ov_dt_b_fed_asin_title</td>
+</tr>
+</table>
+</div>
+</br> -->
+
+</br>
+
+Link to the product: [Pssopp Microswitch button](https://www.amazon.es/dp/B08RC4JC1C?ref=ppx_yo2ov_dt_b_fed_asin_title)
    
 ## 2.3 Arrow buttons.
 For the directional inputs, I chose mechanical keyboard switches and keycaps instead of traditional arcade buttons. Since the controller follows a MixBox-style layout, keyboard-style inputs provide a more natural and familiar solution.
@@ -150,6 +190,26 @@ _Comparison lowprofile vs full height_
     </td>
     </tr>
 </table-->
+
+<!--
+</br>
+<div align="center">
+<table>
+    <tr>
+        <th colspan=3>Selected product</th>
+    </tr>
+<tr>
+    <td>Arrow buttons</td>
+    <td>1.53€ (x10 - 0.153€/unit)</td>
+    <td><a href="https://es.aliexpress.com/item/1005005467023965.html?spm=a2g0o.productlist.main.2.761c2154jAsrl2&algo_pvid=663d1580-1a2d-495c-8ce1-5936a79069a1&algo_exp_id=663d1580-1a2d-495c-8ce1-5936a79069a1-1&pdp_ext_f=%7B%22order%22%3A%22522%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%211.82%211.27%21%21%2113.89%219.72%21%402103890917815484233368128ea07e%2112000033197110242%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895&curPageLogUid=3OhXWIXwbvYz&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005005467023965%7C_p_origin_prod%3A">10Pcs/lot Original Cherry MX Mechanical Keyboard Switch Axis Shaft Switch RGB blue</a></td>
+</tr>
+</table>
+</div>
+</br> -->
+    
+</br>
+
+Link to the product: [10Pcs/lot Original Cherry MX Mechanical Keyboard Switch Axis Shaft Switch RGB blue](https://es.aliexpress.com/item/1005005467023965.html?spm=a2g0o.productlist.main.2.761c2154jAsrl2&algo_pvid=663d1580-1a2d-495c-8ce1-5936a79069a1&algo_exp_id=663d1580-1a2d-495c-8ce1-5936a79069a1-1&pdp_ext_f=%7B%22order%22%3A%22522%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%211.82%211.27%21%21%2113.89%219.72%21%402103890917815484233368128ea07e%2112000033197110242%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895&curPageLogUid=3OhXWIXwbvYz&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005005467023965%7C_p_origin_prod%3A)
       
 *Referenced datasheets:*
 - https://cdn.shopify.com/s/files/1/0565/8070/2297/files/SPEC-KS-9H10B045NN-Y35-G_Red_PRO_2.0_Switch.pdf?v=1667273849
@@ -286,6 +346,7 @@ As a result, Anycubic High Speed PLA was selected as the printing material for a
 </table>
 </div>
 
+<!--
 <div align="center">
 <table>
     <tr>
@@ -299,17 +360,18 @@ As a result, Anycubic High Speed PLA was selected as the printing material for a
     </tr>
 </table>
 </div>
-   
+      
 <div align="right">
-</div>
-   
+</div> -->
 
-    
-Referenced articles: 
+</br>
+Link to the product: [Anycubic High Speet PLA - Mate Grey 1Kg Spool](https://uk.anycubic.com/products/high-speed-pla-filament?variant=46608821616925)
+      
+     
+*Referenced articles:* 
 - [Comparison table](https://3dstarter.com/en/material/pla-vs-abs)
 - [PLA vs PETG vs ABS](https://ultimaker.com/learn/petg-vs-pla-vs-abs-3d-printing-strength-comparison/)
 - [Standard PLA vs High Speed PLA](https://3dprintingcanada.com/blogs/news/pla-vs-high-speed-pla-whats-the-real-difference?shpxid=c09efa71-5de1-4c63-8740-651b2d3c38b0)
-
     
 ---
    
