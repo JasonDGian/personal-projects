@@ -1,6 +1,7 @@
 # Building a Custom Fightstick Controller
     
-<mark>[insert picture of building chaos]</mark>
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/1c61ba26-ca54-4d73-951a-0f259d576594" />
+
    
 ---
    
