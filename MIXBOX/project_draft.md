@@ -235,6 +235,8 @@ Afterward, the final decision was between standard PLA and High Speed PLA. Since
     
 As a result, Anycubic High Speed PLA was selected as the printing material for all components.
     
+
+<div align="center">
 <table>
     <caption><i>Comparison between Standard PLA and High-Speed PLA.</i></caption>
     <thead>
@@ -282,10 +284,26 @@ As a result, Anycubic High Speed PLA was selected as the printing material for a
         </tr>
     </tbody>
 </table>
+</div>
 
-Once the material had been chosen, the final decision was between standard PLA and High Speed PLA. Since the development process involved numerous prototypes and design iterations, reducing print time became an important factor. High Speed PLA allows parts to be produced significantly faster while maintaining print quality and compatibility with the printer used for this project.
+<div align="center">
+<table>
+    <tr>
+        <td>
+            <strong>Final chosen product:</strong></br> https://uk.anycubic.com/products/high-speed-pla-filament?variant=46608821616925
+        </td>
+        <td>19.98€</td>
+        <td>
+            <img width="200" height="200" alt="PLA_high_speed_Texture_Grey_1" src="https://github.com/user-attachments/assets/42b6cac1-6261-41c1-9bbc-791c8e459eda" />
+        </td>
+    </tr>
+</table>
+</div>
+   
+<div align="right">
+</div>
+   
 
-For these reasons, Anycubic High Speed PLA was selected as the printing material for all printed components.
     
 Referenced articles: 
 - [Comparison table](https://3dstarter.com/en/material/pla-vs-abs)
