@@ -165,13 +165,16 @@ _Comparison lowprofile vs full height_
 ## 2.5 Stop switch for led functionality.
 
 ## 2.6 Base printing material.   
-For the enclosure, I selected PLA+ as the primary printing material. While alternatives such as ABS and PETG were considered, they offered few practical advantages for this project while introducing additional printing challenges.
+For the enclosure, I selected **PLA** as the printing material. While alternatives such as ABS and PETG were considered, they offered few practical advantages for this project while introducing additional printing challenges.
 
-The controller is not expected to experience high temperatures or significant mechanical loads, so the strength of PLA+ is more than sufficient. Furthermore, the enclosure is designed to obtain its rigidity from its geometry rather than relying solely on the material's mechanical properties.
+The controller is not expected to experience high temperatures or significant mechanical loads, so the strength of PLA is more than sufficient. Furthermore, the enclosure is designed to obtain its rigidity from its geometry rather than relying solely on the material's mechanical properties.
 
 PLA+ was chosen mainly because it is easy to print, produces a good surface finish, produces minimal stringing, and does not require an enclosed printer. It is also less prone to warping than ABS, making the manufacturing process more reliable and reducing the amount of time spent troubleshooting print-related issues.
 
 Although PLA+ may not be the strongest material available, it provides the best balance between printability, appearance, and performance for the intended application.
+
+**Chosen product.**
+In the end i went with High Speed PLA because it allowed me to prototype the tons of small pieces i had to print and test quite a bit faster compared to normal PLA. So my final choice is High Speed PLA from Anycubic, the same manufacturer my printer is made by.
 
 <table border="1px">
     <caption><i>Comparison of common FDM printing materials considered for the enclosure design.</i></caption>
@@ -238,6 +241,7 @@ Although PLA+ may not be the strongest material available, it provides the best 
 Referenced articles: 
 - [Comparison table](https://3dstarter.com/en/material/pla-vs-abs)
 - [PLA vs PETG vs ABS](https://ultimaker.com/learn/petg-vs-pla-vs-abs-3d-printing-strength-comparison/)
+- [Standard PLA vs High Speed PLA](https://3dprintingcanada.com/blogs/news/pla-vs-high-speed-pla-whats-the-real-difference?shpxid=c09efa71-5de1-4c63-8740-651b2d3c38b0)
     
 ---
    
@@ -353,8 +357,8 @@ Buget notes.
     <td>https://es.aliexpress.com/item/1005009002216100.html?spm=a2g0o.order_detail.order_detail_item.4.400a58bfZ1Ur7X&gatewayAdapt=glo2esp</td>
 </tr>
 <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Anycubic Fast PLA 1Kg Spool</td>
+    <td>19.99€ (1Kg)</td>
+    <td>https://www.anycubic.es/products/pla-de-alta-velocidad?variant=42797110886576</td>
 </tr>
 </table>
