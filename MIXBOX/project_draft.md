@@ -165,17 +165,10 @@ _Comparison lowprofile vs full height_
 ## 2.5 Stop switch for led functionality.
 
 ## 2.6 Base printing material.   
-For the enclosure, I selected **PLA** as the printing material. While alternatives such as ABS and PETG were considered, they offered few practical advantages for this project while introducing additional printing challenges.
-
-The controller is not expected to experience high temperatures or significant mechanical loads, so the strength of PLA is more than sufficient. Furthermore, the enclosure is designed to obtain its rigidity from its geometry rather than relying solely on the material's mechanical properties.
-
-PLA+ was chosen mainly because it is easy to print, produces a good surface finish, produces minimal stringing, and does not require an enclosed printer. It is also less prone to warping than ABS, making the manufacturing process more reliable and reducing the amount of time spent troubleshooting print-related issues.
-
-Although PLA+ may not be the strongest material available, it provides the best balance between printability, appearance, and performance for the intended application.
-
-**Chosen product.**
-In the end i went with High Speed PLA because it allowed me to prototype the tons of small pieces i had to print and test quite a bit faster compared to normal PLA. So my final choice is High Speed PLA from Anycubic, the same manufacturer my printer is made by.
-
+For the enclosure, PLA was selected as the most suitable material due to its ease of printing, low warping tendency, and adequate mechanical properties for the intended application. Since the controller is not expected to experience high temperatures or significant mechanical loads, the additional complexity associated with materials such as ABS or PETG would provide little practical benefit.
+    
+Once this evaluation was completed, PLA was selected as the primary material for the project.
+     
 <table border="1px">
     <caption><i>Comparison of common FDM printing materials considered for the enclosure design.</i></caption>
     <thead>
@@ -237,11 +230,68 @@ In the end i went with High Speed PLA because it allowed me to prototype the ton
         </tr>
     </tbody>
 </table>
+        
+Afterward, the final decision was between standard PLA and High Speed PLA. Since the development process involved multiple prototypes and design iterations, reducing print time became an important factor. High Speed PLA allows parts to be produced significantly faster while maintaining good print quality, remaining fully compatible with the printer used for this project, and offering slightly improved impact resistance compared to standard PLA.
+    
+As a result, Anycubic High Speed PLA was selected as the printing material for all components.
+    
+<table>
+    <caption><i>Comparison between Standard PLA and High-Speed PLA.</i></caption>
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Standard PLA</th>
+            <th>High-Speed PLA</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Typical Print Speed</td>
+            <td>40–100 mm/s</td>
+            <td>250–600+ mm/s</td>
+        </tr>
+        <tr>
+            <td>Melt Flow Index (MFI)</td>
+            <td>Low to Medium</td>
+            <td>Very High</td>
+        </tr>
+        <tr>
+            <td>Viscosity</td>
+            <td>High (Thick)</td>
+            <td>Very Low (Flows easily)</td>
+        </tr>
+        <tr>
+            <td>Hotend Temperature</td>
+            <td>190–220°C</td>
+            <td>210–240°C (Generally higher)</td>
+        </tr>
+        <tr>
+            <td>Cooling Requirement</td>
+            <td>Standard part cooling</td>
+            <td>High-power part cooling (essential)</td>
+        </tr>
+        <tr>
+            <td>Mechanical Properties</td>
+            <td>Stiff, but brittle</td>
+            <td>Stiff, but tougher (better impact resistance)</td>
+        </tr>
+        <tr>
+            <td>Visual Finish</td>
+            <td>Often glossy</td>
+            <td>Often matte or satin</td>
+        </tr>
+    </tbody>
+</table>
+
+Once the material had been chosen, the final decision was between standard PLA and High Speed PLA. Since the development process involved numerous prototypes and design iterations, reducing print time became an important factor. High Speed PLA allows parts to be produced significantly faster while maintaining print quality and compatibility with the printer used for this project.
+
+For these reasons, Anycubic High Speed PLA was selected as the printing material for all printed components.
     
 Referenced articles: 
 - [Comparison table](https://3dstarter.com/en/material/pla-vs-abs)
 - [PLA vs PETG vs ABS](https://ultimaker.com/learn/petg-vs-pla-vs-abs-3d-printing-strength-comparison/)
 - [Standard PLA vs High Speed PLA](https://3dprintingcanada.com/blogs/news/pla-vs-high-speed-pla-whats-the-real-difference?shpxid=c09efa71-5de1-4c63-8740-651b2d3c38b0)
+
     
 ---
    
