@@ -207,14 +207,14 @@ _Comparison lowprofile vs full height_
 </div>
 </br> -->
     
-</br>
-
-Link to the product: [10Pcs/lot Original Cherry MX Mechanical Keyboard Switch Axis Shaft Switch RGB blue](https://es.aliexpress.com/item/1005005467023965.html?spm=a2g0o.productlist.main.2.761c2154jAsrl2&algo_pvid=663d1580-1a2d-495c-8ce1-5936a79069a1&algo_exp_id=663d1580-1a2d-495c-8ce1-5936a79069a1-1&pdp_ext_f=%7B%22order%22%3A%22522%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%211.82%211.27%21%21%2113.89%219.72%21%402103890917815484233368128ea07e%2112000033197110242%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895&curPageLogUid=3OhXWIXwbvYz&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005005467023965%7C_p_origin_prod%3A)
-      
 *Referenced datasheets:*
 - https://cdn.shopify.com/s/files/1/0565/8070/2297/files/SPEC-KS-9H10B045NN-Y35-G_Red_PRO_2.0_Switch.pdf?v=1667273849
 - https://cdn.shopify.com/s/files/1/0565/8070/2297/files/SPEC-KS-27H10B050NN-X5-Low_Profile_Red_Switch.pdf?v=1667274433
+    
+</br>
 
+Link to the product: [10Pcs/lot Original Cherry MX Mechanical Keyboard Switch Axis Shaft Switch RGB blue](https://es.aliexpress.com/item/1005005467023965.html?spm=a2g0o.productlist.main.2.761c2154jAsrl2&algo_pvid=663d1580-1a2d-495c-8ce1-5936a79069a1&algo_exp_id=663d1580-1a2d-495c-8ce1-5936a79069a1-1&pdp_ext_f=%7B%22order%22%3A%22522%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%211.82%211.27%21%21%2113.89%219.72%21%402103890917815484233368128ea07e%2112000033197110242%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895&curPageLogUid=3OhXWIXwbvYz&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005005467023965%7C_p_origin_prod%3A)
+  
      
 # <mark>TODO</mark>   
 <mark>Write section about keycaps types.**</mark></br>
@@ -363,15 +363,17 @@ As a result, Anycubic High Speed PLA was selected as the printing material for a
       
 <div align="right">
 </div> -->
-
-</br>
-Link to the product: [Anycubic High Speet PLA - Mate Grey 1Kg Spool](https://uk.anycubic.com/products/high-speed-pla-filament?variant=46608821616925)
-      
+  
      
 *Referenced articles:* 
 - [Comparison table](https://3dstarter.com/en/material/pla-vs-abs)
 - [PLA vs PETG vs ABS](https://ultimaker.com/learn/petg-vs-pla-vs-abs-3d-printing-strength-comparison/)
 - [Standard PLA vs High Speed PLA](https://3dprintingcanada.com/blogs/news/pla-vs-high-speed-pla-whats-the-real-difference?shpxid=c09efa71-5de1-4c63-8740-651b2d3c38b0)
+
+</br>
+
+Link to the product: [Anycubic High Speet PLA - Mate Grey 1Kg Spool](https://uk.anycubic.com/products/high-speed-pla-filament?variant=46608821616925)
+   
     
 ---
    
