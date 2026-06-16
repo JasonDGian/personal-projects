@@ -221,9 +221,9 @@ Link to the product: [10Pcs/lot Original Cherry MX Mechanical Keyboard Switch Ax
 <mark>Write section about keycaps types.**</mark></br>
 <mark>R1,R2,R3,R4, how could this impact the project design and why R3 was chosen.**</mark>
 
-## 2.4 Status indicatore & touch sensor module.
+## 2.4 Status indicator & touch sensor module.
 
-## 2.5 Stop switch for led functionality.
+## 2.5 Momentary switches for home button and other features.
 
 ## 2.6 Base printing material.   
 For the enclosure, PLA was selected as the most suitable material due to its ease of printing, low warping tendency, and adequate mechanical properties for the intended application. Since the controller is not expected to experience high temperatures or significant mechanical loads, the additional complexity associated with materials such as ABS or PETG would provide little practical benefit.
