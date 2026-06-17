@@ -221,10 +221,7 @@ Link to the product: [10Pcs/lot Original Cherry MX Mechanical Keyboard Switch Ax
 <mark>Write section about keycaps types.**</mark></br>
 <mark>R1,R2,R3,R4, how could this impact the project design and why R3 was chosen.**</mark>
 
-## 2.4 Status indicator & touch sensor module.
-
-
-## 2.5 Momentary switches for auxiliary functions.
+## 2.4 Momentary switches for auxiliary functions.
 Besides the main arcade controls, the controller also needs a few extra buttons for functions such as Home, Share, and Options. Since these buttons are not used as frequently as the gameplay controls, they offered a good opportunity to add some personality to the design without affecting the overall functionality of the controller.
 
 For these functions, I chose a set of momentary push buttons that matched the look of the arcade buttons while helping to give the controller a more polished and finished appearance. Finding suitable options was fairly straightforward, as there is a huge variety of low-voltage buttons available online in different sizes, styles, and finishes.
@@ -368,7 +365,7 @@ Other options that were considered:
     </tr>
 </table> -->
 
-## 2.6 Base printing material.   
+## 2.5 Base printing material.   
 For the enclosure, PLA was selected as the most suitable material due to its ease of printing, low warping tendency, and adequate mechanical properties for the intended application. Since the controller is not expected to experience high temperatures or significant mechanical loads, the additional complexity associated with materials such as ABS or PETG would provide little practical benefit.
     
 Once this evaluation was completed, PLA was selected as the primary material for the project.
