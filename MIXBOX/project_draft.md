@@ -223,7 +223,100 @@ Link to the product: [10Pcs/lot Original Cherry MX Mechanical Keyboard Switch Ax
 
 ## 2.4 Status indicator & touch sensor module.
 
+
 ## 2.5 Momentary switches for home button and other features.
+Buttons for features like 'share', 'options' and 'home' allow an opportunity for further customization. 
+For these features i selected an array of buttons that i thought would fit well with the arcade buttons and that would give a profesional finish look to the final product. 
+
+The following buttons were some of the considered options.
+
+<table>
+    <tr>
+        <th>Available Colors</th>
+        <th>Dimensions</th>
+    </tr>
+        <td><img width="900" alt="image" src="https://github.com/user-attachments/assets/db8b03f5-7b87-4b05-9f7a-70a1e3018191" />></td>
+        <td><img width="900" alt="image" src="https://github.com/user-attachments/assets/9857b338-31ad-4f37-97ad-5c03e7789e34" />
+</td>
+    </tr>
+    <tr>
+        <td>aaaa</td>
+        <td>ZM-T29 MAB1437-B v1.2 (2025.09.29)</td>
+    </tr>
+</table>
+<!--
+<table>
+    <tr>
+        <th>
+        Name
+    </th>
+    <th>
+        Type
+    </th>
+    <th>
+        Picture
+    </th>
+    <th>
+        Link
+    </th>
+    </tr>
+    <tr>
+        <td>
+            FILN Plastic puish button switch.
+        </td>
+        <td>
+            Momentary ON (Plastic) - Non clicky
+        </td>
+        <td>
+            <a href="https://es.aliexpress.com/item/1005009767928131.html?spm=a2g0o.productlist.main.11.450b6311tFjwCL&algo_pvid=b312198c-d084-4474-8f0e-bfb33dbd1c6d&algo_exp_id=b312198c-d084-4474-8f0e-bfb33dbd1c6d-10&pdp_ext_f=%7B%22order%22%3A%22104%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%212.32%212.16%21%21%212.63%212.45%21%40211b65de17817129622565772e7b9b%2112000050100207033%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895%3BpisId%3A5000000209393528&curPageLogUid=mZ1VAbPUetou&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009767928131%7C_p_origin_prod%3A#nav-specification"> FILN 10 pieces set.</a>
+        </td>
+        <td>
+            <img width="250" alt="image" src="https://github.com/user-attachments/assets/077ea6a8-ec76-4311-9105-60b50a3fba5c" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            FILN Plastic puish button switch.
+        </td>
+        <td>
+            Momentary ON (Plastic) - Non clicky
+        </td>
+        <td>
+            <a href="https://es.aliexpress.com/item/1005009767928131.html?spm=a2g0o.productlist.main.11.450b6311tFjwCL&algo_pvid=b312198c-d084-4474-8f0e-bfb33dbd1c6d&algo_exp_id=b312198c-d084-4474-8f0e-bfb33dbd1c6d-10&pdp_ext_f=%7B%22order%22%3A%22104%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%212.32%212.16%21%21%212.63%212.45%21%40211b65de17817129622565772e7b9b%2112000050100207033%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895%3BpisId%3A5000000209393528&curPageLogUid=mZ1VAbPUetou&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009767928131%7C_p_origin_prod%3A#nav-specification"> FILN 10 pieces set.</a>
+        </td>
+        <td>
+            <img width="250" alt="image" src="https://github.com/user-attachments/assets/f2bda21d-85c4-404d-aa27-18da1650d72b" />
+        </td>
+    <tr>
+        <td>
+            FILN Plastic puish button switch.
+        </td>
+        <td>
+            Momentary ON (Plastic) - Non clicky
+        </td>
+        <td>
+            <a href="https://es.aliexpress.com/item/1005009767928131.html?spm=a2g0o.productlist.main.11.450b6311tFjwCL&algo_pvid=b312198c-d084-4474-8f0e-bfb33dbd1c6d&algo_exp_id=b312198c-d084-4474-8f0e-bfb33dbd1c6d-10&pdp_ext_f=%7B%22order%22%3A%22104%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%212.32%212.16%21%21%212.63%212.45%21%40211b65de17817129622565772e7b9b%2112000050100207033%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895%3BpisId%3A5000000209393528&curPageLogUid=mZ1VAbPUetou&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009767928131%7C_p_origin_prod%3A#nav-specification"> FILN 10 pieces set.</a>
+        </td>
+        <td>
+            <img width="250" alt="image" src="https://github.com/user-attachments/assets/f2bda21d-85c4-404d-aa27-18da1650d72b" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            FILN Plastic puish button switch.
+        </td>
+        <td>
+            Momentary ON (Plastic) - Non clicky
+        </td>
+        <td>
+            <a href="https://es.aliexpress.com/item/1005009767928131.html?spm=a2g0o.productlist.main.11.450b6311tFjwCL&algo_pvid=b312198c-d084-4474-8f0e-bfb33dbd1c6d&algo_exp_id=b312198c-d084-4474-8f0e-bfb33dbd1c6d-10&pdp_ext_f=%7B%22order%22%3A%22104%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%212.32%212.16%21%21%212.63%212.45%21%40211b65de17817129622565772e7b9b%2112000050100207033%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895%3BpisId%3A5000000209393528&curPageLogUid=mZ1VAbPUetou&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009767928131%7C_p_origin_prod%3A#nav-specification"> FILN 10 pieces set.</a>
+        </td>
+        <td>
+            <img width="250" alt="image" src="https://github.com/user-attachments/assets/f2bda21d-85c4-404d-aa27-18da1650d72b" />
+        </td>
+    </tr>
+</table>
+-->
 
 ## 2.6 Base printing material.   
 For the enclosure, PLA was selected as the most suitable material due to its ease of printing, low warping tendency, and adequate mechanical properties for the intended application. Since the controller is not expected to experience high temperatures or significant mechanical loads, the additional complexity associated with materials such as ABS or PETG would provide little practical benefit.
