@@ -515,6 +515,10 @@ As a result, Anycubic High Speed PLA was selected as the printing material for a
 
 Link to the product: [Anycubic High Speet PLA - Mate Grey 1Kg Spool](https://uk.anycubic.com/products/high-speed-pla-filament?variant=46608821616925)
    
+
+## 2.6 Other small elements.
+Other elements involved in the development of the project, asides from tool, are utility elements like Terminal Blocks, Connectors, and wires.
+I will try to document them as i go along But this section might not be worth to have here.
     
 ---
    
