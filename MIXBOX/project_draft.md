@@ -224,24 +224,25 @@ Link to the product: [10Pcs/lot Original Cherry MX Mechanical Keyboard Switch Ax
 ## 2.4 Status indicator & touch sensor module.
 
 
-## 2.5 Momentary switches for home button and other features.
-Buttons for features like 'share', 'options' and 'home' allow an opportunity for further customization. 
-For these features i selected an array of buttons that i thought would fit well with the arcade buttons and that would give a profesional finish look to the final product. 
+## 2.5 Momentary switches for auxiliary functions.
+Buttons assigned to functions such as Home, Share, and Options provide an additional opportunity for customization and refinement of the controller's design.
 
-The following buttons were some of the considered options.
+For these functions, I selected a set of momentary push buttons that complemented the arcade-style controls while contributing to a clean and professional overall appearance. The goal was to ensure that these secondary controls integrated seamlessly with the rest of the interface, both aesthetically and functionally.
+
+A wide variety of low-voltage buttons and switches are readily available from online suppliers, offering numerous options in terms of size, shape, mounting style, and finish. As a result, the selection process was driven primarily by design preferences and the desired look and feel of the final product.
 
 <table>
     <tr>
         <th>Available Colors</th>
         <th>Dimensions</th>
     </tr>
-        <td><img width="900" alt="image" src="https://github.com/user-attachments/assets/db8b03f5-7b87-4b05-9f7a-70a1e3018191" />></td>
-        <td><img width="900" alt="image" src="https://github.com/user-attachments/assets/9857b338-31ad-4f37-97ad-5c03e7789e34" />
+        <td><img width="600" alt="image" src="https://github.com/user-attachments/assets/e1b00aa4-d11b-47d2-bc8c-205475f7026e" />
+</td>
+        <td><img width="600" alt="image" src="https://github.com/user-attachments/assets/9857b338-31ad-4f37-97ad-5c03e7789e34" />
 </td>
     </tr>
     <tr>
-        <td>aaaa</td>
-        <td>ZM-T29 MAB1437-B v1.2 (2025.09.29)</td>
+        <td colspan="2"> Link: <a href="https://es.aliexpress.com/item/1005009763600457.html?spm=a2g0o.productlist.main.21.450b6311tFjwCL&algo_pvid=b312198c-d084-4474-8f0e-bfb33dbd1c6d&algo_exp_id=b312198c-d084-4474-8f0e-bfb33dbd1c6d-20&pdp_ext_f=%7B%22order%22%3A%221502%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%211.89%211.75%21%21%2114.52%2113.46%21%40211b65de17817129622565772e7b9b%2112000050090750520%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895%3BpisId%3A5000000209393528&curPageLogUid=f1lF8tP3KxVU&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009763600457%7C_p_origin_prod%3A">12mm Metal Button Switch Waterproof 1NO 3A High Head Momentary Automatic Reset</a></td>
     </tr>
 </table>
 <!--
@@ -317,6 +318,48 @@ The following buttons were some of the considered options.
     </tr>
 </table>
 -->
+
+
+<!--
+Other options that were considered:
+<table border="1">
+    <tr>
+    <th>Name</th>
+    <th>Summary</th>
+    <th>Picture</th>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://es.aliexpress.com/item/1005011717869374.html?spm=a2g0o.productlist.main.2.450b6311tFjwCL&algo_pvid=b312198c-d084-4474-8f0e-bfb33dbd1c6d&algo_exp_id=b312198c-d084-4474-8f0e-bfb33dbd1c6d-1&pdp_ext_f=%7B%22order%22%3A%221821%22%2C%22eval%22%3A%221%22%2C%22orig_sl_item_id%22%3A%221005011717869374%22%2C%22orig_item_id%22%3A%221005010485096642%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%212.94%211.47%21%21%2122.55%2111.27%21%40211b65de17817129622565772e7b9b%2112000056337299710%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895&curPageLogUid=won9y370f3UT&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005011717869374%7C_p_origin_prod%3A1005010485096642">    </a>
+        </td>
+        <td>Low voltage plastic buttons set. Momentary off-on switch. Size: 12x12x7.3mm. </td>
+        <td><img width="250" alt="image" src="https://github.com/user-attachments/assets/ff7ca54d-0112-4243-9ed9-f9bbcee00926" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://es.aliexpress.com/item/1005008558481882.html?spm=a2g0o.productlist.main.1.450b6311tFjwCL&algo_pvid=b312198c-d084-4474-8f0e-bfb33dbd1c6d&algo_exp_id=b312198c-d084-4474-8f0e-bfb33dbd1c6d-0&pdp_ext_f=%7B%22order%22%3A%221965%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%212.35%212.26%21%21%2118.00%2117.31%21%40211b65de17817129622565772e7b9b%2112000045709231087%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895%3BpisId%3A5000000209378863&curPageLogUid=9mJs1fpkfiy9&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008558481882%7C_p_origin_prod%3A">
+            Momentary Pushbutton Switches DS228 DS428
+            </a>
+        </td>
+        <td>
+            Low voltage plastic buttons set. Momentary off-on switch. Size: 12mm.
+        </td>
+        <td>
+            <img width="250" alt="image" src="https://github.com/user-attachments/assets/34235389-e47f-4455-9a61-6511d3f07fb5" />
+        </td>
+    </tr>
+    <tr>
+        <td><a href=></a></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href=></a></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table> -->
 
 ## 2.6 Base printing material.   
 For the enclosure, PLA was selected as the most suitable material due to its ease of printing, low warping tendency, and adequate mechanical properties for the intended application. Since the controller is not expected to experience high temperatures or significant mechanical loads, the additional complexity associated with materials such as ABS or PETG would provide little practical benefit.
