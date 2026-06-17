@@ -88,13 +88,13 @@ Before selecting it, I inspected the PCB to verify that the button signals were 
 Link to the product: [T-29 Wireless controller](https://www.amazon.es/dp/B0CBRC7MKL?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
         
 ## 2.2 Action buttons.
-Selecting the action buttons proved to be more difficult than expected due to the large number of available options. From the beginning, I knew I wanted LED-backlit buttons, both for their appearance and because they would support some aesthetic ideas planned for later in the project.
+Selecting the action buttons turned out to be more difficult than I expected due to the huge number of available options. From the start, I knew I wanted LED-backlit buttons, both because I like their appearance and because they would support some customization ideas planned for later in the project.
 
-To evaluate the available options, I tested several button sets in two main sizes: 33 mm and 27 mm diameter. While all of the tested buttons were functional and reasonably well-built, ergonomics and overall comfort became the deciding factors.
+To compare the available options, I tested several button sets in two sizes: 33 mm and 27 mm. Although all of them were functional, ergonomics and overall comfort quickly became the deciding factors.
 
-The larger 33 mm buttons were ultimately discarded because they required more space, making it harder to achieve a compact layout. Among the remaining options, I noticed a clear preference for the third button set during testing. Although it was the most expensive option and used a large mounting nut that complicated installation, its feel and overall quality were noticeably better than the alternatives.
+After some testing, I ruled out the 33 mm buttons because they took up too much space and made it harder to achieve a compact layout. Among the 27 mm options, one set stood out immediately. Despite being the most expensive and using a large mounting nut that complicated installation, it felt noticeably better and had a higher-quality finish than the alternatives.
 
-As a result, the third button set was selected for the final design. The mounting issue would later be addressed during the enclosure design.
+In the end, I chose this button set for the final design. The mounting challenge would later be addressed during the enclosure design process.
 
 <table border="1">
     <thead>
@@ -366,9 +366,11 @@ Other options that were considered:
 </table> -->
 
 ## 2.5 Base printing material.   
-For the enclosure, PLA was selected as the most suitable material due to its ease of printing, low warping tendency, and adequate mechanical properties for the intended application. Since the controller is not expected to experience high temperatures or significant mechanical loads, the additional complexity associated with materials such as ABS or PETG would provide little practical benefit.
-    
-Once this evaluation was completed, PLA was selected as the primary material for the project.
+Since the enclosure would be entirely 3D printed, choosing the right material was an important decision. Several common FDM materials were considered, including PLA, PETG, and ABS.
+
+Although PETG and ABS offer advantages in certain applications, this controller is not expected to experience high temperatures or significant mechanical stress. Because of that, the additional printing challenges associated with those materials did not provide much practical benefit.
+
+For this reason, PLA became the most sensible option. It is easy to print, produces consistent results, and is more than strong enough for this application.
      
 <table border="1px">
     <caption><i>Comparison of common FDM printing materials considered for the enclosure design.</i></caption>
@@ -517,8 +519,7 @@ Link to the product: [Anycubic High Speet PLA - Mate Grey 1Kg Spool](https://uk.
    
 
 ## 2.6 Other small elements.
-Other elements involved in the development of the project, asides from tool, are utility elements like Terminal Blocks, Connectors, and wires.
-I will try to document them as i go along But this section might not be worth to have here.
+Other supporting components such as terminal blocks, connectors, and wiring will also be documented throughout the project where relevant. Since these parts are relatively standard, they will not receive dedicated sections unless a particular design decision requires further explanation.
     
 ---
    
