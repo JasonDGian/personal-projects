@@ -225,11 +225,14 @@ Link to the product: [10Pcs/lot Original Cherry MX Mechanical Keyboard Switch Ax
 
 
 ## 2.5 Momentary switches for auxiliary functions.
-Buttons assigned to functions such as Home, Share, and Options provide an additional opportunity for customization and refinement of the controller's design.
+Besides the main arcade controls, the controller also needs a few extra buttons for functions such as Home, Share, and Options. Since these buttons are not used as frequently as the gameplay controls, they offered a good opportunity to add some personality to the design without affecting the overall functionality of the controller.
 
-For these functions, I selected a set of momentary push buttons that complemented the arcade-style controls while contributing to a clean and professional overall appearance. The goal was to ensure that these secondary controls integrated seamlessly with the rest of the interface, both aesthetically and functionally.
+For these functions, I chose a set of momentary push buttons that matched the look of the arcade buttons while helping to give the controller a more polished and finished appearance. Finding suitable options was fairly straightforward, as there is a huge variety of low-voltage buttons available online in different sizes, styles, and finishes.
 
-A wide variety of low-voltage buttons and switches are readily available from online suppliers, offering numerous options in terms of size, shape, mounting style, and finish. As a result, the selection process was driven primarily by design preferences and the desired look and feel of the final product.
+The final choice came down mostly to aesthetics and how well the buttons fit with the rest of the design. Although they are small components, they play an important role in making the controller feel like a complete product rather than just a collection of parts.
+
+>[!Note]
+>At 1.94 € per button, these were one of the more expensive small components used in the build. Even so, I think the extra cost was justified, as they fit the design perfectly and helped achieve the overall look I was aiming for.
 
 <table>
     <tr>
@@ -240,11 +243,15 @@ A wide variety of low-voltage buttons and switches are readily available from on
 </td>
         <td><img width="600" alt="image" src="https://github.com/user-attachments/assets/9857b338-31ad-4f37-97ad-5c03e7789e34" />
 </td>
-    </tr>
+    </tr><!--
     <tr>
         <td colspan="2"> Link: <a href="https://es.aliexpress.com/item/1005009763600457.html?spm=a2g0o.productlist.main.21.450b6311tFjwCL&algo_pvid=b312198c-d084-4474-8f0e-bfb33dbd1c6d&algo_exp_id=b312198c-d084-4474-8f0e-bfb33dbd1c6d-20&pdp_ext_f=%7B%22order%22%3A%221502%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%211.89%211.75%21%21%2114.52%2113.46%21%40211b65de17817129622565772e7b9b%2112000050090750520%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895%3BpisId%3A5000000209393528&curPageLogUid=f1lF8tP3KxVU&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009763600457%7C_p_origin_prod%3A">12mm Metal Button Switch Waterproof 1NO 3A High Head Momentary Automatic Reset</a></td>
-    </tr>
+    </tr>-->
 </table>
+
+</br>
+
+Link to the product: <a href="https://es.aliexpress.com/item/1005009763600457.html?spm=a2g0o.productlist.main.21.450b6311tFjwCL&algo_pvid=b312198c-d084-4474-8f0e-bfb33dbd1c6d&algo_exp_id=b312198c-d084-4474-8f0e-bfb33dbd1c6d-20&pdp_ext_f=%7B%22order%22%3A%221502%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%211.89%211.75%21%21%2114.52%2113.46%21%40211b65de17817129622565772e7b9b%2112000050090750520%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895%3BpisId%3A5000000209393528&curPageLogUid=f1lF8tP3KxVU&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009763600457%7C_p_origin_prod%3A">12mm Metal Button Switch Waterproof 1NO 3A High Head Momentary Automatic Reset</a>
 <!--
 <table>
     <tr>
