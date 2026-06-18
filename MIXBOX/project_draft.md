@@ -39,7 +39,7 @@ Portability is another key constraint. The controller should stay reasonably com
 
 ---
    
-# 🔸 2. Selection of components.
+# 🔸2. Selection of components.
 
 ## 2.1 Motherboard - Base controller.
 To simplify the project, I decided to use an existing wireless controller as the base platform instead of designing a custom PCB from scratch. This approach allows me to reuse features such as Bluetooth connectivity, battery management, charging circuitry, and PlayStation 4 compatibility, while focusing my efforts on the enclosure and custom input system.
