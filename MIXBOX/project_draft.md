@@ -5,7 +5,7 @@
    
 ---
    
-# 1. Introduction
+# 🔸1. Introduction
 Fighting games have long been one of my favorite genres, and I have always wanted a dedicated arcade controller. While commercial fight sticks and MixBox-style controllers offer a great experience, high-quality options are often expensive and still don’t fully match what I personally want in terms of ergonomics, size, or appearance.
 
 This project is about designing and building a custom MixBox-style controller tailored to my own preferences. Building it gives me full control over layout, dimensions, aesthetics, and functionality, so the final result can fit my needs better than a commercial product.
@@ -39,7 +39,7 @@ Portability is another key constraint. The controller should stay reasonably com
 
 ---
    
-# 2. Selection of components.
+# 🔸 2. Selection of components.
 
 ## 2.1 Motherboard - Base controller.
 To simplify the project, I decided to use an existing wireless controller as the base platform instead of designing a custom PCB from scratch. This approach allows me to reuse features such as Bluetooth connectivity, battery management, charging circuitry, and PlayStation 4 compatibility, while focusing my efforts on the enclosure and custom input system.
@@ -523,7 +523,7 @@ Other supporting components such as terminal blocks, connectors, and wiring will
     
 ---
    
-# 3. Product design
+# 🔸3. Product design
 <!-- the design chapter is organized around individual subsystems (buttons, motherboard housing, LED module, directional controls)-->
 ## 3.1 Design methodology and approach.
 
@@ -554,7 +554,7 @@ Other supporting components such as terminal blocks, connectors, and wiring will
    
 ---
    
-# 4. Assembly and Electronics Integration
+# 🔸4. Assembly and Electronics Integration
 ## 4.1 Wiring the motherboard
 ## 4.2 Wiring the action buttons
 ## 4.3 Wiring the arrow buttons
@@ -563,7 +563,7 @@ Other supporting components such as terminal blocks, connectors, and wiring will
    
 ---
    
-# 5. Testing and Validation
+# 🔸5. Testing and Validation
 ## 5.1 Input delay
 ## 5.2 Tournament legality
 ## 5.3 Comfort test
@@ -573,13 +573,13 @@ Other supporting components such as terminal blocks, connectors, and wiring will
    
 ---
    
-# 6. Final Customization
+# 🔸6. Final Customization
 ## 6.1 Custom art cover
 ## 6.2 Custom buttons
    
 ---
    
-# 7. Conclusions and Future Improvements
+# 🔸7. Conclusions and Future Improvements
 ## 7.1 Lessons Learned
 <!-- 
 I tested most of the skills I accumultaed over the years as a hobbist. It involved knowledge in many fields:
