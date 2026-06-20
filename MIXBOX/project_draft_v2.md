@@ -340,13 +340,68 @@ _Prototyping workflow diagram_
 <img width="1313" height="364" alt="image" src="https://github.com/user-attachments/assets/84126c58-6f34-41ba-a83c-7648af24f34e" />
 <!--img width="1066" height="421" alt="image" src="https://github.com/user-attachments/assets/cd6d1fda-48f4-40e2-bd62-a442324850ea" /-->
  
+### 3.1.1 Ergonomics study (Design input phase)
+Before starting any Blender modelling work, I carried out a simple ergonomics study using my own hands as the main reference. The goal was to understand how my fingers naturally rest and move, and use that as the starting point for the layout instead of relying on a standard fightstick template.
+
+The process was intentionally simple: I used a flat sheet of paper and explored different relaxed hand positions while simulating common inputs. This helped me identify natural finger alignment, comfortable spacing, and how my wrist prefers to sit when the hand is not forced into an artificial posture.
+    
+**From this study, I extracted a few key takeaways that directly influenced the design:**
+- My fingers naturally fall into a slightly staggered alignment rather than strict straight columns
+- There is a clear trade-off between spacing and speed vs. accidental inputs
+- The thumb has a much more limited comfortable range than expected
+- My wrist alignment feels most natural when the hand is slightly rotated inward
+    
+The results of this study were then used as the baseline for the action button and directional input layouts, which are explained in the following sections.
+    
+---
+
 ## 3.2 Action button array.
-The action button array consists of the buttons used to perform attacks and other in-game actions, such as punches and kicks. Together with the directional controls, these are the buttons that see the most frequent use during gameplay, making their placement and ergonomics particularly important. 
+The action button array consists of the buttons used to perform attacks and other in-game actions, such as punches and kicks. Together with the directional controls, these are the buttons that see the most frequent use during gameplay, making their placement and ergonomics particularly important. The action buttons array must be comfrotable to use, well positioned, as compact as possible and they must easily replaceable in case of malfunction or being eroded by use. Easy to service and replace in case of customization needs. 
+ 
+### 3.2.1 Ergonomics study & Initial design.
+The ergonomics of the action buttons is one of the most important aspects of the controller. A good layout should feel natural, reduce strain during long play sessions, and allow every button to be reached comfortably without forcing awkward finger movements. This study would allow me to create a comfortable position and layout for the buttons adequate for long play sessions.
+    
+Rather than copying the layout of an existing controller, I decided to design the button placement around the natural resting position of my own hand.
+   
+1. I placed my hand on a sheet of paper and allowed my fingers to settle into a relaxed position. The general hand shape would almost resemble an animal claw or as if I was holding a baseball ball.
+<img width="1554" height="900" alt="ergonomics" src="https://github.com/user-attachments/assets/ea21dbd3-6ff5-40be-8a89-858dbfd8d0ce" />    
+     
+2. Once my hand felt comfortable, I moved my fingers up and down several times and readjusted them until they consistently returned to the same resting position. I then marked the points where my fingertips contacted the paper. The resulting pattern resembled an inverted teardrop shape and became the basis for the primary button array.
+<img width="1554" height="900" alt="ergonomics_study_1" src="https://github.com/user-attachments/assets/7e0fd43c-d5be-4650-916e-fcdbc00216b3" />     
+     
+3. Next, I brought my fingers into a slightly more closed position while maintaining comfort and repeated the process. This produced a second set of contact points that would later become the secondary button array.
+<img width="1554" height="900" alt="ergonomics_study_2" src="https://github.com/user-attachments/assets/b25514f1-1684-40c1-a2bb-f259943f4984" />    
+    
+4. Using these markings as a reference, I created the first ergonomic prototype in Blender.
+<img width="1125" height="694" alt="ergonomics_proto_design" src="https://github.com/user-attachments/assets/4afa50fa-a055-4dde-85ce-b0974755a993" />    
+    
+5. To validate the design before committing to a full print, I produced a small test piece containing only the button layout. This allowed me to evaluate the spacing, reachability, and overall comfort while minimizing both print time and material usage.
+<img width="1554" height="900" alt="ergonomics_prototype_1" src="https://github.com/user-attachments/assets/65edc0cc-0215-4e6f-9068-a90db07faa1f" />
+<img width="1554" height="900" alt="ergonomics_proto_1" src="https://github.com/user-attachments/assets/bd6c3bd3-2dc2-4114-86e9-768225cd480e" />
 
-### 3.2.1 Design requirements.
-The action buttons array must be comfrotable to use, well positioned, as compact as possible and they must easily replaceable in case of malfunction or being eroded by use. Easy to service and replace in case of customization needs. 
+> [!IMPORTANT]
+> This process significantly reduced the amount of guesswork involved in the design. Instead of adapting my hand to a predetermined layout, the layout was designed around my hand. The resulting prototype also established several dimensional constraints that would later influence the selection of the action buttons themselves.
 
-### 3.2.2 Ergonomics study & Initial design.
+My fingers naturally fall into a slightly staggered alignment rather than strict straight columns
+and the preferred position for my wrist was slightly rotate inward. This was already different from the idea i held before doing this study.
+I also noticed that big buttons would make it less comfortable to use. 
+
+<!--
+- Method (paper interaction test / hand positioning observation)
+- Key findings:
+    - resting finger alignment
+    - natural arc of movement
+    - comfortable spacing between inputs
+- Translation into design decisions:
+    - column spacing of directional keys
+    - offset of action buttons
+    - angle or alignment choices (if any)
+- Outcome:
+    - first layout sketch / baseline configuration used for CAD
+-->
+
+
+    
 ### 3.2.3 Prototyping and testing.
 ### 3.2.4 Final Design.
 
@@ -460,3 +515,74 @@ Buget notes.
     <td>https://www.anycubic.es/products/pla-de-alta-velocidad?variant=42797110886576</td>
 </tr>
 </table>
+
+
+---
+
+---
+
+
+
+
+
+
+<!--
+# Ergonomics study
+Before starting any Blender modelling work, I carried out a simple ergonomics study using my own hands as the main reference. The goal was to understand how my fingers naturally rest and move, and use that as the starting point for the layout instead of relying on a standard fightstick template.
+
+The process was intentionally simple: I used a flat sheet of paper and explored different relaxed hand positions while simulating common inputs. This helped me identify natural finger alignment, comfortable spacing, and how my wrist prefers to sit when the hand is not forced into an artificial posture.
+
+
+1. I placed both of my hands on a sheet of paper and allowed my fingers to settle into a relaxed position. The general hands shape would almost resemble an animal claw or as if I was holding a baseball ball.
+<img width="1241" height="823" alt="image" src="https://github.com/user-attachments/assets/d21e828c-a8a7-4cc2-bfd5-5c44942ccb20" />
+   
+2. Once my hands felt comfortable, I moved my fingers up and down several times and readjusted them until they consistently returned to the same resting position. I then marked the points where my fingertips contacted the paper. The resulting pattern resembled a pair of slightly tilted arches and became the basis for the primary button array.
+<img width="1274" height="793" alt="image" src="https://github.com/user-attachments/assets/f64469f9-eb73-4289-9fe3-b6b7228526ff" />
+
+
+
+    
+**From this study, I extracted a few key takeaways that directly influenced the design:**
+- My fingers naturally fall into a slightly staggered alignment rather than strict straight columns
+- There is a clear trade-off between spacing and speed vs. accidental inputs
+- The thumb has a much more limited comfortable range than expected
+- My wrist alignment feels most natural when the hand is slightly rotated inward
+    
+The results of this study were then used as the baseline for the action button and directional input layouts, which are explained in the following sections.
+    
+---
+
+## 3.2 Action button array.
+The action button array consists of the buttons used to perform attacks and other in-game actions, such as punches and kicks. Together with the directional controls, these are the buttons that see the most frequent use during gameplay, making their placement and ergonomics particularly important. The action buttons array must be comfrotable to use, well positioned, as compact as possible and they must easily replaceable in case of malfunction or being eroded by use. Easy to service and replace in case of customization needs. 
+ 
+### 3.2.1 Ergonomics study & Initial design.
+The ergonomics of the action buttons is one of the most important aspects of the controller. A good layout should feel natural, reduce strain during long play sessions, and allow every button to be reached comfortably without forcing awkward finger movements. This study would allow me to create a comfortable position and layout for the buttons adequate for long play sessions.
+    
+Rather than copying the layout of an existing controller, I decided to design the button placement around the natural resting position of my own hand.
+
+I traced a hand at a time, after tracing one hand I retested the positiong before tracing the other one.
+   
+1. I placed my hand on a sheet of paper and allowed my fingers to settle into a relaxed position. The general hand shape would almost resemble an animal claw or as if I was holding a baseball ball.
+<img width="1554" height="900" alt="ergonomics" src="https://github.com/user-attachments/assets/ea21dbd3-6ff5-40be-8a89-858dbfd8d0ce" />    
+     
+2. Once my hand felt comfortable, I moved my fingers up and down several times and readjusted them until they consistently returned to the same resting position. I then marked the points where my fingertips contacted the paper. The resulting pattern resembled an inverted teardrop shape and became the basis for the primary button array.
+<img width="1554" height="900" alt="ergonomics_study_1" src="https://github.com/user-attachments/assets/7e0fd43c-d5be-4650-916e-fcdbc00216b3" />     
+     
+3. Next, I brought my fingers into a slightly more closed position while maintaining comfort and repeated the process. This produced a second set of contact points that would later become the secondary button array.
+<img width="1554" height="900" alt="ergonomics_study_2" src="https://github.com/user-attachments/assets/b25514f1-1684-40c1-a2bb-f259943f4984" />    
+    
+4. Using these markings as a reference, I created the first ergonomic prototype in Blender.
+<img width="1125" height="694" alt="ergonomics_proto_design" src="https://github.com/user-attachments/assets/4afa50fa-a055-4dde-85ce-b0974755a993" />    
+    
+5. To validate the design before committing to a full print, I produced a small test piece containing only the button layout. This allowed me to evaluate the spacing, reachability, and overall comfort while minimizing both print time and material usage.
+<img width="1554" height="900" alt="ergonomics_prototype_1" src="https://github.com/user-attachments/assets/65edc0cc-0215-4e6f-9068-a90db07faa1f" />
+<img width="1554" height="900" alt="ergonomics_proto_1" src="https://github.com/user-attachments/assets/bd6c3bd3-2dc2-4114-86e9-768225cd480e" />
+
+> [!IMPORTANT]
+> This process significantly reduced the amount of guesswork involved in the design. Instead of adapting my hand to a predetermined layout, the layout was designed around my hand. The resulting prototype also established several dimensional constraints that would later influence the selection of the action buttons themselves.
+
+My fingers naturally fall into a slightly staggered alignment rather than strict straight columns
+and the preferred position for my wrist was slightly rotate inward. This was already different from the idea i held before doing this study.
+I also noticed that big buttons would make it less comfortable to use. 
+
+-->
