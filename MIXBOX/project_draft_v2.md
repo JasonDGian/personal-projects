@@ -353,7 +353,9 @@ This approach allows me to build a virtual prototype before printing the final p
 _Prototyping workflow diagram_   
 <img width="1313" height="364" alt="image" src="https://github.com/user-attachments/assets/84126c58-6f34-41ba-a83c-7648af24f34e" />
 <!--img width="1066" height="421" alt="image" src="https://github.com/user-attachments/assets/cd6d1fda-48f4-40e2-bd62-a442324850ea" /-->
-
+    
+The modelling and validation process described above worked well for most components. The control layout, however, depended as much on comfort as it did on dimensions. To guide the design of the action buttons and directional inputs, I first carried out a simple ergonomic study using my own hands as a reference.
+    
 ### 3.3 Ergonomic Layout Development
 Before starting any design work, I carried out a simple ergonomics study using my own hands as the main reference. The goal was to understand how my fingers naturally rest and move, and use that as the starting point for the layout instead of relying on a standard fightstick template.
 
