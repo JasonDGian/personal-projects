@@ -67,21 +67,6 @@ Before selecting it, I inspected the PCB to verify that the button signals were 
 >[!NOTE]
 >Several cheaper alternatives were considered but ultimately rejected due to issues such as inaccessible PCBs, missing test pads, unreliable connectivity, or lack of PlayStation 4 compatibility. Although the T-29 was slightly more expensive at €27.99, it offered the best balance of reliability, modifiability, and cost.
     
-<!--
-</br>
-<div align="center">
-<table>
-    <tr>
-        <th colspan=3>Selected product</th>
-    </tr>
-<tr>
-    <td>T-29 Wireless controller</td>
-    <td>27.99€</td>
-    <td><a href="https://www.amazon.es/dp/B0CBRC7MKL?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1">CHEREEKI Wireless controller for PS4/Pro/Slim</a></td>
-</tr>
-</table>
-</div>
-</br> -->
 
 </br>
 
@@ -122,22 +107,6 @@ In the end, I chose this button set for the final design. The mounting challenge
     </tbody>
 </table> 
 
-<!--
-</br>
-<div align="center">
-<table>
-    <tr>
-        <th colspan=3>Selected product</th>
-    </tr>
-<tr>
-    <td>Arcade buttons</td>
-    <td>26.68€ (x2 - 13.34€/unit)</td>
-    <td>https://www.amazon.es/dp/B08RC4JC1C?ref=ppx_yo2ov_dt_b_fed_asin_title</td>
-</tr>
-</table>
-</div>
-</br> -->
-
 </br>
 
 Link to the product: [Pssopp Microswitch button](https://www.amazon.es/dp/B08RC4JC1C?ref=ppx_yo2ov_dt_b_fed_asin_title)
@@ -159,55 +128,7 @@ During development, linear and tactile mechanical switches were tested using sta
 Although low-profile switches would allow for a thinner design, full-height switches provided a better overall feel during testing. They also offer greater compatibility with standard keycaps and the wider mechanical switch ecosystem, improving long-term serviceability.
    
 As a result, the final design uses full-height MX-compatible switches and standard keycaps for the directional inputs.
-    
-<!--          
-_Comparison lowprofile vs full height_
-<table>
-    <tr>
-        <th>
-            Name
-        </th>
-        <th>
-            Image
-        </th>
-        <th>
-            Spec Sheet
-        </th>
-    </tr>
-    <tr>
-        <td>Full-Height Gateron Red Switch</td>        
-        <td><img height="450" alt="fp-mx-sw" src="https://github.com/user-attachments/assets/5c2686dc-97cd-46d0-afbc-cba264c61c81" /></td>
-        <td><img height="450" alt="image" src="https://github.com/user-attachments/assets/86cba1cb-1c10-4b9f-8dd6-2b188d9bd850" /></td>
-    </tr>
-    <tr>
-    <td>
-        Low-profile Gateron Red Switch.        
-    </td>
-    <td>
-        <img height="450" alt="lp-sw" src="https://github.com/user-attachments/assets/016d6c0a-8756-4ee6-9c12-eecdd5179d27" />
-    </td>
-    <td>
-        <img height="450" alt="image" src="https://github.com/user-attachments/assets/d2cd2434-d22a-4a7b-ac02-21c21e07c57c" />
-    </td>
-    </tr>
-</table-->
-
-<!--
-</br>
-<div align="center">
-<table>
-    <tr>
-        <th colspan=3>Selected product</th>
-    </tr>
-<tr>
-    <td>Arrow buttons</td>
-    <td>1.53€ (x10 - 0.153€/unit)</td>
-    <td><a href="https://es.aliexpress.com/item/1005005467023965.html?spm=a2g0o.productlist.main.2.761c2154jAsrl2&algo_pvid=663d1580-1a2d-495c-8ce1-5936a79069a1&algo_exp_id=663d1580-1a2d-495c-8ce1-5936a79069a1-1&pdp_ext_f=%7B%22order%22%3A%22522%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%211.82%211.27%21%21%2113.89%219.72%21%402103890917815484233368128ea07e%2112000033197110242%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895&curPageLogUid=3OhXWIXwbvYz&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005005467023965%7C_p_origin_prod%3A">10Pcs/lot Original Cherry MX Mechanical Keyboard Switch Axis Shaft Switch RGB blue</a></td>
-</tr>
-</table>
-</div>
-</br> -->
-    
+        
 *Referenced datasheets:*
 - https://cdn.shopify.com/s/files/1/0565/8070/2297/files/SPEC-KS-9H10B045NN-Y35-G_Red_PRO_2.0_Switch.pdf?v=1667273849
 - https://cdn.shopify.com/s/files/1/0565/8070/2297/files/SPEC-KS-27H10B050NN-X5-Low_Profile_Red_Switch.pdf?v=1667274433
@@ -240,130 +161,13 @@ The final choice came down mostly to aesthetics and how well the buttons fit wit
 </td>
         <td><img width="600" alt="image" src="https://github.com/user-attachments/assets/9857b338-31ad-4f37-97ad-5c03e7789e34" />
 </td>
-    </tr><!--
-    <tr>
-        <td colspan="2"> Link: <a href="https://es.aliexpress.com/item/1005009763600457.html?spm=a2g0o.productlist.main.21.450b6311tFjwCL&algo_pvid=b312198c-d084-4474-8f0e-bfb33dbd1c6d&algo_exp_id=b312198c-d084-4474-8f0e-bfb33dbd1c6d-20&pdp_ext_f=%7B%22order%22%3A%221502%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%211.89%211.75%21%21%2114.52%2113.46%21%40211b65de17817129622565772e7b9b%2112000050090750520%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895%3BpisId%3A5000000209393528&curPageLogUid=f1lF8tP3KxVU&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009763600457%7C_p_origin_prod%3A">12mm Metal Button Switch Waterproof 1NO 3A High Head Momentary Automatic Reset</a></td>
-    </tr>-->
+    </tr>
+
 </table>
 
 </br>
 
 Link to the product: <a href="https://es.aliexpress.com/item/1005009763600457.html?spm=a2g0o.productlist.main.21.450b6311tFjwCL&algo_pvid=b312198c-d084-4474-8f0e-bfb33dbd1c6d&algo_exp_id=b312198c-d084-4474-8f0e-bfb33dbd1c6d-20&pdp_ext_f=%7B%22order%22%3A%221502%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%211.89%211.75%21%21%2114.52%2113.46%21%40211b65de17817129622565772e7b9b%2112000050090750520%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895%3BpisId%3A5000000209393528&curPageLogUid=f1lF8tP3KxVU&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009763600457%7C_p_origin_prod%3A">12mm Metal Button Switch Waterproof 1NO 3A High Head Momentary Automatic Reset</a>
-<!--
-<table>
-    <tr>
-        <th>
-        Name
-    </th>
-    <th>
-        Type
-    </th>
-    <th>
-        Picture
-    </th>
-    <th>
-        Link
-    </th>
-    </tr>
-    <tr>
-        <td>
-            FILN Plastic puish button switch.
-        </td>
-        <td>
-            Momentary ON (Plastic) - Non clicky
-        </td>
-        <td>
-            <a href="https://es.aliexpress.com/item/1005009767928131.html?spm=a2g0o.productlist.main.11.450b6311tFjwCL&algo_pvid=b312198c-d084-4474-8f0e-bfb33dbd1c6d&algo_exp_id=b312198c-d084-4474-8f0e-bfb33dbd1c6d-10&pdp_ext_f=%7B%22order%22%3A%22104%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%212.32%212.16%21%21%212.63%212.45%21%40211b65de17817129622565772e7b9b%2112000050100207033%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895%3BpisId%3A5000000209393528&curPageLogUid=mZ1VAbPUetou&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009767928131%7C_p_origin_prod%3A#nav-specification"> FILN 10 pieces set.</a>
-        </td>
-        <td>
-            <img width="250" alt="image" src="https://github.com/user-attachments/assets/077ea6a8-ec76-4311-9105-60b50a3fba5c" />
-        </td>
-    </tr>
-    <tr>
-        <td>
-            FILN Plastic puish button switch.
-        </td>
-        <td>
-            Momentary ON (Plastic) - Non clicky
-        </td>
-        <td>
-            <a href="https://es.aliexpress.com/item/1005009767928131.html?spm=a2g0o.productlist.main.11.450b6311tFjwCL&algo_pvid=b312198c-d084-4474-8f0e-bfb33dbd1c6d&algo_exp_id=b312198c-d084-4474-8f0e-bfb33dbd1c6d-10&pdp_ext_f=%7B%22order%22%3A%22104%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%212.32%212.16%21%21%212.63%212.45%21%40211b65de17817129622565772e7b9b%2112000050100207033%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895%3BpisId%3A5000000209393528&curPageLogUid=mZ1VAbPUetou&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009767928131%7C_p_origin_prod%3A#nav-specification"> FILN 10 pieces set.</a>
-        </td>
-        <td>
-            <img width="250" alt="image" src="https://github.com/user-attachments/assets/f2bda21d-85c4-404d-aa27-18da1650d72b" />
-        </td>
-    <tr>
-        <td>
-            FILN Plastic puish button switch.
-        </td>
-        <td>
-            Momentary ON (Plastic) - Non clicky
-        </td>
-        <td>
-            <a href="https://es.aliexpress.com/item/1005009767928131.html?spm=a2g0o.productlist.main.11.450b6311tFjwCL&algo_pvid=b312198c-d084-4474-8f0e-bfb33dbd1c6d&algo_exp_id=b312198c-d084-4474-8f0e-bfb33dbd1c6d-10&pdp_ext_f=%7B%22order%22%3A%22104%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%212.32%212.16%21%21%212.63%212.45%21%40211b65de17817129622565772e7b9b%2112000050100207033%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895%3BpisId%3A5000000209393528&curPageLogUid=mZ1VAbPUetou&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009767928131%7C_p_origin_prod%3A#nav-specification"> FILN 10 pieces set.</a>
-        </td>
-        <td>
-            <img width="250" alt="image" src="https://github.com/user-attachments/assets/f2bda21d-85c4-404d-aa27-18da1650d72b" />
-        </td>
-    </tr>
-    <tr>
-        <td>
-            FILN Plastic puish button switch.
-        </td>
-        <td>
-            Momentary ON (Plastic) - Non clicky
-        </td>
-        <td>
-            <a href="https://es.aliexpress.com/item/1005009767928131.html?spm=a2g0o.productlist.main.11.450b6311tFjwCL&algo_pvid=b312198c-d084-4474-8f0e-bfb33dbd1c6d&algo_exp_id=b312198c-d084-4474-8f0e-bfb33dbd1c6d-10&pdp_ext_f=%7B%22order%22%3A%22104%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%212.32%212.16%21%21%212.63%212.45%21%40211b65de17817129622565772e7b9b%2112000050100207033%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895%3BpisId%3A5000000209393528&curPageLogUid=mZ1VAbPUetou&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009767928131%7C_p_origin_prod%3A#nav-specification"> FILN 10 pieces set.</a>
-        </td>
-        <td>
-            <img width="250" alt="image" src="https://github.com/user-attachments/assets/f2bda21d-85c4-404d-aa27-18da1650d72b" />
-        </td>
-    </tr>
-</table>
--->
-
-
-<!--
-Other options that were considered:
-<table border="1">
-    <tr>
-    <th>Name</th>
-    <th>Summary</th>
-    <th>Picture</th>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://es.aliexpress.com/item/1005011717869374.html?spm=a2g0o.productlist.main.2.450b6311tFjwCL&algo_pvid=b312198c-d084-4474-8f0e-bfb33dbd1c6d&algo_exp_id=b312198c-d084-4474-8f0e-bfb33dbd1c6d-1&pdp_ext_f=%7B%22order%22%3A%221821%22%2C%22eval%22%3A%221%22%2C%22orig_sl_item_id%22%3A%221005011717869374%22%2C%22orig_item_id%22%3A%221005010485096642%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%212.94%211.47%21%21%2122.55%2111.27%21%40211b65de17817129622565772e7b9b%2112000056337299710%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895&curPageLogUid=won9y370f3UT&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005011717869374%7C_p_origin_prod%3A1005010485096642">    </a>
-        </td>
-        <td>Low voltage plastic buttons set. Momentary off-on switch. Size: 12x12x7.3mm. </td>
-        <td><img width="250" alt="image" src="https://github.com/user-attachments/assets/ff7ca54d-0112-4243-9ed9-f9bbcee00926" />
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://es.aliexpress.com/item/1005008558481882.html?spm=a2g0o.productlist.main.1.450b6311tFjwCL&algo_pvid=b312198c-d084-4474-8f0e-bfb33dbd1c6d&algo_exp_id=b312198c-d084-4474-8f0e-bfb33dbd1c6d-0&pdp_ext_f=%7B%22order%22%3A%221965%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%212.35%212.26%21%21%2118.00%2117.31%21%40211b65de17817129622565772e7b9b%2112000045709231087%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895%3BpisId%3A5000000209378863&curPageLogUid=9mJs1fpkfiy9&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008558481882%7C_p_origin_prod%3A">
-            Momentary Pushbutton Switches DS228 DS428
-            </a>
-        </td>
-        <td>
-            Low voltage plastic buttons set. Momentary off-on switch. Size: 12mm.
-        </td>
-        <td>
-            <img width="250" alt="image" src="https://github.com/user-attachments/assets/34235389-e47f-4455-9a61-6511d3f07fb5" />
-        </td>
-    </tr>
-    <tr>
-        <td><a href=></a></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><a href=></a></td>
-        <td></td>
-        <td></td>
-    </tr>
-</table> -->
 
 ## 2.5 Base printing material.   
 Since the enclosure would be entirely 3D printed, choosing the right material was an important decision. Several common FDM materials were considered, including PLA, PETG, and ABS.
@@ -488,25 +292,6 @@ As a result, Anycubic High Speed PLA was selected as the printing material for a
     </tbody>
 </table>
 </div>
-
-<!--
-<div align="center">
-<table>
-    <tr>
-        <td>
-            <strong>Final chosen product:</strong></br> https://uk.anycubic.com/products/high-speed-pla-filament?variant=46608821616925
-        </td>
-        <td>19.98€</td>
-        <td>
-            <img width="200" height="200" alt="PLA_high_speed_Texture_Grey_1" src="https://github.com/user-attachments/assets/42b6cac1-6261-41c1-9bbc-791c8e459eda" />
-        </td>
-    </tr>
-</table>
-</div>
-      
-<div align="right">
-</div> -->
-  
      
 *Referenced articles:* 
 - [Comparison table](https://3dstarter.com/en/material/pla-vs-abs)
@@ -523,10 +308,21 @@ Other supporting components such as terminal blocks, connectors, and wiring will
     
 ---
    
-# 🔸3. Product design
+# 🔸3. Product prototyping and design
 <!-- the design chapter is organized around individual subsystems (buttons, motherboard housing, LED module, directional controls)-->
 ## 3.1 Design methodology and approach.
+Most of the design work in this project follows the same workflow: measure the component, validate the measurements, create a digital reference model, and then design the surrounding parts around that model.
 
+Rather than trying to measure and model an entire component in one step, I usually break it down into individual profiles or "sides". For each profile, I create a simple negative geometry and 3D print it to test the fit against the real component. This allows me to verify dimensions early and catch measurement errors before spending time modeling more complex geometry.
+
+Once all the individual profiles have been validated, I combine them into a complete negative model and perform another test fit. If the final negative matches the physical component correctly, I then reconstruct the corresponding positive model in Blender.
+
+The positive models are not intended to be perfect replicas. Their purpose is to serve as accurate references during the design process. Having digital versions of the PCB, buttons, switches, battery, and other components makes it much easier to experiment with layouts, check clearances, and understand how everything will fit together inside the enclosure.
+
+This approach allows me to build a virtual prototype before printing the final parts. By arranging the reference models in Blender, I can evaluate spacing, assembly requirements, and overall ergonomics while making design changes much more quickly than through physical prototyping alone.
+
+>[!Note]
+> Although this process takes extra time at the beginning, it usually saves time later by reducing failed prints and minimizing the number of design iterations needed to reach a working solution.
 
 ## 3.2 Action button array.
 ### 3.2.1 Hand ergonomics.
