@@ -336,7 +336,7 @@ Each subsystem was designed, prototyped, tested, and refined independently. This
    
 Once all subsystems had been validated, they were combined into a complete assembly. Several additional iterations were then carried out to refine the integration between components, improve clearances and accessibility, and arrive at the final controller design.
         
-## 3.2 Modelling and Prototyping Methodology.
+### 3.1.1 Modelling and Prototyping Methodology.
 Most of the design work in this project follows the same workflow: measure the component, validate the measurements, create a digital reference model, and then design the surrounding parts around that model.
 
 Rather than trying to measure and model an entire component in one step, I usually break it down into individual profiles or "sides". For each profile, I create a simple negative geometry and 3D print it to test the fit against the real component. This allows me to verify dimensions early and catch measurement errors before spending time modeling more complex geometry.
@@ -356,7 +356,7 @@ _Prototyping workflow diagram_
     
 The modelling and validation process described above worked well for most components. The control layout, however, depended as much on comfort as it did on dimensions. To guide the design of the action buttons and directional inputs, I first carried out a simple ergonomic study using my own hands as a reference.
     
-### 3.3 Ergonomic Layout Development
+### 3.1.2 Ergonomic Layout Development
 Before starting any design work, I carried out a simple ergonomics study using my own hands as the main reference. The goal was to understand how my fingers naturally rest and move, and use that as the starting point for the layout instead of relying on a standard fightstick template.
 
 The process was intentionally simple: I used a flat sheet of paper and explored different relaxed hand positions while simulating common inputs. This helped me identify natural finger alignment, comfortable spacing, and how my wrist prefers to sit when the hand is not forced into an artificial posture. I started with the action buttons arrays and then followed with the directional input block.
@@ -403,7 +403,7 @@ I did not treat these observations as precise measurements, but as practical des
     
 ---
 
-### 3.4 Motherboard housing (Motherboard container within the enclosure)
+## 3.4 Motherboard housing (Motherboard container within the enclosure)
 This component is designed to interface a terminal block with the motherboard’s test pads used for input routing. In practical terms, it acts as a protective housing that secures the motherboard, prevents strain on the soldered wires, and reduces the risk of accidentally tearing off the test pads.
 
 It also provides a structured mounting solution for the terminal blocks, where the button wiring will be securely fastened via screw connections. In addition, the part serves as the primary mounting interface for installing the motherboard within the overall Mixbox-style enclosure, while also offering protection for the battery and associated wiring.
