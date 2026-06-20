@@ -415,6 +415,8 @@ To keep the measurements consistent, I chose a single fixed reference point: the
 
 After taking the measurements, I sketched the outline of the motherboard on paper. This sketch was mainly used to organise the dimensions and clearly identify the features being measured, rather than to act as a precise drawing. The information was then transferred into Blender, where I recreated the initial 2D profile using the recorded values
 
+
+
 >[!NOTE]
 >The paper sketch does not need to be perfectly scaled or highly detailed. Its main purpose is just to record measurements in a clear and structured way. The actual accuracy comes from the digital modelling stage.
 
