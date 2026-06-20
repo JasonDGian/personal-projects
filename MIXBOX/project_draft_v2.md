@@ -339,22 +339,7 @@ This approach allows me to build a virtual prototype before printing the final p
 _Prototyping workflow diagram_   
 <img width="1313" height="364" alt="image" src="https://github.com/user-attachments/assets/84126c58-6f34-41ba-a83c-7648af24f34e" />
 <!--img width="1066" height="421" alt="image" src="https://github.com/user-attachments/assets/cd6d1fda-48f4-40e2-bd62-a442324850ea" /-->
-
-## 3.2 Ergonomics and human interaction.
-   
-   
-### 3.2.1 Action button layout design
-   
-   
-### 3.2.2 Directional input layout design
-
-
-
-
-
-
-
-       
+ 
 ## 3.2 Action button array.
 The action button array consists of the buttons used to perform attacks and other in-game actions, such as punches and kicks. Together with the directional controls, these are the buttons that see the most frequent use during gameplay, making their placement and ergonomics particularly important. 
 
@@ -362,29 +347,6 @@ The action button array consists of the buttons used to perform attacks and othe
 The action buttons array must be comfrotable to use, well positioned, as compact as possible and they must easily replaceable in case of malfunction or being eroded by use. Easy to service and replace in case of customization needs. 
 
 ### 3.2.2 Ergonomics study & Initial design.
-The ergonomics of the action buttons are one of the most important aspects of the controller. A good layout should feel natural, reduce strain during long play sessions, and allow every button to be reached comfortably without forcing awkward finger movements.
-   
-Rather than copying the layout of an existing controller, I decided to design the button placement around the natural resting position of my own hand.
-    
-1. I placed my hand on a sheet of paper and allowed my fingers to settle into a relaxed position. I referred to this posture as "the claw".
-<img width="1554" height="900" alt="ergonomics" src="https://github.com/user-attachments/assets/ea21dbd3-6ff5-40be-8a89-858dbfd8d0ce" />    
-     
-2. Once my hand felt comfortable, I moved my fingers up and down several times and readjusted them until they consistently returned to the same resting position. I then marked the points where my fingertips contacted the paper. The resulting pattern resembled an inverted teardrop shape and became the basis for the primary button array.
-<img width="1554" height="900" alt="ergonomics_study_1" src="https://github.com/user-attachments/assets/7e0fd43c-d5be-4650-916e-fcdbc00216b3" />     
-     
-3. Next, I brought my fingers into a slightly more closed position while maintaining comfort and repeated the process. This produced a second set of contact points that would later become the secondary button array.
-<img width="1554" height="900" alt="ergonomics_study_2" src="https://github.com/user-attachments/assets/b25514f1-1684-40c1-a2bb-f259943f4984" />    
-    
-4. Using these markings as a reference, I created the first ergonomic prototype in Blender.
-<img width="1125" height="694" alt="ergonomics_proto_design" src="https://github.com/user-attachments/assets/4afa50fa-a055-4dde-85ce-b0974755a993" />    
-    
-5. To validate the design before committing to a full print, I produced a small test piece containing only the button layout. This allowed me to evaluate the spacing, reachability, and overall comfort while minimizing both print time and material usage.
-<img width="1554" height="900" alt="ergonomics_prototype_1" src="https://github.com/user-attachments/assets/65edc0cc-0215-4e6f-9068-a90db07faa1f" />
-<img width="1554" height="900" alt="ergonomics_proto_1" src="https://github.com/user-attachments/assets/bd6c3bd3-2dc2-4114-86e9-768225cd480e" />
-
-> [!IMPORTANT]
-> This process significantly reduced the amount of guesswork involved in the design. Instead of adapting my hand to a predetermined layout, the layout was designed around my hand. The resulting prototype also established several dimensional constraints that would later influence the selection of the action buttons themselves.
-
 ### 3.2.3 Prototyping and testing.
 ### 3.2.4 Final Design.
 
