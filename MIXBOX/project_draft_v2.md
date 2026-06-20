@@ -6,20 +6,23 @@
 ---
    
 # 🔸1. Introduction
-Fighting games have long been one of my favorite genres, and I have always wanted a dedicated arcade controller. While commercial fight sticks and MixBox-style controllers offer a great experience, high-quality options are often expensive and still don’t fully match what I personally want in terms of ergonomics, size, or appearance.
+## 1.1 Project Overview
+Fighting games have been one of my favorite genres for a long time, and this project comes from wanting to build a controller that better fits the way I personally play.
 
-This project is about designing and building a custom MixBox-style controller tailored to my own preferences. Building it gives me full control over layout, dimensions, aesthetics, and functionality, so the final result can fit my needs better than a commercial product.
+While there are already many commercial fight sticks and MixBox-style controllers available, they often come with compromises in layout, ergonomics, size, or price. Instead of adapting to those limitations, I wanted to design something that matches my own preferences more closely.
 
-This is not my first arcade controller project. A few years ago, I built a custom controller for a friend, which gave me hands-on experience with CAD design, 3D printing, electronics, and general prototyping. This project builds on that experience and gives me a chance to improve those skills further.
+This project focuses on building a custom MixBox-style arcade controller from the ground up, including the enclosure, input layout, and overall system integration. It combines Blender modelling, 3D printing, and basic electronics work to create a fully functional controller that can also be iterated on and improved over time.
 
-I will also document the entire process, both as a personal record and so that others interested in building their own controllers can learn from my approach, including what worked and what didn’t.
+Beyond just building it for myself, I’m also documenting the entire process. The goal is to create a clear record of the design decisions, prototypes, and mistakes along the way so that other people interested in building their own controllers can learn from it and potentially avoid some of the trial-and-error I went through.
+   
+## 1.2 Background and previous experience
+This is not my first arcade controller project.
+
+A few years ago, I built a custom controller for a friend, which gave me practical experience in Blender modeling, 3D printing, electronics wiring, and general prototyping. That project was relatively simple, but it helped me understand how small design decisions can have a big impact on usability and assembly.
+
+For this project, I wanted to take things further by improving the overall design quality and focusing more on ergonomics, internal structure, and modularity. The goal was not just to build something that works, but something that feels more refined and intentional in its design.
     
-## 1.1 Motivation
-The main motivation behind this project is to create a controller that better matches my ergonomic preferences and desired features at an affordable price. Commercial controllers often involve compromises, so building my own gives me the freedom to design something that fits my needs more closely.
-
-A secondary motivation is to document the process in a useful way. By sharing my decisions, methods, and mistakes, I hope it can help others who want to build their own arcade controllers and avoid some of the trial and error.
-    
-## 1.2 Goals and Objectives
+## 1.3 Goals and Objectives
 The goal of this project is to **build an ergonomic arcade controller** that feels good to use, works reliably, and is enjoyable during long play sessions, **while staying within a reasonable budget**.
 
 **Key design goals include:**
@@ -28,17 +31,26 @@ The goal of this project is to **build an ergonomic arcade controller** that fee
 - Designing it so internal parts are easy to access, repair, or replace
 - Customizing the look and feel, including things like LED lighting
      
-## 1.3 Requirements and Constraints
-The project is limited by time and budget, since it’s a personal build. All decisions need to stay realistic in terms of cost, complexity, and what I can actually build and test.
-
-Tournament legality is also important. Even though I’m not building this specifically for competitive play, I want it to follow common tournament rules where possible, so I avoid things like macros, turbo functions, or any form of input automation.
+## 1.4 Constraints
+Like any personal engineering project, the design was shaped by several real-world constraints.
+   
+**Budget and time:**  
+The project had to remain affordable and manageable in scope, without expanding beyond what I could realistically design, print, and test.
+   
+**Manufacturing method:**   
+The enclosure is fully 3D printed using FDM printing, which introduces limitations in terms of tolerances, surface finish, and mechanical strength. These constraints directly influenced design decisions throughout the project.
+   
+**Tournament legality:**   
+Even though the controller is not exclusively designed for competitive play, I wanted it to follow common tournament rules. This means avoiding macros, turbo functions, or any form of input automation.
+   
+**Platform compatibility:**   
+The controller needed to work on both PC and PlayStation 4 without requiring external adapters or custom firmware modifications.
+   
+**Portability:**   
+The final design also had to remain compact and lightweight enough to be practical for transport and everyday use.
     
-The controller is intended for use on both PC and PlayStation 4, so compatibility with these platforms is a key requirement.    
-   
-Portability is another key constraint. The controller should stay reasonably compact and lightweight so it doesn’t take up too much desk space and is easy to move around when needed.
-
 ---
-   
+    
 # 🔸2. Selection of components.
 
 ## 2.1 Motherboard - Base controller.
