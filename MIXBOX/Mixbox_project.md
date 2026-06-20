@@ -1,4 +1,4 @@
-<!--
+ 
 I started this project because I am a fan of fighting games and with some friends I've met online I often play titles like Street fighter, Soul Calibur or Tekken. 
 I've played for years and for a lot of time I've wanted to get myself a fightstick or a mixbox. I've tried many times to fetch a decent one but these things are quite pricey and the models i like the most go for up to 700€ which might be excusable for some pros but for noobs like me that play casually that's just too much.
 In my 3d printing adventures i started modifying stuff and one day a friend, one of them who plays with me, complained his fightstick (expensive one) broke and was no longer working. That day my lightbulb turned on and i decided to make a fightstick out of a normal contgroller. 
@@ -596,7 +596,7 @@ _Testing sides and writing down impropper collision or measurements, noting tole
 
 
 
--->
+ 
 
 # Motherboard box.
 The Motherboard Box (from now on MO-Box) is the enclosure designed to house the controller's motherboard after it has been extracted from the original assembly. Its primary purpose is to protect the fragile wire connections soldered to the motherboard's test pads while also providing a secure and organized mounting solution inside the mixbox body or shell.
@@ -746,8 +746,8 @@ _Front-profile model and test-fit._
 ### 3. Measuring the Vertical Travel Limitation Strut.
 The click button enclosed within the module is supported by a flexible plastic structure that contacts three support points protruding from the controller's internal button support body.
    
-<!-- <img width="2191" height="749" alt="lightmodule_workings" src="https://github.com/user-attachments/assets/0f0170fd-3c87-4bce-8834-60eabd07cc24" />
-Two of these support points (highlighted in cyan in the image) serve as contact surfaces for the module's flexible plastic arms. When the module is pressed, these arms deflect against the support points and generate the restoring force that returns the module to its normal resting position. The central support point (highlighted in yellow) is responsible for actuating the internal click button. -->
+  <img width="2191" height="749" alt="lightmodule_workings" src="https://github.com/user-attachments/assets/0f0170fd-3c87-4bce-8834-60eabd07cc24" />
+Two of these support points (highlighted in cyan in the image) serve as contact surfaces for the module's flexible plastic arms. When the module is pressed, these arms deflect against the support points and generate the restoring force that returns the module to its normal resting position. The central support point (highlighted in yellow) is responsible for actuating the internal click button.  
 
 The purpose of the vertical travel limitation strut is to restrict the module's downward movement, preventing excessive displacement that could damage either the click button mechanism or the flexible support arms within the module. If positioned too high, the button travel would be restricted and the switch might not actuate reliably. If positioned too low, excessive travel could overload the flexible support structure and internal button mechanism.
      
@@ -824,7 +824,7 @@ _Comparison between the original module and the reconstructed model._
 
 ----
    
-<!--
+ 
 # Integrating the light module.
 The LED module is the part of the controller responsible for indicating its status, including Bluetooth connectivity, battery level, and other system information. 
 I wanted to integrate the original controller's LED module into the main body of the Mixbox in order to preserve all of its functionality. This includes not only the status LEDs, but also the touch sensor and the integrated click button.
@@ -852,7 +852,7 @@ _3D-printed fillet gauges compared against the original module._
 
 **Measuring the flex resting bar**
 [here i will explain the resting bar measurement process]
--->
+ 
 
 
 
