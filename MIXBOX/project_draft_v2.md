@@ -340,18 +340,45 @@ _Prototyping workflow diagram_
 <img width="1313" height="364" alt="image" src="https://github.com/user-attachments/assets/84126c58-6f34-41ba-a83c-7648af24f34e" />
 <!--img width="1066" height="421" alt="image" src="https://github.com/user-attachments/assets/cd6d1fda-48f4-40e2-bd62-a442324850ea" /-->
  
-### 3.1.1 Ergonomics study (Design input phase)
+### 3.1.1 Ergonomics study
 Before starting any Blender modelling work, I carried out a simple ergonomics study using my own hands as the main reference. The goal was to understand how my fingers naturally rest and move, and use that as the starting point for the layout instead of relying on a standard fightstick template.
 
-The process was intentionally simple: I used a flat sheet of paper and explored different relaxed hand positions while simulating common inputs. This helped me identify natural finger alignment, comfortable spacing, and how my wrist prefers to sit when the hand is not forced into an artificial posture.
+The process was intentionally simple: I used a flat sheet of paper and explored different relaxed hand positions while simulating common inputs. This helped me identify natural finger alignment, comfortable spacing, and how my wrist prefers to sit when the hand is not forced into an artificial posture. I started with the action buttons arrays and then followed with the directional input block.
     
-**From this study, I extracted a few key takeaways that directly influenced the design:**
+**The process:**
+
+1. I placed both hands on a sheet of paper and allowed my fingers to settle into a relaxed position. The overall shape resembled a slightly curved claw or the posture used when holding a baseball.
+<img width="1241" height="823" alt="image" src="https://github.com/user-attachments/assets/d21e828c-a8a7-4cc2-bfd5-5c44942ccb20" />
+      
+2. Once my hands felt comfortable, I moved my fingers repeatedly and readjusted them until they consistently returned to the same resting position. I then marked the points where my fingertips contacted the paper. The resulting pattern resembled two slightly tilted arches and became the starting point for both the action button array and the directional input block.
+<img width="1274" height="635" alt="hands_ergonomics_study_1 (1)" src="https://github.com/user-attachments/assets/09be789c-73ce-4c06-b654-a7f89d98583e" />
+       
+3. After tracing the primary action button positions, I repeated the process with my fingers in a slightly more closed position while maintaining comfort. This produced a second set of contact points, which later became the basis for the secondary action button array.
+<img width="1274" height="617" alt="hands_ergonomics_study_2" src="https://github.com/user-attachments/assets/0f61a95e-268e-4f71-8d42-24cf3965d7ed" />
+   
+4. Using these markings as a reference, I created the first ergonomic prototype in Blender.
+<img width="1125" height="694" alt="ergonomics_proto_design" src="https://github.com/user-attachments/assets/4afa50fa-a055-4dde-85ce-b0974755a993" />    
+    
+5. To validate the design before committing to a full print, I produced a small test piece containing only the button layout. This allowed me to evaluate spacing, reachability, and overall comfort while minimizing both print time and material usage.
+<img width="1554" height="900" alt="ergonomics_prototype_1" src="https://github.com/user-attachments/assets/65edc0cc-0215-4e6f-9068-a90db07faa1f" />
+<img width="1554" height="900" alt="ergonomics_proto_1" src="https://github.com/user-attachments/assets/bd6c3bd3-2dc2-4114-86e9-768225cd480e" />
+
+6. After reaching a satisfactory result for the action buttons, I applied the same methodology to the directional input system. During this phase, I experimented with several layouts, including non-standard key arrangements. While some of these alternatives felt comfortable in isolation, I ultimately returned to the more conventional cursor-key configuration, with three keys in a row for left, down, and right, and a fourth key above for up.
+    
+_Considered key configurations_
+<img width="2750" height="480" alt="tested_layouts" src="https://github.com/user-attachments/assets/86d53073-6f36-433d-bc02-82a0cdfe37b9" />
+
+The most important result of this stage was not the exact directional key arrangement, but its position relative to the action buttons. Like the action side, the directional inputs naturally settled into a slightly inward-rotated orientation, which would feel more comfortable during extended use.
+
+**Key observations from this study:**
 - My fingers naturally fall into a slightly staggered alignment rather than strict straight columns
-- There is a clear trade-off between spacing and speed vs. accidental inputs
-- The thumb has a much more limited comfortable range than expected
-- My wrist alignment feels most natural when the hand is slightly rotated inward
+- There is a clear trade-off between tighter spacing, which improves speed, and wider spacing, which reduces accidental inputs.
+- The thumb has a more limited comfortable range of motion than expected.
+- My wrists feel most natural when the hands are rotated slightly inward.
     
-The results of this study were then used as the baseline for the action button and directional input layouts, which are explained in the following sections.
+I did not treat these observations as precise measurements, but as practical design constraints. They served as the baseline for the action button and directional input layouts that are developed in the following sections.
+
+
     
 ---
 
@@ -530,9 +557,32 @@ Buget notes.
 # Ergonomics study
 Before starting any Blender modelling work, I carried out a simple ergonomics study using my own hands as the main reference. The goal was to understand how my fingers naturally rest and move, and use that as the starting point for the layout instead of relying on a standard fightstick template.
 
-The process was intentionally simple: I used a flat sheet of paper and explored different relaxed hand positions while simulating common inputs. This helped me identify natural finger alignment, comfortable spacing, and how my wrist prefers to sit when the hand is not forced into an artificial posture. I started with the action buttons arrays and then followed with the directional input block.
+The process was intentionally simple. Using a sheet of paper as a reference surface, I explored different relaxed hand positions while simulating common fighting game inputs. This helped me identify natural finger alignment, comfortable spacing, and the wrist positions that felt most natural when the hands were not forced into an artificial posture. I began with the action button layout and later applied the same approach to the directional input block.
+    
+1. I placed both hands on a sheet of paper and allowed my fingers to settle into a relaxed position. The overall shape resembled a slightly curved claw or the posture used when holding a baseball.
+<img width="1241" height="823" alt="image" src="https://github.com/user-attachments/assets/d21e828c-a8a7-4cc2-bfd5-5c44942ccb20" />
+   
+2. Once my hands felt comfortable, I moved my fingers repeatedly and readjusted them until they consistently returned to the same resting position. I then marked the points where my fingertips contacted the paper. The resulting pattern resembled two slightly tilted arches and became the starting point for both the action button array and the directional input block.
+<img width="1274" height="737" alt="hands_ergonomics_study_1" src="https://github.com/user-attachments/assets/cf66bfe2-cc52-45b1-9705-6cb2a9348b73" />
 
-I traced a hand at a time, after tracing one hand I retested the positiong before tracing the other one.
+
+
+<img width="1274" height="793" alt="image" src="https://github.com/user-attachments/assets/f64469f9-eb73-4289-9fe3-b6b7228526ff" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
 **Action buttons ergonomics**    
 1. I placed my hand on a sheet of paper and allowed my fingers to settle into a relaxed position. The general hand shape would almost resemble an animal claw or as if I was holding a baseball ball.
@@ -566,25 +616,14 @@ The key takeaway for the directional system was not the exact layout itself, but
 
 
 
-
-    
-1. I placed both of my hands on a sheet of paper and allowed my fingers to settle into a relaxed position. The general hands shape would almost resemble an animal claw or as if I was holding a baseball ball.
-<img width="1241" height="823" alt="image" src="https://github.com/user-attachments/assets/d21e828c-a8a7-4cc2-bfd5-5c44942ccb20" />
-   
-2. Once my hands felt comfortable, I moved my fingers up and down several times and readjusted them until they consistently returned to the same resting position. I then marked the points where my fingertips contacted the paper. The resulting pattern resembled a pair of slightly tilted arches and became the basis for the primary button array.
-<img width="1274" height="793" alt="image" src="https://github.com/user-attachments/assets/f64469f9-eb73-4289-9fe3-b6b7228526ff" />
+---
 
 
 
+
+---
     
-**From this study, I extracted a few key takeaways that directly influenced the design:**
-- My fingers naturally fall into a slightly staggered alignment rather than strict straight columns
-- There is a clear trade-off between spacing and speed vs. accidental inputs
-- The thumb has a much more limited comfortable range than expected
-- My wrist alignment feels most natural when the hand is slightly rotated inward
-    
-The results of this study were then used as the baseline for the action button and directional input layouts, which are explained in the following sections.
-    
+        
 ---
 
 ## 3.2 Action button array.
