@@ -403,18 +403,73 @@ I did not treat these observations as precise measurements, but as practical des
     
 ---
 
-## 3.2 Action button array.
+### 3.4 Motherboard housing (Motherboard container within the enclosure)
+This component is designed to interface a terminal block with the motherboard’s test pads used for input routing. In practical terms, it acts as a protective housing that secures the motherboard, prevents strain on the soldered wires, and reduces the risk of accidentally tearing off the test pads.
+
+It also provides a structured mounting solution for the terminal blocks, where the button wiring will be securely fastened via screw connections. In addition, the part serves as the primary mounting interface for installing the motherboard within the overall Mixbox-style enclosure, while also offering protection for the battery and associated wiring.
+
+### 3.4.1 Reference model creation.
+The first step in this process was defining the motherboard’s external geometry. My goal was not to build a perfectly accurate digital replica, but rather a reliable reference model that could be used for designing the enclosure around it.
+
+To keep the measurements consistent, I chose a single fixed reference point: the bottom-left corner of the motherboard. All measurements were taken relative to this point whenever possible. This helped reduce cumulative errors and made it easier to correct or adjust dimensions later in the process.
+
+After taking the measurements, I sketched the outline of the motherboard on paper. This sketch was mainly used to organise the dimensions and clearly identify the features being measured, rather than to act as a precise drawing. The information was then transferred into Blender, where I recreated the initial 2D profile using the recorded values
+
+>[!NOTE]
+>The paper sketch does not need to be perfectly scaled or highly detailed. Its main purpose is just to record measurements in a clear and structured way. The actual accuracy comes from the digital modelling stage.
+
+Once the initial outline was created in Blender, I began an iterative validation process. At this stage, I matched the geometry as closely as possible to the measured dimensions, without applying any tolerance. This version acted as my baseline model.
+
+After that, I introduced a tolerance of approximately 0.30 mm to account for 3D printing variation and to ensure the final fit would not be too tight. The intention was not to replicate the motherboard exactly, but to create a slightly oversized reference that would make assembly more reliable.
+
+Instead of testing the full model at once, I validated it in stages. Breaking it down like this made it much easier to locate issues and adjust specific areas without affecting the rest of the geometry. The validation followed this order:
+
+Each side was checked individually
+The left and top sections were combined and tested
+The right side was added and validated
+The full outline was assembled and tested
+
+For each iteration, I printed a test piece and physically checked the fit against the motherboard. These parts were not meant to represent the motherboard itself — they were the negative geometry, meaning the cavity the motherboard would eventually sit in. This allowed me to test the enclosure fit directly, while keeping print time and material use low.
+
+After each test fit, I noted any areas that needed adjustment, updated the model in Blender, and printed a new iteration. Throughout the entire process, I kept a single reference vertex as the fixed origin. This made sure that any changes stayed consistent and didn’t unintentionally shift dimensions that had already been validated.
+
+[!Important]
+Using a fixed reference point throughout all iterations was essential to avoid drifting dimensions and to keep the model stable as changes were made.
+
+Once the external outline was validated and fitted correctly, I moved on to modelling the remaining motherboard features. I followed the same workflow here, applying the same tolerance and measurement approach to ensure consistency across the entire model.
+
+By the end of this process, I had a fully validated motherboard reference model that I could confidently use for designing the enclosure and mounting system. With the tolerances accounted for, the final printed test fits required little to no additional adjustment.
+
+### 3.4.2 Initial housing design.
+
+   
+### 3.4.3 Prototype and Validation.
+
+    
+### 3.4.4 Final housing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 3.4 Action button array.
 The action button array consists of the buttons used to perform attacks and other in-game actions, such as punches and kicks. Together with the directional controls, these are the buttons that see the most frequent use during gameplay, making their placement and ergonomics particularly important. The action buttons array must be comfrotable to use, well positioned, as compact as possible and they must easily replaceable in case of malfunction or being eroded by use. Easy to service and replace in case of customization needs. 
  
-### 3.2.1 Initial design.
-### 3.2.2 Prototyping and testing.
-### 3.2.3 Final Design.
+### 3.4.1 Initial design.
+### 3.4.2 Prototyping and testing.
+### 3.4.3 Final Design.
 
-## 3.3 Motherboard housing (Motherboard container within the enclosure)
-### 3.3.1 Reference model creation.
-### 3.3.2 Initial housing design.
-### 3.3.3 Prototype and Validation.
-### 3.3.4 Final housing.
+
 
 ## 3.4 Led module enclosure (led module surrounding geometry).
 ### 3.4.1 Modeling the positive for reference
