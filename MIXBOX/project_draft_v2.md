@@ -331,11 +331,11 @@ Rather than designing the entire controller as a single assembly from the start,
 - Motherboard enclosure
 - LED module housing
 - Auxiliary functions button console
-
+        
 Each subsystem was designed, prototyped, tested, and refined independently. This made the development process easier to manage and allowed design issues to be identified and corrected without affecting unrelated parts of the controller.
-
+   
 Once all subsystems had been validated, they were combined into a complete assembly. Several additional iterations were then carried out to refine the integration between components, improve clearances and accessibility, and arrive at the final controller design.
-    
+        
 ## 3.2 Modelling and Prototyping Methodology.
 Most of the design work in this project follows the same workflow: measure the component, validate the measurements, create a digital reference model, and then design the surrounding parts around that model.
 
@@ -369,7 +369,7 @@ The process was intentionally simple: I used a flat sheet of paper and explored 
       
 2. Once my hands felt comfortable, I moved my fingers repeatedly and readjusted them until they consistently returned to the same resting position. I then marked the points where my fingertips contacted the paper. The resulting pattern resembled two slightly tilted arches and became the starting point for both the action button array and the directional input block.
 <img width="1274" height="635" alt="hands_ergonomics_study_1 (1)" src="https://github.com/user-attachments/assets/09be789c-73ce-4c06-b654-a7f89d98583e" />
-<!--img width="1554" height="900" alt="ergonomics_study_1" src="https://github.com/user-attachments/assets/7e0fd43c-d5be-4650-916e-fcdbc00216b3" /-->>  
+<!--img width="1554" height="900" alt="ergonomics_study_1" src="https://github.com/user-attachments/assets/7e0fd43c-d5be-4650-916e-fcdbc00216b3" /-->  
        
 3. After tracing the primary action button positions, I repeated the process with my fingers in a slightly more closed position while maintaining comfort. This produced a second set of contact points, which later became the basis for the secondary action button array.
 <img width="1274" height="617" alt="hands_ergonomics_study_2" src="https://github.com/user-attachments/assets/0f61a95e-268e-4f71-8d42-24cf3965d7ed" />
