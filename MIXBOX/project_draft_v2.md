@@ -403,49 +403,63 @@ I did not treat these observations as precise measurements, but as practical des
     
 ---
 
-## 3.4 Motherboard housing
+## 3.4 Motherboard housing.
 This component is a custom enclosure designed to house the controller's motherboard after it has been removed from the original controller shell. Its primary purpose is to **protect the motherboard and the wires soldered to its test pads**, which are particularly vulnerable to mechanical stress.
 
 The enclosure also provides **mounting points for the terminal blocks** used to connect the button wiring via screw terminals. In addition, it serves as the primary **mounting interface between the motherboard assembly and the MixBox enclosure**, while providing basic protection for the battery and associated wiring.
     
-### 3.4.1 Reference model creation.
-**1. Rough external shape**   
-The first step in this process was defining the motherboard’s external geometry. My goal was not to build a perfectly accurate digital replica, but rather a reliable reference model that could be used for designing the enclosure around it.
+### 3.4.1  Rough external shape.
+The first step was to capture the motherboard's overall outline. The objective was not to create a perfect digital twin but rather a sufficiently accurate approximation that could serve as a reliable design reference.
 
-To keep the measurements consistent, I chose a single fixed reference point: the bottom-left corner of the motherboard. All measurements were taken relative to this point whenever possible. This helped reduce cumulative errors and made it easier to correct or adjust dimensions later in the process.
+To maintain consistency throughout the measurement process, I selected a single fixed reference point: the bottom-left corner of the motherboard. Whenever possible, all measurements were taken relative to this point. Using a common reference minimized the risk of cumulative measurement errors and simplified later corrections.
 
-After taking the measurements, I sketched the outline of the motherboard on paper. This sketch was mainly used to organise the dimensions and clearly identify the features being measured, rather than to act as a precise drawing. The information was then transferred into Blender, where I recreated the initial 2D profile using the recorded values
+After sketching the motherboard outline and recording the dimensions, the information was transferred into Blender, where the initial 2D profile was created.
     
-<img width="1642" height="900" alt="motherboard_paper_measures" src="https://github.com/user-attachments/assets/28a842e4-a96b-478f-a692-4df0da457ad2" />
-   
 >[!NOTE]
 >The paper sketch does not need to be perfectly scaled or highly detailed. Its main purpose is just to record measurements in a clear and structured way. The actual accuracy comes from the digital modelling stage.
-
-**2. Translating the measurements into blender**
-Once the initial outline was created in Blender, I began an iterative validation process. At this stage, I matched the geometry as closely as possible to the measured dimensions, without applying any tolerance. This version acted as my baseline model.
-
-After that, I introduced a tolerance of approximately 0.30 mm to account for 3D printing variation and to ensure the final fit would not be too tight. The intention was not to replicate the motherboard exactly, but to create a slightly oversized reference that would make assembly more reliable.
     
+_Drawing showing the dimensions of the motherboard._
+<img width="1642" height="900" alt="motherboard_paper_measures" src="https://github.com/user-attachments/assets/28a842e4-a96b-478f-a692-4df0da457ad2" />
+   
+### 3.4.2 Translating the measurements into Blender.
+Once the measurements had been collected, I recreated the motherboard outline in Blender using the recorded dimensions. At this stage, the model was intended to match the measured geometry as closely as possible, without any additional tolerance applied.
+
+This initial version served as the baseline from which all future fitting tests and adjustments would be made.
+    
+_Dimensions transferred into Blender to create the initial motherboard profile._
 <img width="1235" height="770" alt="image" src="https://github.com/user-attachments/assets/2251d7b0-587f-47a3-af92-c58a49852390" />
     
-Instead of testing the full model at once, I validated it in stages. Breaking it down like this made it much easier to locate issues and adjust specific areas without affecting the rest of the geometry. The validation followed this order:
-
-Each side was checked individually
-The left and top sections were combined and tested
-The right side was added and validated
-The full outline was assembled and tested
-
+### 3.4.3 Profile dimenstions validations.
+Instead of testing the full model at once, I validated it in stages. Breaking it down like this made it much easier to locate issues and adjust specific areas without affecting the rest of the geometry. 
+**The validation followed this order:**
+- Each side was checked individually
+- The left and top sections were combined and tested
+- The right side was added and validated
+- The full outline was assembled and tested
+   
 For each iteration, I printed a test piece and physically checked the fit against the motherboard. These parts were not meant to represent the motherboard itself — they were the negative geometry, meaning the cavity the motherboard would eventually sit in. This allowed me to test the enclosure fit directly, while keeping print time and material use low.
-
+   
 After each test fit, I noted any areas that needed adjustment, updated the model in Blender, and printed a new iteration. Throughout the entire process, I kept a single reference vertex as the fixed origin. This made sure that any changes stayed consistent and didn’t unintentionally shift dimensions that had already been validated.
-
-[!Important]
-Using a fixed reference point throughout all iterations was essential to avoid drifting dimensions and to keep the model stable as changes were made.
-
+   
+_Test-fitting a printed section and documenting areas requiring correction._
+<img width="1385" height="900" alt="image" src="https://github.com/user-attachments/assets/3b9a1473-c3c0-4f5b-8466-673b2bf19619" />
+   
+>[!Important]
+>Using a fixed reference point throughout all iterations was essential to avoid drifting dimensions and to keep the model stable as changes were made.
+   
+### 3.4.4 Modelling the final positive.
 Once the external outline was validated and fitted correctly, I moved on to modelling the remaining motherboard features. I followed the same workflow here, applying the same tolerance and measurement approach to ensure consistency across the entire model.
-
+    
 By the end of this process, I had a fully validated motherboard reference model that I could confidently use for designing the enclosure and mounting system. With the tolerances accounted for, the final printed test fits required little to no additional adjustment.
-
+      
+_Approximate motherboard model used as the reference geometry for the enclosure design._
+<img width="1774" height="766" alt="image" src="https://github.com/user-attachments/assets/a097c115-bde5-4a28-ab63-93c36b04bfa9" />
+     
+By using the validated motherboard reference model and incorporating the defined tolerance values, the final printed test piece fits as intended, requiring little to no additional adjustment.
+   
+_Final test piece_
+<img width="1774" height="676" alt="image" src="https://github.com/user-attachments/assets/d5ac14ff-fc4a-4f6c-a5f6-983a98d9e2f8" />
+   
 ### 3.4.2 Initial housing design.
 
    
