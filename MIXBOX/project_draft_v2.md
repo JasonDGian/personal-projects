@@ -321,8 +321,22 @@ Other supporting components such as terminal blocks, connectors, and wiring will
 ---
    
 # 🔸3. Design and Prototyping
-<!-- the design chapter is organized around individual subsystems (buttons, motherboard housing, LED module, directional controls)-->
-## 3.1 Design methodology and approach.
+<!-- the design chapter is organized around individual subsystems (buttons, motherboard housing, LED module, directional controls)--> 
+## 3.1 Design Strategy
+Rather than designing the entire controller as a single assembly from the start, I divided the project into several smaller subsystems and developed them individually before integrating them into the final design.
+
+**The main subsystems were:**
+- Directional input block
+- Action button array
+- Motherboard enclosure
+- LED module housing
+- Auxiliary functions button console
+
+Each subsystem was designed, prototyped, tested, and refined independently. This made the development process easier to manage and allowed design issues to be identified and corrected without affecting unrelated parts of the controller.
+
+Once all subsystems had been validated, they were combined into a complete assembly. Several additional iterations were then carried out to refine the integration between components, improve clearances and accessibility, and arrive at the final controller design.
+    
+## 3.2 Modelling and Prototyping Methodology.
 Most of the design work in this project follows the same workflow: measure the component, validate the measurements, create a digital reference model, and then design the surrounding parts around that model.
 
 Rather than trying to measure and model an entire component in one step, I usually break it down into individual profiles or "sides". For each profile, I create a simple negative geometry and 3D print it to test the fit against the real component. This allows me to verify dimensions early and catch measurement errors before spending time modeling more complex geometry.
@@ -339,9 +353,9 @@ This approach allows me to build a virtual prototype before printing the final p
 _Prototyping workflow diagram_   
 <img width="1313" height="364" alt="image" src="https://github.com/user-attachments/assets/84126c58-6f34-41ba-a83c-7648af24f34e" />
 <!--img width="1066" height="421" alt="image" src="https://github.com/user-attachments/assets/cd6d1fda-48f4-40e2-bd62-a442324850ea" /-->
- 
-### 3.1.1 Ergonomics study
-Before starting any Blender modelling work, I carried out a simple ergonomics study using my own hands as the main reference. The goal was to understand how my fingers naturally rest and move, and use that as the starting point for the layout instead of relying on a standard fightstick template.
+
+### 3.3 Ergonomic Layout Development
+Before starting any design work, I carried out a simple ergonomics study using my own hands as the main reference. The goal was to understand how my fingers naturally rest and move, and use that as the starting point for the layout instead of relying on a standard fightstick template.
 
 The process was intentionally simple: I used a flat sheet of paper and explored different relaxed hand positions while simulating common inputs. This helped me identify natural finger alignment, comfortable spacing, and how my wrist prefers to sit when the hand is not forced into an artificial posture. I started with the action buttons arrays and then followed with the directional input block.
          
