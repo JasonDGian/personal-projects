@@ -79,7 +79,7 @@ To compare the available options, I tested several button sets in two sizes: 33 
 
 After some testing, I ruled out the 33 mm buttons because they took up too much space and made it harder to achieve a compact layout. Among the 27 mm options, one set stood out immediately. Despite being the most expensive and using a large mounting nut that complicated installation, it felt noticeably better and had a higher-quality finish than the alternatives.
 
-In the end, I chose this button set for the final design. The mounting challenge would later be addressed during the enclosure design process.
+In the end, I chose set number 3 for the final design. The mounting challenge would later be addressed during the enclosure design process.
 
 <table border="1">
     <thead>
