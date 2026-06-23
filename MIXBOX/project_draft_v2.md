@@ -464,8 +464,107 @@ _Final test piece_
 <img width="1774" height="676" alt="image" src="https://github.com/user-attachments/assets/d5ac14ff-fc4a-4f6c-a5f6-983a98d9e2f8" />
    
 ### 3.4.2 Initial housing design.
+Before starting the design draft, I first determined how many terminal blocks would be required based on the motherboard model I had selected. Since each terminal block provides two connections, I began by counting all the motherboard test pads that would need to be accessed.
 
+Including the ground connections, I identified approximately 42 signals that would need to be routed from the motherboard to the buttons and LED system. This meant that a minimum of 21 terminal blocks would be required. To provide some flexibility for future modifications and unexpected wiring needs, I added two additional terminal blocks, increasing the total capacity to 46 connections.
+
+This requirement became one of the main constraints that shaped the initial design of the enclosure.
    
+_Identified connections_   
+<table>
+    <tr>
+        <td>LA</td>
+        <td>AR</td>
+        <td>AD</td>
+        <td>AL</td>
+        <td>AU</td>
+        <td>BT1</td>
+        <td>KL3</td>
+    </tr>
+    <tr>
+        <td>LX</td>
+        <td>KR3</td>
+        <td>RX</td>
+        <td>RY</td>
+        <td>TRI</td>
+        <td>SDA0</td>
+        <td>KR2</td>
+    </tr>
+    <tr>
+        <td>3.3v</td>
+        <td>BT</td>
+        <td>RES1</td>
+        <td>VDD</td>
+        <td>FORK</td>
+        <td>SCL0</td>
+        <td>5V</td>
+    </tr>
+    <tr>
+        <td>TOUCH</td>
+        <td>D-</td>
+        <td>D+</td>
+        <td>PASD</td>
+        <td>KL2</td>
+        <td>BL</td>
+        <td>INT</td>
+    </tr>
+    <tr>
+        <td>GR</td>
+        <td>RE</td>
+        <td>PAR</td>
+        <td>SQU</td>
+        <td>KR1</td>
+        <td>KL1</td>
+        <td>SDA1</td>
+    </tr>
+    <tr>
+        <td>5V</td>
+        <td>SCL1</td>
+        <td>P23</td>
+        <td>SHA</td>
+        <td>GND</td>
+        <td>3.3v</td>
+        <td>RSE</td>
+    </tr>
+</table>
+    
+With these requirements established, I cloned the reference models in Blender and began arranging the main components within the available space. The minimum set of components that needed to be accommodated consisted of:
+- The motherboard
+- The battery
+- Twenty-three terminal blocks
+
+The goal of this stage was not to create the final enclosure, but rather to understand how these components could be positioned relative to one another while maintaining access to important motherboard features such as the USB-C port and headphone jack, minimizing the occupied space.
+
+After experimenting with several layouts, I settled on a preliminary arrangement for the battery, motherboard, and terminal blocks. Once I was satisfied that the major components could coexist without interfering with one another, I began designing the first test for the enclosure itself.
+    
+_Minimal elements positioned._
+<img width="1335" height="678" alt="mobo-1" src="https://github.com/user-attachments/assets/dd5d3c9b-e249-48ea-b288-0d429fecd4f5" />
+    
+The first step was creating a base plate that would support the motherboard. Openings were added to ensure the analog sticks would not collide with the structure, followed by mounting features to hold the PCB in place. I then incorporated multiple wire-routing holes near the test pad locations. Providing several routing options gave greater flexibility when soldering and organizing the wiring later in the project.
+
+
+
+The resulting prototype consisted of a simple base structure featuring PCB supports, analog stick clearance openings, wire-routing holes, and mounting locations for the terminal blocks. Although far from the final design, this first iteration served as an important proof of concept by allowing me to evaluate component placement, space requirements, and overall feasibility before investing additional time in more complex geometry.
+   
+    
+_Created the holes for protruding elements and support for the PCB._
+<img width="1421" height="678" alt="mobo-3" src="https://github.com/user-attachments/assets/36c0af8e-cd5e-4694-8059-d58df1379802" />
+      
+<img width="1421" height="678" alt="mobo-2" src="https://github.com/user-attachments/assets/ae368053-872e-4185-8091-2aeebc1f60d9" />
+    
+_Created routing holes for the soldered wires._
+<img width="1421" height="824" alt="mobo-4" src="https://github.com/user-attachments/assets/1a4eff92-14f8-4396-b94b-ddf63442425f" />
+      
+<img width="1421" height="824" alt="mobo-5" src="https://github.com/user-attachments/assets/1bfbbfa6-eeb8-4d4c-8e34-6d72d73adfb7" />
+       
+_Final test piece for the first design._
+<img width="1450" height="824" alt="mobo-8" src="https://github.com/user-attachments/assets/a00d2d60-8df3-4b6a-97d4-160c82785170" />
+   
+<img width="1450" height="824" alt="mobo-9" src="https://github.com/user-attachments/assets/f8e605cf-4bf8-40c9-9b65-eb8869c4fdb3" />
+    
+_Testing the piece._
+
+
 ### 3.4.3 Prototype and Validation.
 
     
