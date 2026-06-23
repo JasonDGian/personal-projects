@@ -537,32 +537,64 @@ The goal of this stage was not to create the final enclosure, but rather to unde
 
 After experimenting with several layouts, I settled on a preliminary arrangement for the battery, motherboard, and terminal blocks. Once I was satisfied that the major components could coexist without interfering with one another, I began designing the first test for the enclosure itself.
     
-_Minimal elements positioned._
-<img width="1335" height="678" alt="mobo-1" src="https://github.com/user-attachments/assets/dd5d3c9b-e249-48ea-b288-0d429fecd4f5" />
+<table>
+    <caption><i>Initial Blender component layout.</i></caption>
+    <tr>
+        <td rowspan="2"><img width="1350"  alt="mobo-1" src="https://github.com/user-attachments/assets/dd5d3c9b-e249-48ea-b288-0d429fecd4f5" /></td>
+        <td><img width="500" alt="image" src="https://github.com/user-attachments/assets/feddf8f6-828d-4d1b-a732-dcae8a87cec5" />
+</td>
+    </tr>
+    <tr>
+        <td><img width="500" alt="image" src="https://github.com/user-attachments/assets/b584ce71-21b0-4db5-a8ec-00515da25339" />
+    </td>
+    </tr>
+</table>
     
 The first step was creating a base plate that would support the motherboard. Openings were added to ensure the analog sticks would not collide with the structure, followed by mounting features to hold the PCB in place. I then incorporated multiple wire-routing holes near the test pad locations. Providing several routing options gave greater flexibility when soldering and organizing the wiring later in the project.
 
-
+<table>
+    <th colspan="2">
+        Base plate with openings.
+    </th>
+    <tr>
+        <td><img width="1421" height="678" alt="mobo-2" src="https://github.com/user-attachments/assets/ae368053-872e-4185-8091-2aeebc1f60d9" /></td>
+        <td><img width="1421" height="678" alt="mobo-3" src="https://github.com/user-attachments/assets/36c0af8e-cd5e-4694-8059-d58df1379802" /></td>
+    </tr>
+    <tr>
+        <th colspan="2">
+            Routing paths (red color).
+        </th>
+    </tr>
+    <tr>
+        <td><img width="1421" height="824" alt="mobo-4" src="https://github.com/user-attachments/assets/1a4eff92-14f8-4396-b94b-ddf63442425f" /></td>
+        <td><img width="1421" height="824" alt="mobo-5" src="https://github.com/user-attachments/assets/1bfbbfa6-eeb8-4d4c-8e34-6d72d73adfb7" /></td>
+    </tr>
+</table>
 
 The resulting prototype consisted of a simple base structure featuring PCB supports, analog stick clearance openings, wire-routing holes, and mounting locations for the terminal blocks. Although far from the final design, this first iteration served as an important proof of concept by allowing me to evaluate component placement, space requirements, and overall feasibility before investing additional time in more complex geometry.
-   
-    
-_Created the holes for protruding elements and support for the PCB._
-<img width="1421" height="678" alt="mobo-3" src="https://github.com/user-attachments/assets/36c0af8e-cd5e-4694-8059-d58df1379802" />
+
+<table>
+    <th colspan="2">
+        Base plate starting point.
+    </th>
+    <tr>
+        <td><img width="1450" height="824" alt="mobo-8" src="https://github.com/user-attachments/assets/a00d2d60-8df3-4b6a-97d4-160c82785170" /></td>
+        <td><img width="1450" height="824" alt="mobo-9" src="https://github.com/user-attachments/assets/f8e605cf-4bf8-40c9-9b65-eb8869c4fdb3" /></td>
+    </tr>
+</table>
+
+**Testing the prototype revealed several issues:**
+- The PCB mounting holes were correctly sized, but the terminal block mounting holes required a slight increase in diameter.
+- One support pillar interfered with a nearby IC, creating an uneven support surface. Tightening the PCB in this condition would likely introduce stress and risk damaging the board.
+- The available space between the battery, terminal blocks, and PCB was insufficient to accommodate the protective lid planned for the enclosure.
+
+These observations confirmed that the concept was viable, while identifying the dimensional and layout changes required for the next iteration.
       
-<img width="1421" height="678" alt="mobo-2" src="https://github.com/user-attachments/assets/ae368053-872e-4185-8091-2aeebc1f60d9" />
-    
-_Created routing holes for the soldered wires._
-<img width="1421" height="824" alt="mobo-4" src="https://github.com/user-attachments/assets/1a4eff92-14f8-4396-b94b-ddf63442425f" />
-      
-<img width="1421" height="824" alt="mobo-5" src="https://github.com/user-attachments/assets/1bfbbfa6-eeb8-4d4c-8e34-6d72d73adfb7" />
-       
-_Final test piece for the first design._
-<img width="1450" height="824" alt="mobo-8" src="https://github.com/user-attachments/assets/a00d2d60-8df3-4b6a-97d4-160c82785170" />
-   
-<img width="1450" height="824" alt="mobo-9" src="https://github.com/user-attachments/assets/f8e605cf-4bf8-40c9-9b65-eb8869c4fdb3" />
-    
 _Testing the piece._
+<img width="2000" height="900" alt="mobo-test-drive" src="https://github.com/user-attachments/assets/1d6a0732-0612-428e-bd24-1fa08f78abf3" />
+
+    
+
 
 
 ### 3.4.3 Prototype and Validation.
