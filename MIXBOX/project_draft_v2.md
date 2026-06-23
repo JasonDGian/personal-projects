@@ -610,15 +610,14 @@ These observations confirmed that the concept was viable, while identifying the 
     </tr>
 </table>
 
-
-
-
-
-    
-
-
-
 ### 3.4.3 Prototype and Validation.
+For the first prototype to iterate on I had fixed the material height for the terminal block pins, the battery space, the colliding support pillar against the IC and created the first test for the battery holder.
+
+
+
+**Battery holder.**   
+Lithium batteries are susceptible to mchanical forces and should not be put under stress, it is also important to know that this kind of batteries need to "breathe" and often expand and retract and reach temperatures of about 50ºc when in use. These are key factors to keep in mind while designing it's securing method.  
+
 
     
 ### 3.4.4 Final housing.
