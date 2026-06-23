@@ -585,13 +585,34 @@ The resulting prototype consisted of a simple base structure featuring PCB suppo
 
 **Testing the prototype revealed several issues:**
 - The PCB mounting holes were correctly sized, but the terminal block mounting holes required a slight increase in diameter.
+- Due to the height of the base plate, insufficient metal from the terminal blocks was exposed for comfortable soldering. The base plate height should be reduced by at least 1 mm.
 - One support pillar interfered with a nearby IC, creating an uneven support surface. Tightening the PCB in this condition would likely introduce stress and risk damaging the board.
 - The available space between the battery, terminal blocks, and PCB was insufficient to accommodate the protective lid planned for the enclosure.
 
 These observations confirmed that the concept was viable, while identifying the dimensional and layout changes required for the next iteration.
       
-_Testing the piece._
-<img width="2000" height="900" alt="mobo-test-drive" src="https://github.com/user-attachments/assets/1d6a0732-0612-428e-bd24-1fa08f78abf3" />
+    
+<table>
+    <caption><i>Initial test results.</i></caption>
+    <tr>
+        <td>
+            <i>Mounted terminal blocks.</i><br>
+            <img width="2000" height="780" alt="image" src="https://github.com/user-attachments/assets/90558ae0-7338-468f-89d1-819a5c50397b" />
+        </td>
+        <td>
+            <i>Insufficient pin surface.</i><br>
+            <img width="2000" height="780" alt="image" src="https://github.com/user-attachments/assets/a7edb3e5-e020-460f-942f-118e21736ed7" />
+        </td>
+        <td>
+            <i>Overall look</i>
+            <img width="2000" height="900" alt="mobo-test-drive" src="https://github.com/user-attachments/assets/1d6a0732-0612-428e-bd24-1fa08f78abf3" />
+        </td>
+    </tr>
+</table>
+
+
+
+
 
     
 
