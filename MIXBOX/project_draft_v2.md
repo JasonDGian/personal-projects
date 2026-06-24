@@ -463,7 +463,7 @@ By using the validated motherboard reference model and incorporating the defined
 _Final test piece_
 <img width="1774" height="676" alt="image" src="https://github.com/user-attachments/assets/d5ac14ff-fc4a-4f6c-a5f6-983a98d9e2f8" />
    
-### 3.4.2 Initial housing design.
+### 3.4.2 Initial housing design and prototype.
 Before starting the design draft, I first determined how many terminal blocks would be required based on the motherboard model I had selected. Since each terminal block provides two connections, I began by counting all the motherboard test pads that would need to be accessed.
 
 Including the ground connections, I identified approximately 42 signals that would need to be routed from the motherboard to the buttons and LED system. This meant that a minimum of 21 terminal blocks would be required. To provide some flexibility for future modifications and unexpected wiring needs, I added two additional terminal blocks, increasing the total capacity to 46 connections.
@@ -589,8 +589,8 @@ The resulting prototype consisted of a simple base structure featuring PCB suppo
 - One support pillar interfered with a nearby IC, creating an uneven support surface. Tightening the PCB in this condition would likely introduce stress and risk damaging the board.
 - The available space between the battery, terminal blocks, and PCB was insufficient to accommodate the protective lid planned for the enclosure.
 
-These observations confirmed that the concept was viable, while identifying the dimensional and layout changes required for the next iteration.
-      
+**These observations confirmed that the concept was viable while identifying the dimensional and layout changes required for the next iteration. They also showed that the enclosure would need to be larger than initially intended, with additional space sacrificed in favor of protection, serviceability, and reliable PCB support.**
+    
     
 <table>
     <caption><i>Initial test results.</i></caption>
@@ -610,13 +610,41 @@ These observations confirmed that the concept was viable, while identifying the 
     </tr>
 </table>
 
-### 3.4.3 Prototype and Validation.
-For the first prototype to iterate on I had fixed the material height for the terminal block pins, the battery space, the colliding support pillar against the IC and created the first test for the battery holder.
+### 3.4.3 Design iteration and tweaks.
+Based on the observations from the first prototype, I implemented several corrections before continuing the development of the enclosure.
+
+The changes included:
+- Increasing the diameter of the terminal block mounting holes.
+- Reducing the base plate thickness around the terminal blocks area to expose more metal for soldering.
+- Increasing the available space allocated to the battery.
+- Reshaping the support pillar that was interfering with an integrated circuit on the motherboard.
+     
+<table>
+    <caption><i>Corrected motherboard enclosure model</i></caption>
+    <tr>
+        <td rowspan="2">
+            Isometric top image.
+        </td>
+        <td>
+            Top image
+        </td>
+    </tr>
+    <tr>
+        <td>Front image</td>
+    </tr>
+</table>
+
+With the initial fitting issues out of the way, I could begin working on the remaining features required to complete the enclosure. These included:
+- A method for securing the motherboard enclosure to the mixbox internal body.
+- A method to secure and protect the battery to the enclosure.
+- A protective lid for the motherboard and wiring.
+     
+>[!IMPORTANT]
+>**About the battery holder**    
+>The battery required special attention compared to the other internal components. **Li-Po batteries are sensitive to mechanical stress and can expand slightly during normal operation while reaching temperatures of around 50 °C**. Because of this, the holder needed to keep the battery securely in place without applying excessive pressure while remaining suitable for the expected operating temperatures. These constraints became the main design requirements for the battery retention system.
 
 
 
-**Battery holder.**   
-Lithium batteries are susceptible to mchanical forces and should not be put under stress, it is also important to know that this kind of batteries need to "breathe" and often expand and retract and reach temperatures of about 50ºc when in use. These are key factors to keep in mind while designing it's securing method.  
 
 
     
