@@ -789,11 +789,13 @@ Buget notes.
 - Undervalued a dedicated motherboard (like brook boards)
 - Assumed any motherboard would work
 - Relied on a cheap controller that stopped working after a couple of weeks of use.
+- First iteration was hard to service and when an issue arised after years of use it was very hard to diagnose.
 - Assumed bigger buttons were better and more comfortable.
 - Did not initially start measuring from a fixed point for ther motherboard reference.
-- Did not keep an organized digital workspace, this way I lost a good prototype in the digital clutter of models.
+- Did not keep an organized digital workspace, this way I lost a good prototype in the digital clutter of models, had to create a new blender project and order stuff around.
 - Did not initially calculate the nut of the action buttons.
 - Undervalued certain tools like pitch gauge, which introduced trial and error.
 - Spent more money than necessary due to wanting to test a lot of things.
 - Spent a whole ton of time modeling positives while it was probably not necesary.
-- Bought a motherboard that had the charing port fused to it, so i had to fight anoother battle to export it and pay for it.
+- Bought a motherboard that had the charing port fused to it, so i had to fight another battle to export it and pay for it.
+- Had to edit and re-edit the documentation once and once again because it is hard to organize ideas, i kept fusing sections and having a hard time at separating flows and concepts.
