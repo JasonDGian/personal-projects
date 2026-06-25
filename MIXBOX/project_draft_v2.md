@@ -432,7 +432,7 @@ This initial version served as the baseline from which all future fitting tests 
 _Dimensions transferred into Blender to create the initial motherboard profile._
 <img width="1235" height="770" alt="image" src="https://github.com/user-attachments/assets/2251d7b0-587f-47a3-af92-c58a49852390" />
     
-#### 3.4.1.3 Profile dimenstions validations.
+#### 3.4.1.3 Profile dimensions validations.
 Instead of testing the full model at once, I validated it in stages. Breaking it down like this made it much easier to locate issues and adjust specific areas without affecting the rest of the geometry. 
 **The validation followed this order:**
 - Each side was checked individually
@@ -468,7 +468,7 @@ Before starting the design draft, I first determined how many terminal blocks wo
 
 Including the ground connections, I identified approximately 42 signals that would need to be routed from the motherboard to the buttons and LED system. This meant that a minimum of 21 terminal blocks would be required. To provide some flexibility for future modifications and unexpected wiring needs, I added two additional terminal blocks, increasing the total capacity to 46 connections.
 
-This requirement became one of the main constraints that shaped the initial design of the enclosure.
+This requirement ssbecame one of the main constraints that shaped the initial design of the enclosure.
    
 _Identified connections_   
 <table>
@@ -703,10 +703,13 @@ This iteration became the foundation of the final design. From this point onward
         </tr>
     </tbody>
 </table>
+   
+      
+_Virtual assembly_    
+<img width="1249" height="789" alt="assembly" src="https://github.com/user-attachments/assets/9ba59106-a365-469f-9bc9-1f5b2b29a8c0" />
 
-
-
-
+**TODO:**   
+**Write down notes about this iterations results.**
     
 ### 3.4.4 Final housing.
 
