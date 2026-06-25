@@ -619,30 +619,90 @@ The changes included:
 - Increasing the available space allocated to the battery.
 - Reshaping the support pillar that was interfering with an integrated circuit on the motherboard.
      
-<table>
-    <caption><i>Corrected motherboard enclosure model</i></caption>
-    <tr>
-        <td rowspan="2">
-            Isometric top image.
-        </td>
-        <td>
-            Top image
-        </td>
-    </tr>
-    <tr>
-        <td>Front image</td>
-    </tr>
-</table>
-
 With the initial fitting issues out of the way, I could begin working on the remaining features required to complete the enclosure. These included:
 - A method for securing the motherboard enclosure to the mixbox internal body.
-- A method to secure and protect the battery to the enclosure.
+- A method to protect and secure the battery to the enclosure.
 - A protective lid for the motherboard and wiring.
      
 >[!IMPORTANT]
 >**About the battery holder**    
 >The battery required special attention compared to the other internal components. **Li-Po batteries are sensitive to mechanical stress and can expand slightly during normal operation while reaching temperatures of around 50 °C**. Because of this, the holder needed to keep the battery securely in place without applying excessive pressure while remaining suitable for the expected operating temperatures. These constraints became the main design requirements for the battery retention system.
 
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr>
+            <th>Version</th>
+            <th>Description</th>
+            <th>Key Issues / Outcome</th>
+            <th>Picture</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Version 1</strong></td>
+            <td>
+                The initial design was overly rigid, lacked flexibility, was not compact,
+                and provided little accommodation for battery expansion or ventilation.
+                Although the enclosure was oversized and allowed the battery to move
+                freely without significant mechanical pressure, battery swelling remained
+                a concern.
+            </td>
+            <td>
+                A swollen battery could become lodged within the enclosure, creating
+                potential safety concerns and making battery removal difficult.
+            </td>
+            <td>
+                <img width="400" alt="BatteryHolderV1" src="https://github.com/user-attachments/assets/f19f98fa-5eb4-4288-ad6c-5a47ac2233c7" />
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Version 2</strong></td>
+            <td>
+                I based this iteration on a dual spring-loaded retention mechanism
+                intended to keep the battery securely in place while accommodating
+                dimensional variations.
+            </td>
+            <td>
+                The design proved overcomplicated and required additional space. The benefits did not justify the added complexity,
+                so further development was abbandoned.
+            </td>
+            <td>
+                <img width="400" alt="BatteryHolderV2" src="https://github.com/user-attachments/assets/0a960208-c401-48d1-955f-6fb1b2019d8e" />
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Version 3</strong></td>
+            <td>
+                This version focused on simplicity by using hooks and elastic bands
+                to secure the battery. The concept provided flexibility and adjustable
+                mechanical pressure while minimizing the number of components.
+            </td>
+            <td>
+                The concept worked in principle, but after looking into the long-term effects of heat on elastic materials, I realized elastic bands were not a viable solution. Heat and aging gradually degrade the material, causing it to lose elasticity and retention                  force. Eventually, the bands would no longer be able to secure the battery reliably.
+            </td>
+            <td>
+                <img width="400" alt="BatteryHolderV3" src="https://github.com/user-attachments/assets/37bbfb5e-b2f9-4ea8-bd08-4462665d6b3d" />
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Version 4</strong></td>
+            <td>
+This version uses a thin PLA strip secured between two PLA blocks with screws, which are in turn attached to the main motherboard enclosure base plate. The thin strip acts as a flexible retention mechanism, applying gentle pressure to keep the battery securely in place.
+
+This iteration became the foundation of the final design. From this point onward, development was limited to minor refinements and dimensional adjustments. The design provides secure battery retention while maintaining enough flexibility to accommodate small variations in battery size, and the use of PLA eliminates the long-term degradation concerns associated with elastic materials.
+            </td>
+            <td>
+                Battery retention force can be adjusted using plastic spacers or
+                compressible materials such as foam, allowing the mechanical pressure
+                applied to the battery to be increased or reduced as needed.
+            </td>
+            <td>
+                <img width="400" alt="BatteryHolderV4" src="https://github.com/user-attachments/assets/372c0ff2-2d8b-4b0a-9063-f40c26093b8f" />
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
 
@@ -782,6 +842,16 @@ Buget notes.
 ---
 
 ---
+
+
+
+
+
+
+
+
+
+
 # Mistakes and lessons learnd.
 
 <mark>TODO</mark>
