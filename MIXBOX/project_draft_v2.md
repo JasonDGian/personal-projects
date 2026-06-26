@@ -712,49 +712,19 @@ _Virtual assembly_
 **Iteration 2 results**    
 After assembling and testing the second iteration, a few design oversights became obvious. None of them were particularly difficult to fix, but they exposed a gap between the Blender model and the actual hardware. Most of these problems can be traced back to the reference model I was working from, which was missing the battery connector and rear button assemblies.
 
-<!--    
-**Lid Clearance Oversight**     
-During the design of the lid, I completely overlooked two components mounted on the motherboard:
-- The battery connector.
-- The rear button assemblies.
-      
-_Revised lid with the necessary cutouts_
-<img width="1000" alt="motherboard_revised_lid" src="https://github.com/user-attachments/assets/16c9a3ff-8f0a-4daf-aee6-4b2c1b24d3ae" />
-   
-   
-**Battery Retention**    
-Although the battery fit within the enclosure, testing revealed that it was still able to move laterally inside the compartment. This resulted in unwanted movement ("dancing") during handling.   
-To resolve this, I designed an additional 'blocker' that sits alongside the battery and prevents side-to-side displacement, securing it more reliably.
-    
-_New blocker to prevent lateral movement._
-<img width="1000" alt="battery_holder_new_blocker" src="https://github.com/user-attachments/assets/ca65407d-c143-4034-885f-c34cd38ec026" />
-            
-**Terminal Block Positioning**
-While increasing the height of the base plate, I also adjusted the position of the terminal blocks to better match the real hardware. During this process, I unintentionally shifted them too far, failing to account for the terminal blocks' locking mechanism.
-The new position causes the locking tabs of one cluster to interfere with the adjacent cluster, preventing proper installation. This will require repositioning the terminal blocks to restore the necessary clearance while maintaining dimensional accuracy.
-    
-_Locking mechanism colliding with adjacent cluster._
-<img width="1000" alt="unaccounted_locking_system" src="https://github.com/user-attachments/assets/2f310ada-2505-425a-bb47-0df097ec00f9" />
-
-
 <table>
+    <caption><i>Issues found and solutions applied</i></caption>
     <tr>
         <td>
-            <i>Revised lid with the necessary cutouts.</i></br>
-    <img width="1000" alt="motherboard_revised_lid" src="https://github.com/user-attachments/assets/16c9a3ff-8f0a-4daf-aee6-4b2c1b24d3ae" />
+            <strong>Battery Retention</strong></br>
+            Although the battery fit within the designed enclosure, testing revealed that it was still able to move laterally inside the compartment. This resulted in unwanted movement ("dancing") during handling.   
+To resolve this, I designed an additional 'blocker' integrated into the protective lid of the enclosure that sits alongside the battery and prevents side-to-side displacement, securing it more reliably.
         </td>
         <td>
-            <i>New blocker to prevent lateral movement.</i></br>
-    <img width="1000" alt="battery_holder_new_blocker" src="https://github.com/user-attachments/assets/ca65407d-c143-4034-885f-c34cd38ec026" />
-        </td>
-        <td>
-<i>Locking mechanism colliding with adjacent cluster.</i></br>
-<img width="1000" alt="unaccounted_locking_system" src="https://github.com/user-attachments/assets/2f310ada-2505-425a-bb47-0df097ec00f9" />
+        <i>New blocker to prevent lateral movement.</i></br>
+        <img width="802" height="778" alt="image" src="https://github.com/user-attachments/assets/0e1c3be5-b255-4a4b-97e9-7ff121e9bf41" />
         </td>
     </tr>
-</table>
--->        
-<table>
     <tr>
         <td>
             <strong>Lid Clearance Oversight</strong></br>
@@ -769,17 +739,6 @@ _Locking mechanism colliding with adjacent cluster._
         <td>
         <i>Revised lid with the necessary cutouts</i></br>
         <img width="1000" alt="motherboard_revised_lid" src="https://github.com/user-attachments/assets/16c9a3ff-8f0a-4daf-aee6-4b2c1b24d3ae" />
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <strong>Battery Retention</strong></br>
-            Although the battery fit within the enclosure, testing revealed that it was still able to move laterally inside the compartment. This resulted in unwanted movement ("dancing") during handling.   
-To resolve this, I designed an additional 'blocker' that sits alongside the battery and prevents side-to-side displacement, securing it more reliably.
-        </td>
-        <td>
-        <i>New blocker to prevent lateral movement.</i></br>
-        <img width="1000" alt="battery_holder_new_blocker" src="https://github.com/user-attachments/assets/ca65407d-c143-4034-885f-c34cd38ec026" />
         </td>
     </tr>
     <tr>
