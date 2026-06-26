@@ -708,8 +708,129 @@ This iteration became the foundation of the final design. From this point onward
 _Virtual assembly_    
 <img width="1249" height="789" alt="assembly" src="https://github.com/user-attachments/assets/9ba59106-a365-469f-9bc9-1f5b2b29a8c0" />
 
-**TODO:**   
-**Write down notes about this iterations results.**
+
+**Iteration 2 results**    
+After assembling and testing the second iteration, a few design oversights became obvious. None of them were particularly difficult to fix, but they exposed a gap between the Blender model and the actual hardware. Most of these problems can be traced back to the reference model I was working from, which was missing the battery connector and rear button assemblies.
+    
+
+<table>
+    <caption><strong>Lid Clearance Oversight</strong></caption>
+    <tr>
+        <td>
+            During the design of the lid, I completely overlooked two components mounted on the motherboard:
+            <ul>
+                <li>The battery connector.</li>
+                <li>The rear button assemblies.</li>
+            </ul>
+        </br>
+        As a result, the first printed lid collided with both features and could not be installed correctly. The revised lid addresses this issue by increasing the internal height of the enclosure and adding the necessary cutouts to provide adequate clearance.
+        </td>
+        <td>
+        <i>Revised lid with the necessary cutouts</i></br>
+        <img width="1326" height="789" alt="image" src="https://github.com/user-attachments/assets/530d3c4d-81e5-4bbf-9f78-111af19d05cc" />
+        </td>
+    </tr>
+</table>
+    
+<table>
+    <caption><strong>Battery Retention</strong></caption>
+    <tr>
+        <td>Although the battery fit within the enclosure, testing revealed that it was still able to move laterally inside the compartment. This resulted in unwanted movement ("dancing") during handling.   
+To resolve this, I designed an additional 'blocker' that sits alongside the battery and prevents side-to-side displacement, securing it more reliably.
+        </td>
+        <td>
+        <i>New blocker to prevent lateral movement.</i></br>
+        <img width="1007" height="710" alt="image" src="https://github.com/user-attachments/assets/0b19e5e5-a9b7-4019-8730-ab85b452ee49" />
+        </td>
+    </tr>
+</table>
+     
+<table>
+    <caption><strong>Terminal Block Positioning</strong></caption>
+    <tr>
+        <td>
+            While increasing the height of the base plate, I also adjusted the position of the terminal blocks to better match the real hardware. During this process, I unintentionally shifted them too far, failing to account for the terminal blocks' locking mechanism.
+The new position causes the locking tabs of one cluster to interfere with the adjacent cluster, preventing proper installation. This will require repositioning the terminal blocks to restore the necessary clearance while maintaining dimensional accuracy.
+        </td>
+        <td>
+        <i>Locking mechanism colliding with adjacent cluster.</i></br>
+        <img width="2000" height="900" alt="image" src="https://github.com/user-attachments/assets/e9ff55a5-3798-4f2f-ab4d-a6d094ac2c5b" />
+        </td>
+    </tr>
+</table>
+     
+  
+**Takeaways**    
+This iteration reinforced the importance of validating the Blender model against the actual hardware throughout the design process. Several of these issues resulted from focusing on the primary geometry while overlooking secondary features such as connectors, locking mechanisms, and component tolerances. Future iterations should include a systematic interference check before printing to catch these types of collisions earlier.
+
+<!--
+<table>
+    <thead>
+        <tr>
+            <th>Issue and Description</th>
+            <th>Corrective Action</th>
+            <th>Evidence</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <strong>Lid Clearance</strong></br>
+                The battery connector and rear button assemblies were overlooked
+                during modelling, causing the first printed lid to collide with
+                both components.
+            </td>
+            <td>
+                Increased the lid height and added clearance cutouts.
+            </td>
+            <td>
+                <img
+                    src="https://github.com/user-attachments/assets/530d3c4d-81e5-4bbf-9f78-111af19d05cc"
+                    alt="Revised lid"
+                    width="500">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Battery Retention</strong></br>
+                The battery could move laterally inside the enclosure during
+                handling.
+            </td>
+            <td>
+                Designed a side spacer to eliminate lateral movement.
+            </td>
+            <td>
+                <img
+                    src="https://github.com/user-attachments/assets/0b19e5e5-a9b7-4019-8730-ab85b452ee49"
+                    alt="Battery spacer"
+                    width="500">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Terminal Block Positioning</strong></br>
+                The locking tabs of one terminal block cluster interfere with the
+                adjacent cluster after repositioning.
+            </td>
+            <td>
+                Reposition the terminal blocks to restore the required clearance.
+            </td>
+            <td>
+                <img
+                    src="https://github.com/user-attachments/assets/e9ff55a5-3798-4f2f-ab4d-a6d094ac2c5b"
+                    alt="Terminal block collision"
+                    width="500">
+            </td>
+        </tr>
+    </tbody>
+</table>
+-->
+
+_Corrected results_
+
+
+
+
     
 ### 3.4.4 Final housing.
 
