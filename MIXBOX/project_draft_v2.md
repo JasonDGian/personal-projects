@@ -832,7 +832,11 @@ While resizing these features to provide slightly more generous battery toleranc
 
 The issue was straightforward to resolve by slightly increasing the internal dimensions of the mounting features. This restored the required screw clearance while preserving their secondary function as battery side stops.
 
-<table>
+<i>Screw clearance issue.</i><br> 
+    <img width="2415" height="817" alt="clearance issues" src="https://github.com/user-attachments/assets/9b67905e-e908-4cb6-981f-405ff3144609" />
+</td>
+
+<!--table>
     <caption><i>Issues found and solutions applied</i></caption>
     <tr>
         <td> <strong>Screw clearance issue.</strong><br><br>
@@ -843,7 +847,7 @@ The issue was straightforward to resolve by slightly increasing the internal dim
             <img width="2415" height="817" alt="clearance issues" src="https://github.com/user-attachments/assets/9b67905e-e908-4cb6-981f-405ff3144609" />
         </td>
     </tr>
-</table>
+</table-->
  
 **Takeaways**   
 This iteration highlighted the importance of paying close attention to multi-purpose features. A seemingly minor dimensional change made to improve one function can unintentionally affect another. In future iterations, any feature serving more than one purpose should be reviewed to ensure all of its functional requirements are still met after modifications.
