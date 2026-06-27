@@ -705,8 +705,9 @@ This iteration became the foundation of the final design. From this point onward
 </table>
    
       
-_Virtual assembly_    
-<img width="1249" height="789" alt="assembly" src="https://github.com/user-attachments/assets/9ba59106-a365-469f-9bc9-1f5b2b29a8c0" />
+_Second iteration virtual assembly_        
+<img width="1191" height="764" alt="mobohol-second-gif" src="https://github.com/user-attachments/assets/1442e1d2-5750-4eae-8ae6-71b7a4d9f615" />
+    
 
 
 **Iteration 2 results**    
@@ -820,13 +821,37 @@ This iteration reinforced the importance of validating the Blender model against
 </table>
 -->
 
-_Corrected results_
+Third iteration virtual assembly_    
+<img width="1191" height="764" alt="mobohol-third-iteration-gif" src="https://github.com/user-attachments/assets/9ab70a7d-114f-4a87-bf54-f4e728cf5aa6" />
 
 
+**Iteration 3 results**    
+After assembling and testing the third iteration, only one minor design issue became apparent. The battery side stops also serve as the mounting features for the protective lid, housing the screws that secure the lid to the motherboard holder.
+
+While resizing these features to provide slightly more generous battery tolerances and better control of lateral movement, I overlooked the space required for the mounting screws. As a result, the internal clearance of the mounting feature became too small for the screw heads to fit properly during assembly.
+
+The issue was straightforward to resolve by slightly increasing the internal dimensions of the mounting features. This restored the required screw clearance while preserving their secondary function as battery side stops.
+
+<table>
+    <caption><i>Issues found and solutions applied</i></caption>
+    <tr>
+        <td> <strong>Screw clearance issue.</strong><br><br>
+            To restore the required screw clearance, two of the walls of the mounting feature had to be made thinner in order to preserve the battery tolerances. To compensate for the reduction in wall thickness, I added internal bevels that reinforce the structure. These bevels form two opposing U-shaped ribs that meet in the middle, increasing rigidity around the screw without significantly affecting the available clearance.
+        </td>
+        <td>
+         <i>Screw clearance issue.</i><br> 
+            <img width="2415" height="817" alt="clearance issues" src="https://github.com/user-attachments/assets/9b67905e-e908-4cb6-981f-405ff3144609" />
+        </td>
+    </tr>
+</table>
+ 
+**Takeaways**   
+This iteration highlighted the importance of paying close attention to multi-purpose features. A seemingly minor dimensional change made to improve one function can unintentionally affect another. In future iterations, any feature serving more than one purpose should be reviewed to ensure all of its functional requirements are still met after modifications.
 
 
     
 ### 3.4.4 Final housing.
+
 
 
 
