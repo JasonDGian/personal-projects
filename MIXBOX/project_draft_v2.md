@@ -855,21 +855,31 @@ This iteration highlighted the importance of paying close attention to multi-pur
 
     
 ### 3.4.4 Final housing.
+After implementing the changes identified during the previous design iterations, I arrived at the final version of the motherboard housing. The completed design combines the motherboard support, battery retention system, terminal block mounts, and protective lid into a single assembly that fulfils the original design objectives while remaining serviceable.
+    
+<table>
+    <caption>Final design and result.</caption>
+    <tr>
+        <td>render</td>
+        <td>picture</td>
+    </tr>
+</table>
+   
+The motherboard is supported at multiple locations to minimise PCB flex while avoiding contact with sensitive components or obstructing wire routing paths. The validated reference model ensured that the USB-C port, headphone jack, and other key features remained correctly aligned with the enclosure.
+    
+[Image showing the motherboard installed inside the housing]
+    
+The enclosure accommodates twenty-three terminal blocks, allowing all required signals to be connected through screw terminals. The removable lid protects the motherboard and solder joints while still allowing easy access for maintenance or future modifications.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[Image with the lid removed showing the motherboard, terminal blocks, and wiring layout]
+   
+Battery retention is provided by the flexible PLA strip developed during the final design iteration. Together with the side supports integrated into the lid, it keeps the battery securely positioned without applying excessive pressure.
+    
+[Close-up image of the battery retention mechanism]
+    
+The final enclosure mounts directly to the internal MixBox structure using dedicated mounting points, allowing the complete assembly to be installed or removed as a single unit.
+    
+Overall, the final design is the result of several prototype iterations and physical validation. Although most of the changes between iterations were relatively small, they significantly improved the reliability, serviceability, and overall fit of the enclosure, resulting in a practical solution ready for integration into the completed MixBox.
 
 ## 3.4 Action button array.
 The action button array consists of the buttons used to perform attacks and other in-game actions, such as punches and kicks. Together with the directional controls, these are the buttons that see the most frequent use during gameplay, making their placement and ergonomics particularly important. The action buttons array must be comfrotable to use, well positioned, as compact as possible and they must easily replaceable in case of malfunction or being eroded by use. Easy to service and replace in case of customization needs. 
