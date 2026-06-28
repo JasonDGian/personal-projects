@@ -911,6 +911,8 @@ The action button array consists of the buttons used to perform attacks and othe
 # 🔸4. Reverse Engineering, Wiring, and Hardware Integration
 After identifying the main controller IC as the Actions Semiconductor ATS2855, it became much easier to determine the purpose of the motherboard’s test pads and signal connections. The ATS2855 is the central processing unit of the controller, responsible for reading the button matrix and analog joysticks, managing USB and Bluetooth communication, monitoring the battery and charging system, and interfacing with onboard peripherals such as the touchpad through protocols like I²C. To avoid any mistakes or incorrect assumptions, I personally tested each pad using a multimeter and verified behavior through manual input checks on a live device, correlating electrical readings with real-time system responses. Based on the capabilities of the ATS2855 and the PCB layout, the following table summarizes the identified test pads and their functions.
     
+While searching online for a datasheet and information about the IC i found this useful [post](https://www.answeroverflow.com/m/1398984785619325016).
+    
 >[!IMPORTANT]
 >While I have not been able to confirm every single connection, the most critical test pads required for the project have been verified. A check mark symbol (✔️) indicates the test pads that were manually tested and confirmed in the table below.
     
