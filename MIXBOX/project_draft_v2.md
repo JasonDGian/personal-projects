@@ -851,9 +851,7 @@ The issue was straightforward to resolve by slightly increasing the internal dim
  
 **Takeaways**   
 This iteration highlighted the importance of paying close attention to multi-purpose features. A seemingly minor dimensional change made to improve one function can unintentionally affect another. In future iterations, any feature serving more than one purpose should be reviewed to ensure all of its functional requirements are still met after modifications.
-
-
-    
+        
 ### 3.4.4 Final housing.
 After implementing the changes identified during the previous design iterations, I arrived at the final version of the motherboard housing. The completed design combines the motherboard support, battery retention system, terminal block mounts, and protective lid into a single assembly that fulfils the original design objectives while remaining serviceable.
       
@@ -883,13 +881,24 @@ The action button array consists of the buttons used to perform attacks and othe
 ### 3.4.2 Prototyping and testing.
 ### 3.4.3 Final Design.
 
-
-
 ## 3.4 Led module enclosure (led module surrounding geometry).
 ### 3.4.1 Modeling the positive for reference
 ### 3.4.2 Modeling the enclosure.
 
-## 3.5 Direction arrows piece
+## 3.5 Directional input block
+Before i started designin this element of the controller I researched ways to make it as easy as possible to swap out switches for maintenance and customization. Different types of mechanical keyboard switches exist with different feedback type and overall feeling. Therefore being able to change switches would'vee been a big plus in the design.
+
+I discovered that "hot swap sockets" exist. These socket allow me to swap out the switches as i want.
+
+
+As I've done with the other elements, I first designed the positive of the pieces i needed to design the part for.
+This meant measuring and modelling the hotswap socket and the keyboard switch.
+
+I started by measuring the hotswap socket.
+
+<img width="2339" height="1130" alt="image" src="https://github.com/user-attachments/assets/7d1bf288-6da8-42d3-8b8c-48eea1d9eaae" />
+
+
 ### 3.5.1 Hand ergonomics
 ### 3.5.2 Modeling the holder piece and retention mechanism.
 
@@ -898,8 +907,7 @@ The action button array consists of the buttons used to perform attacks and othe
 
 ## 3.7 Other elements and features.
 ### 3.7.1 Charging port
-### 3.7.2 Battery holder
-### 3.7.3 Resting feet. 
+### 3.7.2 Resting feet. 
    
 ---
    
@@ -1037,3 +1045,4 @@ Buget notes.
 - Spent a whole ton of time modeling positives while it was probably not necesary.
 - Bought a motherboard that had the charing port fused to it, so i had to fight another battle to export it and pay for it.
 - Had to edit and re-edit the documentation once and once again because it is hard to organize ideas, i kept fusing sections and having a hard time at separating flows and concepts.
+- I based my defgisn process on having the positives of the motherboarda nd other elements and i failed to model the elements on one side of the motherboard PCB thinking it would not be necessary, this ended up in an additional motherboard enclosure iteration because the support pillars did not respect one of the small chips and the buttons on the other side. If i made an accurate representation of both sides from the start this iteration wouldn'tve been necessary.
