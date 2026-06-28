@@ -908,7 +908,21 @@ The action button array consists of the buttons used to perform attacks and othe
    
 ---
    
-# 🔸4. Assembly and Electronics Integration
+# 🔸4. Reverse Engineering, Wiring, and Hardware Integration
+After identifying the main controller IC as the Actions Semiconductor ATS2855, it became much easier to determine the purpose of the motherboard’s test pads and signal connections. The ATS2855 is the central processing unit of the controller, responsible for reading the button matrix and analog joysticks, managing USB and Bluetooth communication, monitoring the battery and charging system, and interfacing with onboard peripherals such as the touchpad through protocols like I²C. To avoid any mistakes or incorrect assumptions, I personally tested each pad using a multimeter and verified behavior through manual input checks on a live device, correlating electrical readings with real-time system responses. Based on the capabilities of the ATS2855 and the PCB layout, the following table summarizes the identified test pads and their functions.
+    
+>[!IMPORTANT]
+>While I have not been able to confirm every single connection, the most critical test pads required for the project have been verified. A check mark symbol (✔️) indicates the test pads that were manually tested and confirmed in the table below.
+    
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse;width:100%;"> 
+    <thead> 
+        <tr> <th>#</th> <th>Name</th> <th>Description (ATS2855)</th> </tr> 
+    </thead> 
+    <tbody> 
+        <tr><td>1</td><td>3.3V</td><td>3.3 V regulated supply rail.</td></tr> <tr><td>2</td><td>5V</td><td>USB 5 V supply input.</td></tr> <tr><td>3</td><td>VDD</td><td>Main ATS2855 core/peripheral supply.</td></tr> <tr><td>4</td><td>GND</td><td>Ground reference.</td></tr> <tr><td>5</td><td>D+</td><td>ATS2855 USB 2.0 D+ line.</td></tr> <tr><td>6</td><td>D-</td><td>ATS2855 USB 2.0 D− line.</td></tr> <tr><td>7</td><td>SDA0</td><td>I²C/TWI bus 0 data line.</td></tr> <tr><td>8</td><td>SCL0</td><td>I²C/TWI bus 0 clock line.</td></tr> <tr><td>9</td><td>SDA1</td><td>I²C/TWI bus 1 data line.</td></tr> <tr><td>10</td><td>SCL1</td><td>I²C/TWI bus 1 clock line.</td></tr> <tr><td>11</td><td>LX</td><td>Left joystick X-axis ADC input.</td></tr> <tr><td>12</td><td>LY</td><td>Left joystick Y-axis ADC input.</td></tr> <tr><td>13</td><td>RX</td><td>Right joystick X-axis ADC input.</td></tr> <tr><td>14</td><td>RY</td><td>Right joystick Y-axis ADC input.</td></tr> <tr><td>15</td><td>KR1</td><td>Button matrix row 1 (GPIO).</td></tr> <tr><td>16</td><td>KR2</td><td>Button matrix row 2 (GPIO).</td></tr> <tr><td>17</td><td>KR3</td><td>Button matrix row 3 (GPIO).</td></tr> <tr><td>18</td><td>KL1</td><td>Button matrix column 1 (GPIO).</td></tr> <tr><td>19</td><td>KL2</td><td>Button matrix column 2 (GPIO).</td></tr> <tr><td>20</td><td>KL3</td><td>Button matrix column 3 (GPIO).</td></tr> <tr><td>21</td><td>BT</td><td>Battery voltage monitoring signal.</td></tr> <tr><td>22</td><td>BT1</td><td>Secondary battery or charging-related signal.</td></tr> <tr><td>23</td><td>INT</td><td>Interrupt input from a peripheral (likely touchpad).</td></tr> <tr><td>24</td><td>RES1</td><td>Reset line for the ATS2855.</td></tr> <tr><td>25</td><td>P23</td><td>ATS2855 GPIO pin 23.</td></tr> <tr><td>26</td><td>TOUCH</td><td>Touchpad communication or wake signal.</td></tr> <tr><td>27</td><td>AR</td><td>Directional/button input (Right).</td></tr> <tr><td>28</td><td>AL</td><td>Directional/button input (Left).</td></tr> <tr><td>29</td><td>AU</td><td>Directional/button input (Up).</td></tr> <tr><td>30</td><td>AD</td><td>Directional/button input (Down).</td></tr> <tr><td>31</td><td>TRI</td><td>Triangle button input.</td></tr> <tr><td>32</td><td>PAR</td><td>Options/Pair button input.</td></tr> <tr><td>33</td><td>SHA</td><td>Share button input.</td></tr> <tr><td>34</td><td>GR</td><td>Status LED or GPIO signal.</td></tr> <tr><td>35</td><td>RE</td><td>Status LED or GPIO signal.</td></tr> <tr><td>36</td><td>BL</td><td>Blue LED or backlight control.</td></tr> <tr><td>37</td><td>FORK</td><td>Factory/diagnostic test signal.</td></tr> <tr><td>38</td><td>PASD</td><td>Factory/diagnostic test signal.</td></tr> <tr><td>39</td><td>RSE</td><td>Reset/diagnostic signal.</td></tr> </tbody> </table>
+
+
+
 ## 4.1 Wiring the motherboard
 ## 4.2 Wiring the action buttons
 ## 4.3 Wiring the arrow buttons
