@@ -856,29 +856,24 @@ This iteration highlighted the importance of paying close attention to multi-pur
     
 ### 3.4.4 Final housing.
 After implementing the changes identified during the previous design iterations, I arrived at the final version of the motherboard housing. The completed design combines the motherboard support, battery retention system, terminal block mounts, and protective lid into a single assembly that fulfils the original design objectives while remaining serviceable.
-    
-<table>
-    <caption>Final design and result.</caption>
-    <tr>
-        <td>render</td>
-        <td>picture</td>
-    </tr>
-</table>
-   
+      
 The motherboard is supported at multiple locations to minimise PCB flex while avoiding contact with sensitive components or obstructing wire routing paths. The validated reference model ensured that the USB-C port, headphone jack, and other key features remained correctly aligned with the enclosure.
-    
-[Image showing the motherboard installed inside the housing]
-    
+       
+_Enclosure complete assembly_
+<img width="2000" height="900" alt="mobo-holder-printed-2" src="https://github.com/user-attachments/assets/dc1af6dc-e4ba-4bf0-91eb-834724e42bc2" />
+        
 The enclosure accommodates twenty-three terminal blocks, allowing all required signals to be connected through screw terminals. The removable lid protects the motherboard and solder joints while still allowing easy access for maintenance or future modifications.
-
-[Image with the lid removed showing the motherboard, terminal blocks, and wiring layout]
-   
+     
+_Final internal layout._
+<img width="2000" height="900" alt="mobo-holder-printe-1" src="https://github.com/user-attachments/assets/3435296f-d6ac-473a-99b8-b093cbc19daa" />
+          
 Battery retention is provided by the flexible PLA strip developed during the final design iteration. Together with the side supports integrated into the lid, it keeps the battery securely positioned without applying excessive pressure.
-    
-[Close-up image of the battery retention mechanism]
-    
+        
+_Battery retaining mechanism_
+<img width="1920" height="864" alt="remarked-side-blocker-gif" src="https://github.com/user-attachments/assets/6d284c0a-c4e1-47d9-940c-c34bcc6867d4" />
+       
 The final enclosure mounts directly to the internal MixBox structure using dedicated mounting points, allowing the complete assembly to be installed or removed as a single unit.
-    
+       
 Overall, the final design is the result of several prototype iterations and physical validation. Although most of the changes between iterations were relatively small, they significantly improved the reliability, serviceability, and overall fit of the enclosure, resulting in a practical solution ready for integration into the completed MixBox.
 
 ## 3.4 Action button array.
