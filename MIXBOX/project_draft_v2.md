@@ -468,7 +468,7 @@ Before starting the design draft, I first determined how many terminal blocks wo
 
 Including the ground connections, I identified approximately 42 signals that would need to be routed from the motherboard to the buttons and LED system. This meant that a minimum of 21 terminal blocks would be required. To provide some flexibility for future modifications and unexpected wiring needs, I added two additional terminal blocks, increasing the total capacity to 46 connections.
 
-This requirement ssbecame one of the main constraints that shaped the initial design of the enclosure.
+This requirement became one of the main constraints that shaped the initial design of the enclosure.
    
 _Identified connections_   
 <table>
