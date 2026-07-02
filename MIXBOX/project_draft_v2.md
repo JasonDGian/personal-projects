@@ -734,8 +734,7 @@ To resolve this, I designed an additional 'blocker' integrated into the protecti
                 <li>The battery connector.</li>
                 <li>The rear button assemblies.</li>
             </ul>
-        </br>
-        As a result, the first printed lid collided with both features and could not be installed correctly. The revised lid addresses this issue by increasing the internal height of the enclosure and adding the necessary cutouts to provide adequate clearance.
+                As a result, the first printed lid collided with both features and could not be installed correctly. The revised lid addresses this issue by increasing the internal height of the enclosure and adding the necessary cutouts to provide adequate clearance.
         </td>
         <td>
         <i>Revised lid with the necessary cutouts</i></br>
