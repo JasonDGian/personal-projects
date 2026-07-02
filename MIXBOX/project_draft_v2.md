@@ -409,7 +409,7 @@ This component is a custom enclosure designed to house the controller's motherbo
 The enclosure also provides **mounting points for the terminal blocks** used to connect the button wiring via screw terminals. In addition, it serves as the primary **mounting interface between the motherboard assembly and the MixBox enclosure**, while providing basic protection for the battery and associated wiring.
 
 ### 3.4.1 Reference model creation.
-In this section i document how i created the reference model used for further design.
+This section describes how I created the reference model used for further design.
     
 #### 3.4.1.1  Rough external shape.
 The first step was to capture the motherboard's overall outline. The objective was not to create a perfect digital twin but rather a sufficiently accurate approximation that could serve as a reliable design reference.
