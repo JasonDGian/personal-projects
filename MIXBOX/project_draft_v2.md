@@ -820,7 +820,7 @@ This iteration reinforced the importance of validating the Blender model against
 </table>
 -->
 
-Third iteration virtual assembly_    
+_Third iteration virtual assembly_    
 <img width="1191" height="764" alt="mobohol-third-iteration-gif" src="https://github.com/user-attachments/assets/9ab70a7d-114f-4a87-bf54-f4e728cf5aa6" />
 
 
