@@ -870,7 +870,9 @@ _Battery retaining mechanism_
 <img width="1920" height="864" alt="remarked-side-blocker-gif" src="https://github.com/user-attachments/assets/6d284c0a-c4e1-47d9-940c-c34bcc6867d4" />
        
 The final enclosure mounts directly to the internal MixBox structure using dedicated mounting points, allowing the complete assembly to be installed or removed as a single unit.
-       
+   
+<mark>TODO: PICTURE OF MOUNTED MOBO</mark>
+        
 Overall, the final design is the result of several prototype iterations and physical validation. Although most of the changes between iterations were relatively small, they significantly improved the reliability, serviceability, and overall fit of the enclosure, resulting in a practical solution ready for integration into the completed MixBox.
 
 ## 3.4 Action button array.
