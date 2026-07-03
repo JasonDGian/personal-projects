@@ -887,17 +887,41 @@ The action button array consists of the buttons used to perform attacks and othe
 ### 3.4.2 Modeling the enclosure.
 
 ## 3.5 Directional input block
-Before i started designin this element of the controller I researched ways to make it as easy as possible to swap out switches for maintenance and customization. Different types of mechanical keyboard switches exist with different feedback type and overall feeling. Therefore being able to change switches would'vee been a big plus in the design.
 
-I discovered that "hot swap sockets" exist. These socket allow me to swap out the switches as i want.
+What i did not want for this piece: I did not want to have to solder wires to the keyboard switches in order to create a connection. This approeach would create an inconvenient way to change keyboard switches in case one broke or started malfunctioning. for this reason i wanted something that would allow me to imitate the behavior of good mechanical keyboards, the "switch hotswap" concept. Before i started designin this element of the controller I researched ways to make it as easy as possible to swap out switches for maintenance and customization. Different types of mechanical keyboard switches exist with different feedback type and overall feeling. Therefore being able to change switches would'vee been a big plus in the design. 
 
+I discovered that "hot swap sockets" exist. These socket allow me to swap out the switches as i want, this would allow me to mantain the goal of easy service and the possibility to customize for different feeling switches and such.
 
-As I've done with the other elements, I first designed the positive of the pieces i needed to design the part for.
+## 3.5.1 Reference model creation. 
+As I've done with the other elements, I first designed the positive of the pieces i needed in order to then design the surrounding geometry and related components.
 This meant measuring and modelling the hotswap socket and the keyboard switch.
 
 I started by measuring the hotswap socket.
 
-<img width="2339" height="1130" alt="image" src="https://github.com/user-attachments/assets/7d1bf288-6da8-42d3-8b8c-48eea1d9eaae" />
+<table>
+    <caption><i>Rough measures on a 10:1 scale drawing.</i></caption>
+    <tr>
+        <td><img width="2339" height="1130" alt="medidas-hss1" src="https://github.com/user-attachments/assets/b9e2d839-0b12-41e8-822c-bceac6494d8b" /></td>
+        <td><img width="2339" height="1130" alt="medidas-hss2" src="https://github.com/user-attachments/assets/147000fe-3b8c-4af2-8edc-836bb4d94d10" /></td>
+    </tr>
+</table>
+    
+With the measures taken I translated that into Blender with the resulting model.
+I directly introduced a certain margin of tolerance or clearance because such a small piece is prone to be inexact due to the difficulty of taking measures for such and odd geometry.
+    
+<table>
+    <caption><i>Resulting model with included tolerances.</i></caption>
+    <tr>
+        <td><img width="1080" height="858" alt="model-hss2" src="https://github.com/user-attachments/assets/958e0904-de85-40b2-b07e-6f239a7852c6" /></td>
+        <td><img width="1080" height="858" alt="model-hss1" src="https://github.com/user-attachments/assets/29f04de2-ac70-4729-bac2-b212238a345f" /></td>
+    </tr>
+</table>
+
+I did the same for other models that could be useful for the design.
+
+
+
+<!--img width="2339" height="1130" alt="image" src="https://github.com/user-attachments/assets/7d1bf288-6da8-42d3-8b8c-48eea1d9eaae" /-->
 
 
 ### 3.5.1 Hand ergonomics
