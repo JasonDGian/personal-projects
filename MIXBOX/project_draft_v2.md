@@ -887,17 +887,22 @@ The action button array consists of the buttons used to perform attacks and othe
 ### 3.4.2 Modeling the enclosure.
 
 ## 3.5 Directional input block
+One of the main design goals for the directional input block was to **avoid soldering wires directly to the mechanical keyboard switches**. Although this would have been the simplest solution, it would make replacing a faulty switch inconvenient, as every replacement would require desoldering and resoldering the connections.
 
-What i did not want for this piece: I did not want to have to solder wires to the keyboard switches in order to create a connection. This approeach would create an inconvenient way to change keyboard switches in case one broke or started malfunctioning. for this reason i wanted something that would allow me to imitate the behavior of good mechanical keyboards, the "switch hotswap" concept. Before i started designin this element of the controller I researched ways to make it as easy as possible to swap out switches for maintenance and customization. Different types of mechanical keyboard switches exist with different feedback type and overall feeling. Therefore being able to change switches would'vee been a big plus in the design. 
+Instead, I wanted the directional input block to follow the same philosophy as modern mechanical keyboards by using a hot-swappable mounting system. This would allow switches to be replaced easily for maintenance or swapped for different models without modifying the wiring. Since mechanical switches are available with different actuation forces, tactile feedback, and sound profiles, having the ability to experiment with different switch types was an important design objective.
 
-I discovered that "hot swap sockets" exist. These socket allow me to swap out the switches as i want, this would allow me to mantain the goal of easy service and the possibility to customize for different feeling switches and such.
+Before beginning the design, I researched different mounting methods and discovered the use of hot-swap sockets. A hot-swap socket is a small connector that is soldered to a PCB and allows a mechanical keyboard switch to be installed or removed without soldering the switch itself. This makes switch replacement quick while keeping the electrical connections permanently attached to the socket. Since this matched my design goals perfectly, I decided to base the directional input block around this component.
 
+*Hotswap Socket*
+<img width="2000" height="900" alt="hotswap socket f1" src="https://github.com/user-attachments/assets/1f54f275-3fc4-4b7d-9e8e-3ac5ecc6e99b" />
+    
 ## 3.5.1 Reference model creation. 
-As I've done with the other elements, I first designed the positive of the pieces i needed in order to then design the surrounding geometry and related components.
-This meant measuring and modelling the hotswap socket and the keyboard switch.
-
-I started by measuring the hotswap socket.
-
+Following the same workflow used throughout the rest of the project, I first created reference models of the main components before designing the surrounding geometry. This allowed me to develop the later parts of the directional input block around semi-accurate representations of the real hardware.
+       
+The first step was measuring the main components required for the directional input block: the hot-swap socket, mechanical keyboard switch, and keycap. The objective was not to create perfect replicas, but models accurate enough to support the design of the surrounding parts.
+     
+I started with the hot-swap socket, as it was the smallest and most difficult component to measure. Due to its irregular shape and small dimensions, obtaining accurate measurements was more challenging than with the larger parts..
+    
 <table>
     <caption><i>Rough measures on a 10:1 scale drawing.</i></caption>
     <tr>
@@ -906,26 +911,59 @@ I started by measuring the hotswap socket.
     </tr>
 </table>
     
-With the measures taken I translated that into Blender with the resulting model.
-I directly introduced a certain margin of tolerance or clearance because such a small piece is prone to be inexact due to the difficulty of taking measures for such and odd geometry.
+Once all measures were taken I translated them into the blender model.
+To account for possible measurement errors and the tolerances introduced during 3D printing, I included a small amount of clearance in the initial model.
     
 <table>
-    <caption><i>Resulting model with included tolerances.</i></caption>
+    <caption><i>Initial Blender model created from the measured geometry.</i></caption>
     <tr>
         <td><img width="1080" height="858" alt="model-hss2" src="https://github.com/user-attachments/assets/958e0904-de85-40b2-b07e-6f239a7852c6" /></td>
         <td><img width="1080" height="858" alt="model-hss1" src="https://github.com/user-attachments/assets/29f04de2-ac70-4729-bac2-b212238a345f" /></td>
     </tr>
 </table>
 
-I did the same for other models that could be useful for the design.
+After creating the initial model, I validated it using the same negative-geometry workflow described earlier in the report. A test piece representing the socket cavity was printed and fitted against the real component to verify the dimensions.
+The first validation test revealed several measurement errors that were not obvious during modelling. After correcting these dimensions and producing a second iteration, the socket achieved an almost perfect fit.
+
+<table>
+    <caption><i>Negative geometry based tests.</i></caption>
+    <tr>
+        <td><img width="2000" height="900" alt="HSS - test iterations" src="https://github.com/user-attachments/assets/43c0415b-a8f6-4669-a2b2-8066c4641a5b" /></td>
+    </tr>
+</table>
+   
+I then repeated the same process for the mechanical keyboard switch and the keycap. Each component was measured, modelled, and validated individually before being used in the next stage of the design process.
+    
+<table>
+    <caption><i>Negative geometry based tests.</i></caption>
+    <tr>
+        <td><img width="2000" height="568" alt="kbd switch and cap" src="https://github.com/user-attachments/assets/4f1df216-ff7b-4507-a95a-bb4652e59c04" /></td>
+    </tr>
+    <tr>
+        <td><img width="2000" height="642" alt="kbd switch and cap model 2" src="https://github.com/user-attachments/assets/e0ce8821-0e42-4c06-b6bd-a8b596430cb0" /></td>
+    </tr>
+</table>
+    
+>[!NOTE]
+>Having validated reference models for all three components allowed me to test different mounting concepts, verify clearances, and iterate on the directional input block design with greater confidence.
+
+### 3.5.2 Designing the retention mechanism.
+Designing the switch and socket housing turned out to be the most challenging part of the directional input block. Although the geometry of a mechanical keyboard switch is relatively simple, achieving the correct fit is surprisingly sensitive to small dimensional errors. Even minor changes in clearance can prevent the switch from locking into place correctly or make it difficult to remove.
+
+My goal was to reproduce the same experience found in commercial mechanical keyboards, where the switch can simply be pressed into the housing until it clicks into place and later removed without damaging either the switch or the housing.
+
+Using the validated reference models, I designed the first version of the housing around both the switch and the hot-swap socket. The initial prototype focused on correctly positioning the two components while providing enough support to keep them securely aligned.
+
+From there, I followed the same iterative workflow used throughout the project. After each prototype was printed, I tested how easily the switch could be inserted and removed, whether the retention clips engaged correctly, and whether the hot-swap socket remained firmly seated. Any issues found during testing were incorporated into the next design iteration.
+
+Most of the refinements involved adjusting the clearances around the switch retention clips and the socket mounting features. Because these components rely on a snap-fit mechanism, even small dimensional changes had a noticeable impact on the final result.
+
+After several iterations, the housing behaved as intended. The switch could be inserted with moderate force, locked securely into place with an audible click, and removed again without excessive effort. At the same time, the hot-swap socket remained firmly retained, providing a reliable electrical connection while allowing switches to be replaced easily for maintenance or customization.
 
 
 
-<!--img width="2339" height="1130" alt="image" src="https://github.com/user-attachments/assets/7d1bf288-6da8-42d3-8b8c-48eea1d9eaae" /-->
 
 
-### 3.5.1 Hand ergonomics
-### 3.5.2 Modeling the holder piece and retention mechanism.
 
 ## 3.6 LED function switch.
 ### 3.6.1 Creating the piece that holds the switch.  
