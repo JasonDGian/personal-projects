@@ -891,7 +891,7 @@ One of the main design goals for the directional input block was to **avoid sold
 
 Instead, I wanted the directional input block to follow the same philosophy as modern mechanical keyboards by using a hot-swappable mounting system. This would allow switches to be replaced easily for maintenance or swapped for different models without modifying the wiring. Since mechanical switches are available with different actuation forces, tactile feedback, and sound profiles, having the ability to experiment with different switch types was an important design objective.
 
-Before beginning the design, I researched different mounting methods and discovered the use of hot-swap sockets. A hot-swap socket is a small connector that is soldered to a PCB and allows a mechanical keyboard switch to be installed or removed without soldering the switch itself. This makes switch replacement quick while keeping the electrical connections permanently attached to the socket. Since this matched my design goals perfectly, I decided to base the directional input block around this component.
+Before beginning the design, I researched different mounting methods and discovered the use of hot-swap sockets. A hot-swap socket is a small connector that is soldered to a PCB and allows a mechanical keyboard switch to be installed or removed without soldering the switch itself. This makes switch replacement quick while keeping the electrical connections permanently attached to the socket. **Since this matched my design goals perfectly, I decided to base the directional input block around this component.**
 
 *Hotswap Socket*
 <img width="2000" height="900" alt="hotswap socket f1" src="https://github.com/user-attachments/assets/1f54f275-3fc4-4b7d-9e8e-3ac5ecc6e99b" />
@@ -901,7 +901,7 @@ Following the same workflow used throughout the rest of the project, I first cre
        
 The first step was measuring the main components required for the directional input block: the hot-swap socket, mechanical keyboard switch, and keycap. The objective was not to create perfect replicas, but models accurate enough to support the design of the surrounding parts.
      
-I started with the hot-swap socket, as it was the smallest and most difficult component to measure. Due to its irregular shape and small dimensions, obtaining accurate measurements was more challenging than with the larger parts..
+I started with the hot-swap socket, as it was both the smallest and most challenging component to measure, while also being the key element that defined the rest of the design. Due to its irregular shape and small dimensions, obtaining accurate measurements was considerably more challenging compared with the larger components.
     
 <table>
     <caption><i>Rough measures on a 10:1 scale drawing.</i></caption>
@@ -911,8 +911,7 @@ I started with the hot-swap socket, as it was the smallest and most difficult co
     </tr>
 </table>
     
-Once all measures were taken I translated them into the blender model.
-To account for possible measurement errors and the tolerances introduced during 3D printing, I included a small amount of clearance in the initial model.
+Once all measurements were taken, I recreated the geometry in Blender. To account for possible measurement errors and the tolerances introduced during 3D printing, I included a small amount of clearance in the initial model.
     
 <table>
     <caption><i>Initial Blender model created from the measured geometry.</i></caption>
@@ -922,8 +921,7 @@ To account for possible measurement errors and the tolerances introduced during 
     </tr>
 </table>
 
-After creating the initial model, I validated it using the same negative-geometry workflow described earlier in the report. A test piece representing the socket cavity was printed and fitted against the real component to verify the dimensions.
-The first validation test revealed several measurement errors that were not obvious during modelling. After correcting these dimensions and producing a second iteration, the socket achieved an almost perfect fit.
+After creating the first version of the model, I validated it using the same negative-geometry workflow described earlier in the report. A test piece containing the socket cavity was printed and fitted against the real component to verify whether the dimensions were correct. The first validation test revealed several dimensional errors that were not obvious during the modelling stage. After adjusting the affected measurements and producing a second iteration, the socket achieved an almost perfect fit.
 
 <table>
     <caption><i>Negative geometry based tests.</i></caption>
@@ -932,10 +930,10 @@ The first validation test revealed several measurement errors that were not obvi
     </tr>
 </table>
    
-I then repeated the same process for the mechanical keyboard switch and the keycap. Each component was measured, modelled, and validated individually before being used in the next stage of the design process.
+I then repeated the same process for the mechanical keyboard switch and the keycap. Each component was measured, modelled, and validated individually before being used during the design of the final directional input block.
     
 <table>
-    <caption><i>Negative geometry based tests.</i></caption>
+    <caption><i>Keyboard switch and Keycap models.</i></caption>
     <tr>
         <td><img width="2000" height="568" alt="kbd switch and cap" src="https://github.com/user-attachments/assets/4f1df216-ff7b-4507-a95a-bb4652e59c04" /></td>
     </tr>
