@@ -892,9 +892,10 @@ One of the main design goals for the directional input block was to **avoid sold
 Instead, I wanted the directional input block to follow the same philosophy as modern mechanical keyboards by using a hot-swappable mounting system. This would allow switches to be replaced easily for maintenance or swapped for different models without modifying the wiring. Since mechanical switches are available with different actuation forces, tactile feedback, and sound profiles, having the ability to experiment with different switch types was an important design objective.
 
 Before beginning the design, I researched different mounting methods and discovered the use of hot-swap sockets. A hot-swap socket is a small connector that is soldered to a PCB and allows a mechanical keyboard switch to be installed or removed without soldering the switch itself. This makes switch replacement quick while keeping the electrical connections permanently attached to the socket. **Since this matched my design goals perfectly, I decided to base the directional input block around this component.**
-
+    
 *Hotswap Socket*
-<img width="2000" height="900" alt="hotswap socket f1" src="https://github.com/user-attachments/assets/1f54f275-3fc4-4b7d-9e8e-3ac5ecc6e99b" />
+<img width="2000" height="900" alt="hss - example edited" src="https://github.com/user-attachments/assets/99b36e27-9f0b-4b5c-81d7-51dac79da00c" />
+    
     
 ## 3.5.1 Reference model creation. 
 Following the same workflow used throughout the rest of the project, I first created reference models of the main components before designing the surrounding geometry. This allowed me to develop the later parts of the directional input block around semi-accurate representations of the real hardware.
