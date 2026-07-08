@@ -894,10 +894,10 @@ Instead, I wanted the directional input block to follow the same philosophy as m
 Before beginning the design, I researched different mounting methods and discovered the use of hot-swap sockets. A hot-swap socket is a small connector that is soldered to a PCB and allows a mechanical keyboard switch to be installed or removed without soldering the switch itself. This makes switch replacement quick while keeping the electrical connections permanently attached to the socket. **Since this matched my design goals perfectly, I decided to base the directional input block around this component.**
     
 *Hotswap Socket*
-<img width="2000" height="900" alt="hss - example edited" src="https://github.com/user-attachments/assets/99b36e27-9f0b-4b5c-81d7-51dac79da00c" />
-    
-    
+<img width="2388" height="900" alt="hss-socket-picture-4" src="https://github.com/user-attachments/assets/87dad44d-551a-4b70-a7e2-e026d6bf5559" />
+        
 ## 3.5.1 Reference model creation. 
+
 Following the same workflow used throughout the rest of the project, I first created reference models of the main components before designing the surrounding geometry. This allowed me to develop the later parts of the directional input block around semi-accurate representations of the real hardware.
        
 The first step was measuring the main components required for the directional input block: the hot-swap socket, mechanical keyboard switch, and keycap. The objective was not to create perfect replicas, but models accurate enough to support the design of the surrounding parts.
@@ -936,13 +936,13 @@ I then repeated the same process for the mechanical keyboard switch and the keyc
 <table>
     <caption><i>Keyboard switch and Keycap models.</i></caption>
     <tr>
-        <td><img width="2000" height="568" alt="kbd switch and cap" src="https://github.com/user-attachments/assets/4f1df216-ff7b-4507-a95a-bb4652e59c04" /></td>
+        <td><img width="2000" height="568" alt="keyboard_switch_last_version" src="https://github.com/user-attachments/assets/f0c3575d-67ad-4e7d-b229-e5f39205664f" /></td>
     </tr>
     <tr>
-        <td><img width="2000" height="642" alt="kbd switch and cap model 2" src="https://github.com/user-attachments/assets/e0ce8821-0e42-4c06-b6bd-a8b596430cb0" /></td>
+        <td><img width="2000" height="568" alt="models with reference image" src="https://github.com/user-attachments/assets/411a62a9-b8e7-43dd-b777-6b98dedecf88" /></td>
     </tr>
 </table>
-    
+         
 >[!NOTE]
 >Having validated reference models for all three components allowed me to test different mounting concepts, verify clearances, and iterate on the directional input block design with greater confidence.
 
