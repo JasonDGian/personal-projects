@@ -951,13 +951,60 @@ Designing the switch and socket housing turned out to be the most challenging pa
 
 My goal was to reproduce the same experience found in commercial mechanical keyboards, where the switch can simply be pressed into the housing until it clicks into place and later removed without damaging either the switch or the housing.
 
-Using the validated reference models, I designed the first version of the housing around both the switch and the hot-swap socket. The initial prototype focused on correctly positioning the two components while providing enough support to keep them securely aligned.
+To get to something I could call a first iteration I first printed a test fit for the lock in mechanism. A simple wall with an indent shaped like an arch would work as a "lock in" mechanism i thought. Given that the switch has sort of a spring-loaded tooth that clicks in.
+I printed a plastic sheet with this arch shape in it and made it thin enough so that i could validate the dimensions and behavior of it with the switch.
+   
+_Test piece for spring loaded lock mechanism_
+<img width="2000" height="660" alt="lock-in-system-test-1" src="https://github.com/user-attachments/assets/c3f00302-98b9-4781-85a2-d1f944462562" />
 
+This first template was accurate enoguh, thanks to the 3d model, that i could take it as a reference. 
+
+From this point, using the validated reference models and geometry, I designed the first version of the housing around both the switch and the hot-swap socket. The initial prototype focused on correctly positioning the two components while providing enough support to keep them securely aligned. 
+    
+<table>
+    <caption><i>First iteration.</i></caption>
+    <tr>
+        <td><img width="1186" height="882" alt="shi1-front" src="https://github.com/user-attachments/assets/2f4aa09c-4805-4aef-8818-9c766222fba0" /></td>
+        <td><img width="1186" height="882" alt="shi1-side" src="https://github.com/user-attachments/assets/ddf0647b-0d65-4208-aa60-5995be8683bc" /></td>
+        <td><img width="1186" height="882" alt="shi1-top" src="https://github.com/user-attachments/assets/a9af4b34-1f78-4169-a4ee-48b347c475b2" /></td>
+        <td><img width="1186" height="882" alt="shi1-bottom" src="https://github.com/user-attachments/assets/ddd1aa4d-b421-4034-ae51-e4a4ac8ad244" /></td>
+    </tr>
+</table>
+    
+This first iteration revealed that the holes for the socket's slit and the switch locating ping were spot on and fit perfectly, it also revealed a very good alignment between the two elements, and also the fact that the inner walls that should collide with the switch were not accurate enough. This defect made it so that the switch itself, without the mechanical force applied by the socket's spring on the connector, would not stay in place.
+    
+<table>
+    <caption><i>First iteration results.</i></caption>
+    <tr>
+    <td><img width="1186" height="882" alt="shi1 - result 1" src="https://github.com/user-attachments/assets/66d2a8c8-860f-45ba-a285-dc4a000e5dda" /></td>
+    <td><img width="1186" height="882" alt="shi1 - result 2" src="https://github.com/user-attachments/assets/57124993-ddcb-4e8b-ba1b-f29168643267" /></td>
+    <td><img width="1186" height="882" alt="shi1 - result 3" src="https://github.com/user-attachments/assets/1b6642db-571e-458e-bd70-56c2c5872c7c" /></td>
+    </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+    
+---
+    
 From there, I followed the same iterative workflow used throughout the project. After each prototype was printed, I tested how easily the switch could be inserted and removed, whether the retention clips engaged correctly, and whether the hot-swap socket remained firmly seated. Any issues found during testing were incorporated into the next design iteration.
 
 Most of the refinements involved adjusting the clearances around the switch retention clips and the socket mounting features. Because these components rely on a snap-fit mechanism, even small dimensional changes had a noticeable impact on the final result.
 
 After several iterations, the housing behaved as intended. The switch could be inserted with moderate force, locked securely into place with an audible click, and removed again without excessive effort. At the same time, the hot-swap socket remained firmly retained, providing a reliable electrical connection while allowing switches to be replaced easily for maintenance or customization.
+    
+---
+    
+
+
 
 
 
