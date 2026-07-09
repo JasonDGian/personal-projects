@@ -946,7 +946,7 @@ I then repeated the same process for the mechanical keyboard switch and the keyc
 >[!NOTE]
 >Having validated reference models for all three components allowed me to test different mounting concepts, verify clearances, and iterate on the directional input block design with greater confidence.
 
-### 3.5.2 Designing the switch retention and hotswap socket securing mechanism.
+## 3.5.2 Designing the switch retention and hotswap socket securing mechanism.
 Designing the switch and socket housing turned out to be the most challenging part of the directional input block. Although the geometry of a mechanical keyboard switch is relatively simple, achieving the correct fit is surprisingly sensitive to small dimensional errors. Even minor changes in clearance can prevent the switch from locking into place correctly or make it difficult to remove.
 
 My goal was to reproduce the same experience found in commercial mechanical keyboards, where the switch can simply be pressed into the housing until it clicks into place and later removed without damaging either the switch or the housing.
