@@ -946,7 +946,7 @@ I then repeated the same process for the mechanical keyboard switch and the keyc
 >[!NOTE]
 >Having validated reference models for all three components allowed me to test different mounting concepts, verify clearances, and iterate on the directional input block design with greater confidence.
 
-### 3.5.2 Designing the retention mechanism.
+### 3.5.2 Designing the switch retention and hotswap socket securing mechanism.
 Designing the switch and socket housing turned out to be the most challenging part of the directional input block. Although the geometry of a mechanical keyboard switch is relatively simple, achieving the correct fit is surprisingly sensitive to small dimensional errors. Even minor changes in clearance can prevent the switch from locking into place correctly or make it difficult to remove.
 
 My goal was to reproduce the same experience found in commercial mechanical keyboards, where the switch can simply be pressed into the housing until it clicks into place and later removed without damaging either the switch or the housing.
@@ -1043,8 +1043,29 @@ The hot-swap socket maintained its alignment, the switch could be inserted smoot
 
 With the switch retention mechanism working reliably, I could move on to refining the socket mounting features and integrating the assembly into the rest of the directional input block.
 
-**Hotswap Socket mounting mechanism.**    
+**Hotswap Socket mounting mechanism.**  
+The next challenge was designing a mechanism to secure the hot-swap socket inside the housing. Since I chose not to use a custom PCB—mainly to reduce both cost and design complexity—the socket needed to be retained entirely by the 3D-printed housing.
 
+This introduced an important problem. Installing a mechanical switch requires pressing it firmly into the hot-swap socket until the retention clips engage. Without a dedicated mounting system, this insertion force could simply push the socket out of its housing. The design therefore needed to hold the socket securely while still leaving enough room for the attached wires and allowing the switch retention mechanism to function correctly.
+
+The main constraint was the available space. The housing had to fit entirely within the footprint of the keycap so that adjacent switches could be placed close together. Any protruding features extending beyond this footprint would increase the spacing between neighbouring switches, negatively affecting the overall button layout and ergonomics.
+
+Because of this limitation, expanding the design horizontally was not a practical solution. Instead, I focused on making use of the available vertical space.
+
+Using the validated hot-swap socket reference model and its corresponding negative geometry, I developed a layered mounting system. Rather than relying on a single feature to secure the socket, each layer was given a specific function:
+
+- The upper section retains the mechanical switch.
+- The middle section aligns the hot-swap socket and prevents horizontal movement.
+- The lower section locks the socket in place, preventing it from being pushed out when a switch is installed.
+
+This "sandwich" arrangement allowed the socket to remain securely mounted while keeping the overall housing compact enough to preserve the desired switch spacing.
+
+
+
+<!--mark> DRAFT
+The next step for this element to design was the socket securing system. Since the socket would not be mounted on a custom PCB, mainly to reduce costs and complexity,  when the user during maintenance would press down on the switch to lock it in mplace, it could have the socket pop out. To avoid the socket popping out I needed a way to secure the socket in place and leave space for the connected wires while keeping the switch retention mechanism functional and allowing me to lay the buttons out one near another. 
+The space restriciton was the main challenge. I could not fix the socket to the retention mechanism in a comfortable way because of the limited space to work with. If i exceeded the keycap horizontal space that would mean limiting the switches buttons layout. Meaning, if a switch had a protruding ffeater on the side, the swich on its side would be more distant that the switch on the oother side and so on. Given the horizontal space limit or constraint, i neded up exploring the vertical space solutions. With the validated Hotswap socket model and negative geometry i thought of sort of a "sandwitch" or layered solution. The idea was to have one level retain the switch, another level, keep the alignment of the socket and avoid horizontal movement, and the last layer lock the socket in place so that when the user would push the switch into the release mechanism it would avoid the socket popping out.  
+</mark>
 
 
     
@@ -1057,7 +1078,7 @@ Most of the refinements involved adjusting the clearances around the switch rete
 After several iterations, the housing behaved as intended. The switch could be inserted with moderate force, locked securely into place with an audible click, and removed again without excessive effort. At the same time, the hot-swap socket remained firmly retained, providing a reliable electrical connection while allowing switches to be replaced easily for maintenance or customization.
     
 ---
-    
+-->
 
 
 
