@@ -1043,6 +1043,8 @@ The hot-swap socket maintained its alignment, the switch could be inserted smoot
 
 With the switch retention mechanism working reliably, I could move on to refining the socket mounting features and integrating the assembly into the rest of the directional input block.
 
+**Hotswap Socket mounting mechanism.**    
+
 
 
     
