@@ -1042,23 +1042,98 @@ The hot-swap socket maintained its alignment, the switch could be inserted smoot
 </table>
 
 With the switch retention mechanism working reliably, I could move on to refining the socket mounting features and integrating the assembly into the rest of the directional input block.
-
+   
+---
+    
 **Hotswap Socket mounting mechanism.**  
-The next challenge was designing a mechanism to secure the hot-swap socket inside the housing. Since I chose not to use a custom PCB—mainly to reduce both cost and design complexity—the socket needed to be retained entirely by the 3D-printed housing.
-
+The next challenge was designing a mechanism to secure the hot-swap socket in place. Since I chose not to use a custom PCB, mainly to reduce both cost and design complexity, the socket needed to be retained entirely by the 3D-printed housing.
+    
 This introduced an important problem. Installing a mechanical switch requires pressing it firmly into the hot-swap socket until the retention clips engage. Without a dedicated mounting system, this insertion force could simply push the socket out of its housing. The design therefore needed to hold the socket securely while still leaving enough room for the attached wires and allowing the switch retention mechanism to function correctly.
 
 The main constraint was the available space. The housing had to fit entirely within the footprint of the keycap so that adjacent switches could be placed close together. Any protruding features extending beyond this footprint would increase the spacing between neighbouring switches, negatively affecting the overall button layout and ergonomics.
 
 Because of this limitation, expanding the design horizontally was not a practical solution. Instead, I focused on making use of the available vertical space.
 
-Using the validated hot-swap socket reference model and its corresponding negative geometry, I developed a layered mounting system. Rather than relying on a single feature to secure the socket, each layer was given a specific function:
-
-- The upper section retains the mechanical switch.
-- The middle section aligns the hot-swap socket and prevents horizontal movement.
-- The lower section locks the socket in place, preventing it from being pushed out when a switch is installed.
-
+Using the validated hot-swap socket reference model and its corresponding negative geometry, I developed a layered mounting system. Rather than relying on a single retaining feature, the housing was divided into three functional layers, each responsible for a specific task.
+     
+<table>
+    <caption><i>Layered design proof of concept.</i></caption>
+    <tr>
+        <th>Layer</th>
+        <th>Function</th>
+        <th>Design</th>
+    </tr>
+    <tr>
+        <td><strong>Switch retention layer</strong></td>
+        <td>
+            Holds the mechanical keyboard switch in place using its integrated retention clips while maintaining its alignment with the hot-swap socket.
+        </td>
+        <td>
+            <img width="774" height="648" alt="Switch retention layer"
+                 src="https://github.com/user-attachments/assets/d80d07c9-58c3-4417-bb33-d496d40e9592" />
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Socket alignment layer</strong></td>
+        <td>
+            Positions the hot-swap socket accurately and prevents horizontal movement, ensuring proper alignment between the switch terminals and the socket contacts.
+        </td>
+        <td>
+            <img width="774" height="648" alt="Socket alignment layer"
+                 src="https://github.com/user-attachments/assets/3ef726af-126e-4400-963f-5e619037c135" />
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Socket retention layer</strong></td>
+        <td>
+            Prevents the hot-swap socket from being pushed out of the housing during switch installation. A protruding feature engages with the socket geometry and transfers the insertion force to the housing, where it is secured using two to four screws depending on the design revision.
+        </td>
+        <td>
+            <img width="774" height="648" alt="Socket retention layer"
+                 src="https://github.com/user-attachments/assets/8a8e3f8e-b7ed-4d27-a49c-e70c061e7685" />
+        </td>
+    </tr>
+</table>
+     
 This "sandwich" arrangement allowed the socket to remain securely mounted while keeping the overall housing compact enough to preserve the desired switch spacing.
+
+<table>
+    <caption><i>Proof of concept assembly.</i></caption>
+    <tr>
+        <td>
+            <!-- this gif shows the layers being assembled  in an animation -->
+            <img width="867" height="764" alt="hss-block-assmbly-gif" src="https://github.com/user-attachments/assets/ddd07b71-c3e2-4d19-ac6c-d9bbaeb64739" />
+        </td>
+    </tr>
+</table>
+
+The first version I designed was simply to test the strength of the assembly and to see how chunky it would get in the end. 
+
+<table>
+    <caption><i>Proof of concept results.</i></caption>
+    <tr>
+        <td colspan="4">
+            <!-- this immage is of the printed pieces and components that will be assembled together including the screws that hold the block assembled -->
+            <img width="2000" height="790" alt="POC - HSS - socket complete housing" src="https://github.com/user-attachments/assets/f2546f05-f616-41ab-a90c-90d5437e5535" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <!-- this immage shows the bottom and middle layer assembled together supporting the socket -->
+            <img width="921" height="878" alt="image" src="https://github.com/user-attachments/assets/8935b510-6745-448f-94b2-6b745478aafe" />
+        </td>
+        <td>
+            <!-- this immage shows how the blocks are held together with screws at the bottom -->
+            <img width="921" height="878" alt="image" src="https://github.com/user-attachments/assets/df6b9a14-270e-47f1-96b3-efb39dcccad7" />
+        </td>
+        <td>
+            <!-- This immage represents the complete assembly of the proof of concept -->
+            <img width="921" height="870" alt="image" src="https://github.com/user-attachments/assets/043267e0-5192-46e6-8db3-b1ef75b85cb3" />
+        </td>
+    </tr>
+</table>
+
+After confirming that the results were good enough to face the forces applied by the switch upon the socket, i finalized the design by including routing holes for the wires that must be solderd to the socket and fused together the middle layer with the retention mechanism in order to solidify them in a single block, providing a more solid component and improved push down resistance against the socket. This last part was important since the screws that held the bottom lid that acts as a support for the socket were gripping mainlty the middle layer while the middle layer poorly gripped the top layer, this design was from the beggining imagined as a two layers piece, the division in 3 layers was merely to facilitate the design process and refinement.
 
 
 
