@@ -1193,8 +1193,16 @@ This modification created a much stronger structure. In the initial concept, the
         </td>
     </tr>
 </table>
+    
+---
+   
+## 3.5.2 Input blocks buttons layout.
+<!--
+Starting from the switch retention and socket module, i could now arrange the switches in the desired manner and form the layout i decided during the ergonomics tests.
+Sin embargo, tuve que adaptar la posicion de los tornillos porque se me olvidó el hecho de incluir un led de 3mm como funcionalidad estetica. Es en este paso donde inclui esta caracteristica, facilitado pro la mayor superficie disponible con el assembly completo.
 
-
+LA idea es añadir un led de 3mm, reposicionar los tornillos, y encontrar un balance para aportar la resistencia suficiente a la fuerza que aplica el usuario cuando introduce el switch durante las fases de mantenimiento o personalizacion. 
+-->
 
 
 
