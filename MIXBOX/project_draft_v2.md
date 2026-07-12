@@ -1165,16 +1165,50 @@ After confirming that the concept behaved as expected, I refined the design to i
      
 This modification created a much stronger structure. In the initial concept, the bottom cover, which prevents the socket from being pushed out, was fastened primarily to the alignment layer, while the connection between the alignment and switch retention layers was comparatively weak. **Merging these layers produced a more direct load path, allowing the insertion force applied during switch installation to be transferred more effectively through the housing**.
      
-<mark>TODO : IMAGE -> Comparison between the initial three-layer prototype and the final two-part design. </mark>
+<!--mark>TODO : IMAGE -> Comparison between the initial three-layer prototype and the final two-part design. </mark-->
 <table>
     <caption><i>Final switch retention and socket mounting mechanism.</i></caption>
     <tr>
+        <td colspan="4">
+            <i>Final printed result.</i></br>
+            <img width="2000" height="578" alt="hss-compelte-result-layers" src="https://github.com/user-attachments/assets/975f4648-0642-4f2f-ae07-7ccba0aab84d" />
+        </td>
+    </tr>
+    <tr>
         <td>
+            <i>Retention & alignment layer.</i></br>
+            <img width="1034" height="900" alt="hss-complete-result-1" src="https://github.com/user-attachments/assets/aaddb262-5af8-40cd-9971-17ee4ecd60aa" />
         </td>
         <td>
+            <i>Secured socket support layer.</i></br>
+            <img width="1034" height="900" alt="hss-complete-result-2" src="https://github.com/user-attachments/assets/c9d96424-1cd4-44de-93dc-7a6645e1e398" />
+        </td>
+        <td>
+            <i>Complete assembly.</i></br>
+            <img width="1034" height="900" alt="hss-complete-result-3" src="https://github.com/user-attachments/assets/7fbfe3a8-1bc5-4204-8af4-b2011165f5a3" />
+        </td>
+        <td>
+            <i>Side view.</i></br>
+            <img width="1034" height="900" alt="hss-complete-result- 4" src="https://github.com/user-attachments/assets/db06dc99-fd52-4b17-bb1d-a57ee93f25b2" />
         </td>
     </tr>
 </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      
 
 >[!NOTE]
