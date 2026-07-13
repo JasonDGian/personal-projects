@@ -1193,6 +1193,9 @@ This modification created a much stronger structure. In the initial concept, the
         </td>
     </tr>
 </table>
+
+>[!NOTE]
+> Although the final component consists of only two printed parts, the three-layer concept proved valuable during development because it allowed each function of the mounting system to be designed and validated independently before being combined into the final design.
     
 ---
    
@@ -1219,8 +1222,7 @@ LA idea es añadir un led de 3mm, reposicionar los tornillos, y encontrar un bal
 
      
 
->[!NOTE]
-> Although the final component consists of only two printed parts, the three-layer concept proved valuable during development because it allowed each function of the mounting system to be designed and validated independently before being combined into the final design.
+
 
 
     
