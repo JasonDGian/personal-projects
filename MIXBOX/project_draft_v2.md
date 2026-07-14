@@ -1207,10 +1207,49 @@ Sin embargo, tuve que adaptar la posicion de los tornillos porque se me olvidó 
 LA idea es añadir un led de 3mm, reposicionar los tornillos, y encontrar un balance para aportar la resistencia suficiente a la fuerza que aplica el usuario cuando introduce el switch durante las fases de mantenimiento o personalizacion. 
 -->
 
+<DRAFT>
+
+Before starting this design, I decided to rever to the 3 layered solution since there would most likely be changes to the design that would 
+
+The idea behind the input block is to be able to rotate it and adjust it's position to maximize comfort for the left hand. For that reason i decided to create a sort of rotating cyllinder that would fit in the main housing and that could be fixed to it once I decided which position was the right one, or perhaps not secured definitively and left able to rotate under certain conditions to customize the position. 
+
+To start the design, at first I positioned the individual Switch and socket modules to create the desired layout for the input block. From there, with that reference in place , i created a cyllider base big enough to hold the entire cluster assembly and created, underneath the main cyllinder base,  sort of a guide to allow it to rotate propperly within the main housing slot destined for it. I alligned the cyllinder base wit the top most layer of the switch and socket retention modules in order to create a seamless union between them and obtain a rather aesthetic finish to it.
+   
+<table>
+    <tr>
+        <td>
+            <i>Desired layout composition.</i></br>
+            <img width="1245" height="881" alt="image" src="https://github.com/user-attachments/assets/088cd9e8-32aa-41ff-872c-6c9774ac1c82" />
+        </td>
+        <td>
+            <i>Main rotating body.</i></br>
+            <img width="1245" height="885" alt="image" src="https://github.com/user-attachments/assets/0126c2e9-6384-455c-a199-33f1aed791fe" />
+        </td>
+        <td>
+            <i>Rotation guide.</i></br>
+            <img width="1053" height="896" alt="image" src="https://github.com/user-attachments/assets/33392782-e981-4a5c-9cd9-0c3a0547174d" />
+        </td>
+        <td>
+            <i>Elements alignment.</i></br>
+            <img width="1082" height="897" alt="image" src="https://github.com/user-attachments/assets/9ed958ac-c9cd-4f1e-b372-878e99da3694" />
+        </td>
+    </tr>
+</table>
+
+Before printing the first test piece I also added some indentations to allow the extraction tool to do it's job for the switches. 
+
+The resulting first test piece was 
 
 
+<img width="1044" height="927" alt="image" src="https://github.com/user-attachments/assets/81cc992d-85bf-42e0-aa66-010e596ad952" />
 
+<img width="1120" height="863" alt="image" src="https://github.com/user-attachments/assets/f7030d85-8f93-4e1d-9f30-33bd9542e799" />
 
+Important notes to refine.
+For this design process i reverted to using the 3 layers model. I also initially did not take into account the positioning of the screws to secure the bottom layer because I knew I would have more horizontal space on the underside to reposition them. 
+Also, I decided to add some leds, so I had to change some things in the modules design.
+
+---
 
 
 
