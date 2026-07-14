@@ -1248,6 +1248,17 @@ The resulting first test piece was
 Important notes to refine.
 For this design process i reverted to using the 3 layers model. I also initially did not take into account the positioning of the screws to secure the bottom layer because I knew I would have more horizontal space on the underside to reposition them. 
 Also, I decided to add some leds, so I had to change some things in the modules design.
+   
+---
+**Correcciones a implementar:**   
+Tengo que mejorar la calidad de las hendiduras para el uso de la herramienta. Son en tamaño suficientes para facilitar el uso, pero la dirección de impresión de la pieza impiden un acabado estetico.
+Por otro lado, conviene aumentar la altura de la guia de rotación y hay que mejorar las ranuras de salida para los cables de los zocalos de contacto en capa 2. Debo crear el espacio para el led que tengo intención de incluir en la pieza final. 
+   
+**Posibles mejoras:**    
+Podria diseñar un sistema de extracción por presión para facilitar la extracción de los interruptores.
+   
+**Siguientes pasos:**    
+Debo rediseñar el mecanismo de sujeción pàra la capa 3 e incluir los soportes para dicha capa. Debo recalibrar la altura de la geometria protuberante que asegura el zócalo a la capa de alineación. 
 
 ---
 
