@@ -1199,21 +1199,56 @@ This modification created a much stronger structure. In the initial concept, the
     
 ---
    
-## 3.5.3 Input block assembly.
-<!--
-Starting from the switch retention and socket module, i could now arrange the switches in the desired manner and form the layout i decided during the ergonomics tests.
-Sin embargo, tuve que adaptar la posicion de los tornillos porque se me olvidó el hecho de incluir un led de 3mm como funcionalidad estetica. Es en este paso donde inclui esta caracteristica, facilitado pro la mayor superficie disponible con el assembly completo.
+## 3.5.3 Directional input block assembly.
+The purpose of this component is to house the four directional input buttons in a single rotating assembly. The idea behind this design was to allow the entire directional input block to rotate inside the controller so that its angle could be adjusted to match the player's most comfortable hand position.
 
-LA idea es añadir un led de 3mm, reposicionar los tornillos, y encontrar un balance para aportar la resistencia suficiente a la fuerza que aplica el usuario cuando introduce el switch durante las fases de mantenimiento o personalizacion. 
--->
+Rather than fixing the directional inputs in a predetermined orientation, I wanted the controller to be adaptable to different preferences. At this stage of the project, I had not yet decided whether the assembly would be permanently fixed after adjustment or left free to rotate under certain conditions. Because of this, the initial design focused on creating a simple and reliable rotating mechanism while leaving both possibilities open.
+
+ To begin the design, I first positioned the individual switch-and-socket modules according to the layout developed during the ergonomics study. 
+        
+ <i>Switch-and-socket modules positioned to create the directional input layout.</i></br>
+<img width="1662" height="523" alt="image" src="https://github.com/user-attachments/assets/074780a6-b5a1-45b5-8655-1afaea6fc5a5" />
+        
+Once I was satisfied with the modules arrangement, I designed a circular base approximately 75 mm in diameter and 2 mm thick to support the complete input block.
+The upper surface of the base was aligned with the top of the switch modules, creating a smooth transition between the individual parts and making the assembly look like a single integrated component rather than several separate pieces.
+
+<i>Main rotating body.</i></br>
+<img width="1601" height="523" alt="image" src="https://github.com/user-attachments/assets/37955618-6a28-467c-ad1f-9c525267afbf" />
+      
+To allow the assembly to rotate, I added a cylindrical guide underneath the base that would mate with a matching recess in the main enclosure. This guide keeps the input block centred while allowing it to rotate freely inside the housing.
+       
+_Circular base with the integrated rotational guide._   
+<img width="1653" height="562" alt="image" src="https://github.com/user-attachments/assets/f400ed4e-23e9-4064-be36-da73f794529d" />
+     
+Before printing the first prototype, I also added clearance cut-outs around each switch. These openings provide enough space for a standard mechanical keyboard switch puller to reach the retention clips, allowing switches to be removed and replaced without disassembling the entire input block.
+
+<table>
+    <tr>
+        <td>
+        <i>Cutouts close-up</i></bvr>
+        <img width="1258" height="900" alt="image" src="https://github.com/user-attachments/assets/d78819ba-2824-42f2-a892-a4b4c8a8645c" />
+        </td>
+        <td>
+        <i>Top View</i></bvr>
+        <img width="1108" height="907" alt="image" src="https://github.com/user-attachments/assets/2c5b8d08-bbd3-4ca1-bae3-24a35afd33d8" />
+        </td>
+    </tr>
+</table>
+
+
+The completed assembly meets the original design objectives by providing an adjustable directional input module while maintaining easy access for switch replacement and future maintenance.
+---
+   
+The resulting assembly combines the four switch modules into a single adjustable unit that can be rotated to find the most comfortable playing position while still allowing easy maintenance and switch replacement.
+   
+---
 
 <DRAFT>
+Before starting the design process for the complete assembly, I decided to revert to the 3 layered switch and socket retention module rather than the two layered since there would most likely be changes to the final module design once integrated in the complete assembly. 
 
-Before starting this design, I decided to rever to the 3 layered solution since there would most likely be changes to the design that would 
+The idea behind the input block is to be able to rotate it and adjust it's position to maximize comfort for the left hand. For that reason i decided to create a sort of rotating cyllinder that would fit in the main housing and that could be fixed to it once I decided which position was the right one, or perhaps not secured definitively and left able to rotate under certain conditions to customize the position, i wasnt sure at this point of the process what to do with it, if fixed or rotable.. 
 
-The idea behind the input block is to be able to rotate it and adjust it's position to maximize comfort for the left hand. For that reason i decided to create a sort of rotating cyllinder that would fit in the main housing and that could be fixed to it once I decided which position was the right one, or perhaps not secured definitively and left able to rotate under certain conditions to customize the position. 
-
-To start the design, at first I positioned the individual Switch and socket modules to create the desired layout for the input block. From there, with that reference in place , i created a cyllider base big enough to hold the entire cluster assembly and created, underneath the main cyllinder base,  sort of a guide to allow it to rotate propperly within the main housing slot destined for it. I alligned the cyllinder base wit the top most layer of the switch and socket retention modules in order to create a seamless union between them and obtain a rather aesthetic finish to it.
+To start the design, at first I positioned the individual Switch and socket modules to create the desired layout for the input block. From there, with that reference in place , i created a cyllider base big enough (75mm diameter 2mm height ) to hold the entire cluster of modules and created, underneath the main cyllinder base,  sort of a guide to allow it to rotate propperly within the main housing slot destined for it. I alligned the cyllinder base wit the top most layer of the switch and socket retention modules in order to create a seamless union between them and obtain a rather aesthetic finish to it.
    
 <table>
     <tr>
@@ -1236,14 +1271,22 @@ To start the design, at first I positioned the individual Switch and socket modu
     </tr>
 </table>
 
-Before printing the first test piece I also added some indentations to allow the extraction tool to do it's job for the switches. 
+Before printing the first test piece I also added some indentations to allow the extraction tool to do it's job for the switches. This indentation would leave enough space for the tool to be inserted and press the release latches for the installed switches without collinding with the main base.
 
-The resulting first test piece was 
+<table>
+    <caption>Final test piece.</caption>
+    <tr>
+        <td>
+            <i>Top view.</i></br>
+            <img width="1044" height="927" alt="image" src="https://github.com/user-attachments/assets/81cc992d-85bf-42e0-aa66-010e596ad952" />
+        </td>
+        <td>
+            <i>Isometric view.</i></br>
+            <img width="1120" height="863" alt="image" src="https://github.com/user-attachments/assets/f7030d85-8f93-4e1d-9f30-33bd9542e799" />
+        </td>
+    </tr>
+</table>
 
-
-<img width="1044" height="927" alt="image" src="https://github.com/user-attachments/assets/81cc992d-85bf-42e0-aa66-010e596ad952" />
-
-<img width="1120" height="863" alt="image" src="https://github.com/user-attachments/assets/f7030d85-8f93-4e1d-9f30-33bd9542e799" />
 
 Important notes to refine.
 For this design process i reverted to using the 3 layers model. I also initially did not take into account the positioning of the screws to secure the bottom layer because I knew I would have more horizontal space on the underside to reposition them. 
