@@ -1237,6 +1237,25 @@ Before printing the first prototype, I also added clearance cut-outs around each
 
 The completed assembly meets the original design objectives by providing an adjustable rotating input block while maintaining an easy switch replacement and access for future maintenance.
 
+
+<table>
+    <tr>
+        <td>
+            <i>Switch puller access.</i></br>
+            <img width="998" height="800" alt="image" src="https://github.com/user-attachments/assets/107a2b51-f4c8-49a7-9c87-08c4e310386e" />
+        </td>
+        <td>
+            <i>Result witch switches in place.</i></bvr>
+            <img width="998" height="800" alt="first iteration result uncapped" src="https://github.com/user-attachments/assets/322e9583-80ea-41df-acf1-c6142e1b147a" />
+        </td>
+        <td>
+            <i>Result with keycaps on.</i></bvr>
+            <img width="998" height="800" alt="first iteration result capped" src="https://github.com/user-attachments/assets/6adddef5-04db-4a39-9ce0-ebc718eb46a6" />
+        </td>
+    </tr>
+</table>
+
+
 ---
 
 <!--
