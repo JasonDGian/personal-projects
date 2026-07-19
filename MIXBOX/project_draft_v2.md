@@ -1235,84 +1235,53 @@ Before printing the first prototype, I also added clearance cut-outs around each
     </tr>
 </table>
 
-The completed assembly meets the original design objectives by providing an adjustable rotating input block while maintaining an easy switch replacement and access for future maintenance.
+**First iteration results**    
+This first prototype helped me validate the overall concept and confirmed that the design was worth continuing to develop. It also made it much easier to identify the next features and improvements that should be integrated into the assembly.
 
+The completed assembly met the original design objectives. The switch-and-socket modules integrated correctly with the rotating base and remained securely in place during switch installation, confirming that the hot-swap socket retention mechanism could withstand the insertion forces without being displaced. The assembly also provided straightforward access for switch replacement and future maintenance.
 
+One thing I did not expect was that the spacing between adjacent modules was slightly larger than I had initially calculated. This gave me additional room to improve the wire-routing channels without affecting the overall button layout or ergonomics.
+
+The first iteration also highlighted several areas that could be improved in the next iteration.
+**Design improvements identified:**
+- Improve the finish of the switch extraction cut-outs. Although they provided enough clearance for the extraction tool, the chosen printing orientation resulted in a rough surface finish.
+- Refine the wire-routing channels in the second layer to simplify cable management around the hot-swap sockets.
+- Add an internal mounting location for the LED planned for the final version of the controller.
+   
+In addition to these improvements, I also identified an opportunity to reduce the thickness of the second layer and modify the bottom support accordingly. This change would reduce both material usage and printing time while keeping the assembly structurally rigid.
+   
 <table>
+    <caption><i>First assembled prototype of the directional input block.</i></caption>
     <tr>
         <td>
-            <i>Switch puller access.</i></br>
-            <img width="998" height="800" alt="image" src="https://github.com/user-attachments/assets/107a2b51-f4c8-49a7-9c87-08c4e310386e" />
-        </td>
-        <td>
-            <i>Result witch switches in place.</i></bvr>
+            <!-- image that shows the assembhled piece with the swityches on without caps -->
             <img width="998" height="800" alt="first iteration result uncapped" src="https://github.com/user-attachments/assets/322e9583-80ea-41df-acf1-c6142e1b147a" />
         </td>
         <td>
-            <i>Result with keycaps on.</i></bvr>
+            <!-- image that shows the assembled piece with the switches and their keycaps -->
             <img width="998" height="800" alt="first iteration result capped" src="https://github.com/user-attachments/assets/6adddef5-04db-4a39-9ce0-ebc718eb46a6" />
         </td>
     </tr>
+    <tr>
+        <td>
+            <!-- image that shows the extraction tool access cutouts -->
+            <img width="998" height="800" alt="recess result" src="https://github.com/user-attachments/assets/252d12ce-4510-4ff1-88f9-2bd263d99d72" />
+        </td>
+        <td>
+            <!-- image that demonstrates how the extraction tool or switch puller fits into the recess -->
+            <img width="998" height="800" alt="image" src="https://github.com/user-attachments/assets/107a2b51-f4c8-49a7-9c87-08c4e310386e" />
+        </td>
+    </tr>
 </table>
+ 
+**Second iteration**
+For the second iteration, I focused on integrating the improvements identified during the evaluation of the first prototype. The main goals were to add the status LEDs, redesign layers 2 and 3 to reduce the overall thickness of the assembly, improve the wire-routing channels, and rework the switch extraction cut-outs to achieve a cleaner and more consistent finish.
 
-
----
+These changes resulted in a noticeably thinner assembly and a more refined overall design while preserving the rotating mechanism and the hot-swap functionality.
 
 <!--
-The resulting assembly combines the four switch modules into a single adjustable unit that can be rotated to find the most comfortable playing position while still allowing easy maintenance and switch replacement.
-   
----
+Verifying the recess created for the switch puller tool.
 
-<DRAFT>
-Before starting the design process for the complete assembly, I decided to revert to the 3 layered switch and socket retention module rather than the two layered since there would most likely be changes to the final module design once integrated in the complete assembly. 
-
-The idea behind the input block is to be able to rotate it and adjust it's position to maximize comfort for the left hand. For that reason i decided to create a sort of rotating cyllinder that would fit in the main housing and that could be fixed to it once I decided which position was the right one, or perhaps not secured definitively and left able to rotate under certain conditions to customize the position, i wasnt sure at this point of the process what to do with it, if fixed or rotable.. 
-
-To start the design, at first I positioned the individual Switch and socket modules to create the desired layout for the input block. From there, with that reference in place , i created a cyllider base big enough (75mm diameter 2mm height ) to hold the entire cluster of modules and created, underneath the main cyllinder base,  sort of a guide to allow it to rotate propperly within the main housing slot destined for it. I alligned the cyllinder base wit the top most layer of the switch and socket retention modules in order to create a seamless union between them and obtain a rather aesthetic finish to it.
-   
-<table>
-    <tr>
-        <td>
-            <i>Desired layout composition.</i></br>
-            <img width="1245" height="881" alt="image" src="https://github.com/user-attachments/assets/088cd9e8-32aa-41ff-872c-6c9774ac1c82" />
-        </td>
-        <td>
-            <i>Main rotating body.</i></br>
-            <img width="1245" height="885" alt="image" src="https://github.com/user-attachments/assets/0126c2e9-6384-455c-a199-33f1aed791fe" />
-        </td>
-        <td>
-            <i>Rotation guide.</i></br>
-            <img width="1053" height="896" alt="image" src="https://github.com/user-attachments/assets/33392782-e981-4a5c-9cd9-0c3a0547174d" />
-        </td>
-        <td>
-            <i>Elements alignment.</i></br>
-            <img width="1082" height="897" alt="image" src="https://github.com/user-attachments/assets/9ed958ac-c9cd-4f1e-b372-878e99da3694" />
-        </td>
-    </tr>
-</table>
-
-Before printing the first test piece I also added some indentations to allow the extraction tool to do it's job for the switches. This indentation would leave enough space for the tool to be inserted and press the release latches for the installed switches without collinding with the main base.
-
-<table>
-    <caption>Final test piece.</caption>
-    <tr>
-        <td>
-            <i>Top view.</i></br>
-            <img width="1044" height="927" alt="image" src="https://github.com/user-attachments/assets/81cc992d-85bf-42e0-aa66-010e596ad952" />
-        </td>
-        <td>
-            <i>Isometric view.</i></br>
-            <img width="1120" height="863" alt="image" src="https://github.com/user-attachments/assets/f7030d85-8f93-4e1d-9f30-33bd9542e799" />
-        </td>
-    </tr>
-</table>
-
-
-Important notes to refine.
-For this design process i reverted to using the 3 layers model. I also initially did not take into account the positioning of the screws to secure the bottom layer because I knew I would have more horizontal space on the underside to reposition them. 
-Also, I decided to add some leds, so I had to change some things in the modules design.
--->
----
 **Correcciones a implementar:**   
 Tengo que mejorar la calidad de las hendiduras para el uso de la herramienta. Son en tamaño suficientes para facilitar el uso, pero la dirección de impresión de la pieza impiden un acabado estetico.
 Por otro lado, conviene aumentar la altura de la guia de rotación.
@@ -1327,7 +1296,7 @@ Puedo reducir la altura de la capa 2 y modificar la capa 3 en consecuencia, ahor
 Debo rediseñar el mecanismo de sujeción pàra la capa 3 e incluir los soportes para dicha capa. Debo recalibrar la altura de la geometria protuberante que asegura el zócalo a la capa de alineación. 
 
 ---
-
+-->
 
 
 
