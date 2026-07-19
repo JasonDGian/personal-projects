@@ -1114,8 +1114,10 @@ Using the validated hot-swap socket reference model and its corresponding negati
     
 The first prototype was intentionally built around this three-layer concept. At this stage, my objective was not to produce a final component, but to verify that the mounting mechanism could withstand the forces generated during switch installation while remaining compact enough for the intended button layout.
     
+
+<div align=center>
 <table>
-    <caption><i>Prototyle virtual assembly.</i></caption>
+    <caption><i>Prototype virtual assembly.</i></caption>
     <tr>
         <td>
             <!-- this gif shows the layers being assembled in an animation in gif format -->
@@ -1126,6 +1128,7 @@ The first prototype was intentionally built around this three-layer concept. At 
         </td-->
     </tr>
 </table>
+</div>
 
 <table>
     <caption><i>First assembled prototype of the layered hot-swap socket mounting mechanism.</i></caption>
@@ -1236,19 +1239,17 @@ Before printing the first prototype, I also added clearance cut-outs around each
 </table>
 
 **First iteration results**    
-This first prototype helped me validate the overall concept and confirmed that the design was worth continuing to develop. It also made it much easier to identify the next features and improvements that should be integrated into the assembly.
+The first prototype confirmed that the overall concept was viable and worth developing further. The key spacing was comfortable and closely matched the keyboard cursor layout I intended to replicate. I also found that the spacing between adjacent switch modules was slightly larger than expected, providing additional room for wire-routing channels.
 
-The completed assembly met the original design objectives. The switch-and-socket modules integrated correctly with the rotating base and remained securely in place during switch installation, confirming that the hot-swap socket retention mechanism could withstand the insertion forces without being displaced. The assembly also provided straightforward access for switch replacement and future maintenance.
+The assembled prototype met the main design objectives. The switch-and-socket modules integrated correctly with the rotating base and remained securely in place during switch installation, confirming that the hot-swap socket retention mechanism could withstand the insertion forces. The design also allowed easy access for switch replacement and maintenance.
 
-One thing I did not expect was that the spacing between adjacent modules was slightly larger than I had initially calculated. This gave me additional room to improve the wire-routing channels without affecting the overall button layout or ergonomics.
+**The prototype highlighted several improvements for the next iteration:**
+- Improve the surface finish of the switch extraction cut-outs.
+- Refine the wire-routing channels to simplify cable management.
+- Add an internal mounting feature for the planned contact LED.
+- Reduce the thickness of the second layer and modify the bottom support to reduce material usage and print time while maintaining structural rigidity.
 
-The first iteration also highlighted several areas that could be improved in the next iteration.
-**Design improvements identified:**
-- Improve the finish of the switch extraction cut-outs. Although they provided enough clearance for the extraction tool, the chosen printing orientation resulted in a rough surface finish.
-- Refine the wire-routing channels in the second layer to simplify cable management around the hot-swap sockets.
-- Add an internal mounting location for the LED planned for the final version of the controller.
-   
-In addition to these improvements, I also identified an opportunity to reduce the thickness of the second layer and modify the bottom support accordingly. This change would reduce both material usage and printing time while keeping the assembly structurally rigid.
+Overall, the first iteration validated the design and provided a clear direction for the next stage of development.
    
 <table>
     <caption><i>First assembled prototype of the directional input block.</i></caption>
@@ -1273,11 +1274,9 @@ In addition to these improvements, I also identified an opportunity to reduce th
         </td>
     </tr>
 </table>
- 
-**Second iteration**
-For the second iteration, I focused on integrating the improvements identified during the evaluation of the first prototype. The main goals were to add the status LEDs, redesign layers 2 and 3 to reduce the overall thickness of the assembly, improve the wire-routing channels, and rework the switch extraction cut-outs to achieve a cleaner and more consistent finish.
+     
+**Second iteration**     
 
-These changes resulted in a noticeably thinner assembly and a more refined overall design while preserving the rotating mechanism and the hot-swap functionality.
 
 <!--
 Verifying the recess created for the switch puller tool.
