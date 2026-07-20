@@ -1241,12 +1241,12 @@ Before printing the first prototype, I also added clearance cut-outs around each
 **First iteration results**    
 The first prototype confirmed that the overall concept was viable and worth developing further. The key spacing was comfortable and closely matched the keyboard cursor layout I intended to replicate. I also found that the spacing between adjacent switch modules was slightly larger than expected, providing additional room for wire-routing channels.
 
-The assembled prototype met the main design objectives. The switch-and-socket modules integrated correctly with the rotating base and remained securely in place during switch installation, confirming that the hot-swap socket retention mechanism could withstand the insertion forces. The design also allowed easy access for switch replacement and maintenance.
+The assembled test piece met the main design objectives. The switch-and-socket modules integrated correctly with the rotating base and remained securely in place during switch installation, confirming that the hot-swap socket retention mechanism could withstand the insertion forces. The design also allowed easy access for switch replacement and maintenance.
 
-**The prototype highlighted several improvements for the next iteration:**
-- Improve the surface finish of the switch extraction cut-outs.
-- Refine the wire-routing channels to simplify cable management.
-- Add an internal mounting feature for the planned contact LED.
+**The prototype also highlighted several improvements for the next iteration:**
+- Reshape the switch extraction cut-outs to achieve a more refined surface finish.
+- Improve the wire-routing channels utilizing the increased avilable space to simplify cable management.
+- Add an internal cut-out and mounting feature for the planned contact LED.
 - Reduce the thickness of the second layer and modify the bottom support to reduce material usage and print time while maintaining structural rigidity.
 
 Overall, the first iteration validated the design and provided a clear direction for the next stage of development.
