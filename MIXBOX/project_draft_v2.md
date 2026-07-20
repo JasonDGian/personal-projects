@@ -1275,8 +1275,74 @@ Overall, the first iteration validated the design and provided a clear direction
     </tr>
 </table>
      
-**Second iteration**     
+**Second iteration**    
 
+The first change I made in the second iteration was to reduce the height of the alignment layer so that it matched the height of the hot-swap socket. As shown in the updated Blender model, this reduced the overall thickness of the assembly while maintaining the required support and alignment for the socket.
+   
+<table>
+    <tr>
+        <td>
+            <i>Before layer height reduction</i></br>
+            <img width="1189" height="584" alt="image" src="https://github.com/user-attachments/assets/fbdd05a5-707d-4193-a567-8bb0772d1723" />
+        </td>
+        <td>
+            <i>After layer height reduction</i></br>
+            <img width="1189" height="584" alt="image" src="https://github.com/user-attachments/assets/4c7c67c2-5360-4652-a0b2-9ad3acc38880" />
+        </td>
+    </tr>
+</table>
+    
+Using the extra space identified during the first iteration, I then redesigned the wire-routing channels to make better use of the available space between modules. The new routing avoided sharp bends, making the wires easier to install and resulting in a cleaner assembly.   
+    
+<table>    
+    <tr>
+        <td>
+            <i>Channels adapted to available space.</i></br>
+            <img width="888" height="690" alt="image" src="https://github.com/user-attachments/assets/e13f3438-edd1-4800-906c-e57fafd92306" />
+        </td>
+        <td>
+            <i>Before routing channels increse.</i></br>
+            <img width="888" height="690" alt="image" src="https://github.com/user-attachments/assets/ba23e1d5-1f1b-4661-9859-c666fc15b7e4" />
+        </td>
+        <td>
+            <i>After routing channels increse.</i></br>
+            <img width="887" height="690" alt="image" src="https://github.com/user-attachments/assets/94aa5db3-9dcf-481d-b1de-94504bf03fb5" />
+        </td>
+    </tr>
+</table>
+     
+
+
+<table>    
+    <tr>
+        <td>
+            <i>Before - Side view</i></br>
+        </td>
+        <td>
+            <i>After - Side view</i></br>
+        </td>
+    </tr>
+</table>
+
+
+For the support layer i simply 
+
+To add the contact status LED I modeled a reference and then used it to position it at a heigh I knew it would not impede the switch from sitting propperly in the retention mechanism.  
+
+<table>
+    <tr>
+        <td>
+            <img width="1044" height="831" alt="image" src="https://github.com/user-attachments/assets/6449812a-72ad-484f-88c1-2b8593c40120" />
+        </td>
+        <td>
+            <img width="1044" height="831" alt="image" src="https://github.com/user-attachments/assets/4732efc1-af3f-4b50-a113-39579df9959f" />
+        </td>
+        <td>
+            <!--img width="1044" height="831" alt="image" src="https://github.com/user-attachments/assets/15a64b38-44be-44e2-a629-7c36cb3cb217" /-->
+            <img width="1044" height="831" alt="image" src="https://github.com/user-attachments/assets/a164922f-ede1-4fe8-a2ba-cf3a82c33ce8" />
+        </td>
+    </tr>
+</table>
 
 <!--
 Verifying the recess created for the switch puller tool.
