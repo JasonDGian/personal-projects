@@ -1324,8 +1324,16 @@ Using the extra space identified during the first iteration, I then redesigned t
     </tr>
 </table>
 
+For the support layer I could not reposition the screws using the wider space to provide a stronger support unifying the support layer of all modules into one. I first marked where the screws should be placed to optimize the support to the sockts and to avoid the potential paths into which direct the wires coming from the sockets. Although it may be a bit overkill, i identified 10 support points that would definitively provide support to the sockets even if the force applied to them were enough to kill a small rodent. After identifying these spots i proceeded to create the geometry that would accomodate the screws.
 
-For the support layer i simply 
+<img width="1342" height="914" alt="image" src="https://github.com/user-attachments/assets/c9288b78-41f1-45d7-8f8f-01d25bcd8508" />
+
+
+<img width="1394" height="907" alt="image" src="https://github.com/user-attachments/assets/28364ac6-b902-4296-bcac-05853a2e70cf" />
+
+
+
+
 
 To add the contact status LED I modeled a reference and then used it to position it at a heigh I knew it would not impede the switch from sitting propperly in the retention mechanism.  
 
