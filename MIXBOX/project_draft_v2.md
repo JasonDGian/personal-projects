@@ -1292,7 +1292,7 @@ The first change I made in the second iteration was to reduce the height of the 
     </tr>
 </table>
     
-Using the extra space identified during the first iteration, I then redesigned the wire-routing channels to make better use of the available space between modules. The new routing avoided sharp bends, making the wires easier to install and resulting in a cleaner assembly.   
+Using the extra space identified during the first iteration, I then redesigned the wire-routing channels to make better use of the available space between modules. The new routing allowed for a better angle to bend the wires, making them easier to install and resulting in a cleaner assembly.   
     
 <table>    
     <tr>
