@@ -1311,46 +1311,67 @@ Using the extra space identified during the first iteration, I then redesigned t
     </tr>
 </table>
      
+As a result of these changes, I also had to redesign the socket support layer (Layer 3 of the switch-and-socket module). Instead of keeping four independent support pieces, I decided to merge them into a single support layer spanning all four sockets. This simplified the assembly and gave me much greater freedom when positioning the fastening screws.
 
+The wider support layer allowed me to relocate the screws to better distribute the loads generated when inserting or removing switches, while also avoiding the wire-routing paths identified in the previous step. I began by marking potential screw locations that would provide good support for each socket without interfering with the wiring.
+
+Although nine mounting points were probably more than necessary, I preferred to err on the side of rigidity. This ensured that the support layer would remain firmly attached even under the relatively high insertion forces required by the hot-swap sockets. Once the mounting locations had been defined, I modelled the support pillars and completed the geometry of the new support layer.
 
 <table>    
     <tr>
         <td>
-            <i>Before - Side view</i></br>
+            <i>Selected screw locations.</i></br>
+            <img width="1036" height="937" alt="inputblock_unified_markers" src="https://github.com/user-attachments/assets/17e096ab-2033-418f-afe1-b67f1bdbab37" />
         </td>
         <td>
-            <i>After - Side view</i></br>
+            <i>Modeled support pillars</i></br>
+            <img width="1036" height="937" alt="inputblock_unified_pillars" src="https://github.com/user-attachments/assets/66efd881-858f-4f8a-9632-680cc7681e9a" />
+        </td>
+        <td>
+            <i>New unified socket support layer.</i></br>
+            <img width="1036" height="937" alt="inputblock_unified_support_layer" src="https://github.com/user-attachments/assets/4794d589-3583-4243-a6f2-c9889449ee81" />
         </td>
     </tr>
 </table>
 
-For the support layer I could not reposition the screws using the wider space to provide a stronger support unifying the support layer of all modules into one. I first marked where the screws should be placed to optimize the support to the sockts and to avoid the potential paths into which direct the wires coming from the sockets. Although it may be a bit overkill, i identified 10 support points that would definitively provide support to the sockets even if the force applied to them were enough to kill a small rodent. After identifying these spots i proceeded to create the geometry that would accomodate the screws.
+<!--
+
 
 <img width="1342" height="914" alt="image" src="https://github.com/user-attachments/assets/c9288b78-41f1-45d7-8f8f-01d25bcd8508" />
 
 
 <img width="1394" height="907" alt="image" src="https://github.com/user-attachments/assets/28364ac6-b902-4296-bcac-05853a2e70cf" />
 
+-->
 
 
 
-
-To add the contact status LED I modeled a reference and then used it to position it at a heigh I knew it would not impede the switch from sitting propperly in the retention mechanism.  
+To add the contact status LED I modeled a reference as shown before and then used it to position it at a heigh I knew it would not impede the switch from sitting propperly in the retention mechanism. I then simply carved the cutouts to house the led in the main rotating assembly and modified the support layer to accomodate these changes. 
 
 <table>
     <tr>
         <td>
-            <img width="1044" height="831" alt="image" src="https://github.com/user-attachments/assets/6449812a-72ad-484f-88c1-2b8593c40120" />
+            <i>Led references in position - top view.</i></br>
+            <img width="1036" height="937" alt="inputblock_led_positioned_top" src="https://github.com/user-attachments/assets/cc90f7c4-1b29-4c8f-9fbe-af6825cb84ec" />
         </td>
         <td>
-            <img width="1044" height="831" alt="image" src="https://github.com/user-attachments/assets/4732efc1-af3f-4b50-a113-39579df9959f" />
+            <i>Led references in position - bottom view.</i></br>
+            <img width="1036" height="937" alt="inputblock_led_positioned_bottom" src="https://github.com/user-attachments/assets/deb4446f-db63-44aa-a6cc-955bf180e8ba" />
+        </td>
+    </tr>    
+    <tr>
+        <td>
+            <i>Led cut-outs - main rotating assembly.</i></br>
+             <img width="1036" height="937" alt="led-cut-outs" src="https://github.com/user-attachments/assets/45fdb7ea-e91d-47a2-951d-2d6a9885aa39" />
         </td>
         <td>
-            <!--img width="1044" height="831" alt="image" src="https://github.com/user-attachments/assets/15a64b38-44be-44e2-a629-7c36cb3cb217" /-->
-            <img width="1044" height="831" alt="image" src="https://github.com/user-attachments/assets/a164922f-ede1-4fe8-a2ba-cf3a82c33ce8" />
+            <i>Led cut-outs - socket support layer.</i></br>
+            <img width="1036" height="937" alt="inputblock_adapted_support_layer_to_leds" src="https://github.com/user-attachments/assets/4214de9e-6453-4f05-bb7c-a29a0a75ba2f" />
         </td>
     </tr>
 </table>
+
+
 
 <!--
 Verifying the recess created for the switch puller tool.
