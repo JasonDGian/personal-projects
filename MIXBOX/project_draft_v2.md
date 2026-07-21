@@ -1371,6 +1371,17 @@ To add the contact status LED I modeled a reference as shown before and then use
     </tr>
 </table>
 
+The next step was fixing the cutouts to have a better finish. To test this I created a tespiece with what i believe to be two suitable solutions.
+The idea was to print this small piece to see how it printed without supports and judge the result by this small piece in itself rather than printing the hole iteration with just a guess. 
+One of the cutouts was an oval shape and the other a simple triangular shape. By seeing how these behaved without support and how the final piece looked i would decide which one to implement.
+
+<img width="1712" height="705" alt="image" src="https://github.com/user-attachments/assets/8605a2fe-5290-41d6-9273-5220091287c5" />
+
+
+TODO: 
+probar distintos cutouts
+integrar cutouts en segunda iteración
+imprimir iteracion y probar.
 
 
 <!--
