@@ -1371,16 +1371,65 @@ To add the contact status LED I modeled a reference as shown before and then use
     </tr>
 </table>
 
-The next step was fixing the cutouts to have a better finish. To test this I created a tespiece with what i believe to be two suitable solutions.
-The idea was to print this small piece to see how it printed without supports and judge the result by this small piece in itself rather than printing the hole iteration with just a guess. 
-One of the cutouts was an oval shape and the other a simple triangular shape. By seeing how these behaved without support and how the final piece looked i would decide which one to implement.
+The next step was improving the switch puller cut-outs to achieve a cleaner finish and a better overall appearance. Rather than modifying the entire assembly and hoping for the best, I designed a small test piece containing two alternative cut-out geometries that I believed could be printed successfully without supports.
 
-<img width="1712" height="705" alt="image" src="https://github.com/user-attachments/assets/8605a2fe-5290-41d6-9273-5220091287c5" />
+One design used an oval profile, while the other used a simple triangular profile with angled faces to eliminate unsupported overhangs. Printing this small test piece allowed me to evaluate both the print quality and the practicality of each design before committing the changes to the full model.
+
+<table>
+    <caption><i>Tested cut-out shapes.</i></br></caption>
+    <tr>
+        <td>
+            <img width="930" height="786" alt="image" src="https://github.com/user-attachments/assets/2950c474-90fa-4456-ab10-67828d48d8dc" />
+        </td>
+        <td>
+            <img width="930" height="786" alt="image" src="https://github.com/user-attachments/assets/9657fb7b-4921-4fe7-a041-35173dc5a203" />
+        </td>
+    </tr>
+</table>
+
+After comparing the results, I chose the triangular cut-out. Besides printing more cleanly, it was simpler to model and achieved the same functionality. I then integrated it into the full design and fine-tuned its dimensions to improve both its appearance and the clearance for the switch puller.
+
+<table>
+    <caption><i>Tested cut-out shapes.</i></br></caption>
+    <tr>
+        <td>
+            <i>Before<i></br>
+            <img width="1191" height="851" alt="Before - Cutouts 2" src="https://github.com/user-attachments/assets/aa978a0c-8b23-4e4d-9b5f-6c723b1ca0ea" />
+        </td>
+        <td>
+            <i>After<i></br>
+            <img width="1191" height="851" alt="After - Cutouts 2" src="https://github.com/user-attachments/assets/ebb5c22c-4fa8-466a-8436-26634499a940" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <i>Before<i></br>
+            <img width="1191" height="851" alt="Cutouts - Before 1" src="https://github.com/user-attachments/assets/28794073-bf4c-471d-9e7d-769c069b9db1" />
+        </td>
+        <td>
+            <i>After<i></br>
+            <img width="1191" height="851" alt="After Cutouts - 1" src="https://github.com/user-attachments/assets/f6461fca-d121-4bcc-8576-e3d48f026c9b" />
+        </td>
+    </tr>
+</table>
+
+<i>Before-after comparison.</i></br>
+<img width="1200" alt="Cutouts-Gifs" src="https://github.com/user-attachments/assets/2ee99746-7435-4ec0-931c-1bb751f15e62" />
+
+**Second iteration results**    
+
+The final design produced a noticeably cleaner finish while eliminating the overhangs that had affected the first iteration.
+
+
+
+<!--
+
+-->
+
 
 
 TODO: 
-probar distintos cutouts
-integrar cutouts en segunda iteración
+
 imprimir iteracion y probar.
 
 
