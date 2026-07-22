@@ -1417,6 +1417,7 @@ After comparing the results, I chose the triangular cut-out. Besides printing mo
 <img width="1200" alt="Cutouts-Gifs" src="https://github.com/user-attachments/assets/2ee99746-7435-4ec0-931c-1bb751f15e62" />
 
 **Second iteration results**    
+One thing I didnt document but certainly helped with the final feeling of the piece, is that I increased the number of vertices for the main rotating body cyllinder. I doubled it from 32 to 64 and the overall look and feeling improved greaitly. I did this because the piece should rotate as smoothly as possible within the body and the previous 32 vertices were not smooth enough to the touch so it would most likely be insufficient for a smooth fit.
 
 The final design produced a noticeably cleaner finish while eliminating the overhangs that had affected the first iteration.
 
