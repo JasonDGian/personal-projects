@@ -1421,6 +1421,27 @@ One thing I didnt document but certainly helped with the final feeling of the pi
 
 The final design produced a noticeably cleaner finish while eliminating the overhangs that had affected the first iteration.
 
+Resultados de la segunda , la primera observación es que el tamaño de la capa de alineación es incorrecto, probablemente por un desfase entre el modelo de referencia y la pieza real. no recordé tener en cuenta las tolernacias añadidas durante el modelado de la pieza. Tras medir el desfase aplique las correciones al modelo como debido.
+
+Por otro lado, durante un fallo evidente fué la configuración de la pieza a imprimir. Al reducir la altura de la capa, para obtener un mayor detalle, se generaron soportes que no deberian haberse generado.
+
+Por otro lado, por algun motivo se produjo un artefacto extraño que no me fijé a tiempo en el programa de laminado de la impresora. 
+
+<img width="1271" height="789" alt="image" src="https://github.com/user-attachments/assets/7fc6ab9b-2064-4ad2-8dc7-f10ccf34c630" />
+
+Otra observación es que se podría aumentar el tamaño de los pilares de soporte, no todos pero algunos si.
+
+
+También modifiqué la posicion de los pilares de apoyo para poder encaminar los cables mejor y más comodamente.
+
+<i>Modified pillar placements for enhanced wire routing paths.</i></br>
+<img width="1103" height="837" alt="image" src="https://github.com/user-attachments/assets/e42b8ef3-0c38-4924-ac1c-a44a631b2eb8" />
+
+Las rutas planificadas son estas. 
+
+<img width="1335" height="802" alt="image" src="https://github.com/user-attachments/assets/2ad62569-c72a-4f23-b7ba-ffdb8f46db4c" />
+
+
 
 
 <!--
