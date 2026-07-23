@@ -1489,7 +1489,7 @@ The redesigned switch puller cut-outs worked as intended, but an incorrect slice
 
 ----
     
-**Final iteration.**
+**Final iteration.**      
 The first correction I made in the final iteration was to adjust the height of the alignment layer. Before committing to a full print, I produced a small test piece to verify that the correction was accurate. Once the measured adjustment had been applied, the alignment layer matched the height of the hot-swap socket as intended.
 
 <i>Alignment layer height test piece.</i></br>
@@ -1554,6 +1554,12 @@ One final thing I didnt document but certainly helped with the final feeling of 
     </tr>
 </table>
 
+**Final iteration results**    
+In this final iteration, the hotswap sockets sit perfectly flush with the alignment layer. 
+
+The leds fit perfectly within their cutouts and do not impede the propper placement for the mechanicnal swithces.
+
+The support layer does not interfere with the LEDs placement and the number and placement of fastening screws is more than enough to provide the necessary support for the sockets.
 
 
     
