@@ -1417,6 +1417,55 @@ After comparing the results, I chose the triangular cut-out. Besides printing mo
 <img width="1200" alt="Cutouts-Gifs" src="https://github.com/user-attachments/assets/2ee99746-7435-4ec0-931c-1bb751f15e62" />
 
 **Second iteration results**    
+This second iteration was definitely a step in the right direction, although it also revealed a few corrections that still needed to be made.
+
+<!--table>
+    <caption><i>Second iteration observations.</i></br></caption>
+    <tr>
+        <th>Issue description</th>
+        <th>Picture</th>
+    </tr>
+    <tr>
+        <td>The first issue I identified was that the height of the alignment layer was still slightly incorrect, most likely due to a mismatch between the reference model and the final geometry. I had overlooked the tolerances introduced during the modelling process, resulting in the layer being slightly taller than intended. Based on the measurements taken from the printed part, the alignment layer still needs to be reduced by approximately 0.20 mm.</td>
+        <td><i>Alignment layer eccess height</i></br>
+            <img width="1280" height="470" alt="image" src="https://github.com/user-attachments/assets/486278d5-877e-49a9-9bf6-0200d332c5b7" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+I also found that, although the socket support pillars provided excellent mechanical support, their positions made wire routing more difficult than expected. I had originally placed the fastening pillars to maximise support for the hot-swap sockets, but I had not considered how the completed support layer would block potential cable-routing paths. In the next iteration, I would reposition several pillars to create more space for the wiring while maintaining adequate support for the sockets.
+        </td>
+        <td>
+            <i>Wire routing obstructed path.</i></br>
+<img width="1280" height="470" alt="image" src="https://github.com/user-attachments/assets/ea7ca2a2-671a-4e39-8d8f-57dd2d0bc22b" />
+        </td>
+    </tr>
+    <tr>
+        <td>The redesigned switch puller cut-outs worked as intended, but an incorrect slicer configuration generated unnecessary support material. Combined with a printing artefact that I only noticed after the print had finished, this resulted in a poorer surface finish than expected. The print settings will need to be adjusted before the next iteration to eliminate these issues.</td>
+        <td>
+            <i>Model imperfection in slicer.</i></br>
+        <img width="1271" height="789" alt="image" src="https://github.com/user-attachments/assets/7fc6ab9b-2064-4ad2-8dc7-f10ccf34c630" /></td>
+    </tr>
+</table-->
+
+The first issue I identified was that the height of the alignment layer was still slightly incorrect, most likely due to a mismatch between the reference model and the final geometry. I had overlooked the tolerances introduced during the modelling process, resulting in the layer being slightly taller than intended. Based on the measurements taken from the printed part, the alignment layer still needs to be reduced by approximately 0.20 mm.
+    
+<i>Alignment layer eccess height</i></br>
+<img width="1280" height="470" alt="image" src="https://github.com/user-attachments/assets/486278d5-877e-49a9-9bf6-0200d332c5b7" />
+    
+I also found that, although the socket support pillars provided excellent mechanical support, their positions made wire routing more difficult than expected. I had originally placed the fastening pillars to maximise support for the hot-swap sockets, but I had not considered how the completed support layer would block potential cable-routing paths. In the next iteration, I would reposition several pillars to create more space for the wiring while maintaining adequate support for the sockets.
+       
+<i>Wire routing obstructed path.</i></br>
+<img width="1280" height="470" alt="image" src="https://github.com/user-attachments/assets/fcbe1a40-9ed6-4cce-adb8-f915372dd083" />
+        
+The redesigned switch puller cut-outs worked as intended, but an incorrect slicer configuration generated unnecessary support material. Combined with a printing artefact that I only noticed after the print had finished, this resulted in a poorer surface finish than expected. The print settings will need to be adjusted before the next iteration to eliminate these issues.
+    
+<i>Model imperfection in slicer.</i></br>
+<img width="1271" height="789" alt="image" src="https://github.com/user-attachments/assets/7fc6ab9b-2064-4ad2-8dc7-f10ccf34c630" />
+
+----
+    
+
 One thing I didnt document but certainly helped with the final feeling of the piece, is that I increased the number of vertices for the main rotating body cyllinder. I doubled it from 32 to 64 and the overall look and feeling improved greaitly. I did this because the piece should rotate as smoothly as possible within the body and the previous 32 vertices were not smooth enough to the touch so it would most likely be insufficient for a smooth fit.
 
 The final design produced a noticeably cleaner finish while eliminating the overhangs that had affected the first iteration.
@@ -1442,6 +1491,11 @@ Las rutas planificadas son estas.
 <img width="1335" height="802" alt="image" src="https://github.com/user-attachments/assets/2ad62569-c72a-4f23-b7ba-ffdb8f46db4c" />
 
 
+
+
+
+
+Observaciones a partir de la segunda iteracion.
 
 
 <!--
