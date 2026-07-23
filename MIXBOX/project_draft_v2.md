@@ -1467,54 +1467,116 @@ I also found that, although the socket support pillars provided excellent mechan
         
 The redesigned switch puller cut-outs worked as intended, but an incorrect slicer configuration generated unnecessary support material. Combined with a printing artefact that I only noticed after the print had finished, this resulted in a poorer surface finish than expected. The print settings will need to be adjusted before the next iteration to eliminate these issues.
     
-<i>Model imperfection in slicer.</i></br>
-<img width="1280" height="470" alt="image" src="https://github.com/user-attachments/assets/07913554-a8fa-4793-98cd-108568e0b6f9" />
+
 <!--img width="1271" height="789" alt="image" src="https://github.com/user-attachments/assets/7fc6ab9b-2064-4ad2-8dc7-f10ccf34c630" /-->
+
+<table>
+    <tr>
+        <td colspan="2">
+            <i>Model imperfection in slicer.</i></br>
+            <img width="1280" height="470" alt="image" src="https://github.com/user-attachments/assets/07913554-a8fa-4793-98cd-108568e0b6f9" />
+        </td>
+    </tr>
+    <tr>
+        <td><i>Cutout imperfections caused by slicer missconfiguration.</i></br>
+            <img width="629" height="470" alt="image" src="https://github.com/user-attachments/assets/fc0ae3b1-2d6a-4e93-a5f0-c39c0fa993ce" />
+        </td>
+        <td><i>Cutout test with switch puller.</i></br>
+            <img width="629" height="470" alt="image" src="https://github.com/user-attachments/assets/77eaa2d8-60a2-42fd-8bcd-f91d331f2539" />
+        </td>
+    </tr>
+</table>
 
 ----
     
+**Final iteration.**
+The first correction I made in the final iteration was to adjust the height of the alignment layer. Before committing to a full print, I produced a small test piece to verify that the correction was accurate. Once the measured adjustment had been applied, the alignment layer matched the height of the hot-swap socket as intended.
 
-One thing I didnt document but certainly helped with the final feeling of the piece, is that I increased the number of vertices for the main rotating body cyllinder. I doubled it from 32 to 64 and the overall look and feeling improved greaitly. I did this because the piece should rotate as smoothly as possible within the body and the previous 32 vertices were not smooth enough to the touch so it would most likely be insufficient for a smooth fit.
+<i>Alignment layer height test piece.</i></br>
+<img width="2048" height="733" alt="image" src="https://github.com/user-attachments/assets/f6dddb18-4c54-4ead-aa34-585244788a71" />
 
-The final design produced a noticeably cleaner finish while eliminating the overhangs that had affected the first iteration.
+The next change was to reposition the fastening support pillars to improve the wire-routing paths without compromising socket support. My goal was to free enough space for the wires while keeping the pillars close to the main load points, allowing them to continue resisting the insertion forces applied to the hot-swap sockets. The final layout created two clear routing paths from the Up switch towards the lower section of the assembly, where the wiring could be grouped and secured together to minimise mechanical stress on the solder joints and sockets. 
 
-Resultados de la segunda , la primera observación es que el tamaño de la capa de alineación es incorrecto, probablemente por un desfase entre el modelo de referencia y la pieza real. no recordé tener en cuenta las tolernacias añadidas durante el modelado de la pieza. Tras medir el desfase aplique las correciones al modelo como debido.
+<table>
+    <tr>
+        <td>
+            <i>Old support pillars placement.</i></br>
+            <img width="809" height="805" alt="image" src="https://github.com/user-attachments/assets/7539c910-4d14-4ccb-a43b-3bfb2d215c81" />
+        </td>
+        <td>
+            <i>New support pillars placement.</i></br>
+            <img width="809" height="805" alt="image" src="https://github.com/user-attachments/assets/6454a164-6fc8-4de8-a8a3-47f19553f346" />
+        </td>
+        <td>
+            <i>Planner wire routing paths.</i></br>
+            <img width="809" height="805" alt="image" src="https://github.com/user-attachments/assets/28a5456c-15e7-4ad6-b800-c2563b49fd52" />
+        </td>
+    </tr>
+</table>
 
-Por otro lado, durante un fallo evidente fué la configuración de la pieza a imprimir. Al reducir la altura de la capa, para obtener un mayor detalle, se generaron soportes que no deberian haberse generado.
+After repositioning the support pillars, I also had to update the support layer to match the new fastening points. I took this opportunity to introduce a few additional improvements instead of simply relocating the existing geometry.
 
-Por otro lado, por algun motivo se produjo un artefacto extraño que no me fijé a tiempo en el programa de laminado de la impresora. 
+To increase the rigidity of the part, I added a series of elongated triangular ribs that act as reinforcing spines in perpendicular directions. Although the original design was already sufficiently strong, these features should help distribute the fastening forces more evenly across the support layer.
 
-<img width="1271" height="789" alt="image" src="https://github.com/user-attachments/assets/7fc6ab9b-2064-4ad2-8dc7-f10ccf34c630" />
+I also added spherical indentations above the solder joints of each hot-swap socket. These provide extra clearance for the soldered wire connections, ensuring that slightly larger-than-expected solder joints or wire placement variations would not interfere with the assembly.
+    
+<table>
+    <tr>
+        <td>
+            <i>Clearance pockets for solder joints.</i></br>
+            <!--img width="1120" height="853" alt="image" src="https://github.com/user-attachments/assets/3a80ff64-bb46-4653-80d5-3e2c1c3a1ba1" /-->
+            <img width="1242" height="784" alt="image" src="https://github.com/user-attachments/assets/b7e6a51f-0cb9-4abb-879c-0d2c5c0dde57" />
+        </td>
+        <td>
+            <i>Support layer with solder-joint clearance pockets.</i></br>
+           <img width="1242" height="784" alt="image" src="https://github.com/user-attachments/assets/c156135d-64d3-4f42-9666-b825473373fa" />
+        </td>
+        <td>
+            <i>Reinforced support layer with structural ribs.</i></br>
+           <img width="1210" height="784" alt="image" src="https://github.com/user-attachments/assets/560fb28c-c651-492d-931b-20f62eed760f" />
+        </td>
+    </tr>
+</table>
 
-Otra observación es que se podría aumentar el tamaño de los pilares de soporte, no todos pero algunos si.
+
+One final thing I didnt document but certainly helped with the final feeling of the piece, is that I increased the number of vertices for the main rotating body cyllinder. I doubled it from 32 to 64 and the overall look and feeling improved greaitly. I did this because the piece should rotate as smoothly as possible within the body and the previous 32 vertices were not smooth enough to the touch so it would most likely be insufficient for a smooth fit.
+    
+<table>
+    <tr>
+        <td>
+            <i>Rotating body 32 vertices.</i></br>
+            <img width="1242" height="784" alt="image" src="https://github.com/user-attachments/assets/a23d0ba8-d05e-45e6-919b-8d935d17f3a4" />
+        </td>
+        <td>
+            <i>Rotating body 64 vertices.</i></br>
+            <img width="1242" height="784" alt="image" src="https://github.com/user-attachments/assets/76fdc296-08d4-4b3a-a127-83e1afee8c75" />
+        </td>
+    </tr>
+</table>
 
 
-También modifiqué la posicion de los pilares de apoyo para poder encaminar los cables mejor y más comodamente.
 
-<i>Modified pillar placements for enhanced wire routing paths.</i></br>
-<img width="1103" height="837" alt="image" src="https://github.com/user-attachments/assets/e42b8ef3-0c38-4924-ac1c-a44a631b2eb8" />
-
-Las rutas planificadas son estas. 
-
-<img width="1335" height="802" alt="image" src="https://github.com/user-attachments/assets/2ad62569-c72a-4f23-b7ba-ffdb8f46db4c" />
-
-
-
-
-
-
-Observaciones a partir de la segunda iteracion.
-
+    
+<table>
+    <caption><i>Final iteration results.</i></br></caption>
+    <tr>
+        <td>
+            <i></i></br>
+        </td>
+        <td>
+            <i></i></br>
+        </td>
+        <td>
+            <i></i></br>
+        </td>
+    </tr>
+</table>
 
 <!--
 
 -->
 
 
-
-TODO: 
-
-imprimir iteracion y probar.
 
 
 <!--
