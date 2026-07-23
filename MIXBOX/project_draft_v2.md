@@ -1557,7 +1557,7 @@ One final thing I didnt document but certainly helped with the final feeling of 
 ---
    
 **Final iteration results**    
-The final iteration achieved all of the original design objectives. The hot-swap sockets sit perfectly flush with the alignment layer, allowing the support layer to function exactly as intended. The LEDs fit correctly within their cut-outs without interfering with the mechanical switches, and the switches can be removed using a standard switch puller without dislodging the hot-swap sockets.
+The final iteration achieved all of the original design objectives. The hot-swap sockets sit perfectly flush with the alignment layer, allowing the support layer to function exactly as intended. The LEDs fit correctly within their cut-outs without interfering with the mechanical switches. The switches can be installed and removed using a standard switch puller without requiring access to the back of the input block, and they can be replaced without the risk of dislodging the hot-swap sockets.
 
 The redesigned support layer provides sufficient rigidity without interfering with the LEDs, while the number and placement of the fastening screws offer more than enough support to withstand the forces generated during switch installation and removal.
 
