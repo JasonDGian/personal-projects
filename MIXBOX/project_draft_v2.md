@@ -1553,36 +1553,56 @@ One final thing I didnt document but certainly helped with the final feeling of 
         </td>
     </tr>
 </table>
-
-**Final iteration results**    
-In this final iteration, the hotswap sockets sit perfectly flush with the alignment layer. 
-
-The leds fit perfectly within their cutouts and do not impede the propper placement for the mechanicnal swithces.
-
-The support layer does not interfere with the LEDs placement and the number and placement of fastening screws is more than enough to provide the necessary support for the sockets.
-
-
     
+---
+   
+**Final iteration results**    
+The final iteration achieved all of the original design objectives. The hot-swap sockets sit perfectly flush with the alignment layer, allowing the support layer to function exactly as intended. The LEDs fit correctly within their cut-outs without interfering with the mechanical switches, and the switches can be removed using a standard switch puller without dislodging the hot-swap sockets.
+
+The redesigned support layer provides sufficient rigidity without interfering with the LEDs, while the number and placement of the fastening screws offer more than enough support to withstand the forces generated during switch installation and removal.
+
+Finally, the complete directional input block rotates smoothly within its intended range of adjustment, providing the ergonomic positioning originally envisioned while remaining mechanically stable.
+
+
+<!--img width="1046" height="868" alt="image" src="https://github.com/user-attachments/assets/aed53e6e-0c31-4432-b51b-ac9fadf060a4" /-->
+
 <table>
     <caption><i>Final iteration results.</i></br></caption>
+    </tr>
+        <td colspan="2">
+            <i></i></br>
+            <img width="666" height="910" alt="image" src="https://github.com/user-attachments/assets/07c9273b-2e74-47e9-bba3-cb12c6c85134" />
+        </td>
+        <td colspan="2">
+            <i></i></br>
+            <img width="666" height="911" alt="image" src="https://github.com/user-attachments/assets/e51aa9e9-423d-4dad-8937-e88fdebb17ac" />
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            <i></i></br>
+            <img width="2000" height="884" alt="image" src="https://github.com/user-attachments/assets/59303493-b82c-42b3-85db-98f4a4877a4a" />
+        </td>
+    <tr>
     <tr>
         <td>
-            <i></i></br>
+            <i>Sockets sitting flush.</i></br>
+            <img width="959" height="894" alt="image" src="https://github.com/user-attachments/assets/229cc6df-181c-474d-aa86-37f9a518d131" />
         </td>
         <td>
-            <i></i></br>
+            <i>Led placed cut-out.</i></br>
+            <img width="959" height="900" alt="image" src="https://github.com/user-attachments/assets/3b45b7de-ca03-4caf-8132-daf486e76c01" />
         </td>
         <td>
-            <i></i></br>
+            <i>Support layer screwed in place.</i></br>
+            <img width="959" height="904" alt="image" src="https://github.com/user-attachments/assets/baec81dd-19e4-40c1-b2e8-c10a9fe7d5a8" />
+        </td>
+        <td>
+            <i>Fully aseembled input block (no soldering).</i></br>
+            <img width="959" height="904" alt="image" src="https://github.com/user-attachments/assets/8afaee4a-1e14-4846-8edf-5fa3bc9c610d" />
         </td>
     </tr>
 </table>
-
-<!--
-
--->
-
-
 
 
 <!--
