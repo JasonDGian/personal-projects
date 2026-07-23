@@ -1237,7 +1237,9 @@ Before printing the first prototype, I also added clearance cut-outs around each
         </td>
     </tr>
 </table>
-
+    
+---
+   
 **First iteration results**    
 The first prototype confirmed that the overall concept was viable and worth developing further. The key spacing was comfortable and closely matched the keyboard cursor layout I intended to replicate. I also found that the spacing between adjacent switch modules was slightly larger than expected, providing additional room for wire-routing channels.
 
@@ -1275,6 +1277,9 @@ Overall, the first iteration validated the design and provided a clear direction
     </tr>
 </table>
      
+    
+---
+   
 **Second iteration**    
 
 The first change I made in the second iteration was to reduce the height of the alignment layer so that it matched the height of the hot-swap socket. As shown in the updated Blender model, this reduced the overall thickness of the assembly while maintaining the required support and alignment for the socket.
@@ -1415,7 +1420,9 @@ After comparing the results, I chose the triangular cut-out. Besides printing mo
 
 <i>Before-after comparison.</i></br>
 <img width="1200" alt="Cutouts-Gifs" src="https://github.com/user-attachments/assets/2ee99746-7435-4ec0-931c-1bb751f15e62" />
-
+    
+---
+   
 **Second iteration results**    
 This second iteration was definitely a step in the right direction, although it also revealed a few corrections that still needed to be made.
 
@@ -1461,7 +1468,8 @@ I also found that, although the socket support pillars provided excellent mechan
 The redesigned switch puller cut-outs worked as intended, but an incorrect slicer configuration generated unnecessary support material. Combined with a printing artefact that I only noticed after the print had finished, this resulted in a poorer surface finish than expected. The print settings will need to be adjusted before the next iteration to eliminate these issues.
     
 <i>Model imperfection in slicer.</i></br>
-<img width="1271" height="789" alt="image" src="https://github.com/user-attachments/assets/7fc6ab9b-2064-4ad2-8dc7-f10ccf34c630" />
+<img width="1280" height="470" alt="image" src="https://github.com/user-attachments/assets/07913554-a8fa-4793-98cd-108568e0b6f9" />
+<!--img width="1271" height="789" alt="image" src="https://github.com/user-attachments/assets/7fc6ab9b-2064-4ad2-8dc7-f10ccf34c630" /-->
 
 ----
     
