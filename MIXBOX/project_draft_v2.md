@@ -1264,8 +1264,6 @@ Overall, the first iteration validated the design and provided a clear direction
             <!-- image that shows the assembled piece with the switches and their keycaps -->
             <img width="998" height="800" alt="first iteration result capped" src="https://github.com/user-attachments/assets/6adddef5-04db-4a39-9ce0-ebc718eb46a6" />
         </td>
-    </tr>
-    <tr>
         <td>
             <!-- image that shows the extraction tool access cutouts -->
             <img width="998" height="800" alt="recess result" src="https://github.com/user-attachments/assets/252d12ce-4510-4ff1-88f9-2bd263d99d72" />
