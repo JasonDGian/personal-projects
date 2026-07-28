@@ -502,19 +502,360 @@ By using the validated motherboard reference model and incorporating the defined
         </td>
     </tr>
 </table>
+    
+### 🔹4.1.2 Initial housing design.
+Before starting the design draft, I first determined how many terminal blocks would be required based on the motherboard model I had selected. Since each terminal block provides two connections, I began by counting all the motherboard test pads that would need to be accessed.
+
+Including the ground connections, I identified approximately 42 signals that would need to be routed from the motherboard to the buttons and LED system. This meant that a minimum of 21 terminal blocks would be required. To provide some flexibility for future modifications and unexpected wiring needs, I added two additional terminal blocks, increasing the total capacity to 46 connections.
+    
+<table>
+    <caption><i>Identified connections</i></caption>
+    <tr>
+        <td>LA</td>
+        <td>AR</td>
+        <td>AD</td>
+        <td>AL</td>
+        <td>AU</td>
+        <td>BT1</td>
+        <td>KL3</td>
+        <td>LX</td>
+        <td>KR3</td>
+        <td>RX</td>
+        <td>RY</td>
+    </tr>
+    <tr>
+        <td>TRI</td>
+        <td>SDA0</td>
+        <td>KR2</td>
+        <td>3.3v</td>
+        <td>BT</td>
+        <td>RES1</td>
+        <td>VDD</td>
+        <td>FORK</td>
+        <td>SCL0</td>
+        <td>5V</td>
+        <td>TOUCH</td>
+    </tr>
+    <tr>
+        <td>D-</td>
+        <td>D+</td>
+        <td>PASD</td>
+        <td>KL2</td>
+        <td>BL</td>
+        <td>INT</td>
+        <td>GR</td>
+        <td>RE</td>
+        <td>PAR</td>
+        <td>SQU</td>
+        <td>KR1</td>
+    </tr>
+    <tr>
+        <td>KL1</td>
+        <td>SDA1</td>
+        <td>5V</td>
+        <td>SCL1</td>
+        <td>P23</td>
+        <td>SHA</td>
+        <td>GND</td>
+        <td>3.3v</td>
+        <td>RSE</td>
+    </tr>
+</table>
+    
+With the main requirements established, I cloned the reference models in Blender and began arranging the main components within the available space. The minimum set of components that needed to be accommodated consisted of:
+- The motherboard
+- The battery
+- Twenty-three terminal blocks
+    
+The goal of this stage was not to create the final enclosure, but rather to understand how these components could be positioned relative to one another while maintaining access to important motherboard features such as the USB-C port and headphone jack, minimizing the occupied space.
+
+After experimenting with several layouts, I settled on a preliminary arrangement for the battery, motherboard, and terminal blocks. Once I was satisfied that the major components could coexist without interfering with one another, I began designing the first test for the enclosure itself.
+    
+<table>
+    <caption><i>Initial Blender component layout.</i></caption>
+    <tr>
+        <td rowspan="2"><img width="1350"  alt="mobo-1" src="https://github.com/user-attachments/assets/dd5d3c9b-e249-48ea-b288-0d429fecd4f5" /></td>
+        <td><img width="500" alt="image" src="https://github.com/user-attachments/assets/feddf8f6-828d-4d1b-a732-dcae8a87cec5" />
+    </td>
+    </tr>
+    <tr>
+        <td><img width="500" alt="image" src="https://github.com/user-attachments/assets/b584ce71-21b0-4db5-a8ec-00515da25339" />
+    </td>
+    </tr>
+</table>
+    
+The first step was creating a base plate that would support the motherboard. Openings were added to ensure the analog sticks would not collide with the structure, followed by mounting features to hold the PCB in place. I then incorporated multiple wire-routing holes near the test pad locations. Providing several routing options gave greater flexibility when soldering and organizing the wiring later in the project.
+
+<table>
+    <th colspan="2">
+        Base plate with openings.
+    </th>
+    <tr>
+        <td><img width="1421" height="678" alt="mobo-2" src="https://github.com/user-attachments/assets/ae368053-872e-4185-8091-2aeebc1f60d9" /></td>
+        <td><img width="1421" height="678" alt="mobo-3" src="https://github.com/user-attachments/assets/36c0af8e-cd5e-4694-8059-d58df1379802" /></td>
+    </tr>
+    <tr>
+        <th colspan="2">
+            Routing paths (red color).
+        </th>
+    </tr>
+    <tr>
+        <td><img width="1421" height="824" alt="mobo-4" src="https://github.com/user-attachments/assets/1a4eff92-14f8-4396-b94b-ddf63442425f" /></td>
+        <td><img width="1421" height="824" alt="mobo-5" src="https://github.com/user-attachments/assets/1bfbbfa6-eeb8-4d4c-8e34-6d72d73adfb7" /></td>
+    </tr>
+</table>
+
+The resulting prototype consisted of a simple base structure featuring PCB supports, analog stick clearance openings, wire-routing holes, and mounting locations for the terminal blocks. Although far from the final design, this first iteration served as an important proof of concept by allowing me to evaluate component placement, space requirements, and overall feasibility before investing additional time in more complex geometry.
+
+<table>
+    <th colspan="2">
+        Base plate starting point.
+    </th>
+    <tr>
+        <td><img width="1450" height="824" alt="mobo-8" src="https://github.com/user-attachments/assets/a00d2d60-8df3-4b6a-97d4-160c82785170" /></td>
+        <td><img width="1450" height="824" alt="mobo-9" src="https://github.com/user-attachments/assets/f8e605cf-4bf8-40c9-9b65-eb8869c4fdb3" /></td>
+    </tr>
+</table>
+
+**Testing the prototype revealed several issues:**
+- The PCB mounting holes were correctly sized, but the terminal block mounting holes required a slight increase in diameter.
+- Due to the height of the base plate, insufficient metal from the terminal blocks was exposed for comfortable soldering. The base plate height should be reduced by at least 1 mm.
+- One support pillar interfered with a nearby IC, creating an uneven support surface. Tightening the PCB in this condition would likely introduce stress and risk damaging the board.
+- The available space between the battery, terminal blocks, and PCB was insufficient to accommodate the protective lid planned for the enclosure.
+
+**These observations confirmed that the concept was viable while identifying the dimensional and layout changes required for the next iteration. They also showed that the enclosure would need to be larger than initially intended, with additional space sacrificed in favor of protection, serviceability, and reliable PCB support.**
+    
+    
+<table>
+    <caption><i>Initial test results.</i></caption>
+    <tr>
+        <td>
+            <i>Mounted terminal blocks.</i><br>
+            <img width="2000" height="780" alt="image" src="https://github.com/user-attachments/assets/90558ae0-7338-468f-89d1-819a5c50397b" />
+        </td>
+        <td>
+            <i>Insufficient pin surface.</i><br>
+            <img width="2000" height="780" alt="image" src="https://github.com/user-attachments/assets/a7edb3e5-e020-460f-942f-118e21736ed7" />
+        </td>
+        <td>
+            <i>Overall look</i>
+            <img width="2000" height="900" alt="mobo-test-drive" src="https://github.com/user-attachments/assets/1d6a0732-0612-428e-bd24-1fa08f78abf3" />
+        </td>
+    </tr>
+</table>
+    
+### 🔹 Second iteration.
+Based on the observations from the first prototype, I implemented several corrections and adjustements in the second iteration.
+
+The changes included:
+- Increasing the diameter of the terminal block mounting holes.
+- Reducing the base plate thickness around the terminal blocks area to expose more metal for soldering.
+- Increasing the available space allocated to the battery.
+- Reshaping the support pillar that was interfering with an integrated circuit on the motherboard.
+     
+With the initial fitting issues out of the way, I could begin working on the remaining features required to complete the enclosure. These included:
+- A system to secure the motherboard enclosure to the mixbox internal body.
+- A method to protect and secure the battery to the enclosure.
+- A protective lid for the motherboard and wiring.
+     
+>[!IMPORTANT]
+>**About the battery holder**    
+>The battery required special attention compared to the other internal components. **Li-Po batteries are sensitive to mechanical stress and can expand slightly during normal operation while reaching temperatures of around 50 °C**. Because of this, the holder needed to keep the battery securely in place without applying excessive pressure while remaining suitable for the expected operating temperatures. These constraints became the main design requirements for the battery retention system.
+    
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; width: 100%;">
+    <caption> Battery enclosure design summary.</caption>
+    <thead>
+        <tr>
+            <th>Version</th>
+            <th>Description</th>
+            <th>Key Issues / Outcome</th>
+            <th>Picture</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Version 1</strong></td>
+            <td>
+                The initial design was overly rigid, lacked flexibility, was not compact,
+                and provided little accommodation for battery expansion or ventilation.
+                Although the enclosure was oversized and allowed the battery to move
+                freely without significant mechanical pressure, battery swelling remained
+                a concern.
+            </td>
+            <td>
+                A swollen battery could become lodged within the enclosure, creating
+                potential safety concerns and making battery removal difficult.
+            </td>
+            <td>
+                <img width="400" alt="BatteryHolderV1" src="https://github.com/user-attachments/assets/f19f98fa-5eb4-4288-ad6c-5a47ac2233c7" />
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Version 2</strong></td>
+            <td>
+                I based this iteration on a dual spring-loaded retention mechanism
+                intended to keep the battery securely in place while accommodating
+                dimensional variations.
+            </td>
+            <td>
+                The design proved overcomplicated and required additional space. The benefits did not justify the added complexity,
+                so further development was abbandoned.
+            </td>
+            <td>
+                <img width="400" alt="BatteryHolderV2" src="https://github.com/user-attachments/assets/0a960208-c401-48d1-955f-6fb1b2019d8e" />
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Version 3</strong></td>
+            <td>
+                This version focused on simplicity by using hooks and elastic bands
+                to secure the battery. The concept provided flexibility and adjustable
+                mechanical pressure while minimizing the number of components.
+            </td>
+            <td>
+                The concept worked in principle, but after looking into the long-term effects of heat on elastic materials, I realized elastic bands were not a viable solution. Heat and aging gradually degrade the material, causing it to lose elasticity and retention                  force. Eventually, the bands would no longer be able to secure the battery reliably.
+            </td>
+            <td>
+                <img width="400" alt="BatteryHolderV3" src="https://github.com/user-attachments/assets/37bbfb5e-b2f9-4ea8-bd08-4462665d6b3d" />
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Version 4</strong></td>
+            <td>
+This version uses a thin PLA strip secured between two PLA blocks with screws, which are in turn attached to the main motherboard enclosure base plate. The thin strip acts as a flexible retention mechanism, applying gentle pressure to keep the battery securely in place.
+
+This iteration became the foundation of the final design. From this point onward, development was limited to minor refinements and dimensional adjustments. The design provides secure battery retention while maintaining enough flexibility to accommodate small variations in battery size, and the use of PLA eliminates the long-term degradation concerns associated with elastic materials.
+            </td>
+            <td>
+                Battery retention force can be adjusted using plastic spacers or
+                compressible materials such as foam, allowing the mechanical pressure
+                applied to the battery to be increased or reduced as needed.
+            </td>
+            <td>
+                <img width="400" alt="BatteryHolderV4" src="https://github.com/user-attachments/assets/372c0ff2-2d8b-4b0a-9063-f40c26093b8f" />
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <caption>
+        <i>Second iteration virtual assembly</i>
+    </caption>
+    <tr>
+        <td>
+            <img  alt="mobohol-second-gif" src="https://github.com/user-attachments/assets/1442e1d2-5750-4eae-8ae6-71b7a4d9f615" />
+        </td>
+    </tr>
+</table>
+
+**Iteration 2 results**    
+After assembling and testing the second iteration, a few design oversights became obvious. None of them were particularly difficult to fix, but they exposed a gap between the Blender model and the actual hardware. Most of these problems can be traced back to the reference model I was working from, which was missing the battery connector and rear button assemblies.
+
+<table>
+    <caption><i>Issues found and solutions applied</i></caption>
+    <tr>
+        <td>
+            <strong>Battery Retention</strong></br>
+            Although the battery fit within the designed enclosure, testing revealed that it was still able to move laterally inside the compartment. This resulted in unwanted movement ("dancing") during handling.   
+To resolve this, I designed an additional 'blocker' integrated into the protective lid of the enclosure that sits alongside the battery and prevents side-to-side displacement, securing it more reliably.
+        </td>
+        <td>
+        <i>New blocker to prevent lateral movement.</i></br>
+        <img width="802" height="778" alt="image" src="https://github.com/user-attachments/assets/0e1c3be5-b255-4a4b-97e9-7ff121e9bf41" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Lid Clearance Oversight</strong></br>
+            During the design of the lid, I completely overlooked two components mounted on the motherboard:
+            <ul>
+                <li>The battery connector.</li>
+                <li>The rear button assemblies.</li>
+            </ul>
+                As a result, the first printed lid collided with both features and could not be installed correctly. The revised lid addresses this issue by increasing the internal height of the enclosure and adding the necessary cutouts to provide adequate clearance.
+        </td>
+        <td>
+        <i>Revised lid with the necessary cutouts</i></br>
+        <img width="1000" alt="motherboard_revised_lid" src="https://github.com/user-attachments/assets/16c9a3ff-8f0a-4daf-aee6-4b2c1b24d3ae" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Terminal Block Positioning</strong></br>
+            While increasing the height of the base plate, I also adjusted the position of the terminal blocks to better match the real hardware. During this process, I unintentionally shifted them too far, failing to account for the terminal blocks' locking mechanism.
+The new position causes the locking tabs of one cluster to interfere with the adjacent cluster, preventing proper installation. This will require repositioning the terminal blocks to restore the necessary clearance while maintaining dimensional accuracy.
+        </td>
+        <td>
+        <i>Locking mechanism colliding with adjacent cluster.</i></br>
+        <img width="1000" alt="unaccounted_locking_system" src="https://github.com/user-attachments/assets/2f310ada-2505-425a-bb47-0df097ec00f9" />
+        </td>
+    </tr>
+</table>
+ 
+**Takeaways**    
+This iteration reinforced the importance of validating the Blender model against the actual hardware throughout the design process. Several of these issues resulted from focusing on the primary geometry while overlooking secondary features such as connectors, locking mechanisms, and component tolerances. Future iterations should include a systematic interference check before printing to catch these types of collisions earlier.
+
+### 🔹 Third iteration.
+The third iteration adjusted and fixed the mistakes and oversights of the second iteration. 
+   
+<table>
+    <caption>
+        <i>Third iteration virtual assembly</i>
+    </caption>
+    <tr>
+        <td>
+            <img alt="mobohol-third-iteration-gif" src="https://github.com/user-attachments/assets/9ab70a7d-114f-4a87-bf54-f4e728cf5aa6" />
+        </td>
+    </tr>
+</table>
+    
+**Iteration 3 results**    
+After assembling and testing the third iteration, only one minor design issue became apparent. The battery side stops also serve as the mounting features for the protective lid, housing the screws that secure the lid to the motherboard holder.
+
+While resizing these features to provide slightly more generous battery tolerances and better control of lateral movement, I overlooked the space required for the mounting screws. As a result, the internal clearance of the mounting feature became too small for the screw heads to fit properly during assembly.
+
+The issue was straightforward to resolve by slightly increasing the internal dimensions of the mounting features. This restored the required screw clearance while preserving their secondary function as battery side stops.
+
+<table>
+    <caption>
+        <i>Screw clearance issue.</i>
+    </caption>
+    <tr>
+        <td>
+            <img alt="clearance issues" src="https://github.com/user-attachments/assets/9b67905e-e908-4cb6-981f-405ff3144609" />
+        </td>
+    </tr>
+</table>
+
+**Takeaways**   
+This iteration highlighted the importance of paying close attention to multi-purpose features. A seemingly minor dimensional change made to improve one function can unintentionally affect another. In future iterations, any feature serving more than one purpose should be reviewed to ensure all of its functional requirements are still met after modifications.
+
+### 🔹 Final Design.
+After implementing the changes identified during the previous design iterations, I arrived at the final version of the motherboard housing. The completed design combines the motherboard support, battery retention system, terminal block mounts, and protective lid into a single assembly that fulfils the original design objectives while remaining serviceable.
+      
+The motherboard is supported at multiple locations to minimise PCB flex while avoiding contact with sensitive components or obstructing wire routing paths. The validated reference model ensured that the USB-C port, headphone jack, and other key features remained correctly aligned with the enclosure.
+       
+_Enclosure complete assembly_
+<img width="2000" height="900" alt="mobo-holder-printed-2" src="https://github.com/user-attachments/assets/dc1af6dc-e4ba-4bf0-91eb-834724e42bc2" />
+        
+The enclosure accommodates twenty-three terminal blocks, allowing all required signals to be connected through screw terminals. The removable lid protects the motherboard and solder joints while still allowing easy access for maintenance or future modifications.
+     
+_Final internal layout._
+<img width="2000" height="900" alt="mobo-holder-printe-1" src="https://github.com/user-attachments/assets/3435296f-d6ac-473a-99b8-b093cbc19daa" />
+          
+Battery retention is provided by the flexible PLA strip developed during the final design iteration. Together with the side supports integrated into the lid, it keeps the battery securely positioned without applying excessive pressure.
+        
+_Battery retaining mechanism_
+<img width="1920" height="864" alt="remarked-side-blocker-gif" src="https://github.com/user-attachments/assets/6d284c0a-c4e1-47d9-940c-c34bcc6867d4" />
+       
+The final enclosure mounts directly to the internal MixBox structure using dedicated mounting points, allowing the complete assembly to be installed or removed as a single unit.
+   
+<mark>TODO: PICTURE OF MOUNTED MOBO</mark>
+        
+Overall, the final design is the result of several prototype iterations and physical validation. Although most of the changes between iterations were relatively small, they significantly improved the reliability, serviceability, and overall fit of the enclosure, resulting in a practical solution ready for integration into the completed MixBox.
 
 
-### Design Requirements & Goals
-
-### Reference Models
-
-### Initial Design
-
-### Prototype 1
-
-### Prototype 2
-
-### Final Design
 
 ### Evaluation
 
