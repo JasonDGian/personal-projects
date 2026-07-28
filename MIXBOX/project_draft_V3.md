@@ -873,7 +873,7 @@ Overall, the final design is the result of several prototype iterations and phys
   ### Evaluation
   
 ## 🔸4.4 Directional Input Block
-This component houses the four mechanical switches that represent directional inputs (Up, Left, Down, and Right) and provides the main movement controls.
+This component houses the four mechanical switches that represent the directional inputs (Up, Left, Down, and Right) and provides the controller's primary movement controls.
 
 One of the main goals for the directional input block was to **avoid soldering wires directly to the mechanical keyboard switches**. Although this would have been the simplest solution, it would make replacing a faulty switch inconvenient, as every replacement would require desoldering and resoldering the connections.
 
@@ -896,8 +896,7 @@ After researching different approaches, I decided to implement a hot-swappable m
     </tr>
 </table>     
 
-### 🔹4.4.1 Reference model creation. 
-This section describes how I created the reference model of the hotswap socket and the mechanical switch used for further design.     
+### 🔹4.4.1 Reference model creation.   
 Following the same workflow used throughout the rest of the project, I first created reference models of the main components before designing the surrounding geometry. This allowed me to develop the later parts of the input block around semi-accurate representations of the real hardware.
        
 The first step was measuring the main components required for the directional input block: the hot-swap socket, mechanical keyboard switch, and keycap. The objective was to create models accurate enough to support the design of the surrounding parts.
@@ -931,7 +930,7 @@ After creating the first version of the model, I validated it using the same neg
     </tr>
 </table>
    
-I then repeated the same process for the mechanical keyboard switch and the keycap. For each component I measured, modelled, and validated individually before using for the design of the final directional input block.
+I then repeated the same process for the mechanical keyboard switch and the keycap. Each component was measured, modelled, and validated individually before being used in the design of the final directional input block.
     
 <table>
     <caption><i>Keyboard switch and Keycap models.</i></caption>
@@ -947,11 +946,9 @@ I then repeated the same process for the mechanical keyboard switch and the keyc
 >Having validated reference models for all three components allowed me to test different mounting concepts, verify clearances, and iterate on the directional input block design with greater confidence.
 
 ### 🔹4.4.2 Switch & socket retention module.
-Before designing the complete directional input block, I first needed a reliable way to secure both the mechanical switch and the hot-swap socket. Since these two components always operate together, I designed a dedicated subassembly responsible for retaining, aligning, and supporting them. I named this component the **switch & socket retention module**.
-   
-The module had to perform several functions simultaneously. It needed to keep the mechanical switch correctly aligned with the hot-swap socket, prevent the socket from being pushed out of position when installing or removing switches, and provide a stable structure that could later be integrated into the rotating input block assembly.
-   
-Although the final module performs several functions simultaneously, its development naturally split into two independent design challenges. The first was developing a reliable mechanism to retain the mechanical switch while still allowing it to be removed using a standard switch puller. The second was creating a mounting system capable of securely holding the hot-swap socket without requiring a custom PCB.
+Before designing the complete directional input block, I first needed a reliable way to secure both the mechanical switch and the hot-swap socket. Since these two components always operate together as a single assembly, I designed a dedicated subassembly to retain, align, and support them. I named this component the  **switch & socket retention module**.
+
+The module had to solve two main design challenges: developing a retention mechanism that securely held the mechanical switch while still allowing it to be removed with a standard switch puller, and creating a mounting system capable of preventing the hot-swap socket from being displaced during switch installation and removal without relying on a custom PCB.   
   
 **The main design goals of this module were to:**
 - Securely retain the mechanical switch during use.
@@ -976,7 +973,7 @@ To develop the first working prototype, I printed a small test piece containing 
     </tr>
 </table>
 
-This first test matched the 3D model closely enough that I could confidently use it as a reference for the housing design.
+This first test matched the 3D model closely enough that I could confidently use it as the basis for the housing design.
 Using this geometry as starting point, I designed the first version of the housing around both the switch and the hot-swap socket. At this stage, the main objective was simply to position both components correctly while providing enough support to keep them aligned.
 
 <table>
@@ -1004,7 +1001,7 @@ However, the internal walls responsible for retaining the switch were slightly u
 </table>
     
 #### ▫️4.4.2.2 Mechanical switch retention mechanism - Second iteration.
-After slightly increasing the internal dimensions of the retention walls, the switch locked securely into place. The switch could now be removed using a standard _switch puller_ without excessive friction, although accessing the retention latch through the release opening was still somewhat difficult.
+After slightly increasing the thickness of the retention walls, the switch locked securely into place. The switch could now be removed using a standard _switch puller_ without excessive friction, although accessing the retention latch through the release opening was still somewhat difficult.
 
 <table>
     <caption><i>Second iteration model and results.</i></caption>
@@ -1051,9 +1048,7 @@ The final iteration introduced a small 0.5 mm raised support surface for the swi
     </tr>
 </table>
 
-Although these change might be barely noticeable by eye, they made a significant difference to the overall feel of the release mechanism. The switch remained firmly seated while still being easy to remove, eliminating the excessive clearance that had been present in earlier iterations.
-
-The hot-swap socket maintained its alignment, the switch could be inserted smoothly, and the added locating-pin slots made the design compatible with both 3-pin and 5-pin MX-compatible switches.
+Although these changes are barely noticeable by eye, they made a significant difference to the overall feel of the release mechanism. The switch remained firmly seated while still being easy to remove, eliminating the excessive clearance present in earlier iterations. The added locating-pin slots also made the design compatible with both 3-pin and 5-pin MX-compatible switches.
 
 <table>
     <caption><i>Final iteration results.</i></caption>
@@ -1082,15 +1077,13 @@ With the switch retention mechanism working reliably, I could move on to refinin
 ---
 
 #### ▫️4.4.2.4 Hotswap Socket mounting mechanism.
-The next challenge was designing a mechanism to secure the hot-swap socket in place. Since I chose not to use a custom PCB, mainly to reduce both cost and design complexity, the socket needed to be retained entirely by the 3D-printed housing.
-    
-This introduced an important design challenge. Installing a mechanical switch requires pressing it firmly into the hot-swap socket until the retention clips engage. Without a dedicated mounting system, this insertion force could simply push the socket out of its housing. The design therefore needed to hold the socket securely while still leaving enough room for the attached wires and allowing the switch retention mechanism to function correctly.
+With the mechanical switch retention mechanism working reliably, the next challenge was designing a way to secure the hot-swap socket. Since I chose not to use a custom PCB, mainly to reduce both cost and design complexity, the socket had to be retained entirely by the 3D-printed housing.
 
-The main constraint was the available space. The housing had to fit entirely within the footprint of the keycap so that adjacent switches could be placed close together. Any protruding features extending beyond this footprint would increase the spacing between neighbouring switches, negatively affecting the overall button layout and ergonomics.
+This introduced an important design challenge. Installing a mechanical switch requires applying enough force for its contacts to engage with the hot-swap socket. Without a dedicated mounting system, this insertion force could simply push the socket out of its housing. The design therefore needed to hold the socket securely while still leaving enough space for the attached wires and allowing the switch retention mechanism to function correctly.
 
-Because of this limitation, expanding the design horizontally was not a practical solution. Instead, I explored ways to make use of the available vertical space.
+Another important constraint was the available space. The housing had to remain within the footprint of the keycap so that adjacent switches could be positioned close together. Since expanding the design horizontally would increase the spacing between neighbouring switches and negatively affect ergonomics, I instead explored ways of making use of the available vertical space.
 
-Using the validated hot-swap socket reference model and its corresponding negative geometry, I developed a layered mounting system. **To simplify the design process, the housing was initially divided into three functional layers, each responsible for a single task.** This allowed every function of the mechanism to be designed and refined independently before being integrated into the final design.
+Using the socket reference model I developed a layered mounting concept. **To simplify the design process, I initially divided the module into three functional layers, each responsible for a single task.** This allowed each function of the mechanism to be designed and validated independently before being combined into the final module assembly.
      
 <table>
     <caption><i>Functional decomposition of the initial three-layer hot-swap socket mounting concept.</i></caption>
@@ -1135,7 +1128,7 @@ Using the validated hot-swap socket reference model and its corresponding negati
 </tr>
 </table>
     
-The first prototype was intentionally built around this three-layer concept. At this stage, my objective was not to produce a final component, but to verify that the mounting mechanism could withstand the forces generated during switch installation while remaining compact enough for the intended button layout.
+The first prototype was intentionally built around this three-layer concept. At this stage, the objective was not to produce a finished component, but to verify that the mounting mechanism could withstand the forces generated during switch installation while remaining compact enough for the intended button layout.
     
 
 <div align=center>
@@ -1176,8 +1169,8 @@ The first prototype was intentionally built around this three-layer concept. At 
         </td>
     </tr>
 </table>
-    
-After confirming that the concept behaved as expected, I refined the design to improve both functionality and structural rigidity. Wire-routing channels were added to provide a clean path for the wires soldered to the hot-swap socket, and the original switch retention layer and socket alignment layer were merged into a single component.
+   
+After validating the concept, I refined the design by adding dedicated wire-routing channels and merging the original switch retention layer with the socket alignment layer into a single structural component.
     
 <table>
     <caption><i>Before and after merging.</i></caption>
@@ -1189,9 +1182,8 @@ After confirming that the concept behaved as expected, I refined the design to i
     </tr>
 </table>
      
-This modification created a much stronger structure. In the initial concept, the bottom cover, which prevents the socket from being pushed out, was fastened primarily to the alignment layer, while the connection between the alignment and switch retention layers was comparatively weak. **Merging these layers produced a more direct load path, allowing the insertion force applied during switch installation to be transferred more effectively through the housing**.
+This modification created a much stronger structure. In the initial concept, the bottom layer, which prevents the socket from being pushed out, was fastened primarily to the alignment layer, while the connection between the alignment and switch retention layers was comparatively weak. **Merging these layers produced a more direct load path, allowing the insertion force applied during switch installation to be transferred more effectively through the housing**.
      
-<!--mark>TODO : IMAGE -> Comparison between the initial three-layer prototype and the final two-part design. </mark-->
 <table>
     <caption><i>Final switch retention and socket mounting mechanism.</i></caption>
     <tr>
