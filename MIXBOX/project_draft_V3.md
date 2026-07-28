@@ -1030,7 +1030,7 @@ After slightly increasing the internal dimensions of the retention walls, the sw
     </tr>
 </table>
 
-#### 4.4.2.3 Retention mechanism - Final result.
+#### ▫️4.4.2.3 Retention mechanism - Final result.
 The final iteration introduced a small 0.5 mm raised support surface for the switch to rest on. I also reshaped this feature to create a wider opening for the extraction tool, making it much easier to access the retention latch. 
 
 <table>
@@ -1081,8 +1081,7 @@ With the switch retention mechanism working reliably, I could move on to refinin
 
 ---
 
-#### 4.4.2.4 Hotswap Socket mounting mechanism.
-
+#### ▫️4.4.2.4 Hotswap Socket mounting mechanism.
 The next challenge was designing a mechanism to secure the hot-swap socket in place. Since I chose not to use a custom PCB, mainly to reduce both cost and design complexity, the socket needed to be retained entirely by the 3D-printed housing.
     
 This introduced an important design challenge. Installing a mechanical switch requires pressing it firmly into the hot-swap socket until the retention clips engage. Without a dedicated mounting system, this insertion force could simply push the socket out of its housing. The design therefore needed to hold the socket securely while still leaving enough room for the attached wires and allowing the switch retention mechanism to function correctly.
@@ -1223,12 +1222,13 @@ This modification created a much stronger structure. In the initial concept, the
 
 >[!NOTE]
 > Although the final component consists of only two printed parts, the three-layer concept proved valuable during development because it allowed each function of the mounting system to be designed and validated independently before being combined into the final design.
-
-#### 4.4.2.5
-
-#### 4.4.2.6 
      
 ### 🔹4.4.3 Initial block design.
+The purpose of this component is to house the four directional input buttons in a single rotating assembly. The idea behind this design was to allow the entire directional input block to rotate inside the controller so that its angle could be adjusted to match the player's most comfortable hand position.
+
+Rather than fixing the directional inputs in a predetermined orientation, I wanted the controller to be adaptable to different preferences. At this stage of the project, I had not yet decided whether the assembly would be permanently fixed after adjustment or left free to rotate under certain conditions. Because of this, the initial design focused on creating a simple and reliable rotating mechanism while leaving both possibilities open.
+
+To begin the design, I first positioned the individual switch-and-socket modules according to the layout developed during the ergonomics study.
 
 ### 🔹4.4.4 Second iteration.
 
