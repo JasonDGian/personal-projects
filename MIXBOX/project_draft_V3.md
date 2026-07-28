@@ -54,18 +54,18 @@ The final design also had to remain compact and lightweight enough to be practic
    
 # 📌 2. Design Methodology
 ## 🔸2.1 Design Strategy
-Rather than designing the entire controller as a single assembly from the start, I divided the project into several smaller subsystems and developed them individually before integrating them into the final design.
+Rather than designing the entire controller as a single assembly from the start, I divided the project into several smaller subsystems or components and developed them individually before integrating them into the final design.
 
-**The main subsystems were:**
-- Directional input block
-- Action button array
-- Motherboard enclosure
-- LED module housing
-- Auxiliary functions button console
+**The main components were:**
+- Motherboard enclosure.
+- Action button array.
+- LED module housing.
+- Directional input block.
+- Auxiliary functions button console.
         
-Each subsystem was designed, prototyped, tested, and refined independently. This made the development process easier to manage and allowed design issues to be identified and corrected without affecting unrelated parts of the controller.
+Each component was designed, prototyped, tested, and refined independently. This made the development process easier to manage and allowed design issues to be identified and corrected without affecting unrelated parts of the controller.
    
-Once all subsystems had been validated, they were combined into a complete assembly. Several additional iterations were then carried out to refine the integration between components, improve clearances and accessibility, and arrive at the final controller design.
+Once all subsystems or components had been validated, they were combined into a complete assembly. Several additional iterations were then carried out to refine the integration between components, improve clearances and accessibility, and arrive at the final controller design.
     
 ## 🔸2.2 Modelling & Validation Workflow
 Most of the design work in this project follows the same workflow: measure the component, validate the measurements, create a digital reference model, and then design the surrounding parts around that model.
@@ -114,7 +114,7 @@ The process was intentionally simple: I used a flat sheet of paper and explored 
 _Test piece used to validate_
 <img width="1554" height="900" alt="ergonomics_proto_1" src="https://github.com/user-attachments/assets/bd6c3bd3-2dc2-4114-86e9-768225cd480e" />
 
-6. After reaching a satisfactory result for the action buttons, I applied the same methodology to the directional input system. During this phase, I experimented with several layouts, including non-standard key arrangements. While some of these alternatives felt comfortable in isolation, I ultimately returned to the more conventional cursor-key configuration, with three keys in a row for left, down, and right, and a fourth key above for up.
+6. After reaching a satisfactory result for the action buttons, I applied the same methodology to the directional input block. During this phase, I experimented with several layouts, including non-standard key arrangements. While some of these alternatives felt comfortable in isolation, I ultimately returned to the more conventional cursor-key configuration, with three keys in a row for left, down, and right, and a fourth key above for up.
     
 _Considered key configurations_
 <img width="2750" height="480" alt="tested_layouts" src="https://github.com/user-attachments/assets/86d53073-6f36-433d-bc02-82a0cdfe37b9" />
@@ -403,15 +403,15 @@ dedicated sections unless a particular design decision requires further explanat
        
 ---
     
-# 📌 4. Subsystem Design
-In this section I describe the steps and iterations of each sub-system developed for the final assembly. 
+# 📌 4. Component based design
+In this section I describe the steps and iterations of each component developed for the final assembly. 
 
 ## 🔸4.1 Motherboard Housing
-This subsystem is a custom enclosure designed to house the controller's original motherboard after removing it from its factory shell. Its purpose is to protect the electronics while providing a clean mounting solution for the custom controller assembly.
+This component is a custom enclosure designed to house the controller's original motherboard after removing it from its factory shell. Its purpose is to protect the electronics while providing a clean mounting solution for the custom controller assembly.
 
 Since the original enclosure was no longer used, the motherboard, soldered test-pad connections, and additional wiring required a dedicated structure. The housing also needed to provide mounting points for the terminal blocks and a secure but accessible solution for the battery.
 
-**The main design goals of this subsystem are to:**
+**The main design goals of this component are to:**
 - Protect the motherboard and the wires soldered to its test pads.
 - Provide mounting points for the terminal blocks used in the controller wiring.
 - Serve as the interface between the electronics assembly and the main controller body.
@@ -873,13 +873,13 @@ Overall, the final design is the result of several prototype iterations and phys
   ### Evaluation
   
 ## 🔸4.4 Directional Input Block
-This subsystem houses the four mechanical switches that represent directional inputs (Up, Left, Down, and Right) and provides the main movement controls.
+This component houses the four mechanical switches that represent directional inputs (Up, Left, Down, and Right) and provides the main movement controls.
 
 One of the main goals for the directional input block was to **avoid soldering wires directly to the mechanical keyboard switches**. Although this would have been the simplest solution, it would make replacing a faulty switch inconvenient, as every replacement would require desoldering and resoldering the connections.
 
 To solve this, and after some research, I decided to design a hot-swappable mounting system based on hot-swap sockets, following the same approach used in custom mechanical keyboards. This allows switches to be replaced without soldering and provides the possibility of testing different switch types with different characteristics.
 
-**The main design goals of this subsystem are to:**
+**The main design goals of this component are to:**
 - Provide a comfortable and ergonomic layout for the directional inputs.
 - Allow mechanical switches to be replaced without soldering by using a hot-swappable mounting system.
 - Securely retain both the switches and the hot-swap sockets during installation and removal.
