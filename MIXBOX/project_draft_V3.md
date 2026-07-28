@@ -946,12 +946,36 @@ I then repeated the same process for the mechanical keyboard switch and the keyc
 >[!NOTE]
 >Having validated reference models for all three components allowed me to test different mounting concepts, verify clearances, and iterate on the directional input block design with greater confidence.
 
+### 🔹4.4.2 Switch & socket retention module design.
+Before designing the complete directional input block, I first needed a reliable way to secure both the mechanical switch and the hot-swap socket. Since these two components work together as a single assembly, I decided to design a dedicated module responsible for holding, aligning, and supporting them. I named this component the Switch & socket retention module.
+   
+The module had to perform several functions simultaneously. It needed to keep the mechanical switch correctly aligned with the hot-swap socket, prevent the socket from being pushed out of position when installing or removing switches, and provide a stable structure that could later be integrated into the rotating input block assembly.
+   
+**The main design goals of this module were to:**
+- Securely retain the mechanical switch during use.
+- Keep the hot-swap socket correctly aligned with the switch contacts.
+- Prevent the socket from displacing when inserting or removing switches.
+- Allow the module to be easily integrated into the final directional input block.
+- Keep the design compact while leaving enough space for wire routing.
+
+
+### 🔹4.4.3 Initial block design.
+
+### 🔹4.4.4 Second iteration.
+
+### 🔹4.4.5 Third iteration.
+
+### 🔹4.4.6 Final result.
+
   ### Reference Models
   ### Initial Design
   ### Prototype 1
   ### Prototype 2
   ### Final Design
   ### Evaluation
+
+
+  
 ## 🔸4.5 Auxiliary Button Console
   ### Design Requirements & Goals
   ### Reference Models
