@@ -407,13 +407,120 @@ dedicated sections unless a particular design decision requires further explanat
 In this section I describe the steps and iterations of each sub-system developed for the final assembly. 
 
 ## 🔸4.1 Motherboard Housing
-  ### Design Requirements & Goals
-  ### Reference Models
-  ### Initial Design
-  ### Prototype 1
-  ### Prototype 2
-  ### Final Design
-  ### Evaluation
+This subsystem is a custom enclosure designed to house the controller's original motherboard after removing it from its factory shell. Its purpose is to protect the electronics while providing a clean mounting solution for the custom controller assembly.
+
+Since the original enclosure was no longer used, the motherboard, soldered test-pad connections, and additional wiring required a dedicated structure. The housing also needed to provide mounting points for the terminal blocks and a secure but accessible solution for the battery.
+
+**The main design goals of this subsystem are to:**
+- Protect the motherboard and the wires soldered to its test pads.
+- Provide mounting points for the terminal blocks used in the controller wiring.
+- Serve as the interface between the electronics assembly and the main controller body.
+- Secure the battery while allowing easy maintenance and replacement.
+- Keep the electronics organized and accessible for future modifications.
+    
+### 🔹4.1.1 Reference models creation.
+This section describes how I created the reference model of the motherboard used for further design.
+
+The first step was to capture the motherboard's overall outline. The objective was not to create a perfect digital twin but rather a sufficiently accurate approximation that could serve as a reliable design reference.
+
+To maintain consistency throughout the measurement process, I selected a single fixed reference point: the bottom-left corner of the motherboard. Whenever possible, all measurements were taken relative to this point. Using a common reference minimized the risk of cumulative measurement errors and simplified later corrections.
+
+After sketching the motherboard outline and recording the dimensions, the information was transferred into Blender, where the initial 2D profile was created.
+
+>[!NOTE]
+>The paper sketch does not need to be perfectly scaled or highly detailed. Its main purpose is just to record measurements in a clear and structured way. The actual accuracy comes from the digital modelling stage.
+      
+<table>
+    <caption><i>Drawing showing the dimensions of the motherboard.</i></caption>
+    <tr>
+        <td>
+            <!-- Image of a drawing on paper that reports the main measures and overall shape of the motherboard -->
+            <img width="1642" height="900" alt="motherboard_paper_measures" src="https://github.com/user-attachments/assets/28a842e4-a96b-478f-a692-4df0da457ad2" />
+        </td>
+    </tr>
+</table>
+    
+I recreated the motherboard outline in Blender using the recorded dimensions. At this stage, I intented to match the model to the measured geometry as closely as possible, without any additional tolerance applied.
+This initial version served as the baseline from which all future fitting tests and adjustments would be made.
+    
+<table>
+    <caption><i>Dimensions transferred into Blender to create the initial motherboard profile.</i></caption>
+    <tr>
+        <td>
+            <!-- Image of a Blender object that replicates the outline of the drawing.  -->
+            <img width="1235" height="770" alt="image" src="https://github.com/user-attachments/assets/2251d7b0-587f-47a3-af92-c58a49852390" />
+        </td>
+    </tr>
+</table>  
+   
+Instead of testing the full model at once, I validated it in stages. Breaking it down like this made it much easier to locate issues and adjust specific areas without affecting the rest of the geometry. 
+**The validation followed this order:**
+- Each side was checked individually
+- The left and top sections were combined and tested
+- The right side was added and validated
+- The full outline was assembled and tested
+   
+For each iteration, I printed a test piece and physically checked the fit against the motherboard. These parts were not meant to represent the motherboard itself — they were the negative geometry, meaning the cavity the motherboard would eventually sit in. This allowed me to test the enclosure fit directly, while keeping print time and material use low.
+   
+After each test fit, I noted any areas that needed adjustment, updated the model in Blender, and printed a new iteration. Throughout the entire process, I kept a single reference vertex as the fixed origin. This made sure that any changes stayed consistent and didn’t unintentionally shift dimensions that had already been validated.
+     
+<table>
+    <caption><i>Test-fitting a printed section and documenting areas requiring correction.</i></caption>
+    <tr>
+        <td>
+            <!-- Image of a the profiles tested and noted adjustements needed.  -->
+            <img width="1385" height="900" alt="image" src="https://github.com/user-attachments/assets/3b9a1473-c3c0-4f5b-8466-673b2bf19619" />
+        </td>
+    </tr>
+</table>
+    
+>[!Important]
+>Using a fixed reference point throughout all iterations was essential to avoid drifting dimensions and to keep the model stable as changes were made.
+
+Once the external outline was validated and fitted correctly, I moved on to modelling the remaining motherboard features. I followed the same workflow here, applying the same tolerance and measurement approach to ensure consistency across the entire model.
+    
+By the end of this process, I had a fully validated motherboard reference model that I could confidently use for designing the enclosure and mounting system. With the tolerances accounted for, the final printed test fits required little to no additional adjustment.
+
+<table>
+    <caption><i>Approximate motherboard model used as the reference geometry for the enclosure design.</i></caption>
+    <tr>
+        <td>
+            <!-- Image of final reference model used from now on.  -->
+            <img width="1774" height="766" alt="image" src="https://github.com/user-attachments/assets/a097c115-bde5-4a28-ab63-93c36b04bfa9" />
+        </td>
+    </tr>
+</table>
+
+By using the validated motherboard reference model and incorporating the defined tolerance values, the final printed test piece fits as intended, requiring little to no additional adjustment.
+    
+<table>
+    <caption><i>Final test piece</i></caption>
+    <tr>
+        <td>
+            <!-- Image of a the final resulting test piece.  -->
+            <img width="1774" height="676" alt="image" src="https://github.com/user-attachments/assets/d5ac14ff-fc4a-4f6c-a5f6-983a98d9e2f8" />
+        </td>
+    </tr>
+</table>
+
+
+### Design Requirements & Goals
+
+### Reference Models
+
+### Initial Design
+
+### Prototype 1
+
+### Prototype 2
+
+### Final Design
+
+### Evaluation
+
+
+
+
 ## 🔸4.2 Action Button Array
   ### Design Requirements & Goals
   ### Reference Models
@@ -430,8 +537,81 @@ In this section I describe the steps and iterations of each sub-system developed
   ### Prototype 2
   ### Final Design
   ### Evaluation
+  
 ## 🔸4.4 Directional Input Block
-  ### Design Requirements & Goals
+This subsystem houses the four mechanical switches that represent directional inputs (Up, Left, Down, and Right) and provides the main movement controls.
+
+One of the main goals for the directional input block was to **avoid soldering wires directly to the mechanical keyboard switches**. Although this would have been the simplest solution, it would make replacing a faulty switch inconvenient, as every replacement would require desoldering and resoldering the connections.
+
+To solve this, and after some research, I decided to design a hot-swappable mounting system based on hot-swap sockets, following the same approach used in custom mechanical keyboards. This allows switches to be replaced without soldering and provides the possibility of testing different switch types with different characteristics.
+
+**The main design goals of this subsystem are to:**
+- Provide a comfortable and ergonomic layout for the directional inputs.
+- Allow mechanical switches to be replaced without soldering by using a hot-swappable mounting system.
+- Securely retain both the switches and the hot-swap sockets during installation and removal.
+- Keep the assembly compact while allowing clean wire routing and straightforward maintenance.
+- Allow the directional input block to rotate so its angle can be adjusted to suit the user's preferred hand position.
+    
+<table>
+    <caption><i>Hotswap socket & mechanical switch. </i></caption>
+    <tr>
+        <td>
+            <!-- Image that shows a hotswap socket and a switch and how they fit together  -->
+            <img width="2388" height="900" alt="hss-socket-picture-4" src="https://github.com/user-attachments/assets/87dad44d-551a-4b70-a7e2-e026d6bf5559" />
+        </td>
+    </tr>
+</table>     
+
+### 🔹4.4.1 Reference model creation. 
+This section describes how I created the reference model of the hotswap socket and the mechanical switch used for further design.     
+Following the same workflow used throughout the rest of the project, I first created reference models of the main components before designing the surrounding geometry. This allowed me to develop the later parts of the input block around semi-accurate representations of the real hardware.
+       
+The first step was measuring the main components required for the directional input block: the hot-swap socket, mechanical keyboard switch, and keycap. The objective was to create models accurate enough to support the design of the surrounding parts.
+     
+I started with the hot-swap socket, as it was both the smallest and most challenging component to measure, while also being the key element that defined the rest of the design. Due to its irregular shape and small dimensions, obtaining accurate measurements was considerably more challenging compared with the larger components.
+    
+<table>
+    <caption><i>Rough measures on a 10:1 scale drawing.</i></caption>
+    <tr>
+        <td><img width="2339" height="1130" alt="medidas-hss1" src="https://github.com/user-attachments/assets/b9e2d839-0b12-41e8-822c-bceac6494d8b" /></td>
+        <td><img width="2339" height="1130" alt="medidas-hss2" src="https://github.com/user-attachments/assets/147000fe-3b8c-4af2-8edc-836bb4d94d10" /></td>
+    </tr>
+</table>
+    
+Once all measurements were taken, I recreated the geometry in Blender. To account for possible measurement errors and the tolerances introduced during 3D printing, I included a small amount of clearance in the initial model.
+    
+<table>
+    <caption><i>Initial Blender model created from the measured geometry.</i></caption>
+    <tr>
+        <td><img width="1080" height="858" alt="model-hss2" src="https://github.com/user-attachments/assets/958e0904-de85-40b2-b07e-6f239a7852c6" /></td>
+        <td><img width="1080" height="858" alt="model-hss1" src="https://github.com/user-attachments/assets/29f04de2-ac70-4729-bac2-b212238a345f" /></td>
+    </tr>
+</table>
+
+After creating the first version of the model, I validated it using the same negative-geometry workflow described earlier in the report. A test piece containing the socket cavity was printed and fitted against the real component to verify whether the dimensions were correct. The first validation test revealed several dimensional errors that were not obvious during the modelling stage. After adjusting the affected measurements and producing a second iteration, the socket achieved an almost perfect fit.
+
+<table>
+    <caption><i>Negative geometry based tests.</i></caption>
+    <tr>
+        <td><img width="2000" height="900" alt="HSS - test iterations" src="https://github.com/user-attachments/assets/43c0415b-a8f6-4669-a2b2-8066c4641a5b" /></td>
+    </tr>
+</table>
+   
+I then repeated the same process for the mechanical keyboard switch and the keycap. Each component was measured, modelled, and validated individually before being used during the design of the final directional input block.
+    
+<table>
+    <caption><i>Keyboard switch and Keycap models.</i></caption>
+    <tr>
+        <td><img width="2000" height="568" alt="keyboard_switch_last_version" src="https://github.com/user-attachments/assets/f0c3575d-67ad-4e7d-b229-e5f39205664f" /></td>
+    </tr>
+    <tr>
+        <td><img width="2000" height="568" alt="models with reference image" src="https://github.com/user-attachments/assets/411a62a9-b8e7-43dd-b777-6b98dedecf88" /></td>
+    </tr>
+</table>
+         
+>[!NOTE]
+>Having validated reference models for all three components allowed me to test different mounting concepts, verify clearances, and iterate on the directional input block design with greater confidence.
+
   ### Reference Models
   ### Initial Design
   ### Prototype 1
