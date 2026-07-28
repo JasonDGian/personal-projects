@@ -644,7 +644,7 @@ The resulting prototype consisted of a simple base structure featuring PCB suppo
     </tr>
 </table>
     
-### 🔹 Second iteration.
+### 🔹4.1.3 Second iteration.
 Based on the observations from the first prototype, I implemented several corrections and adjustements in the second iteration.
 
 The changes included:
@@ -796,7 +796,7 @@ The new position causes the locking tabs of one cluster to interfere with the ad
 **Takeaways**    
 This iteration reinforced the importance of validating the Blender model against the actual hardware throughout the design process. Several of these issues resulted from focusing on the primary geometry while overlooking secondary features such as connectors, locking mechanisms, and component tolerances. Future iterations should include a systematic interference check before printing to catch these types of collisions earlier.
 
-### 🔹 Third iteration.
+### 🔹4.1.4 Third iteration.
 The third iteration adjusted and fixed the mistakes and oversights of the second iteration. 
    
 <table>
@@ -831,7 +831,7 @@ The issue was straightforward to resolve by slightly increasing the internal dim
 **Takeaways**   
 This iteration highlighted the importance of paying close attention to multi-purpose features. A seemingly minor dimensional change made to improve one function can unintentionally affect another. In future iterations, any feature serving more than one purpose should be reviewed to ensure all of its functional requirements are still met after modifications.
 
-### 🔹 Final Design.
+### 🔹4.1.5 Final result.
 After implementing the changes identified during the previous design iterations, I arrived at the final version of the motherboard housing. The completed design combines the motherboard support, battery retention system, terminal block mounts, and protective lid into a single assembly that fulfils the original design objectives while remaining serviceable.
       
 The motherboard is supported at multiple locations to minimise PCB flex while avoiding contact with sensitive components or obstructing wire routing paths. The validated reference model ensured that the USB-C port, headphone jack, and other key features remained correctly aligned with the enclosure.
@@ -854,14 +854,7 @@ The final enclosure mounts directly to the internal MixBox structure using dedic
 <mark>TODO: PICTURE OF MOUNTED MOBO</mark>
         
 Overall, the final design is the result of several prototype iterations and physical validation. Although most of the changes between iterations were relatively small, they significantly improved the reliability, serviceability, and overall fit of the enclosure, resulting in a practical solution ready for integration into the completed MixBox.
-
-
-
-### Evaluation
-
-
-
-
+   
 ## 🔸4.2 Action Button Array
   ### Design Requirements & Goals
   ### Reference Models
