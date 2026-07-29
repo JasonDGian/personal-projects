@@ -133,6 +133,8 @@ I did not treat these observations as precise measurements, but as practical des
 > This process significantly reduced the amount of guesswork involved in the design. Instead of adapting my hand to a predetermined layout, the layout was designed around my hand. The resulting prototype also established several dimensional constraints that would later influence the selection of the action buttons themselves.
     
 ---
+
+<!--
     
 # 📌 3. Component Selection
 ## 🔸3.1 Base Controller
@@ -402,7 +404,9 @@ Other supporting components such as terminal blocks, connectors, and wiring will
 dedicated sections unless a particular design decision requires further explanation.
        
 ---
-    
+
+-->
+
 # 📌 4. Component based design
 In this section I describe the steps and iterations of each component developed for the final assembly. 
 
