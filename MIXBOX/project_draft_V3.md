@@ -1429,7 +1429,7 @@ After comparing the results, I chose the triangular cut-out. Besides printing mo
 </table>
             
 **Second iteration results**    
-This second iteration was definitely a step in the right direction, although it also revealed a few oversights.
+This second iteration was definitely a step in the right direction, although it also revealed a few oversights and room for improvement.
    
 The first issue I identified was that the height of the alignment layer was still slightly incorrect, most likely due to a mismatch between the reference model and the final geometry. I had overlooked the tolerances introduced during the modelling process, resulting in the layer being slightly taller than intended. Based on the measurements taken from the printed part, the alignment layer still needs to be reduced by approximately 0.20 mm.
     
@@ -1470,31 +1470,120 @@ The redesigned switch puller cut-outs worked as intended, but **an incorrect sli
     </tr>
 </table>
 
-### 🔹4.4.5 Third iteration.
-
-
-
-
-
-
+### 🔹4.4.5 Final iteration.
+The first correction I made in the final iteration was to adjust the height of the alignment layer. Before committing to a full print, I produced a small test piece to verify that the correction was accurate. Once the measured adjustment had been applied, the alignment layer matched the height of the hot-swap socket as intended.
+    
 <table>
-    <caption><i></i></caption>
+    <caption><i>Alignment layer height test piece.</i></caption>
     <tr>
-        <td></td>
+        <td><img width="2048" height="733" alt="image" src="https://github.com/user-attachments/assets/f6dddb18-4c54-4ead-aa34-585244788a71" /></td>
+    </tr>
+</table>
+    
+The next change was to reposition the fastening support pillars to improve the wire-routing paths without compromising socket support. My goal was to free enough space for the wires while keeping the pillars close to the main load points, allowing them to continue resisting the insertion forces applied to the hot-swap sockets. The final layout created two clear routing paths from the Up switch towards the lower section of the assembly, where the wiring could be grouped and secured together to minimise mechanical stress on the solder joints and sockets. 
+    
+<table>
+    <tr>
+        <td>
+            <i>Old support pillars placement.</i></br>
+            <img width="809" height="805" alt="image" src="https://github.com/user-attachments/assets/7539c910-4d14-4ccb-a43b-3bfb2d215c81" />
+        </td>
+        <td>
+            <i>New support pillars placement.</i></br>
+            <img width="809" height="805" alt="image" src="https://github.com/user-attachments/assets/6454a164-6fc8-4de8-a8a3-47f19553f346" />
+        </td>
+        <td>
+            <i>Planner wire routing paths.</i></br>
+            <img width="809" height="805" alt="image" src="https://github.com/user-attachments/assets/28a5456c-15e7-4ad6-b800-c2563b49fd52" />
+        </td>
+    </tr>
+</table>
+
+After repositioning the support pillars, I also had to update the support layer to match the new fastening points. I took this opportunity to introduce a few additional improvements instead of simply relocating the existing geometry.
+
+To increase the rigidity of the part, I added a series of elongated triangular ribs that act as reinforcing spines in perpendicular directions. Although the original design was already sufficiently strong, these features should help distribute the fastening forces more evenly across the support layer.
+
+I also added spherical indentations above the solder joints of each hot-swap socket. These provide extra clearance for the soldered wire connections, ensuring that slightly larger-than-expected solder joints or wire placement variations would not interfere with the assembly.
+    
+<table>
+    <tr>
+        <td>
+            <i>Clearance pockets for solder joints.</i></br>
+            <!--img width="1120" height="853" alt="image" src="https://github.com/user-attachments/assets/3a80ff64-bb46-4653-80d5-3e2c1c3a1ba1" /-->
+            <img width="1242" height="784" alt="image" src="https://github.com/user-attachments/assets/b7e6a51f-0cb9-4abb-879c-0d2c5c0dde57" />
+        </td>
+        <td>
+            <i>Support layer with solder-joint clearance pockets.</i></br>
+           <img width="1242" height="784" alt="image" src="https://github.com/user-attachments/assets/c156135d-64d3-4f42-9666-b825473373fa" />
+        </td>
+        <td>
+            <i>Reinforced support layer with structural ribs.</i></br>
+           <img width="1210" height="784" alt="image" src="https://github.com/user-attachments/assets/560fb28c-c651-492d-931b-20f62eed760f" />
+        </td>
     </tr>
 </table>
 
 
-### 🔹4.4.6 Final result.
+One final thing I didnt document but certainly helped with the final feeling of the piece, is that I increased the number of vertices for the main rotating body cyllinder. I doubled it from 32 to 64 and the overall look and feeling improved greaitly. I did this because the piece should rotate as smoothly as possible within the body and the previous 32 vertices were not smooth enough to the touch so it would most likely be insufficient for a smooth fit.
+    
+<table>
+    <tr>
+        <td>
+            <i>Rotating body 32 vertices.</i></br>
+            <img width="1242" height="784" alt="image" src="https://github.com/user-attachments/assets/a23d0ba8-d05e-45e6-919b-8d935d17f3a4" />
+        </td>
+        <td>
+            <i>Rotating body 64 vertices.</i></br>
+            <img width="1242" height="784" alt="image" src="https://github.com/user-attachments/assets/76fdc296-08d4-4b3a-a127-83e1afee8c75" />
+        </td>
+    </tr>
+</table>
 
-  ### Reference Models
-  ### Initial Design
-  ### Prototype 1
-  ### Prototype 2
-  ### Final Design
-  ### Evaluation
+### 🔹4.4.6 Final result.  
 
+The final iteration achieved all of the original design objectives. The hot-swap sockets sit perfectly flush with the alignment layer, allowing the support layer to function exactly as intended. The LEDs fit correctly within their cut-outs without interfering with the mechanical switches. The switches can be installed and removed using a standard switch puller without requiring access to the back of the input block, and they can be replaced without the risk of dislodging the hot-swap sockets.
 
+The redesigned support layer provides sufficient rigidity without interfering with the LEDs, while the number and placement of the fastening screws offer more than enough support to withstand the forces generated during switch installation and removal.
+
+Finally, the complete directional input block rotates smoothly within its intended range of adjustment, providing the ergonomic positioning originally envisioned while remaining mechanically stable.
+
+<table>
+    <caption><i>Final iteration results.</i></br></caption>
+    </tr>
+        <td colspan="2">
+            <i></i></br>
+            <img width="666" height="910" alt="image" src="https://github.com/user-attachments/assets/07c9273b-2e74-47e9-bba3-cb12c6c85134" />
+        </td>
+        <td colspan="2">
+            <i></i></br>
+            <img width="666" height="911" alt="image" src="https://github.com/user-attachments/assets/e51aa9e9-423d-4dad-8937-e88fdebb17ac" />
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            <i></i></br>
+            <img width="2000" height="884" alt="image" src="https://github.com/user-attachments/assets/59303493-b82c-42b3-85db-98f4a4877a4a" />
+        </td>
+    <tr>
+    <tr>
+        <td>
+            <i>Sockets sitting flush.</i></br>
+            <img width="959" height="894" alt="image" src="https://github.com/user-attachments/assets/229cc6df-181c-474d-aa86-37f9a518d131" />
+        </td>
+        <td>
+            <i>Led placed cut-out.</i></br>
+            <img width="959" height="900" alt="image" src="https://github.com/user-attachments/assets/3b45b7de-ca03-4caf-8132-daf486e76c01" />
+        </td>
+        <td>
+            <i>Support layer screwed in place.</i></br>
+            <img width="959" height="904" alt="image" src="https://github.com/user-attachments/assets/baec81dd-19e4-40c1-b2e8-c10a9fe7d5a8" />
+        </td>
+        <td>
+            <i>Fully aseembled input block (no soldering).</i></br>
+            <img width="959" height="904" alt="image" src="https://github.com/user-attachments/assets/8afaee4a-1e14-4846-8edf-5fa3bc9c610d" />
+        </td>
+    </tr>
+</table>
   
 ## 🔸4.5 Auxiliary Button Console
   ### Design Requirements & Goals
