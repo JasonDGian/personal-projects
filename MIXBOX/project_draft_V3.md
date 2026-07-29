@@ -1216,15 +1216,274 @@ This modification created a much stronger structure. In the initial concept, the
 > Although the final component consists of only two printed parts, the three-layer concept proved valuable during development because it allowed each function of the mounting system to be designed and validated independently before being combined into the final design.
      
 ### 🔹4.4.3 Initial block design.
-The purpose of this component is to house the four directional input buttons in a single rotating assembly. The idea behind this design was to allow the entire directional input block to rotate inside the controller so that its angle could be adjusted to match the player's most comfortable hand position.
+The purpose of this component is to house the four directional input buttons modules in a single rotating assembly. The idea behind it's design is to allow the entire directional input block to rotate inside the controller so that its angle can be adjusted to match the player's most comfortable hand position.
 
-Rather than fixing the directional inputs in a predetermined orientation, I wanted the controller to be adaptable to different preferences. At this stage of the project, I had not yet decided whether the assembly would be permanently fixed after adjustment or left free to rotate under certain conditions. Because of this, the initial design focused on creating a simple and reliable rotating mechanism while leaving both possibilities open.
+Rather than fixing the directional inputs in a predetermined orientation, I wanted the controller to be adaptable to different preferences. At this stage of the project, I had not yet decided whether the assembly would be permanently fixed after adjustment or left free to rotate under certain conditions. Because of this, the initial design focused on creating a simple and reliable rotating platform while leaving both possibilities open.
 
-To begin the design, I first positioned the individual switch-and-socket modules according to the layout developed during the ergonomics study.
+To begin the design, I first positioned the individual switch and socket modules according to the layout developed during the ergonomics study.
 
+<table>
+    <caption><i>Individual modules positioned to create the directional input layout.</i></caption>
+    <tr>
+        <td>
+            <img width="1662" height="523" alt="image" src="https://github.com/user-attachments/assets/074780a6-b5a1-45b5-8655-1afaea6fc5a5" />
+        </td>
+    </tr>
+</table>
+    
+Once I was satisfied with the modules arrangement, I designed a circular base approximately 75 mm in diameter and 2 mm thick to support the complete input block.
+The upper surface of the base was aligned with the top of the switch modules, creating a smooth transition between the individual parts and making the assembly look like a single integrated component rather than several separate pieces.
+    
+<table>
+    <caption><i>Main rotating body.</i></caption>
+    <tr>
+        <td><img width="1601" height="523" alt="image" src="https://github.com/user-attachments/assets/37955618-6a28-467c-ad1f-9c525267afbf" /></td>
+    </tr>
+</table>
+     
+To allow the assembly to rotate, I added a cylindrical guide underneath the base that would mate with a matching recess in the main enclosure. This guide keeps the input block centred while allowing it to rotate freely inside the housing.
+    
+<table>
+    <caption><i>Circular base with the integrated rotational guide.</i></caption>
+    <tr>
+        <td>
+            <img width="1653" height="562" alt="image" src="https://github.com/user-attachments/assets/f400ed4e-23e9-4064-be36-da73f794529d" />
+        </td>
+    </tr>
+</table>
+     
+Before printing the first prototype, I also added clearance cut-outs around each switch. These openings provide enough space for a standard mechanical keyboard switch puller to reach the retention clips, allowing switches to be removed and replaced without disassembling the entire input block.
+     
+<table>
+    <tr>
+        <td>
+        <i>Cutouts close-up</i></bvr>
+        <img width="1258" height="900" alt="image" src="https://github.com/user-attachments/assets/d78819ba-2824-42f2-a892-a4b4c8a8645c" />
+        </td>
+        <td>
+        <i>Top View</i></bvr>
+        <img width="1108" height="907" alt="image" src="https://github.com/user-attachments/assets/2c5b8d08-bbd3-4ca1-bae3-24a35afd33d8" />
+        </td>
+    </tr>
+</table>
+
+**First iteration results**   
+The key spacing was comfortable and closely matched the keyboard cursor layout I intended to replicate. I also found that the spacing between adjacent switch modules was slightly larger than expected, providing additional room for wire-routing channels.
+
+The assembled test piece met the main design objectives. The switch and socket modules integrated correctly with the rotating base and remained securely in place during switch installation, confirming that the hot-swap socket retention mechanism could withstand the insertion forces. The design also allowed easy access for switch replacement and maintenance.
+
+**The prototype also highlighted several improvements for the next iteration:**
+- Reshape the switch extraction cut-outs to achieve a more refined surface finish.
+- Improve the wire-routing channels utilizing the increased avilable space to simplify cable management.
+- Add an internal cut-out and mounting feature for the planned contact LED.
+- Reduce the thickness of the second layer and modify the bottom support to reduce material usage and print time while maintaining structural rigidity.
+
+Overall, the first iteration validated the concept and provided a clear direction for the next stage of development.
+    
+<table>
+    <caption><i>First assembled prototype of the directional input block.</i></caption>
+    <tr>
+        <td>
+            <!-- image that shows the assembhled piece with the swityches on without caps -->
+            <img width="998" height="800" alt="first iteration result uncapped" src="https://github.com/user-attachments/assets/322e9583-80ea-41df-acf1-c6142e1b147a" />
+        </td>
+        <td>
+            <!-- image that shows the assembled piece with the switches and their keycaps -->
+            <img width="998" height="800" alt="first iteration result capped" src="https://github.com/user-attachments/assets/6adddef5-04db-4a39-9ce0-ebc718eb46a6" />
+        </td>
+        <td>
+            <!-- image that shows the extraction tool access cutouts -->
+            <img width="998" height="800" alt="recess result" src="https://github.com/user-attachments/assets/252d12ce-4510-4ff1-88f9-2bd263d99d72" />
+        </td>
+        <td>
+            <!-- image that demonstrates how the extraction tool or switch puller fits into the recess -->
+            <img width="998" height="800" alt="image" src="https://github.com/user-attachments/assets/107a2b51-f4c8-49a7-9c87-08c4e310386e" />
+        </td>
+    </tr>
+</table>
+   
 ### 🔹4.4.4 Second iteration.
+The first change I made in the second iteration was to reduce the height of the alignment layer so that it matched the height of the hot-swap socket. As shown in the updated Blender model, this reduced the overall thickness of the assembly while maintaining the required support and alignment for the socket.
+         
+<table>
+    <tr>
+        <td>
+            <i>Before layer height reduction</i></br>
+            <img width="1189" height="584" alt="image" src="https://github.com/user-attachments/assets/fbdd05a5-707d-4193-a567-8bb0772d1723" />
+        </td>
+        <td>
+            <i>After layer height reduction</i></br>
+            <img width="1189" height="584" alt="image" src="https://github.com/user-attachments/assets/4c7c67c2-5360-4652-a0b2-9ad3acc38880" />
+        </td>
+    </tr>
+</table>
+   
+Using the extra space identified in the first iteration, I then redesigned the wire-routing channels to make better use of the available space between modules. The new routing allowed for a better angle to bend the wires, making them easier to install and resulting in a cleaner assembly.   
+    
+<table>    
+    <tr>
+        <td>
+            <i>Channels adapted to available space.</i></br>
+            <img width="888" height="690" alt="image" src="https://github.com/user-attachments/assets/e13f3438-edd1-4800-906c-e57fafd92306" />
+        </td>
+        <td>
+            <i>Before routing channels increse.</i></br>
+            <img width="888" height="690" alt="image" src="https://github.com/user-attachments/assets/ba23e1d5-1f1b-4661-9859-c666fc15b7e4" />
+        </td>
+        <td>
+            <i>After routing channels increse.</i></br>
+            <img width="887" height="690" alt="image" src="https://github.com/user-attachments/assets/94aa5db3-9dcf-481d-b1de-94504bf03fb5" />
+        </td>
+    </tr>
+</table>
+     
+As a result of these changes, I also had to redesign the socket support layer (Layer 3 of the switch and socket module). Instead of keeping four independent support pieces, I decided to merge them into a single support layer spanning all four sockets. The wider support layer allowed me to relocate the screws to better distribute the loads generated when inserting switches, while also avoiding the wire-routing paths identified in the previous step. I began by marking potential screw locations that would provide good support for each socket without interfering with the wiring.
+    
+Although nine mounting points were probably more than necessary, I preferred to err on the side of rigidity. This ensured that the support layer would remain firmly attached even under the relatively high insertion forces required by the hot-swap sockets. Once the mounting locations had been defined, I modelled the support pillars and completed the geometry of the new support layer.
+    
+<table>    
+    <tr>
+        <td>
+            <i>Selected screw locations.</i></br>
+            <img width="1036" height="937" alt="inputblock_unified_markers" src="https://github.com/user-attachments/assets/17e096ab-2033-418f-afe1-b67f1bdbab37" />
+        </td>
+        <td>
+            <i>Modeled support pillars</i></br>
+            <img width="1036" height="937" alt="inputblock_unified_pillars" src="https://github.com/user-attachments/assets/66efd881-858f-4f8a-9632-680cc7681e9a" />
+        </td>
+        <td>
+            <i>New unified socket support layer.</i></br>
+            <img width="1036" height="937" alt="inputblock_unified_support_layer" src="https://github.com/user-attachments/assets/4794d589-3583-4243-a6f2-c9889449ee81" />
+        </td>
+    </tr>
+</table>
+
+To add the contact status LED I modeled a reference as shown before and then used it to position it at a heigh I knew it would not impede the switch from sitting propperly in the retention mechanism. I then simply carved the cutouts to house the led in the main rotating assembly and modified the support layer to accomodate these changes. 
+
+<table>
+    <tr>
+        <td>
+            <i>Led references in position - top view.</i></br>
+            <img width="1036" height="937" alt="inputblock_led_positioned_top" src="https://github.com/user-attachments/assets/cc90f7c4-1b29-4c8f-9fbe-af6825cb84ec" />
+        </td>
+        <td>
+            <i>Led references in position - bottom view.</i></br>
+            <img width="1036" height="937" alt="inputblock_led_positioned_bottom" src="https://github.com/user-attachments/assets/deb4446f-db63-44aa-a6cc-955bf180e8ba" />
+        </td>
+    </tr>    
+    <tr>
+        <td>
+            <i>Led cut-outs - main rotating assembly.</i></br>
+             <img width="1036" height="937" alt="led-cut-outs" src="https://github.com/user-attachments/assets/45fdb7ea-e91d-47a2-951d-2d6a9885aa39" />
+        </td>
+        <td>
+            <i>Led cut-outs - socket support layer.</i></br>
+            <img width="1036" height="937" alt="inputblock_adapted_support_layer_to_leds" src="https://github.com/user-attachments/assets/4214de9e-6453-4f05-bb7c-a29a0a75ba2f" />
+        </td>
+    </tr>
+</table>
+The next step was improving the switch puller cut-outs to achieve a cleaner finish and a better overall appearance. Rather than modifying the entire assembly and hoping for the best, I designed a small test piece containing two alternative cut-out geometries that I believed could be printed successfully without supports.
+
+One design used an oval profile, while the other used a simple triangular profile with angled faces to eliminate unsupported overhangs. Printing this small test piece allowed me to evaluate both the print quality and the practicality of each design before committing the changes to the full model.
+
+<table>
+    <caption><i>Tested cut-out shapes.</i></br></caption>
+    <tr>
+        <td>
+            <img width="930" height="786" alt="image" src="https://github.com/user-attachments/assets/2950c474-90fa-4456-ab10-67828d48d8dc" />
+        </td>
+        <td>
+            <img width="930" height="786" alt="image" src="https://github.com/user-attachments/assets/9657fb7b-4921-4fe7-a041-35173dc5a203" />
+        </td>
+    </tr>
+</table>
+
+After comparing the results, I chose the triangular cut-out. Besides printing more cleanly, it was simpler to model and achieved the same functionality. I then integrated it into the full design and fine-tuned its dimensions to improve both its appearance and the clearance for the switch puller.
+
+<table>
+    <caption><i>Tested cut-out shapes.</i></br></caption>
+    <tr>
+        <td>
+            <i>Before<i></br>
+            <img width="1191" height="851" alt="Before - Cutouts 2" src="https://github.com/user-attachments/assets/aa978a0c-8b23-4e4d-9b5f-6c723b1ca0ea" />
+        </td>
+        <td>
+            <i>After<i></br>
+            <img width="1191" height="851" alt="After - Cutouts 2" src="https://github.com/user-attachments/assets/ebb5c22c-4fa8-466a-8436-26634499a940" />
+        </td>
+        <td>
+            <i>Before<i></br>
+            <img width="1191" height="851" alt="Cutouts - Before 1" src="https://github.com/user-attachments/assets/28794073-bf4c-471d-9e7d-769c069b9db1" />
+        </td>
+        <td>
+            <i>After<i></br>
+            <img width="1191" height="851" alt="After Cutouts - 1" src="https://github.com/user-attachments/assets/f6461fca-d121-4bcc-8576-e3d48f026c9b" />
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            <i>Before-after comparison.</i></br>
+            <img alt="Cutouts-Gifs" src="https://github.com/user-attachments/assets/2ee99746-7435-4ec0-931c-1bb751f15e62" />
+        </td>
+    </tr>
+</table>
+            
+**Second iteration results**    
+This second iteration was definitely a step in the right direction, although it also revealed a few oversights.
+   
+The first issue I identified was that the height of the alignment layer was still slightly incorrect, most likely due to a mismatch between the reference model and the final geometry. I had overlooked the tolerances introduced during the modelling process, resulting in the layer being slightly taller than intended. Based on the measurements taken from the printed part, the alignment layer still needs to be reduced by approximately 0.20 mm.
+    
+<table>
+    <caption><i>Alignment layer eccess height</i></caption>
+    <tr>
+        <td><img width="1280" height="470" alt="image" src="https://github.com/user-attachments/assets/486278d5-877e-49a9-9bf6-0200d332c5b7" /></td>
+    </tr>
+</table>
+    
+I also found that, although the socket support pillars provided excellent mechanical support, adding the support layer made wire routing more difficult than expected. The pillars had originally been positioned to maximise support for the hot-swap sockets, but **I had overlooked how the addition of the support layer would block the available wire-routing paths from the bottom of the assembly.** In the next iteration, I would have to reposition several of the pillars to create additional space for wire routing while maintaining adequate support for the sockets.
+          
+<table>
+    <caption><i>Wire routing obstructed path.</i></caption>
+    <tr>
+        <td>
+            <img width="1280" height="470" alt="image" src="https://github.com/user-attachments/assets/fcbe1a40-9ed6-4cce-adb8-f915372dd083" />
+        </td>
+    </tr>
+</table>
+        
+The redesigned switch puller cut-outs worked as intended, but **an incorrect slicer configuration generated unnecessary support material.** Combined with a printing artefact that I only noticed after the print had finished, this resulted in a poorer surface finish than expected. The print settings will need to be adjusted before the next iteration to eliminate these issues.
+    
+<table>
+    <tr>
+        <td colspan="2">
+            <i>Model imperfection in slicer.</i></br>
+            <img width="1280" height="470" alt="image" src="https://github.com/user-attachments/assets/07913554-a8fa-4793-98cd-108568e0b6f9" />
+        </td>
+    </tr>
+    <tr>
+        <td><i>Cutout imperfections caused by slicer missconfiguration.</i></br>
+            <img width="629" height="470" alt="image" src="https://github.com/user-attachments/assets/fc0ae3b1-2d6a-4e93-a5f0-c39c0fa993ce" />
+        </td>
+        <td><i>Cutout test with switch puller.</i></br>
+            <img width="629" height="470" alt="image" src="https://github.com/user-attachments/assets/77eaa2d8-60a2-42fd-8bcd-f91d331f2539" />
+        </td>
+    </tr>
+</table>
 
 ### 🔹4.4.5 Third iteration.
+
+
+
+
+
+
+<table>
+    <caption><i></i></caption>
+    <tr>
+        <td></td>
+    </tr>
+</table>
+
 
 ### 🔹4.4.6 Final result.
 
