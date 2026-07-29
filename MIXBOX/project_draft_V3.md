@@ -407,9 +407,9 @@ dedicated sections unless a particular design decision requires further explanat
 In this section I describe the steps and iterations of each component developed for the final assembly. 
 
 ## 🔸4.1 Motherboard Housing
-This component is a custom enclosure designed to house the controller's original motherboard after removing it from its factory shell. Its purpose is to protect the electronics while providing a clean mounting solution for the custom controller assembly.
+The motherboard housing is a custom enclosure designed to protect and support the controller's original PCB after it has been removed from its factory shell. It serves as the interface between the controller electronics and the rest of the custom assembly while keeping the internal components organised, accessible, and protected.
 
-Since the original enclosure was no longer used, the motherboard, soldered test-pad connections, and additional wiring required a dedicated structure. The housing also needed to provide mounting points for the terminal blocks and a secure but accessible solution for the battery.
+Because the original enclosure is discarded during the modification process, the motherboard, battery, and wiring all require a new structure that securely mounts them while still allowing future maintenance and modifications.
 
 **The main design goals of this component are to:**
 - Protect the motherboard and the wires soldered to its test pads.
@@ -856,13 +856,29 @@ The final enclosure mounts directly to the internal MixBox structure using dedic
 Overall, the final design is the result of several prototype iterations and physical validation. Although most of the changes between iterations were relatively small, they significantly improved the reliability, serviceability, and overall fit of the enclosure, resulting in a practical solution ready for integration into the completed MixBox.
    
 ## 🔸4.2 Action Button Array
-  ### Design Requirements & Goals
-  ### Reference Models
-  ### Initial Design
-  ### Prototype 1
-  ### Prototype 2
-  ### Final Design
-  ### Evaluation
+The Action Button Array houses the primary gameplay buttons used with the player's right hand. Since these buttons are the most frequently used inputs on the controller, their layout has a significant influence on comfort, accuracy, and overall ergonomics.
+
+Rather than adopting a standard arcade layout, this component was designed around the ergonomic study described earlier in the report. The objective was to create a button arrangement that follows the natural resting position of my hand while remaining compact and practical to manufacture.
+
+**The main design goals of this component are to:**
+- Provide a comfortable and ergonomic button layout.
+- Support the selected 27 mm illuminated arcade buttons.
+- Allow easy installation and replacement of the buttons.
+- Integrate cleanly with the controller enclosure while maintaining a compact design.
+
+
+### Introduction.
+What the component is.
+Why it exists.
+What problems it must solve.
+A bullet list of design goals.
+### Design Requirements & Goals
+### Reference Models
+### Initial Design
+### Prototype 1
+### Prototype 2
+### Final Design
+### Evaluation
 ## 🔸4.3 LED Module
   ### Design Requirements & Goals
   ### Reference Models
@@ -873,7 +889,7 @@ Overall, the final design is the result of several prototype iterations and phys
   ### Evaluation
   
 ## 🔸4.4 Directional Input Block
-This component houses the four mechanical switches that represent the directional inputs (Up, Left, Down, and Right) and provides the controller's primary movement controls.
+The Directional Input Block houses the four mechanical switches that provide the controller's directional inputs (Up, Left, Down, and Right). Unlike a traditional arcade joystick, this design uses MX-compatible mechanical keyboard switches to create a MixBox-style directional input system.
 
 One of the main goals for the directional input block was to **avoid soldering wires directly to the mechanical keyboard switches**. Although this would have been the simplest solution, it would make replacing a faulty switch inconvenient, as every replacement would require desoldering and resoldering the connections.
 
@@ -1016,7 +1032,7 @@ After slightly increasing the thickness of the retention walls, the switch locke
 </table>
 
 >[!Note]
->At this point, I also realized that the switch I had been using as my reference was a **3-pin MX-compatible switch** and did not include the two additional plastic locating pins commonly found on **5-pin MX-compatible switches**. This was simply an oversight during the initial design. To make the design compatible with both switch variants, I added slots for the additional locating pins in the next iteration.
+>At this point, I also realized that the switch I had been using as my reference was a **3-pin MX-compatible switch** and did not include the two additional plastic locating pins commonly found on **5-pin MX-compatible switches**. I overlooked this during the initial design. To make the design compatible with both switch variants, I added slots for the additional locating pins in the next iteration.
 
 <table>
     <caption><i>Pin difference observation.</i></caption>
@@ -1214,6 +1230,8 @@ This modification created a much stronger structure. In the initial concept, the
 
 >[!NOTE]
 > Although the final component consists of only two printed parts, the three-layer concept proved valuable during development because it allowed each function of the mounting system to be designed and validated independently before being combined into the final design.
+    
+The final design fulfilled the original objectives by providing reliable switch retention, secure hot-swap socket mounting, and straightforward maintenance while remaining compact enough for the intended layout. With the retention module validated, the next stage of development focused on integrating four of these modules into the complete Directional Input Block.
      
 ### 🔹4.4.3 Initial block design.
 The purpose of this component is to house the four directional input buttons modules in a single rotating assembly. The idea behind it's design is to allow the entire directional input block to rotate inside the controller so that its angle can be adjusted to match the player's most comfortable hand position.
@@ -1586,6 +1604,17 @@ Finally, the complete directional input block rotates smoothly within its intend
 </table>
   
 ## 🔸4.5 Auxiliary Button Console
+The Auxiliary Button Console houses the secondary control buttons used for functions such as Home, Share, and Options. Although these controls are not used during normal gameplay as frequently as the main inputs, they still need to remain easily accessible without interfering with the primary controls.
+
+In addition to their functional role, this component also contributes to the overall appearance of the controller by integrating the auxiliary buttons into the enclosure in a clean and consistent way.
+
+**The main design goals of this component are to:**
+- Provide convenient access to the auxiliary controller functions.
+- Prevent accidental activation during gameplay.
+- Integrate aesthetically with the rest of the controller.
+- Allow easy installation and replacement of the buttons.
+- Maintain a compact footprint within the overall enclosure.
+
   ### Design Requirements & Goals
   ### Reference Models
   ### Initial Design
