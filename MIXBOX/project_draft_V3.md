@@ -1623,9 +1623,140 @@ Although this model would never become part of the final printed parts, it becam
     </tr>
 </table>
 
-### Initial Design
-### Prototype 1
-### Prototype 2
+### 🔹4.3.2 Initial mounting plate design. 
+Using the prototype developed during the ergonomic study as a reference, I positioned the button models to replicate the validated layout. The initial design was based on a thicker, more rigid mounting plate with integrated threads for the screw-type arcade buttons. Instead of relying on the manufacturer's retaining nuts, the buttons would screw directly into the plate itself.
+   
+The main motivation behind this approach was to maximize the available space between the buttons. The factory retaining nuts are relatively large, limiting how closely the buttons can be positioned. By integrating the M24 × 2 thread into the mounting plate, I could achieve a more compact layout while preserving the ergonomic arrangement defined during the earlier study.
+
+(Insert image showing the integrated threads highlighted in red.)
+
+**First iteration results**    
+The prototype successfully demonstrated that integrating the threads into the mounting plate was mechanically possible, but it also revealed several practical issues.
+
+The internal threads partially obstructed the mounting holes, making it difficult or even impossible to install snap-in arcade buttons. In addition, requiring the buttons to be screwed into the controller after wiring them raised maintenance concerns, as rotating the button during installation or removal could twist or damage the connected wires if they were not disconnected first.
+
+Although the concept worked, it was clear that **prioritizing compactness had reduced compatibility and serviceability**. For the next iteration, **I decided to remove the integrated threads entirely** and instead design a custom low-profile retaining nut. This would maintain the compact layout while providing full compatibility with both screw-in and snap-in button designs.
+
+### 🔹4.3.3 Second iteration.
+This iteration focused on solving the compatibility issues with the snap-in buttons and keeping the compact layout and ergonomic positioning as close as possible to the original study.
+
+The second iteration focused on creating enough space for the custom retaining nut while preserving the ergonomic layout developed during the previous study. Since the custom nut extends approximately 2.5 mm beyond the radius of the threaded section of the arcade button, each mounting hole required a 2.5 mm perimeter of surrounding material to allow proper installation.
+
+Increasing the spacing between the buttons required recalculating some of their positions, as the original layout no longer provided the same hand positioning as the ergonomic prototype. In particular, the buttons operated by the little finger had to be slightly repositioned to maintain a comfortable resting position while keeping the overall layout as close as possible to the validated ergonomic arrangement.
+
+**The objectives of this iteration were to:**   
+- Increase the spacing between button openings to accommodate a custom retaining nut.
+- Slightly reposition the buttons used by the little finger.
+- Remove the integrated threads from the mounting plate.
+- Ensure full compatibility with both screw-in and snap-in arcade buttons.
+
+
+
+
+
+
+---
+español
+
+Usando el prototipo creado durante el estudio de ergonomia, posicioné los modelos replicando el layout del prototipo.
+
+
+El diseño inicial se baso en crear una nueva placa de montado de botones, más guresa y estable, que incluyera la rosca para que los botones arcade se enroscasen directamente en el cuerpo del controlador. La posicion de los botones replica la configuración resultado del estudio de ergonomia. El principal motivo de la creación de la nueva placa fue la necesidad de aumentar el espacio entre botones. Incluir la rosca de lo que sería la tuerca que fija el boton a la placa directamente en el cuerpo de la placa permitia compactar la posicion de los botones más de lo que lo permitira el uso de tuercas independiente. La tuerca de fabrica que incluyen los botones es demasiado grande para permitir el diseño compacto deseado. 
+
+<table>
+    <caption><i>Size adapted prototype.</i></caption>
+    <tr>
+        <td>            
+            <img width="1551" height="808" alt="image" src="https://github.com/user-attachments/assets/441f3e3f-a7f1-4205-aa6a-2f1b10b89ead" />
+        </td>
+    </tr>
+</table>
+
+
+Marcado en rojo ne la imagen las roscas.
+<img width="1674" height="705" alt="image" src="https://github.com/user-attachments/assets/7599f275-e3dd-4471-b196-68dfd9d563e4" />
+
+Roscas de cerca
+<img width="1685" height="769" alt="image" src="https://github.com/user-attachments/assets/1b6a8cf9-c431-47eb-b187-7147f5f060a4" />
+
+
+
+**Resultados primera iteracion**    
+El resultado de esta iteración saca a la luz varias realidades que no habia calculado. Es positivo, pero imperfecto, la presencia de las roscas en la ranura de insercion para los botones dificulta mucho o imposibilita la insercion de los botones de tipo encaje que no son de tipo rosca. Además el desenroscar y enroscar los botones una vez conectados al dispositivo no puedo evitar imaginar que será muy incomodo e incluso podria crear estragos en el cableado si quien lo mantiene no sabe que debe desconectarse o no se acuerda de desconectar el boton antes de desenroscar. Para hacer mas facil y conenciente de mantener el dispositivo, he decidido compatibilizar al 100% las ranuras con ambos tipos de boton y diseñar/comprar roscas compatibles de perfil más estrecho. En mi caso las imprimiré yo mismo, pero otro usuario podría comprarlas a medida. 
+
+<table>   
+    <tr>
+        <td>
+            <i>Face view.</i></br>
+            <img width="2000" height="900" alt="image" src="https://github.com/user-attachments/assets/f32c02d3-0e95-411e-a9fb-aaf2a858fd61" />
+        </td>
+        <td>
+            <i>Backside view.</i></br>
+            <img width="2000" height="900" alt="image" src="https://github.com/user-attachments/assets/e2d3dc80-6379-44d6-a37d-50f0171a8e20" />
+        </td>
+    </tr>
+    <!--tr>
+        <td colspan="2">
+            <i>Integrated thread.</i></br>
+            <img width="2000" height="900" alt="image" src="https://github.com/user-attachments/assets/4e24bae3-a36c-4315-9a3c-02155cc29d4a" />
+        </td>
+    </tr-->
+</table>
+
+### 🔹4.3.3 Second iteration.
+En esta iteracion ajuste un poco la posicion de los botones para el meñique y borré por completo la rosca de las ranuras. Tambien realicé las primeras pruebas de rosca a medida para los botones de rosca y probé el encaje de los botones sin rosca.
+En esta iteracion he separado un poco más los botones, manteniendolos lo más compacto posible, pero asegurando un perimetro de 2.5 mm alrededor de cada ranura para que quepa la tuerca personalizada.
+
+En esta iteración tenia objetivos claros.
+- Incrementar espacio entre ranuras para permitir el uso de tuerca personalizada.
+- Reposicionar ligeramente botones para meñique.
+- eliminar roscas.
+- Asegurar compatibilidad con botones roscados y no roscados.
+
+<!-- image of the new plate design with increased permitere around cutouts -->
+<table>
+    <caption>
+        <i>
+            Adjusted plate with incresed perimeters for custom nut.
+        </i>
+    </caption>
+    <tr>
+        <td>
+            
+        </td>
+    </tr>
+</table>
+
+<!-- image of both type of buttons in place -->
+<table>
+    <caption>
+        <i>
+            Both buttons type correctly mounted.
+        </i>
+    </caption>
+    <tr>
+        <td>
+            
+        </td>
+    </tr>
+</table>
+
+<!-- image of custom nuts all propperly mounted and securing buttons -->
+<table>
+    <caption>
+        <i>
+            Threaded buttons mounted with securing nut on the underside.
+        </i>
+    </caption>
+    <tr>
+        <td>
+            
+        </td>
+    </tr>
+</table>
+
+
+
 ### Final Design
 ### Evaluation
 
