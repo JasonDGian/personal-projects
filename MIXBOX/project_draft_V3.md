@@ -1574,10 +1574,8 @@ Finally, the complete directional input block rotates smoothly within its intend
     </tr>
 </table>
 
-## 🔸4.3 Action Button Array
-The Action Button Array houses the primary gameplay buttons used with the player's right hand. Since these buttons are the most frequently used inputs on the controller, their layout has a significant influence on comfort, accuracy, and overall ergonomics.
-
-Rather than adopting a standard arcade layout, this component was designed around the ergonomic study described earlier in the report. The objective was to create a button arrangement that follows the natural resting position of my hand while remaining compact and practical to manufacture.
+## 🔸4.3 Action Buttons Mounting Plate
+The Action Button Mounting Plate is the component that holds the controller's primary gameplay buttons. It consists of a series of 27 mm mounting holes arranged in two slightly arched rows based on the ergonomic study described earlier in the report. Although simple in appearance, this plate defines the controller's button layout and influences the space available for the internal components mounted beneath it.
 
 **The main design goals of this component are to:**
 - Provide a comfortable and ergonomic button layout.
@@ -1585,8 +1583,8 @@ Rather than adopting a standard arcade layout, this component was designed aroun
 - Allow easy installation and replacement of the buttons.
 - Integrate cleanly with the controller enclosure while maintaining a compact design.
 
-### 🔹4.3.1 Reference models creation.
-My main goal wasn't to recreate the button in every detail, but to have an accurate representation of its size and shape inside the Blender scene. Having the button positioned in 3D space would make it much easier to determine the overall height of the controller and plan the placement of the other internal components, such as the motherboard, battery, and wiring.
+### 🔹4.3.1 Reference model creation.
+Before designing the mounting plate, I first created a reference model of the selected arcade button. My main goal wasn't to recreate the button in every detail, but to have an accurate representation of its size and shape inside the Blender scene. Having the button positioned in 3D space would make it much easier to determine the overall height of the controller and plan the placement of the other internal components, such as the motherboard, battery, and wiring.
 
 Instead of measuring the entire button by hand, I searched online for the manufacturer's datasheet. It took a while to find the correct one, but it was well worth the effort since it already contained most of the dimensions I needed.
 
@@ -1594,7 +1592,8 @@ Instead of measuring the entire button by hand, I searched online for the manufa
     <caption><i>Selected button datasheet.</i></caption>
     <tr>
         <td>
-        <img alt="Buttons-Datasheet" src="https://github.com/user-attachments/assets/d3b19842-89e5-4b9c-9628-2c2eb151e3b8" />
+        <!--img alt="Buttons-Datasheet" src="https://github.com/user-attachments/assets/d3b19842-89e5-4b9c-9628-2c2eb151e3b8" /-->
+            <img width="1424" height="531" alt="arcade-datasheet" src="https://github.com/user-attachments/assets/66dff599-112d-4cfc-b49a-7472ef8b103c" />
         </td>
     </tr>
 </table>
@@ -1605,19 +1604,16 @@ The model was created in Blender using the datasheet measurements together with 
     <caption><i>Bolt Factory addon use.</i></caption>
     <tr>
         <td>
-            <img width="1213" height="771" alt="image" src="https://github.com/user-attachments/assets/3a5a3e45-18a6-437c-b621-c071771fd7c1" />
+            <img alt="image" src="https://github.com/user-attachments/assets/3a5a3e45-18a6-437c-b621-c071771fd7c1" />
         </td>
     </tr>
 </table>
 
-Although this model would never become part of the final printed parts, it became one of the most useful references throughout the design process, making it much easier to visualize the available space and avoid placing components where the button body would later interfere.
+Although this model would never become part of the final printed parts, it became one of the most useful design references throughout the project, making it much easier to visualize the available space and avoid placing components where the button body would later interfere.
 
 <table>
     <caption><i>Final reference model.</i></caption>
     <tr>
-        <td>
-            <img width="955" height="852" alt="button-front-view" src="https://github.com/user-attachments/assets/4e5d57cc-a991-4e1e-a82c-f6f3bfd89b43" />
-        </td>
         <td>            
             <img width="1016" height="857" alt="button-side-view" src="https://github.com/user-attachments/assets/e3e39d56-b0cc-4750-8430-391766574f8b" />
         </td>
@@ -1626,55 +1622,6 @@ Although this model would never become part of the final printed parts, it becam
         </td>
     </tr>
 </table>
-
-
-
----
-
-
-Como siempre, antes que nada, me puse a desarrollar el modelo de referencia para modelar 
-
-a partir de la plantilla creada en el estudio de ergonomia de mis manos, cree los modelos de referencia. Con esos modelos de referencia, fui calculando la posicion de los botones más detenidamente. 
-Los requisitos de esta pieza es que permitan utilizar botones del 27 de rosca como botones del 27 de encaje de manera intercambiable. El cableado debe estar facilmente accesible y la posicion del os botones debe estar acorde al estudio de ergonomia desarrolaldo anterioremente.  
-
-
-
-
-
-
-
-A partir de la plantilla probada en el estudio de ergonomia, comenzé el desarrollo de las filas de botones de acción. 
-Para comenzar, desarrollé los modelos de referencia. Estos modelos representan ambos botones de 27 mm seleccionados para el proyecto. 
-
-
-### Reference Models
-
-The only model I needed during this design was the Arcade button itself 
-
-
-
-En lugar de medir la pieza a mano, esta vez decidí buscar online la hoja de datos o DataSheet del producto que compré. Aunque no fué facil encontrar el datasheet correcto, valió la pena buscarlo. Lo importé en blender y modelé el botón arcade que selección para el proyecto.  Lo más dificil de este modelo fué acertar con la rosca. Tras un breve pero tedioso proceso de imprime, prueba, valida y corrije dí con las medidas exactas de la espiral de la rosca del boton. 
-En este caso se trata de un M24 de Pitch x2. 
-El hecho de que viniese reportado en el datasheet facilitó muchisimo el trabajo de averiguar la rosca.
-
-Bolt creation
-
-Bolt body creation
-
-
-
-
-        <td>
-            <img width="1289" height="773" alt="Datasheet" src="https://github.com/user-attachments/assets/72f71227-d022-4523-bdc8-3ffe6ef2b8e2" />
-        </td>
-
-
-
-
-
-----
-
-
 
 ### Initial Design
 ### Prototype 1
