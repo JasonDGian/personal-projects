@@ -1694,6 +1694,9 @@ To fix the compatibility issue I slightly increased the spacing between the butt
         <td>
             <img width="1481" height="600" alt="Clean-cutouts" src="https://github.com/user-attachments/assets/01278133-97a7-4062-8993-0e1b5b9a1471" />
         </td>
+        <td>
+            <img width="1595" height="523" alt="image" src="https://github.com/user-attachments/assets/3988f2d8-2e09-4329-95cc-5035a05c8941" />
+        </td>
     </tr>
 </table>
 
@@ -1712,7 +1715,47 @@ With the new perimeter established I proceeded to design a simple featureless pr
 </table>
 
 
+<!-- image of the new plate design with increased permitere around cutouts -->
+<table>
+    <caption>
+        <i>
+            Adjusted plate with incresed perimeters for custom nut.
+        </i>
+    </caption>
+    <tr>
+        <td>
+            <img width="1595" height="523" alt="image" src="https://github.com/user-attachments/assets/3988f2d8-2e09-4329-95cc-5035a05c8941" />
+        </td>
+    </tr>
+</table>
 
+<!-- image of both type of buttons in place -->
+<table>
+    <caption>
+        <i>
+            Both buttons type correctly mounted.
+        </i>
+    </caption>
+    <tr>
+        <td>
+            
+        </td>
+    </tr>
+</table>
+
+<!-- image of custom nuts all propperly mounted and securing buttons -->
+<table>
+    <caption>
+        <i>
+            Threaded buttons mounted with securing nut on the underside.
+        </i>
+    </caption>
+    <tr>
+        <td>
+            
+        </td>
+    </tr>
+</table>
 
 
 
@@ -1774,47 +1817,7 @@ En esta iteración tenia objetivos claros.
 - eliminar roscas.
 - Asegurar compatibilidad con botones roscados y no roscados.
 
-<!-- image of the new plate design with increased permitere around cutouts -->
-<table>
-    <caption>
-        <i>
-            Adjusted plate with incresed perimeters for custom nut.
-        </i>
-    </caption>
-    <tr>
-        <td>
-            
-        </td>
-    </tr>
-</table>
 
-<!-- image of both type of buttons in place -->
-<table>
-    <caption>
-        <i>
-            Both buttons type correctly mounted.
-        </i>
-    </caption>
-    <tr>
-        <td>
-            
-        </td>
-    </tr>
-</table>
-
-<!-- image of custom nuts all propperly mounted and securing buttons -->
-<table>
-    <caption>
-        <i>
-            Threaded buttons mounted with securing nut on the underside.
-        </i>
-    </caption>
-    <tr>
-        <td>
-            
-        </td>
-    </tr>
-</table>
 
 
 
