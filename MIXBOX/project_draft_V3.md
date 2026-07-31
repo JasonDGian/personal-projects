@@ -1626,16 +1626,53 @@ Although this model would never become part of the final printed parts, it becam
 ### 🔹4.3.2 Initial mounting plate design. 
 Using the prototype developed during the ergonomic study as a reference, I positioned the button models to replicate the validated layout. The initial design was based on a thicker, more rigid mounting plate with integrated threads for the screw-type arcade buttons. Instead of relying on the manufacturer's retaining nuts, the buttons would screw directly into the plate itself.
    
-The main motivation behind this approach was to maximize the available space between the buttons. The factory retaining nuts are relatively large, limiting how closely the buttons can be positioned. By integrating the M24 × 2 thread into the mounting plate, I could achieve a more compact layout while preserving the ergonomic arrangement defined during the earlier study.
-
-(Insert image showing the integrated threads highlighted in red.)
+The main motivation behind this approach was to maximize the available space between the buttons. The factory retaining nuts are relatively large, limiting how closely the buttons can be positioned. By integrating the M24×2 thread into the mounting plate, I could achieve a more compact layout while preserving the ergonomic arrangement defined during the earlier study.
+    
+<table>
+    <tr>
+        <td>
+            <i>Size adapted prototype.</i></br>
+            <img width="1551" height="808" alt="image" src="https://github.com/user-attachments/assets/441f3e3f-a7f1-4205-aa6a-2f1b10b89ead" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <i>Threaded cutouts.</i></br>
+            <img width="1685" height="769" alt="threaded-cutouts" src="https://github.com/user-attachments/assets/1b6a8cf9-c431-47eb-b187-7147f5f060a4" />
+        </td>
+    </tr>
+</table>
 
 **First iteration results**    
-The prototype successfully demonstrated that integrating the threads into the mounting plate was mechanically possible, but it also revealed several practical issues.
+The prototype demonstrated that integrating the threads into the mounting plate was mechanically possible, but it also revealed several practical limitations.
 
-The internal threads partially obstructed the mounting holes, making it difficult or even impossible to install snap-in arcade buttons. In addition, requiring the buttons to be screwed into the controller after wiring them raised maintenance concerns, as rotating the button during installation or removal could twist or damage the connected wires if they were not disconnected first.
+The internal threads interfered with the mounting holes, making it impossible to install snap-in arcade buttons. Also, requiring the buttons to be screwed into the controller introduced a potential maintenance issue, as rotating the buttons during installation or removal could twist or damage the wiring if they were not disconnected beforehand.
 
-Although the concept worked, it was clear that **prioritizing compactness had reduced compatibility and serviceability**. For the next iteration, **I decided to remove the integrated threads entirely** and instead design a custom low-profile retaining nut. This would maintain the compact layout while providing full compatibility with both screw-in and snap-in button designs.
+Although the concept worked, it was clear that **prioritizing compactness had reduced compatibility and serviceability**. For the next iteration, **I decided to remove the integrated threads entirely** and instead design a custom low-profile retaining nut. This would preserve the compact layout while allowing compatibility with both screw-in and snap-in button designs.
+
+<table>
+    <tr>
+        <td colspan="2">
+            I could not decently capture or portray the impossibility of the snap-in button to fit into the threaded cut out. The internal dimensions of the cutout including the thread was about 22.25 and the snap in button requires at least 23.55.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <i>Face view.</i></br>
+            <img width="2000" height="900" alt="image" src="https://github.com/user-attachments/assets/f32c02d3-0e95-411e-a9fb-aaf2a858fd61" />
+        </td>
+        <td>
+            <i>Backside view.</i></br>
+            <img width="2000" height="900" alt="image" src="https://github.com/user-attachments/assets/e2d3dc80-6379-44d6-a37d-50f0171a8e20" />
+        </td>
+    </tr>
+    <!--tr>
+        <td colspan="2">
+            <i>Integrated thread.</i></br>
+            <img width="2000" height="900" alt="image" src="https://github.com/user-attachments/assets/4e24bae3-a36c-4315-9a3c-02155cc29d4a" />
+        </td>
+    </tr-->
+</table>
 
 ### 🔹4.3.3 Second iteration.
 This iteration focused on solving the compatibility issues with the snap-in buttons and keeping the compact layout and ergonomic positioning as close as possible to the original study.
