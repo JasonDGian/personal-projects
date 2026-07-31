@@ -858,41 +858,8 @@ The final enclosure mounts directly to the internal MixBox structure using dedic
 <mark>TODO: PICTURE OF MOUNTED MOBO</mark>
         
 Overall, the final design is the result of several prototype iterations and physical validation. Although most of the changes between iterations were relatively small, they significantly improved the reliability, serviceability, and overall fit of the enclosure, resulting in a practical solution ready for integration into the completed MixBox.
-   
-## 🔸4.2 Action Button Array
-The Action Button Array houses the primary gameplay buttons used with the player's right hand. Since these buttons are the most frequently used inputs on the controller, their layout has a significant influence on comfort, accuracy, and overall ergonomics.
-
-Rather than adopting a standard arcade layout, this component was designed around the ergonomic study described earlier in the report. The objective was to create a button arrangement that follows the natural resting position of my hand while remaining compact and practical to manufacture.
-
-**The main design goals of this component are to:**
-- Provide a comfortable and ergonomic button layout.
-- Support the selected 27 mm illuminated arcade buttons.
-- Allow easy installation and replacement of the buttons.
-- Integrate cleanly with the controller enclosure while maintaining a compact design.
-
-
-### Introduction.
-What the component is.
-Why it exists.
-What problems it must solve.
-A bullet list of design goals.
-### Design Requirements & Goals
-### Reference Models
-### Initial Design
-### Prototype 1
-### Prototype 2
-### Final Design
-### Evaluation
-## 🔸4.3 LED Module
-  ### Design Requirements & Goals
-  ### Reference Models
-  ### Initial Design
-  ### Prototype 1
-  ### Prototype 2
-  ### Final Design
-  ### Evaluation
-  
-## 🔸4.4 Directional Input Block
+       
+## 🔸4.2 Directional Input Block
 The Directional Input Block houses the four mechanical switches that provide the controller's directional inputs (Up, Left, Down, and Right). Unlike a traditional arcade joystick, this design uses MX-compatible mechanical keyboard switches to create a MixBox-style directional input system.
 
 One of the main goals for the directional input block was to **avoid soldering wires directly to the mechanical keyboard switches**. Although this would have been the simplest solution, it would make replacing a faulty switch inconvenient, as every replacement would require desoldering and resoldering the connections.
@@ -916,7 +883,7 @@ After researching different approaches, I decided to implement a hot-swappable m
     </tr>
 </table>     
 
-### 🔹   
+### 🔹 4.2.1 Reference Models Creation   
 Following the same workflow used throughout the rest of the project, I first created reference models of the main components before designing the surrounding geometry. This allowed me to develop the later parts of the input block around semi-accurate representations of the real hardware.
        
 The first step was measuring the main components required for the directional input block: the hot-swap socket, mechanical keyboard switch, and keycap. The objective was to create models accurate enough to support the design of the surrounding parts.
@@ -965,7 +932,7 @@ I then repeated the same process for the mechanical keyboard switch and the keyc
 >[!NOTE]
 >Having validated reference models for all three components allowed me to test different mounting concepts, verify clearances, and iterate on the directional input block design with greater confidence.
 
-### 🔹4.4.2 Switch & socket retention module.
+### 🔹4.2.2 Switch & socket retention module.
 Before designing the complete directional input block, I first needed a reliable way to secure both the mechanical switch and the hot-swap socket. Since these two components always operate together as a single assembly, I designed a dedicated subassembly to retain, align, and support them. I named this component the  **switch & socket retention module**.
 
 The module had to solve two main design challenges: developing a retention mechanism that securely held the mechanical switch while still allowing it to be removed with a standard switch puller, and creating a mounting system capable of preventing the hot-swap socket from being displaced during switch installation and removal without relying on a custom PCB.   
@@ -977,7 +944,7 @@ The module had to solve two main design challenges: developing a retention mecha
 - Allow the module to be easily integrated into the final directional input block.
 - Keep the design compact while leaving enough space for wire routing.
 
-#### ▫️4.4.2.1 Mechanical switch retention mechanism - Initial design.
+#### ▫️4.2.2.1 Mechanical switch retention mechanism - Initial design.
 The first objective was to develop a reliable retention mechanism for the mechanical switch.
       
 To develop the first working prototype, I printed a small test piece containing only the retention feature. The concept relied on a thin flexible wall with an arched indentation that would engage the switch's retention latch when the switch was pressed into place. Since I already had a validated reference model of the switch, this test could be kept small, allowing rapid verification of both dimensions and behaviour.
@@ -1020,7 +987,7 @@ However, the internal walls responsible for retaining the switch were slightly u
     </tr>
 </table>
     
-#### ▫️4.4.2.2 Mechanical switch retention mechanism - Second iteration.
+#### ▫️4.2.2.2 Mechanical switch retention mechanism - Second iteration.
 After slightly increasing the thickness of the retention walls, the switch locked securely into place. The switch could now be removed using a standard _switch puller_ without excessive friction, although accessing the retention latch through the release opening was still somewhat difficult.
 
 <table>
@@ -1047,7 +1014,7 @@ After slightly increasing the thickness of the retention walls, the switch locke
     </tr>
 </table>
 
-#### ▫️4.4.2.3 Retention mechanism - Final result.
+#### ▫️4.2.2.3 Retention mechanism - Final result.
 The final iteration introduced a small 0.5 mm raised support surface for the switch to rest on. I also reshaped this feature to create a wider opening for the extraction tool, making it much easier to access the retention latch. 
 
 <table>
@@ -1096,7 +1063,7 @@ With the switch retention mechanism working reliably, I could move on to refinin
 
 ---
 
-#### ▫️4.4.2.4 Hotswap Socket mounting mechanism.
+#### ▫️4.2.2.4 Hotswap Socket mounting mechanism.
 With the mechanical switch retention mechanism working reliably, the next challenge was designing a way to secure the hot-swap socket. Since I chose not to use a custom PCB, mainly to reduce both cost and design complexity, the socket had to be retained entirely by the 3D-printed housing.
 
 This introduced an important design challenge. Installing a mechanical switch requires applying enough force for its contacts to engage with the hot-swap socket. Without a dedicated mounting system, this insertion force could simply push the socket out of its housing. The design therefore needed to hold the socket securely while still leaving enough space for the attached wires and allowing the switch retention mechanism to function correctly.
@@ -1237,7 +1204,7 @@ This modification created a much stronger structure. In the initial concept, the
     
 The final design fulfilled the original objectives by providing reliable switch retention, secure hot-swap socket mounting, and straightforward maintenance while remaining compact enough for the intended layout. With the retention module validated, the next stage of development focused on integrating four of these modules into the complete Directional Input Block.
      
-### 🔹4.4.3 Initial block design.
+### 🔹4.2.3 Initial block design.
 The purpose of this component is to house the four directional input buttons modules in a single rotating assembly. The idea behind it's design is to allow the entire directional input block to rotate inside the controller so that its angle can be adjusted to match the player's most comfortable hand position.
 
 Rather than fixing the directional inputs in a predetermined orientation, I wanted the controller to be adaptable to different preferences. At this stage of the project, I had not yet decided whether the assembly would be permanently fixed after adjustment or left free to rotate under certain conditions. Because of this, the initial design focused on creating a simple and reliable rotating platform while leaving both possibilities open.
@@ -1324,7 +1291,7 @@ Overall, the first iteration validated the concept and provided a clear directio
     </tr>
 </table>
    
-### 🔹4.4.4 Second iteration.
+### 🔹4.2.4 Second iteration.
 The first change I made in the second iteration was to reduce the height of the alignment layer so that it matched the height of the hot-swap socket. As shown in the updated Blender model, this reduced the overall thickness of the assembly while maintaining the required support and alignment for the socket.
          
 <table>
@@ -1492,7 +1459,7 @@ The redesigned switch puller cut-outs worked as intended, but **an incorrect sli
     </tr>
 </table>
 
-### 🔹4.4.5 Final iteration.
+### 🔹4.2.5 Final iteration.
 The first correction I made in the final iteration was to adjust the height of the alignment layer. Before committing to a full print, I produced a small test piece to verify that the correction was accurate. Once the measured adjustment had been applied, the alignment layer matched the height of the hot-swap socket as intended.
     
 <table>
@@ -1561,7 +1528,7 @@ One final thing I didnt document but certainly helped with the final feeling of 
     </tr>
 </table>
 
-### 🔹4.4.6 Final result.  
+### 🔹4.2.6 Final result.  
 
 The final iteration achieved all of the original design objectives. The hot-swap sockets sit perfectly flush with the alignment layer, allowing the support layer to function exactly as intended. The LEDs fit correctly within their cut-outs without interfering with the mechanical switches. The switches can be installed and removed using a standard switch puller without requiring access to the back of the input block, and they can be replaced without the risk of dislodging the hot-swap sockets.
 
@@ -1606,6 +1573,59 @@ Finally, the complete directional input block rotates smoothly within its intend
         </td>
     </tr>
 </table>
+
+## 🔸4.3 Action Button Array
+The Action Button Array houses the primary gameplay buttons used with the player's right hand. Since these buttons are the most frequently used inputs on the controller, their layout has a significant influence on comfort, accuracy, and overall ergonomics.
+
+Rather than adopting a standard arcade layout, this component was designed around the ergonomic study described earlier in the report. The objective was to create a button arrangement that follows the natural resting position of my hand while remaining compact and practical to manufacture.
+
+**The main design goals of this component are to:**
+- Provide a comfortable and ergonomic button layout.
+- Support the selected 27 mm illuminated arcade buttons.
+- Allow easy installation and replacement of the buttons.
+- Integrate cleanly with the controller enclosure while maintaining a compact design.
+
+### 🔹4.3.1 Reference models creation.
+Como siempre, antes que nada, me puse a desarrollar el modelo de referencia para modelar 
+
+a partir de la plantilla creada en el estudio de ergonomia de mis manos, cree los modelos de referencia. Con esos modelos de referencia, fui calculando la posicion de los botones más detenidamente. 
+Los requisitos de esta pieza es que permitan utilizar botones del 27 de rosca como botones del 27 de encaje de manera intercambiable. El cableado debe estar facilmente accesible y la posicion del os botones debe estar acorde al estudio de ergonomia desarrolaldo anterioremente.  
+
+
+
+A partir de la plantilla probada en el estudio de ergonomia, comenzé el desarrollo de las filas de botones de acción. 
+Para comenzar, desarrollé los modelos de referencia. Estos modelos representan ambos botones de 27 mm seleccionados para el proyecto. 
+
+
+### Reference Models
+
+
+
+
+### Initial Design
+### Prototype 1
+### Prototype 2
+### Final Design
+### Evaluation
+
+
+
+
+## 🔸4.3 LED Module
+### Introduction.
+What the component is.
+Why it exists.
+What problems it must solve.
+A bullet list of design goals.
+### Design Requirements & Goals
+### Reference Models
+### Initial Design
+### Prototype 1
+### Prototype 2
+### Final Design
+### Evaluation
+  
+
   
 ## 🔸4.5 Auxiliary Button Console
 The Auxiliary Button Console houses the secondary control buttons used for functions such as Home, Share, and Options. Although these controls are not used during normal gameplay as frequently as the main inputs, they still need to remain easily accessible without interfering with the primary controls.
