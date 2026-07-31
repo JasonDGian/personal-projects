@@ -1626,7 +1626,7 @@ Although this model would never become part of the final printed parts, it becam
 ### 🔹4.3.2 Initial mounting plate design. 
 Using the prototype developed during the ergonomic study as a reference, I positioned the button models to replicate the validated layout. The initial design was based on a thicker, more rigid mounting plate with integrated threads for the screw-type arcade buttons. Instead of relying on the manufacturer's retaining nuts, the buttons would screw directly into the plate itself.
    
-The main motivation behind this approach was to maximize the available space between the buttons. The factory retaining nuts are relatively large, limiting how closely the buttons can be positioned. By integrating the M24×2 thread into the mounting plate, I could achieve a more compact layout while preserving the ergonomic arrangement defined during the earlier study.
+The main motivation behind this approach was to maximize the available space between the buttons. The factory retaining nuts are relatively largeand limited how close the buttons could be positioned. BBy integrating the M24 × 2 thread directly into the mounting plate, I could achieve a more compact layout while maintaining the ergonomic arrangement defined during the previous study.
     
 <table>
     <tr>
@@ -1675,7 +1675,7 @@ Although the concept worked, it was clear that **prioritizing compactness had re
 </table>
 
 ### 🔹4.3.3 Second iteration.
-This iteration focused on solving the compatibility issues with the snap-in buttons and keeping the compact layout and ergonomic positioning as close as possible to the original study.
+This iteration focused on solving the compatibility issues and keeping the compact layout.
 
 The second iteration focused on creating enough space for the custom retaining nut while preserving the ergonomic layout developed during the previous study. Since the custom nut extends approximately 2.5 mm beyond the radius of the threaded section of the arcade button, each mounting hole required a 2.5 mm perimeter of surrounding material to allow proper installation.
 
@@ -1686,6 +1686,30 @@ Increasing the spacing between the buttons required recalculating some of their 
 - Slightly reposition the buttons used by the little finger.
 - Remove the integrated threads from the mounting plate.
 - Ensure full compatibility with both screw-in and snap-in arcade buttons.
+    
+To fix the compatibility issue I slightly increased the spacing between the buttons to make the custom nut fit and simply removed the thread in the cutouts and made sure the diameter is of 24mm. 
+<table>
+    <caption><i>Mounting plate without thread in the cutout holes for buttons</i></caption>
+    <tr>
+        <td>
+            <img width="1481" height="600" alt="Clean-cutouts" src="https://github.com/user-attachments/assets/01278133-97a7-4062-8993-0e1b5b9a1471" />
+        </td>
+    </tr>
+</table>
+
+With the new perimeter established I proceeded to design a simple featureless prototype for the custom nut to test out the idea.
+
+<table>
+    <caption><i>Custom nut test piece.</i></caption>
+    <tr>
+        <td>
+            <img width="819" height="600" alt="image" src="https://github.com/user-attachments/assets/55c30cd9-90ff-495f-870c-06c6fa40360a" />
+        </td>
+        <td>
+            <img width="819" height="600" alt="image" src="https://github.com/user-attachments/assets/8a50e39f-7425-4ce1-b175-156d651a340d" />
+        </td>
+    </tr>
+</table>
 
 
 
