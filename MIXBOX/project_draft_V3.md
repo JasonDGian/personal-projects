@@ -1586,10 +1586,60 @@ Rather than adopting a standard arcade layout, this component was designed aroun
 - Integrate cleanly with the controller enclosure while maintaining a compact design.
 
 ### 🔹4.3.1 Reference models creation.
+My main goal wasn't to recreate the button in every detail, but to have an accurate representation of its size and shape inside the Blender scene. Having the button positioned in 3D space would make it much easier to determine the overall height of the controller and plan the placement of the other internal components, such as the motherboard, battery, and wiring.
+
+Instead of measuring the entire button by hand, I searched online for the manufacturer's datasheet. It took a while to find the correct one, but it was well worth the effort since it already contained most of the dimensions I needed.
+
+<table>
+    <caption><i>Selected button datasheet.</i></caption>
+    <tr>
+        <td>
+        <img alt="Buttons-Datasheet" src="https://github.com/user-attachments/assets/d3b19842-89e5-4b9c-9628-2c2eb151e3b8" />
+        </td>
+    </tr>
+</table>
+
+The model was created in Blender using the datasheet measurements together with a few additional dimensions I took with a digital caliper. The threaded section was generated using Blender's Bolt Factory add-on. After entering the thread parameters reported in the datasheet (M24 × 2) and the remaining measurements, I had a usable reference model in around ten minutes.
+   
+<table>
+    <caption><i>Bolt Factory addon use.</i></caption>
+    <tr>
+        <td>
+            <img width="1213" height="771" alt="image" src="https://github.com/user-attachments/assets/3a5a3e45-18a6-437c-b621-c071771fd7c1" />
+        </td>
+    </tr>
+</table>
+
+Although this model would never become part of the final printed parts, it became one of the most useful references throughout the design process, making it much easier to visualize the available space and avoid placing components where the button body would later interfere.
+
+<table>
+    <caption><i>Final reference model.</i></caption>
+    <tr>
+        <td>
+            <img width="955" height="852" alt="button-front-view" src="https://github.com/user-attachments/assets/4e5d57cc-a991-4e1e-a82c-f6f3bfd89b43" />
+        </td>
+        <td>            
+            <img width="1016" height="857" alt="button-side-view" src="https://github.com/user-attachments/assets/e3e39d56-b0cc-4750-8430-391766574f8b" />
+        </td>
+        <td>
+            <img width="941" height="872" alt="button-isometric-view" src="https://github.com/user-attachments/assets/f4c8a4de-4263-4ef0-9afe-7db5aab1a2fd" />
+        </td>
+    </tr>
+</table>
+
+
+
+---
+
+
 Como siempre, antes que nada, me puse a desarrollar el modelo de referencia para modelar 
 
 a partir de la plantilla creada en el estudio de ergonomia de mis manos, cree los modelos de referencia. Con esos modelos de referencia, fui calculando la posicion de los botones más detenidamente. 
 Los requisitos de esta pieza es que permitan utilizar botones del 27 de rosca como botones del 27 de encaje de manera intercambiable. El cableado debe estar facilmente accesible y la posicion del os botones debe estar acorde al estudio de ergonomia desarrolaldo anterioremente.  
+
+
+
+
 
 
 
@@ -1599,6 +1649,30 @@ Para comenzar, desarrollé los modelos de referencia. Estos modelos representan 
 
 ### Reference Models
 
+The only model I needed during this design was the Arcade button itself 
+
+
+
+En lugar de medir la pieza a mano, esta vez decidí buscar online la hoja de datos o DataSheet del producto que compré. Aunque no fué facil encontrar el datasheet correcto, valió la pena buscarlo. Lo importé en blender y modelé el botón arcade que selección para el proyecto.  Lo más dificil de este modelo fué acertar con la rosca. Tras un breve pero tedioso proceso de imprime, prueba, valida y corrije dí con las medidas exactas de la espiral de la rosca del boton. 
+En este caso se trata de un M24 de Pitch x2. 
+El hecho de que viniese reportado en el datasheet facilitó muchisimo el trabajo de averiguar la rosca.
+
+Bolt creation
+
+Bolt body creation
+
+
+
+
+        <td>
+            <img width="1289" height="773" alt="Datasheet" src="https://github.com/user-attachments/assets/72f71227-d022-4523-bdc8-3ffe6ef2b8e2" />
+        </td>
+
+
+
+
+
+----
 
 
 
