@@ -1575,11 +1575,13 @@ Finally, the complete directional input block rotates smoothly within its intend
 </table>
 
 ## 🔸4.3 Action Buttons Mounting Plate
-The Action Button Mounting Plate is the component that holds the controller's primary gameplay buttons. It consists of a series of 27 mm mounting holes arranged in two slightly arched rows based on the ergonomic study described earlier in the report. Although simple in appearance, this plate defines the controller's button layout and influences the space available for the internal components mounted beneath it.
+The Action Button Mounting Plate is the component that holds the controller's primary gameplay buttons. It consists of a series of 24 mm mounting holes arranged in two slightly arched rows based on the ergonomic study described earlier in the report. Although simple in appearance, this plate defines the controller's button layout and influences the space available for the internal components mounted beneath it.
+
+>[!note] The holes are sized 24mm but the outer diameter of the buttons are 27mm. 
 
 **The main design goals of this component are to:**
 - Provide a comfortable and ergonomic button layout.
-- Support the selected 27 mm illuminated arcade buttons.
+- Support the selected 24 mm illuminated arcade buttons.
 - Allow easy installation and replacement of the buttons.
 - Integrate cleanly with the controller enclosure while maintaining a compact design.
 
@@ -1626,7 +1628,7 @@ Although this model would never become part of the final printed parts, it becam
 ### 🔹4.3.2 Initial mounting plate design. 
 Using the prototype developed during the ergonomic study as a reference, I positioned the button models to replicate the validated layout. The initial design was based on a thicker, more rigid mounting plate with integrated threads for the screw-type arcade buttons. Instead of relying on the manufacturer's retaining nuts, the buttons would screw directly into the plate itself.
    
-The main motivation behind this approach was to maximize the available space between the buttons. The factory retaining nuts are relatively largeand limited how close the buttons could be positioned. BBy integrating the M24 × 2 thread directly into the mounting plate, I could achieve a more compact layout while maintaining the ergonomic arrangement defined during the previous study.
+The main motivation behind this approach was to maximize the available space between the buttons. The factory retaining nuts are relatively large and limited how close the buttons could be positioned. By integrating the M24 × 2 thread directly into the mounting plate, I could achieve a more compact layout while maintaining the ergonomic arrangement defined during the previous study.
     
 <table>
     <tr>
