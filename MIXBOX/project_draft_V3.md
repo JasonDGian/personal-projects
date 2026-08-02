@@ -1685,10 +1685,9 @@ Although the concept worked, it became clear that I had prioritized compactness 
 This iteration focused on solving the compatibility issues found during the first prototype while keeping the button layout as compact as possible.
 
 **The objectives of this iteration were to:**   
-- Remove the integrated threads from the mounting plate.
 - Increase the spacing between mounting holes to accommodate a custom retaining nut.
-- Slightly reposition the buttons to adjust to the new spacing & to preserve the ergonomic layout (if necessary).
-- Ensure full compatibility with both screw-in and snap-in arcade buttons.
+- Slightly reposition the buttons to adjust to the new spacing & to preserve the ergonomic layout.
+- Remove threads and ensure full compatibility with both screw-in and snap-in arcade buttons.
 
 My first step was to design a simple retaining nut for the threaded arcade buttons. Rather than spending time refining its appearance, I focused on validating the concept and finding the smallest dimensions that would still provide a reliable fit. The prototype consisted of a simple cylindrical body with a wall thickness of 2.5 mm and an M24 × 2 internal thread.
 
