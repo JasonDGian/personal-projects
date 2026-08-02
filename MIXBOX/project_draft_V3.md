@@ -1724,7 +1724,7 @@ The custom retaining nut was modelled with a 0.25 mm clearance over the button t
     <tr>
         <td>
             <i>Thread section view.</i></br>
-            <img width="819" height="600" alt="image" src="https://github.com/user-attachments/assets/55c30cd9-90ff-495f-870c-06c6fa40360a" />
+            <!--img width="819" height="600" alt="image" src="https://github.com/user-attachments/assets/55c30cd9-90ff-495f-870c-06c6fa40360a" /-->
             <img width="819" height="600" alt="image" src="https://github.com/user-attachments/assets/6edda47f-1a58-437e-9c70-0377f38b5f76" />
         </td>
         <td>
@@ -1732,18 +1732,27 @@ The custom retaining nut was modelled with a 0.25 mm clearance over the button t
             <img width="819" height="600" alt="image" src="https://github.com/user-attachments/assets/8a50e39f-7425-4ce1-b175-156d651a340d" />
         </td>
     </tr>
+    <tr>
+        <td colspan="2">
+            <i>Result test piece.</i></br>
+            <img width="2000" height="670" alt="image" src="https://github.com/user-attachments/assets/0ec05cdc-1d93-4706-b4ec-7965e35632e5" />
+        </td>
+    </tr>
 </table>
 
-
+The next step was to create space for the retaining nut and fix the compatibility Issue with the snap-in arcade buttons. To fix the compatibility issuesI removed the thread and made sure the button cutout was sized 24mm in diameter to host both button types. After that, I repositioned the mounting holes securing a minimum distance of 5 mm between each hole, clearing the nut perimeter. 
     
-To fix the compatibility issue I slightly increased the spacing between the buttons to make the custom nut fit and simply removed the thread in the cutouts and made sure the diameter is of 24mm. 
 <table>
-    <caption><i>Mounting plate without thread in the cutout holes for buttons</i></caption>
     <tr>
         <td>
-            <img width="1481" height="600" alt="Clean-cutouts" src="https://github.com/user-attachments/assets/01278133-97a7-4062-8993-0e1b5b9a1471" />
+            <!--img width="1481" height="600" alt="Clean-cutouts" src="https://github.com/user-attachments/assets/01278133-97a7-4062-8993-0e1b5b9a1471" /-->
+            <i>Unthreaded mounting holes - 24mm diameter </i></br>
+            <img width="1481" height="600" alt="image" src="https://github.com/user-attachments/assets/0ce9780a-8625-4ebc-9d1c-0b94bf04d186" />
         </td>
+    </tr>
+    <tr> 
         <td>
+            <i>Mounting holes new placement - 5mm distance from button to button. </i></br>
             <img width="1595" height="523" alt="image" src="https://github.com/user-attachments/assets/3988f2d8-2e09-4329-95cc-5035a05c8941" />
         </td>
     </tr>
