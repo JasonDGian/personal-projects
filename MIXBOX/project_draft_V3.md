@@ -1681,20 +1681,20 @@ Although the concept worked, it became clear that I had prioritized compactness 
 </table>
 
 ### 🔹4.3.3 Second iteration.
-This iteration focused on solving the compatibility issues and keeping the layout as compact as possible.
-
-The second iteration focused on creating enough space for the custom retaining nut while preserving the ergonomic layout developed during the previous study. 
+This iteration focused on solving the compatibility issues found during the first prototype while keeping the button layout as compact as possible.
 
 **The objectives of this iteration were to:**   
 - Remove the integrated threads from the mounting plate.
-- Increase the spacing between button openings to accommodate a custom retaining nut.
-- Slightly reposition the buttons to adjust to the new space between them.
+- Increase the spacing between mounting holes to accommodate a custom retaining nut.
+- Slightly reposition the buttons to adjust to the new spacing & to preserve the ergonomic layout (if necessary).
 - Ensure full compatibility with both screw-in and snap-in arcade buttons.
 
-My first step for this itearion was to design the Retaining nut around for the threaded arcade buttons. I designed a simple prototype to simply test the idea rather than sink hours into a complex and easy to use design. The main goal with this first nut itearion was to find a good size that would work well without occupying too much space. I tested a nut with a wall thickness of 2.5 mm in a simple cyllnder shape with threads. I configurated the button thread with about 0.25 mm tolerance from the arcade's thread. 
+My first step was to design a simple retaining nut for the threaded arcade buttons. Rather than spending time refining its appearance, I focused on validating the concept and finding the smallest dimensions that would still provide a reliable fit. The prototype consisted of a simple cylindrical body with a wall thickness of 2.5 mm and an M24 × 2 internal thread.
 
-The custom retaining nut was modelled with a 0.25 mm clearance over the button thread profile. This corresponds to approximately 1.0–1.1% dimensional clearance, providing enough tolerance for reliable 3D printing while maintaining a secure fit after assembly.
+To compensate for the tolerances introduced by FDM 3D printing, I modelled the internal thread with a 0.25 mm clearance over the button's thread profile. This corresponds to approximately 1.0–1.1% dimensional clearance, providing enough tolerance for reliable printing while still producing a secure fit.
+
 <table>
+    <caption><i>Arcade button & custrom retaining nut data.</i></caption>
     <thead>
         <tr>
             <th>Dimension</th>
@@ -1732,15 +1732,9 @@ The custom retaining nut was modelled with a 0.25 mm clearance over the button t
             <img width="819" height="600" alt="image" src="https://github.com/user-attachments/assets/8a50e39f-7425-4ce1-b175-156d651a340d" />
         </td>
     </tr>
-    <tr>
-        <td colspan="2">
-            <i>Result test piece.</i></br>
-            <img width="2000" height="670" alt="image" src="https://github.com/user-attachments/assets/0ec05cdc-1d93-4706-b4ec-7965e35632e5" />
-        </td>
-    </tr>
 </table>
 
-The next step was to create space for the retaining nut and fix the compatibility Issue with the snap-in arcade buttons. To fix the compatibility issuesI removed the thread and made sure the button cutout was sized 24mm in diameter to host both button types. After that, I repositioned the mounting holes securing a minimum distance of 5 mm between each hole, clearing the nut perimeter. 
+With the retaining nut dimensions established, I redesigned the mounting plate around it. The integrated threads were removed entirely, the button cut-outs were resized to 24 mm to support both screw-in and snap-in arcade buttons, and the button positions were adjusted to maintain a minimum clearance of 5 mm between adjacent openings. This provided enough space for the retaining nut while preserving the ergonomic layout developed during the earlier study.
     
 <table>
     <tr>
@@ -1757,123 +1751,52 @@ The next step was to create space for the retaining nut and fix the compatibilit
         </td>
     </tr>
 </table>
+    
+**Second iteration results.**    
+This iteration successfully achieved its main objectives. The custom retaining nut worked reliably with the threaded arcade buttons while occupying considerably less space than the original manufacturer's nut. The increased spacing between the button openings provided enough clearance for the retaining nut without noticeably affecting the overall button layout, which remained comfortable during testing.
 
-With the new perimeter established I proceeded to design a simple featureless prototype for the custom nut to test out the idea.
-
-
-
-
-<!-- image of the new plate design with increased permitere around cutouts -->
+Comparing both retaining nuts, the original manufacturer's nut has an outer diameter of 33.50 mm, whereas the custom nut measures 28.25 mm. Most of this size reduction comes from removing the large washer-like flange present in the original design. The threaded body itself remains very similar in size. Another notable difference is that the custom nut includes a complete thread profile along its height, while the original nut only engages the button using a single thread turn.
+   
 <table>
-    <caption>
-        <i>
-            Adjusted plate with incresed perimeters for custom nut.
-        </i>
-    </caption>
+    <caption><i>Arcade button original vs custom retaining nut.</i></caption>
     <tr>
         <td>
-            <img width="1595" height="523" alt="image" src="https://github.com/user-attachments/assets/3988f2d8-2e09-4329-95cc-5035a05c8941" />
-        </td>
-    </tr>
-</table>
-
-<!-- image of both type of buttons in place -->
-<table>
-    <caption>
-        <i>
-            Both buttons type correctly mounted.
-        </i>
-    </caption>
-    <tr>
-        <td>
-            
-        </td>
-    </tr>
-</table>
-
-<!-- image of custom nuts all propperly mounted and securing buttons -->
-<table>
-    <caption>
-        <i>
-            Threaded buttons mounted with securing nut on the underside.
-        </i>
-    </caption>
-    <tr>
-        <td>
-            
-        </td>
-    </tr>
-</table>
-
-
-
----
-español
-
-Usando el prototipo creado durante el estudio de ergonomia, posicioné los modelos replicando el layout del prototipo.
-
-
-El diseño inicial se baso en crear una nueva placa de montado de botones, más guresa y estable, que incluyera la rosca para que los botones arcade se enroscasen directamente en el cuerpo del controlador. La posicion de los botones replica la configuración resultado del estudio de ergonomia. El principal motivo de la creación de la nueva placa fue la necesidad de aumentar el espacio entre botones. Incluir la rosca de lo que sería la tuerca que fija el boton a la placa directamente en el cuerpo de la placa permitia compactar la posicion de los botones más de lo que lo permitira el uso de tuercas independiente. La tuerca de fabrica que incluyen los botones es demasiado grande para permitir el diseño compacto deseado. 
-
-<table>
-    <caption><i>Size adapted prototype.</i></caption>
-    <tr>
-        <td>            
-            <img width="1551" height="808" alt="image" src="https://github.com/user-attachments/assets/441f3e3f-a7f1-4205-aa6a-2f1b10b89ead" />
-        </td>
-    </tr>
-</table>
-
-
-Marcado en rojo ne la imagen las roscas.
-<img width="1674" height="705" alt="image" src="https://github.com/user-attachments/assets/7599f275-e3dd-4471-b196-68dfd9d563e4" />
-
-Roscas de cerca
-<img width="1685" height="769" alt="image" src="https://github.com/user-attachments/assets/1b6a8cf9-c431-47eb-b187-7147f5f060a4" />
-
-
-
-**Resultados primera iteracion**    
-El resultado de esta iteración saca a la luz varias realidades que no habia calculado. Es positivo, pero imperfecto, la presencia de las roscas en la ranura de insercion para los botones dificulta mucho o imposibilita la insercion de los botones de tipo encaje que no son de tipo rosca. Además el desenroscar y enroscar los botones una vez conectados al dispositivo no puedo evitar imaginar que será muy incomodo e incluso podria crear estragos en el cableado si quien lo mantiene no sabe que debe desconectarse o no se acuerda de desconectar el boton antes de desenroscar. Para hacer mas facil y conenciente de mantener el dispositivo, he decidido compatibilizar al 100% las ranuras con ambos tipos de boton y diseñar/comprar roscas compatibles de perfil más estrecho. En mi caso las imprimiré yo mismo, pero otro usuario podría comprarlas a medida. 
-
-<table>   
-    <tr>
-        <td>
-            <i>Face view.</i></br>
-            <img width="2000" height="900" alt="image" src="https://github.com/user-attachments/assets/f32c02d3-0e95-411e-a9fb-aaf2a858fd61" />
+            <i>Original retaining nut.</i></br>
+            <img width="1016" height="814" alt="og-nut" src="https://github.com/user-attachments/assets/00ed341b-e6e9-48cd-8d93-f7d965dd5821" />
         </td>
         <td>
-            <i>Backside view.</i></br>
-            <img width="2000" height="900" alt="image" src="https://github.com/user-attachments/assets/e2d3dc80-6379-44d6-a37d-50f0171a8e20" />
+            <i>Custom retaining nut.</i></br>
+            <img width="1016" height="814" alt="custom nut" src="https://github.com/user-attachments/assets/c081f65d-5f25-47e4-a5f4-b6f56972ba92" />
         </td>
     </tr>
-    <!--tr>
+    <tr>
         <td colspan="2">
-            <i>Integrated thread.</i></br>
-            <img width="2000" height="900" alt="image" src="https://github.com/user-attachments/assets/4e24bae3-a36c-4315-9a3c-02155cc29d4a" />
+            <i>Result test piece.</i></br>
+            <img width="2000" height="670" alt="image" src="https://github.com/user-attachments/assets/0ec05cdc-1d93-4706-b4ec-7965e35632e5" />
         </td>
-    </tr-->
+    </tr>
 </table>
 
-### 🔹4.3.3 Second iteration.
-En esta iteracion ajuste un poco la posicion de los botones para el meñique y borré por completo la rosca de las ranuras. Tambien realicé las primeras pruebas de rosca a medida para los botones de rosca y probé el encaje de los botones sin rosca.
-En esta iteracion he separado un poco más los botones, manteniendolos lo más compacto posible, pero asegurando un perimetro de 2.5 mm alrededor de cada ranura para que quepa la tuerca personalizada.
+With the integrated threads removed, the mounting plate became fully compatible with both snap-in and threaded arcade buttons. Both button types could be installed securely using the same mounting plate, allowing future changes between button types without modifying the printed part. This solved one of the main limitations identified during the first iteration and significantly improved the serviceability and flexibility of the design.
+    
+<table>
+    <caption><i>Mounting plate improved compatibility.</i></caption>
+    <tr>
+        <td>
+            <img width="1172" height="900" alt="it2- compatibility" src="https://github.com/user-attachments/assets/d53135e5-d1d9-4a88-b17f-91415a77af67" />
+        </td>
+        <td>
+            <img width="2000" height="900" alt="iteration 2 result" src="https://github.com/user-attachments/assets/9c46df48-4c54-495b-92a2-194e5304f0ec" />
+        </td>
+    </tr>
+</table>
 
-En esta iteración tenia objetivos claros.
-- Incrementar espacio entre ranuras para permitir el uso de tuerca personalizada.
-- Reposicionar ligeramente botones para meñique.
-- eliminar roscas.
-- Asegurar compatibilidad con botones roscados y no roscados.
-
-
-
-
+>[!NOTE]
+> One limitation became apparent during testing. Because the prototype was intentionally designed as a simple cylinder, it lacked any external features to grip it during installation or removal. Once the buttons were mounted, removing the retaining nut by hand became inconvenient. Although this was expected, it confirmed that the next iteration should focus on adding features that make the nut easier to tighten and loosen while keeping its compact dimensions.
 
 ### Final Design
+
 ### Evaluation
-
-
-
 
 ## 🔸4.3 LED Module
 ### Introduction.
