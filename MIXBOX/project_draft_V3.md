@@ -1576,9 +1576,10 @@ Finally, the complete directional input block rotates smoothly within its intend
 
 ## 🔸4.3 Action Buttons Mounting Plate
 The Action Button Mounting Plate is the component that holds the controller's primary gameplay buttons. It consists of a series of 24 mm mounting holes arranged in two slightly arched rows based on the ergonomic study described earlier in the report. Although simple in appearance, this plate defines the controller's button layout and influences the space available for the internal components mounted beneath it.
-
->[!note] The holes are sized 24mm but the outer diameter of the buttons are 27mm. 
-
+    
+> [!NOTE]
+> Although these are commonly referred to as **27 mm arcade buttons**, the required mounting hole is **24 mm** in diameter. The **27 mm** measurement refers to the outer diameter of the button's bezel, while the threaded body that passes through the mounting plate measures aproximately **24 mm**.
+    
 **The main design goals of this component are to:**
 - Provide a comfortable and ergonomic button layout.
 - Support the selected 24 mm illuminated arcade buttons.
