@@ -1628,17 +1628,21 @@ Although this model would never become part of the final printed parts, it becam
 ### 🔹4.3.2 Initial mounting plate design. 
 Using the prototype developed during the ergonomic study as a reference, I positioned the button models to replicate the validated layout. The initial design was based on a thicker, more rigid mounting plate with integrated threads for the screw-type arcade buttons. Instead of relying on the manufacturer's retaining nuts, the buttons would screw directly into the plate itself.
    
-The main motivation behind this approach was to maximize the available space between the buttons. The factory retaining nuts are relatively large and limited how close the buttons could be positioned. By integrating the M24 × 2 thread directly into the mounting plate, I could achieve a more compact layout while maintaining the ergonomic arrangement defined during the previous study.
+The main motivation behind this approach was to reduce to a minimum the space between the buttons. The factory retaining nuts are relatively large and limited how close the buttons could be positioned. By integrating the M24 × 2 thread directly into the mounting plate, I could achieve a more compact layout while maintaining the ergonomic arrangement defined during the previous study.
     
 <table>
     <tr>
         <td>
             <i>Size adapted prototype.</i></br>
-            <img width="1551" height="808" alt="image" src="https://github.com/user-attachments/assets/441f3e3f-a7f1-4205-aa6a-2f1b10b89ead" />
+            <img height="808" alt="image" src="https://github.com/user-attachments/assets/441f3e3f-a7f1-4205-aa6a-2f1b10b89ead" />
+        </td>
+        <td>
+            <i>Section view.</i></br>
+            <img height="808" alt="image" src="https://github.com/user-attachments/assets/a55cc0f4-2fd5-481e-a062-5322c5d131c3" />
         </td>
     </tr>
     <tr>
-        <td>
+        <td colspan="2">
             <i>Threaded cutouts.</i></br>
             <img width="1685" height="769" alt="threaded-cutouts" src="https://github.com/user-attachments/assets/1b6a8cf9-c431-47eb-b187-7147f5f060a4" />
         </td>
@@ -1646,11 +1650,11 @@ The main motivation behind this approach was to maximize the available space bet
 </table>
 
 **First iteration results**    
-The prototype demonstrated that integrating the threads into the mounting plate was mechanically possible, but it also revealed several practical limitations.
+After testing this prototype, I found that integrating the threads directly into the mounting plate was mechanically possible, but it also introduced a few practical limitations.
 
-The internal threads interfered with the mounting holes, making it impossible to install snap-in arcade buttons. Also, requiring the buttons to be screwed into the controller introduced a potential maintenance issue, as rotating the buttons during installation or removal could twist or damage the wiring if they were not disconnected beforehand.
+The internal threads interfered with the mounting holes, making it impossible to install snap-in arcade buttons. I also realized that requiring the buttons to be screwed directly into the mounting plate would make maintenance less convenient, as rotating the buttons during installation or removal could twist or damage the wiring unless it was disconnected beforehand.
 
-Although the concept worked, it was clear that **prioritizing compactness had reduced compatibility and serviceability**. For the next iteration, **I decided to remove the integrated threads entirely** and instead design a custom low-profile retaining nut. This would preserve the compact layout while allowing compatibility with both screw-in and snap-in button designs.
+Although the concept worked, it became clear that I had prioritized compactness at the expense of compatibility and serviceability. For the next iteration, I decided to remove the integrated threads entirely and instead design a custom low-profile retaining nut. While this would make the layout slightly less compact, it would support both screw-in and snap-in arcade buttons while making installation and future maintenance much simpler.
 
 <table>
     <tr>
@@ -1677,17 +1681,60 @@ Although the concept worked, it was clear that **prioritizing compactness had re
 </table>
 
 ### 🔹4.3.3 Second iteration.
-This iteration focused on solving the compatibility issues and keeping the compact layout.
+This iteration focused on solving the compatibility issues and keeping the layout as compact as possible.
 
-The second iteration focused on creating enough space for the custom retaining nut while preserving the ergonomic layout developed during the previous study. Since the custom nut extends approximately 2.5 mm beyond the radius of the threaded section of the arcade button, each mounting hole required a 2.5 mm perimeter of surrounding material to allow proper installation.
-
-Increasing the spacing between the buttons required recalculating some of their positions, as the original layout no longer provided the same hand positioning as the ergonomic prototype. In particular, the buttons operated by the little finger had to be slightly repositioned to maintain a comfortable resting position while keeping the overall layout as close as possible to the validated ergonomic arrangement.
+The second iteration focused on creating enough space for the custom retaining nut while preserving the ergonomic layout developed during the previous study. 
 
 **The objectives of this iteration were to:**   
-- Increase the spacing between button openings to accommodate a custom retaining nut.
-- Slightly reposition the buttons used by the little finger.
 - Remove the integrated threads from the mounting plate.
+- Increase the spacing between button openings to accommodate a custom retaining nut.
+- Slightly reposition the buttons to adjust to the new space between them.
 - Ensure full compatibility with both screw-in and snap-in arcade buttons.
+
+My first step for this itearion was to design the Retaining nut around for the threaded arcade buttons. I designed a simple prototype to simply test the idea rather than sink hours into a complex and easy to use design. The main goal with this first nut itearion was to find a good size that would work well without occupying too much space. I tested a nut with a wall thickness of 2.5 mm in a simple cyllnder shape with threads. I configurated the button thread with about 0.25 mm tolerance from the arcade's thread. 
+
+The custom retaining nut was modelled with a 0.25 mm clearance over the button thread profile. This corresponds to approximately 1.0–1.1% dimensional clearance, providing enough tolerance for reliable 3D printing while maintaining a secure fit after assembly.
+<table>
+    <thead>
+        <tr>
+            <th>Dimension</th>
+            <th>Arcade Button</th>
+            <th>Custom Nut</th>
+            <th>Clearance</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Major Diameter</td>
+            <td>24.20 mm</td>
+            <td>24.45 mm</td>
+            <td>+0.25 mm (1.03%)</td>
+        </tr>
+        <tr>
+            <td>Minor Diameter</td>
+            <td>22.40 mm</td>
+            <td>22.65 mm</td>
+            <td>+0.25 mm (1.12%)</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <caption><i>Custom nut test piece.</i></caption>
+    <tr>
+        <td>
+            <i>Thread section view.</i></br>
+            <img width="819" height="600" alt="image" src="https://github.com/user-attachments/assets/55c30cd9-90ff-495f-870c-06c6fa40360a" />
+            <img width="819" height="600" alt="image" src="https://github.com/user-attachments/assets/6edda47f-1a58-437e-9c70-0377f38b5f76" />
+        </td>
+        <td>
+            <i>Retaining nut test piece design.</i></br>
+            <img width="819" height="600" alt="image" src="https://github.com/user-attachments/assets/8a50e39f-7425-4ce1-b175-156d651a340d" />
+        </td>
+    </tr>
+</table>
+
+
     
 To fix the compatibility issue I slightly increased the spacing between the buttons to make the custom nut fit and simply removed the thread in the cutouts and made sure the diameter is of 24mm. 
 <table>
@@ -1704,17 +1751,7 @@ To fix the compatibility issue I slightly increased the spacing between the butt
 
 With the new perimeter established I proceeded to design a simple featureless prototype for the custom nut to test out the idea.
 
-<table>
-    <caption><i>Custom nut test piece.</i></caption>
-    <tr>
-        <td>
-            <img width="819" height="600" alt="image" src="https://github.com/user-attachments/assets/55c30cd9-90ff-495f-870c-06c6fa40360a" />
-        </td>
-        <td>
-            <img width="819" height="600" alt="image" src="https://github.com/user-attachments/assets/8a50e39f-7425-4ce1-b175-156d651a340d" />
-        </td>
-    </tr>
-</table>
+
 
 
 <!-- image of the new plate design with increased permitere around cutouts -->
