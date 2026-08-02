@@ -1582,7 +1582,7 @@ The Action Button Mounting Plate is the component that holds the controller's pr
     
 **The main design goals of this component are to:**
 - Provide a comfortable and ergonomic button layout.
-- Support the selected 24 mm illuminated arcade buttons.
+- Support the selected 27 mm illuminated arcade buttons.
 - Allow easy installation and replacement of the buttons.
 - Integrate cleanly with the controller enclosure while maintaining a compact design.
 
