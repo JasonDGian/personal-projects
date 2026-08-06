@@ -1849,10 +1849,43 @@ With the final outline established, I positioned the mounting points that would 
     </tr>
 </table>
 
+**Custom retaining nut**   
+The custom retaining nut was also refined during this iteration. The original cylindrical prototype successfully validated the dimensions and thread tolerances but proved difficult to tighten and remove once installed. The final design adds grip features that make the nut much easier to handle while preserving its compact dimensions. Since I could not expand the nut body because of the already adjusted space, and i could not create identations to avoid weakining it, I opted for two vertical extensions that worked as grips.
+
+<table>
+    <caption>
+        <i>Refined retaining nut with grip features.</i>
+    </caption>
+    <tr>
+        <td>
+            <img width="1034" height="890" alt="NUT-TEST-1" src="https://github.com/user-attachments/assets/02a43125-dd23-4412-8ec1-7c66e7c16858" />
+        </td>
+        <td> 
+            <img width="1034" height="890" alt="NUT-TEST-2" src="https://github.com/user-attachments/assets/ce0274c9-cfb4-4b84-9b41-6744ebbc239e" />    
+        </td>
+        <td> 
+            <img width="1034" height="890" alt="NUT-TEST-3" src="https://github.com/user-attachments/assets/106cf9ac-d660-4802-abb9-b2befc050791" />
+        </td>
+    </tr>
+</table>
+
+**Third iteration results**     
+When I tested the final iteration, I realized that the mounting plate needed one last redesign. Up to this point, I had focused on keeping the plate as compact as possible, but this approach conflicted with the original goal of making the controller easy to customize. A minimal footprint works well for my preferred button layout, but it leaves little room for users with larger hands, larger arcade buttons, or those who simply want to experiment with different button arrangements.
+
+This made it clear that the mounting plate should not be designed solely around my own configuration. Instead, it needed to provide enough additional surface area to support alternative layouts without requiring modifications to the rest of the controller. As a result, I increased the overall size of the plate and, following the same philosophy used for the directional input block, redesigned it as a rotating plate. This allows the user to adjust the orientation of the entire button array before fastening it to the main controller body, providing greater flexibility while preserving the modular nature of the design.
+
+### 🔹4.3. Final iteration.
+The final design presents a wider surface area and a rotating platform reminiscent of the input block. It 
+
+<img width="1202" height="870" alt="image" src="https://github.com/user-attachments/assets/3cc2f9d0-ddf5-48f9-a725-7f033a2d2f95" />
+
+<img width="1301" height="853" alt="image" src="https://github.com/user-attachments/assets/8416bc63-7d1d-4c66-88ce-477a028e89ca" />
+
+<img width="1174" height="853" alt="image" src="https://github.com/user-attachments/assets/588e4a1e-7217-4664-bc65-8a79621f0509" />
 
 
 
-   
+  
 ---
    
 ### Final Design draft
