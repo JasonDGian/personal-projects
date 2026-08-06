@@ -1793,8 +1793,66 @@ With the integrated threads removed, the mounting plate became fully compatible 
 
 >[!NOTE]
 > One limitation became apparent during testing. Because the prototype was intentionally designed as a simple cylinder, it lacked any external features to grip it during installation or removal. Once the buttons were mounted, removing the retaining nut by hand became inconvenient. Although this was expected, it confirmed that the next iteration should focus on adding features that make the nut easier to tighten and loosen while keeping its compact dimensions.
+    
+### 🔹4.3.3 Final iteration.
+For the final iteration, I refined the overall shape of the mounting plate and redesigned the custom retaining nut to make installation and removal more convenient.
 
-### Final Design
+My main objective for the mounting plate was to define its final geometry while preserving enough space around the buttons and retaining nuts. Rather than creating a plate that only fit my own button layout, I also wanted to leave enough unused surface around the buttons so the design could be easily customized in the future without requiring modifications to the main controller body.
+
+The first step was to create a perimeter around the button layout while ensuring enough clearance for the custom retaining nuts.
+
+<table>
+    <caption>
+        <i>Mounting plate inner perimeter</i>
+    </caption>
+    <tr>
+        <td>
+            <img width="1294" height="762" alt="image" src="https://github.com/user-attachments/assets/4502f8e3-6d91-4810-8e9c-d07228b24513" />
+        </td>
+    </tr>
+</table>
+
+
+
+
+
+   
+---
+   
+### Final Design draft
+Para la iteración final refiné la placa de montado de los botones y majusté las tuercas personalizadas para un mejor manejo y facil extracción.
+
+Para refinar la placa de montado tracé un perímetro alrededor de la configuración de botones dejando un espacio extra para permitir a otras personas con distintas caraectristicas en su mano o con distintas ideas para la configuración y ubicación de boitones pudieran personalizar a su gusto sin tener que modificar nada. 
+
+El primer paso fué delimitar un perimetro alrededor de los botones para representar el area minima de trabajo.
+
+
+Tras eso, puse un offset de aproximadamente 15 mm para delimitar una zona que sería empleada para encajar con el cuerpo principal.
+<img width="1345" height="811" alt="image" src="https://github.com/user-attachments/assets/2f24f7db-9241-4b03-ac79-4588d7d90735" />
+
+<img width="1169" height="812" alt="image" src="https://github.com/user-attachments/assets/462497bc-48e2-48ea-bb36-4b7aeef1a221" />
+
+<img width="1399" height="529" alt="image" src="https://github.com/user-attachments/assets/865a7095-37da-4fd6-a7ac-457023242e80" />
+
+Una vez tuve clara la forma principal, ubiqué unos puntos de fijado al cuerpo principal. Estos puntos representan la ubicación de los tornillos que fijarán la placa al cuerpo del controlador principal.
+<img width="1335" height="718" alt="image" src="https://github.com/user-attachments/assets/30459c71-0995-4c95-929c-3bc7bb967290" />
+
+<img width="1318" height="756" alt="image" src="https://github.com/user-attachments/assets/ac34a79a-c6ee-41eb-a0f7-44d150207c8e" />
+
+
+Para la tercera iteración refiné el cuerpo de la placa de montado y diseñé como fijarlo al cuerpo del controlador principal. 
+
+Para refinar la forma final, primero tracé un perimetro alrededor de los botones que no obstruyese el espacio para las tuercas personalizadas. 
+[imagen primer perimetro]
+
+Tras eso desplacé el primer permietro 15 mm para obtener un perfil de encaje que usaría para fijar la placa con el cuerpo principal.
+[imagen segundo perimetro]
+
+Por último identifiqué los puntos en los uqe ubicaría los tornillos para fijar la pieza l cuerpo principal. 
+[imagen ubicación tornillos.]
+
+La pieza final permite alojar los botones sin obstruir la funcion de las tuercas personalizadas y fijar la placa al cuerpo principal del controlador.
+
 
 ### Evaluation
 
