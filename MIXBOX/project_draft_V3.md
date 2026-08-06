@@ -1794,8 +1794,8 @@ With the integrated threads removed, the mounting plate became fully compatible 
 >[!NOTE]
 > One limitation became apparent during testing. Because the prototype was intentionally designed as a simple cylinder, it lacked any external features to grip it during installation or removal. Once the buttons were mounted, removing the retaining nut by hand became inconvenient. Although this was expected, it confirmed that the next iteration should focus on adding features that make the nut easier to tighten and loosen while keeping its compact dimensions.
     
-### 🔹4.3.3 Final iteration.
-For the final iteration, I refined the overall shape of the mounting plate and redesigned the custom retaining nut to make installation and removal more convenient.
+### 🔹4.3.4 Third iteration.
+For the third iteration, I refined the overall shape of the mounting plate and redesigned the custom retaining nut to make installation and removal more convenient.
 
 My main objective for the mounting plate was to define its final geometry while preserving enough space around the buttons and retaining nuts. Rather than creating a plate that only fit my own button layout, I also wanted to leave enough unused surface around the buttons so the design could be easily customized in the future without requiring modifications to the main controller body.
 
@@ -1803,7 +1803,7 @@ The first step was to create a perimeter around the button layout while ensuring
 
 <table>
     <caption>
-        <i>Mounting plate inner perimeter</i>
+        <i>Initial mounting plate perimeter</i>
     </caption>
     <tr>
         <td>
@@ -1811,7 +1811,43 @@ The first step was to create a perimeter around the button layout while ensuring
         </td>
     </tr>
 </table>
+  
+Once the minimum working area had been established, I created a second perimeter approximately 15 mm away from the first one. This outer profile defines the interface between the mounting plate and the main controller body, providing enough material for a secure connection while leaving room for future layout modifications.
 
+<table>
+    <caption>
+        <i>Mounting plate offset profile.</i>
+    </caption>
+    <tr>
+        <td>
+            <img width="1345" height="811" alt="image" src="https://github.com/user-attachments/assets/2f24f7db-9241-4b03-ac79-4588d7d90735" />
+        </td>
+        <td>
+            <img width="1169" height="812" alt="image" src="https://github.com/user-attachments/assets/462497bc-48e2-48ea-bb36-4b7aeef1a221" />
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <img width="1399" height="529" alt="image" src="https://github.com/user-attachments/assets/865a7095-37da-4fd6-a7ac-457023242e80" />
+        </td>
+    </tr>
+</table>
+
+With the final outline established, I positioned the mounting points that would later be used to secure the plate to the main controller body. Their placement was chosen to provide good support while avoiding interference with the buttons and the internal components located beneath the plate.
+
+<table>
+    <caption>
+        <i>Mounting points placement.</i>
+    </caption>
+    <tr>
+        <td>
+            <img width="1335" height="718" alt="image" src="https://github.com/user-attachments/assets/30459c71-0995-4c95-929c-3bc7bb967290" />
+        </td>
+        <td> 
+            <img width="1318" height="756" alt="image" src="https://github.com/user-attachments/assets/ac34a79a-c6ee-41eb-a0f7-44d150207c8e" />
+        </td>
+    </tr>
+</table>
 
 
 
@@ -1828,16 +1864,12 @@ El primer paso fué delimitar un perimetro alrededor de los botones para represe
 
 
 Tras eso, puse un offset de aproximadamente 15 mm para delimitar una zona que sería empleada para encajar con el cuerpo principal.
-<img width="1345" height="811" alt="image" src="https://github.com/user-attachments/assets/2f24f7db-9241-4b03-ac79-4588d7d90735" />
 
-<img width="1169" height="812" alt="image" src="https://github.com/user-attachments/assets/462497bc-48e2-48ea-bb36-4b7aeef1a221" />
 
-<img width="1399" height="529" alt="image" src="https://github.com/user-attachments/assets/865a7095-37da-4fd6-a7ac-457023242e80" />
+
 
 Una vez tuve clara la forma principal, ubiqué unos puntos de fijado al cuerpo principal. Estos puntos representan la ubicación de los tornillos que fijarán la placa al cuerpo del controlador principal.
-<img width="1335" height="718" alt="image" src="https://github.com/user-attachments/assets/30459c71-0995-4c95-929c-3bc7bb967290" />
 
-<img width="1318" height="756" alt="image" src="https://github.com/user-attachments/assets/ac34a79a-c6ee-41eb-a0f7-44d150207c8e" />
 
 
 Para la tercera iteración refiné el cuerpo de la placa de montado y diseñé como fijarlo al cuerpo del controlador principal. 
