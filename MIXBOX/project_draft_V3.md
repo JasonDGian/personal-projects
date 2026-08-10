@@ -1893,7 +1893,8 @@ Although this was not an issue I had originally planned to solve during this ite
     <tr>
         <td colspan="2">
             <i>Refined custom nut.</i>
-            <img width="1123" height="862" alt="custom nut v2" src="https://github.com/user-attachments/assets/2acc4c39-0cb2-46d0-ae9a-3e1435b8350f" />
+            <!--img width="1123" height="862" alt="custom nut v2" src="https://github.com/user-attachments/assets/2acc4c39-0cb2-46d0-ae9a-3e1435b8350f" /-->
+            <img width="1989" height="665" alt="image" src="https://github.com/user-attachments/assets/62bbe81c-79b1-434a-aef8-60bd3421fbad" />
         </td>
     </tr>
 </table>
