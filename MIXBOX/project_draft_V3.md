@@ -1934,43 +1934,6 @@ This final trade-off was not something I had planned from the beginning. It was 
     </tr>
 </table>
 
-  
----
-   
-### Final Design draft
-Para la iteración final refiné la placa de montado de los botones y majusté las tuercas personalizadas para un mejor manejo y facil extracción.
-
-Para refinar la placa de montado tracé un perímetro alrededor de la configuración de botones dejando un espacio extra para permitir a otras personas con distintas caraectristicas en su mano o con distintas ideas para la configuración y ubicación de boitones pudieran personalizar a su gusto sin tener que modificar nada. 
-
-El primer paso fué delimitar un perimetro alrededor de los botones para representar el area minima de trabajo.
-
-
-Tras eso, puse un offset de aproximadamente 15 mm para delimitar una zona que sería empleada para encajar con el cuerpo principal.
-
-
-
-
-Una vez tuve clara la forma principal, ubiqué unos puntos de fijado al cuerpo principal. Estos puntos representan la ubicación de los tornillos que fijarán la placa al cuerpo del controlador principal.
-
-
-
-Para la tercera iteración refiné el cuerpo de la placa de montado y diseñé como fijarlo al cuerpo del controlador principal. 
-
-Para refinar la forma final, primero tracé un perimetro alrededor de los botones que no obstruyese el espacio para las tuercas personalizadas. 
-[imagen primer perimetro]
-
-Tras eso desplacé el primer permietro 15 mm para obtener un perfil de encaje que usaría para fijar la placa con el cuerpo principal.
-[imagen segundo perimetro]
-
-Por último identifiqué los puntos en los uqe ubicaría los tornillos para fijar la pieza l cuerpo principal. 
-[imagen ubicación tornillos.]
-
-La pieza final permite alojar los botones sin obstruir la funcion de las tuercas personalizadas y fijar la placa al cuerpo principal del controlador.
-
-
-### Evaluation
-
-
 ## 🔸4.4 LED module and Touch Sensor.
 The LED module is responsible for communicating the controller's status to the user. It provides visual feedback for Bluetooth connectivity, battery level, charging state, and other system functions.
 
