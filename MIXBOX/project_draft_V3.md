@@ -1873,7 +1873,7 @@ Instead, I added two vertical extensions to the sides of the nut. These act as s
 
 **Third iteration results**     
 The third iteration successfully solved the main issues identified in the previous version. The mounting plate could be securely attached to the main controller body, and the redesigned retaining nut was much easier to handle during installation and removal.
-
+        
 However, testing the completed design revealed another issue that I had overlooked. I had been focusing heavily on keeping the mounting plate as compact as possible and had designed it around my own preferred button configuration. I had not given enough consideration to users with different hand sizes or to people who might want to experiment with a different button arrangement.
 
 This made me realize that the mounting plate was too closely tied to my own configuration. Someone wanting a wider button layout or different button positions would have very little room to do so without redesigning the plate itself.
