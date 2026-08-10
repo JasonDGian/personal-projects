@@ -1795,9 +1795,7 @@ With the integrated threads removed, the mounting plate became fully compatible 
 > One limitation became apparent during testing. Because the prototype was intentionally designed as a simple cylinder, it lacked any external features to grip it during installation or removal. Once the buttons were mounted, removing the retaining nut by hand became inconvenient. Although this was expected, it confirmed that the next iteration should focus on adding features that make the nut easier to tighten and loosen while keeping its compact dimensions.
     
 ### 🔹4.3.4 Third iteration.
-For the third iteration, I refined the overall shape of the mounting plate and redesigned the custom retaining nut to make installation and removal more convenient.
-
-My main objective for the mounting plate was to define its final geometry while preserving enough space around the buttons and retaining nuts. Rather than creating a plate that only fit my own button layout, I also wanted to leave enough unused surface around the buttons so the design could be easily customized in the future without requiring modifications to the main controller body.
+The third iteration focused on refining the mounting plate around the button layout and integrating it with the main controller body. At this stage, I was still mainly designing around my own button configuration and the requirements I had established during the previous iterations.
 
 The first step was to create a perimeter around the button layout while ensuring enough clearance for the custom retaining nuts.
 
@@ -1812,11 +1810,11 @@ The first step was to create a perimeter around the button layout while ensuring
     </tr>
 </table>
   
-Once the minimum working area had been established, I created a second perimeter approximately 15 mm away from the first one. This outer profile defines the interface between the mounting plate and the main controller body, providing enough material for a secure connection while leaving room for future layout modifications.
+Once the minimum working area had been established, I created a second perimeter approximately 15 mm away from the first one. This additional area would later be used as the interface between the mounting plate and the main controller body.
 
 <table>
     <caption>
-        <i>Mounting plate offset profile.</i>
+        <i>Mounting plate 15mm offset profile.</i>
     </caption>
     <tr>
         <td>
@@ -1833,7 +1831,7 @@ Once the minimum working area had been established, I created a second perimeter
     </tr>
 </table>
 
-With the final outline established, I positioned the mounting points that would later be used to secure the plate to the main controller body. Their placement was chosen to provide good support while avoiding interference with the buttons and the internal components located beneath the plate.
+With the overall profile established, I positioned the mounting points that would be used to secure the plate to the main controller body. Their placement was chosen to provide adequate support while avoiding interference with the buttons and the internal components beneath the plate.
 
 <table>
     <caption>
@@ -1850,8 +1848,12 @@ With the final outline established, I positioned the mounting points that would 
 </table>
 
 **Custom retaining nut**   
-The custom retaining nut was also refined during this iteration. The original cylindrical prototype successfully validated the dimensions and thread tolerances but proved difficult to tighten and remove once installed. The final design adds grip features that make the nut much easier to handle while preserving its compact dimensions. Since I could not expand the nut body because of the already adjusted space, and i could not create identations to avoid weakining it, I opted for two vertical extensions that worked as grips.
+I also refined the custom retaining nut during this iteration. The previous cylindrical prototype had successfully validated the dimensions and thread tolerances, but it was difficult to grip once installed.
 
+I could not increase the diameter of the nut because of the limited space around the buttons. I also considered adding indentations to the sides, but these would have reduced the wall thickness and weakened the part.
+
+Instead, I added two vertical extensions to the sides of the nut. These act as simple grip points, making the nut easier to install and remove while keeping the main body compact.
+    
 <table>
     <caption>
         <i>Refined retaining nut with grip features.</i>
@@ -1870,18 +1872,64 @@ The custom retaining nut was also refined during this iteration. The original cy
 </table>
 
 **Third iteration results**     
-When I tested the final iteration, I realized that the mounting plate needed one last redesign. Up to this point, I had focused on keeping the plate as compact as possible, but this approach conflicted with the original goal of making the controller easy to customize. A minimal footprint works well for my preferred button layout, but it leaves little room for users with larger hands, larger arcade buttons, or those who simply want to experiment with different button arrangements.
+The third iteration successfully solved the main issues identified in the previous version. The mounting plate could be securely attached to the main controller body, and the redesigned retaining nut was much easier to handle during installation and removal.
 
-This made it clear that the mounting plate should not be designed solely around my own configuration. Instead, it needed to provide enough additional surface area to support alternative layouts without requiring modifications to the rest of the controller. As a result, I increased the overall size of the plate and, following the same philosophy used for the directional input block, redesigned it as a rotating plate. This allows the user to adjust the orientation of the entire button array before fastening it to the main controller body, providing greater flexibility while preserving the modular nature of the design.
+However, testing the completed design revealed another issue that I had overlooked. I had been focusing heavily on keeping the mounting plate as compact as possible and had designed it around my own preferred button configuration. I had not given enough consideration to users with different hand sizes or to people who might want to experiment with a different button arrangement.
 
-### 🔹4.3. Final iteration.
-The final design presents a wider surface area and a rotating platform reminiscent of the input block. It 
+This made me realize that the mounting plate was too closely tied to my own configuration. Someone wanting a wider button layout or different button positions would have very little room to do so without redesigning the plate itself.
 
-<img width="1202" height="870" alt="image" src="https://github.com/user-attachments/assets/3cc2f9d0-ddf5-48f9-a725-7f033a2d2f95" />
+Although this was not an issue I had originally planned to solve during this iteration, testing made it clear that customization needed to become a more important part of the design. This led directly to the final redesign.
 
-<img width="1301" height="853" alt="image" src="https://github.com/user-attachments/assets/8416bc63-7d1d-4c66-88ce-477a028e89ca" />
+### 🔹4.3.5 Final iteration.
+The final iteration was driven by what I learned from testing the previous design. I realized that keeping the mounting plate as small as possible was not necessarily the best choice for a controller that was intended to be customizable.
 
-<img width="1174" height="853" alt="image" src="https://github.com/user-attachments/assets/588e4a1e-7217-4664-bc65-8a79621f0509" />
+For this version, I increased the overall size of the mounting plate and changed its shape to a wider circular platform. This inevitably increased the footprint of the component, but I considered this a worthwhile trade-off because it provides considerably more space for alternative button configurations.
+   
+<table>
+    <caption>Arcade buttons mounting plate - final shape design / footprint.</caption>
+    <tr>
+        <td><img height="870" alt="image" src="https://github.com/user-attachments/assets/3cc2f9d0-ddf5-48f9-a725-7f033a2d2f95" /></td>
+        <td><img height="870" alt="image" src="https://github.com/user-attachments/assets/8416bc63-7d1d-4c66-88ce-477a028e89ca" /></td>
+    </tr>
+</table>
+     
+I also decided to follow the same rotating-platform concept used for the Directional Input Block. Instead of permanently fixing the button array to a single orientation, the entire mounting plate can be rotated before being secured to the main controller body. This gives the user the possibility of adjusting the angle of the button array to better suit their preferred hand position.
+
+The larger surface also provides more freedom to experiment with the spacing and positioning of the buttons. This means that the plate is no longer designed exclusively around my own preferred configuration and can better accommodate different ergonomic preferences.
+
+To secure the plate to the main controller body, I added four fastening points around the plate. These provide the locations for the screws that hold the plate in the selected orientation.
+
+<table>
+    <caption>Arcade buttons mounting plate - fastening points.</caption>
+    <tr>
+        <td colspan="2"><img width="1174" height="853" alt="image" src="https://github.com/user-attachments/assets/588e4a1e-7217-4664-bc65-8a79621f0509" /></td>
+    </tr>
+</table>
+    
+    
+**Final iteration results**    
+The final design successfully combines the features developed throughout the previous iterations. It supports both snap-in and threaded arcade buttons, works with the custom retaining nut, provides additional space for alternative button configurations, and allows the entire button array to be rotated before being secured to the controller body.
+
+<insert-image-of-final-mounting-plate-with-buttons-installed-here>
+
+The final result is less compact than the earlier versions, but it is considerably more flexible and adaptable. In this case, I decided that giving the user more freedom to configure the controller was more valuable than achieving the smallest possible mounting plate.
+
+This final trade-off was not something I had planned from the beginning. It was a direct result of testing the previous iteration and realizing that the design had been optimized too much around my own use case.
+
+<mark>TODO : FIX IMAGES</mark>
+
+<table>
+    <caption></caption>
+    <tr>
+        <td></td>
+    </tr>
+</table>
+
+
+
+
+
+
 
 
 
