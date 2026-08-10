@@ -1969,7 +1969,125 @@ La pieza final permite alojar los botones sin obstruir la funcion de las tuercas
 
 ### Evaluation
 
-## 🔸4.3 LED Module
+
+## 🔸4.4 LED module and Touch Sensor.
+The LED module is responsible for communicating the controller's status to the user. It provides visual feedback for Bluetooth connectivity, battery level, charging state, and other system functions.
+
+My goal was to integrate the original LED module into the Mixbox enclosure while preserving all of its functionality. By reusing the original component, I could retain not only the status indicators, but also the capacitive touch sensor and integrated push button without requiring any modifications to the controller electronics.  
+    
+<table>
+    <caption><i>Led module vs Controller</i></caption>
+    <tr>
+    <td>
+        <img width="1774" height="865" alt="lightmodule_presentation" src="https://github.com/JasonDGian/personal-projects/blob/main/MIXBOX/IMG/lightmodule_presentation.png" />
+    </td>    
+    </tr>
+</table>
+
+### 🔹4.4.1 Reference model creation.
+To reproduce the geometry, I combined several measurement techniques. These included direct measurements with a digital caliper, custom 3D-printed gauges for determining the different fillet radii, and paper tracings for surfaces whose curvature was difficult to measure directly.
+    
+> [!NOTE]
+> This workflow is probably neither particularly elegant nor professional, but it allowed me to reproduce the geometry with enough accuracy using the tools and skills available to me.
+
+**Measuring the Corner Fillets**    
+The first challenge was determining the radius of the different corner fillets. Conventional caliper measurements were not particularly useful for this, so I designed and printed a series of comparison gauges containing different known radii.
+Each radius was labelled directly on the printed part. I could then compare the gauges against the original module and identify the closest match. Since different areas of the module used different radii, several sets of gauges were required to characterize the complete profile.
+
+<table>
+    <caption><i>3D-printed fillet gauges compared against the original module.</i></caption>
+    <tr>
+        <td>
+            <img width="1774" height="518" alt="lightmodule_front_side_bevel_measuring" src="https://github.com/JasonDGian/personal-projects/blob/main/MIXBOX/IMG/lightmodule_front_side_bevel_measuring.png" />
+        </td>
+    </tr>
+</table>
+           
+Once the radii had been identified, reproducing the module's outline in Blender became considerably easier.
+
+**Measuring the Surface Curvature**       
+Several of the module's curved surfaces could not be measured reliably using either the caliper or the printed gauges. To reproduce these profiles, I traced the difficult-to-measure surfaces directly onto paper.
+The tracings were then scanned and imported into Blender. Using dimensions obtained from direct measurements, I was able to scale the scanned profiles and use them as references during the modelling process.
+    
+<insert-image-of-traced-profiles-used-as-modelling-references-here>
+    
+From these references, I created negative test pieces representing the corresponding geometry. These could then be printed and compared directly against the original module to validate the profiles.
+
+**Side Profile Validation**    
+The upper surface of the LED module incorporates a subtle compound curvature that would have been difficult to reproduce through direct measurement alone.
+Using the scanned side-profile tracing as a reference, I modelled the corresponding negative geometry and produced several test pieces. After a number of fitting iterations and minor adjustments, the final test piece seated against the original module without any visually noticeable gaps.
+   
+<insert-image-of-side-profile-tracing-and-curvature-validation-here>
+    
+This gave me enough confidence that the traced profile represented the curvature accurately enough to use as a reference for the final model.
+
+**Front Profile Validation**    
+The front profile proved considerably easier to reproduce. The traced reference matched the original component closely enough that the first test print required little to no adjustment.
+   
+<insert-image-of-front-profile-model-and-test-fit-here>
+   
+Because the rear fillet radii had already been validated using the printed gauges, the front profile aligned correctly with the surrounding geometry. With these individual features already validated, I could proceed to reconstruct the complete model without requiring additional intermediate test pieces.
+
+**Measuring the Vertical Travel Limitation**
+The LED module also contains an integrated click button. The module is supported by a flexible plastic structure that interacts with three support points protruding from the controller's internal button support body.
+   
+<insert-image-of-led-module-working-principle-here>
+   
+Two of these support points act as contact surfaces for the flexible plastic arms of the module. When the module is pressed, these arms deflect against the support points and generate the restoring force that returns the module to its resting position. The central support point actuates the internal click button.
+   
+<insert-image-of-led-module-support-points-and-button-actuator-here>
+   
+The position of these supports is important because they also determine the module's vertical travel. If the limitation point is positioned too high, the button travel can become restricted and the switch may not actuate reliably. If it is positioned too low, excessive movement could put unnecessary stress on the flexible support structure and the internal button mechanism.
+   
+<insert-image-of-led-module-in-resting-position-here>
+   
+To determine the correct position of this limitation feature, I used the test piece previously created for the horizontal profile. I marked the relevant reference locations directly onto the test piece and measured the maximum vertical travel permitted by the original controller.
+   
+<insert-image-of-marked-test-piece-and-measurements-here>
+   
+Using this approach, I established that the module required approximately 0.85 mm of vertical clearance. Some trial and error was still necessary, but this feature proved relatively straightforward to refine once the reference positions had been established.
+   
+<insert-image-of-3d-test-model-here>
+   
+<insert-image-of-test-fit-result-here>
+   
+**Reconstructing the Model in Blender**    
+Once the main profiles and functional dimensions had been validated, I could begin reconstructing the LED module in Blender.
+I started by combining the validated side profile with the front curvature profile. This allowed me to recreate the compound curvature that defines the upper surface and front face of the module.
+   
+<insert-image-of-combined-side-and-front-profiles-here>
+  
+With the upper surface established, I reconstructed the lower body using the validated dimensions and previously measured fillet radii.
+   
+<insert-image-of-base-body-with-top-view-profiles-here>
+   
+The final step was to combine these independently validated features into a single model. Because each profile had already been tested against the original component, I could use them with considerably more confidence when creating the final geometry.
+  
+<insert-image-of-upper-surface-profile-applied-here>
+  
+<insert-image-of-frontal-fillet-profile-applied-here>
+   
+No manufacturing tolerances were intentionally added to this reference model. Its purpose was to reproduce the original component as accurately as possible. Any required clearances and manufacturing tolerances would instead be introduced later when designing the surrounding enclosure.
+
+**Reference Model Results**   
+After combining the validated profiles, dimensional measurements, and functional features, I was able to reconstruct the LED module as a complete reference model.
+   
+<insert-image-of-completed-led-module-reference-model-here>
+  
+The model is not intended to be a perfect digital replica of the original component. Instead, it provides a sufficiently accurate representation of the external geometry and critical functional features to be used during the design of the Mixbox enclosure.
+The completed model was then test-fitted against the original component to verify the accuracy of the reconstructed geometry.
+  
+<insert-image-of-final-test-fit-here>
+   
+Finally, I compared the reconstructed model directly with the original LED module.
+   
+<insert-image-of-original-module-and-reconstructed-model-comparison-here>
+  
+The resulting reference model provides a reliable representation of the LED module in 3D space, allowing its mounting features and the surrounding enclosure geometry to be designed without repeatedly measuring the original component.
+
+
+
+
 ### Introduction.
 What the component is.
 Why it exists.
