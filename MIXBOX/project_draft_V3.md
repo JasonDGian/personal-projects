@@ -1990,7 +1990,7 @@ To reproduce the geometry, I combined several measurement techniques. These incl
 > [!NOTE]
 > This workflow is probably neither particularly elegant nor professional, but it allowed me to reproduce the geometry with enough accuracy using the tools and skills available to me.
 
-**Measuring the Corner Fillets**    
+**Measuring the corner fillets**    
 The first challenge was determining the radius of the different corner fillets. Conventional caliper measurements were not particularly useful for this, so I designed and printed a series of comparison gauges containing different known radii.
 Each radius was labelled directly on the printed part. I could then compare the gauges against the original module and identify the closest match. Since different areas of the module used different radii, several sets of gauges were required to characterize the complete profile.
 
@@ -2005,26 +2005,53 @@ Each radius was labelled directly on the printed part. I could then compare the 
            
 Once the radii had been identified, reproducing the module's outline in Blender became considerably easier.
 
-**Measuring the Surface Curvature**       
+**Measuring the surface curvature**       
 Several of the module's curved surfaces could not be measured reliably using either the caliper or the printed gauges. To reproduce these profiles, I traced the difficult-to-measure surfaces directly onto paper.
 The tracings were then scanned and imported into Blender. Using dimensions obtained from direct measurements, I was able to scale the scanned profiles and use them as references during the modelling process.
     
-<insert-image-of-traced-profiles-used-as-modelling-references-here>
+<table>
+<caption><i>Traced profiles used as modeling references.</i></caption>
+    <tr>
+        <td>
+            <img width="1774" height="447" alt="lightmodule_traced_on_paper" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/lightmodule_traced_on_paper.png" />
+        </td>
+    </tr>
+</table>
     
 From these references, I created negative test pieces representing the corresponding geometry. These could then be printed and compared directly against the original module to validate the profiles.
 
 **Side Profile Validation**    
 The upper surface of the LED module incorporates a subtle compound curvature that would have been difficult to reproduce through direct measurement alone.
 Using the scanned side-profile tracing as a reference, I modelled the corresponding negative geometry and produced several test pieces. After a number of fitting iterations and minor adjustments, the final test piece seated against the original module without any visually noticeable gaps.
-   
-<insert-image-of-side-profile-tracing-and-curvature-validation-here>
-    
+
+<table>
+<caption><i>
+    Side-profile tracing and curvature validation test pieces.
+</i></caption>
+<tr>
+<td>
+<img width="1774" height="447" alt="light_module_top_surface_design" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/light_module_top_surface_design.png" />
+</td>
+</tr>
+</table>
+        
 This gave me enough confidence that the traced profile represented the curvature accurately enough to use as a reference for the final model.
 
 **Front Profile Validation**    
 The front profile proved considerably easier to reproduce. The traced reference matched the original component closely enough that the first test print required little to no adjustment.
    
-<insert-image-of-front-profile-model-and-test-fit-here>
+<table>
+    <caption>
+        <i>
+            Front-profile model and test-fit.
+        </i>
+    </caption>
+    <tr>
+        <td>
+            <img width="1774" height="970" alt="lightmodule_front_surface_curve" src="https://github.com/user-attachments/assets/e6a7a111-592e-47f2-9cef-8b626e0ffaf6" />
+        </td>
+    </tr>
+</table>
    
 Because the rear fillet radii had already been validated using the printed gauges, the front profile aligned correctly with the surrounding geometry. With these individual features already validated, I could proceed to reconstruct the complete model without requiring additional intermediate test pieces.
 
