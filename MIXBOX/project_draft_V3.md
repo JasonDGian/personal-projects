@@ -1880,6 +1880,25 @@ This made me realize that the mounting plate was too closely tied to my own conf
 
 Although this was not an issue I had originally planned to solve during this iteration, testing made it clear that customization needed to become a more important part of the design. This led directly to the final redesign.
 
+<table>
+    <caption>Third iteration result with refined custom nuts.</caption>
+    <tr>
+        <td>
+            <img width="1496" height="862" alt="ABMP - IT 2 - R2" src="https://github.com/user-attachments/assets/73d9ae20-5afd-45aa-98ff-aaa1be5c110a" />
+        </td>
+        <td>
+            <img width="1496" height="862" alt="ABMP - IT 2 R 1" src="https://github.com/user-attachments/assets/618f3012-e395-477e-8e8c-62456109e05d" />
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <i>Refined custom nut.</i>
+            <img width="1123" height="862" alt="custom nut v2" src="https://github.com/user-attachments/assets/2acc4c39-0cb2-46d0-ae9a-3e1435b8350f" />
+        </td>
+    </tr>
+</table>
+
+
 ### 🔹4.3.5 Final iteration.
 The final iteration was driven by what I learned from testing the previous design. I realized that keeping the mounting plate as small as possible was not necessarily the best choice for a controller that was intended to be customizable.
 
