@@ -1916,22 +1916,23 @@ The final result is less compact than the earlier versions, but it is considerab
 
 This final trade-off was not something I had planned from the beginning. It was a direct result of testing the previous iteration and realizing that the design had been optimized too much around my own use case.
 
-<mark>TODO : FIX IMAGES</mark>
-
 <table>
-    <caption></caption>
+    <caption><i>Final iteration results.</i></caption>
     <tr>
-        <td></td>
+        <td>      
+            <img width="1031" height="900" alt="abmp_1" src="https://github.com/user-attachments/assets/3ca3fcaa-8132-461d-9cd0-56a114d9f497" />
+        </td>
+        <td>
+            <img width="1031" height="900" alt="abmp_2" src="https://github.com/user-attachments/assets/1f144cb2-3076-4c93-9bdd-cf5e70b96cbe" />
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <i>Comparison with bigger buttons plate footprint.</i>
+            <img width="1708" height="795" alt="other tests" src="https://github.com/user-attachments/assets/9b47c78b-5728-4a1d-87c6-91954c00727e" />
+        </td>
     </tr>
 </table>
-
-
-
-
-
-
-
-
 
   
 ---
