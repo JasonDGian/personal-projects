@@ -2159,4 +2159,12 @@ In addition to their functional role, this component also contributes to the ove
 ---
 
 ---
-
+TODO:
+- Interfaz de montado con escalas de 5 grados para el input block y la placa de montado de los botones arcade.
+- Consola de botones auxiliares (modulo)
+- Rediseñar la caja de la placa madre para que sea más compacta.
+- Pieza de montado del modulo led, integrar en cuerpo y permitir funcionalidad click con pieza "Actuator" imitando pieza original.
+- Interfaz de recarga USB-C expuesta en el cuerpo.
+- Interfaz audio auxiliar conectada al mando.
+- Modulo de sonido integrado al mando.
+- 
