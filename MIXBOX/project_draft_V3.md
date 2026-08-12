@@ -880,17 +880,44 @@ In particular, the improvements made to serviceability and battery access had in
 This led me to one more iteration focused specifically on reducing the footprint of the motherboard assembly while maintaining the functionality achieved in the previous versions.
 
 ### 🔹4.1.6 Final iteration.
-For the final iteration, I focused on reducing the overall footprint of the motherboard assembly without sacrificing the functionality achieved in the previous versions.
+For the final iteration, I focused on reducing the overall footprint of the motherboard assembly. At this stage, I had not yet defined the exact dimensions of the main controller body, but I already had a general idea of how compact I wanted the controller to be. The previous motherboard assembly was clearly becoming larger than I wanted, particularly because of the amount of space required by the battery and terminal blocks.
+   
+To reduce the footprint without compromising the main functionality of the enclosure, I repositioned the battery underneath the motherboard, using the space already available between the joystick areas. Since this space was already required to prevent interference with the joysticks, placing the battery there allowed me to make better use of the existing vertical space without increasing the overall footprint of the assembly.
 
-The main change was to make better use of the vertical space already available inside the assembly. Instead of keeping the battery beside the motherboard, I moved it underneath the PCB, positioning it within the space created between the joystick assemblies.
+<table>
+    <caption><i>New battery placement.</i></caption>
+    <tr>
+        <td>
+            <img width="1497" height="664" alt="image" src="https://github.com/user-attachments/assets/7f25f816-94ed-400a-b4fe-ac8677dbc4a4" />
+        </td>
+    </tr>
+</table>
+   
+I also repositioned two of the mounting points into the main body of the motherboard holder while keeping the other two in their previous positions. The protective lid was then adapted to the new internal arrangement.
+   
+<table>
+    <caption><i>New mounting points configuration.</i></caption>
+    <tr>
+        <td>
+            <img width="1465" height="775" alt="image" src="https://github.com/user-attachments/assets/5680c155-e495-44a7-846c-18c190020f1b" />
+        </td>
+        <td>
+            <img width="1465" height="775" alt="image" src="https://github.com/user-attachments/assets/a5c5eb52-c4b5-4873-9a4a-30a8f74acb05" />
+        </td>
+    </tr>
+</table>
 
-This space was already required to prevent the joysticks from interfering with the main controller body. Using it for the battery therefore allowed me to reduce the footprint of the motherboard assembly without requiring additional space elsewhere.
+One of the main compromises of this iteration was the reduction in the number of terminal blocks. To achieve the desired reduction in size, I removed one terminal block from the assembly, reducing the total from 23 to 22 terminal blocks. Since each terminal block provides two connections, this meant sacrificing two available connections in exchange for a more compact design.
 
-I also repositioned the mounting points to accommodate the new arrangement. Two mounting points were moved into the main body of the enclosure, while the remaining two were kept in their previous positions. The protective lid was then redesigned around the new internal layout.
+This was a trade-off I considered acceptable because the resulting 22 terminal blocks still provided enough connections for the required signals while allowing the motherboard assembly to occupy significantly less space.
 
-The result is a more compact motherboard assembly that makes better use of the available three-dimensional space rather than simply increasing its footprint.
+<insert-image-of-terminal-block-comparison-here>
 
-The final enclosure mounts directly to the internal MixBox structure through dedicated mounting points. This allows the complete motherboard assembly to be installed or removed as a single unit, simplifying both assembly and future maintenance.
+The final enclosure mounts directly to the internal MixBox structure using dedicated mounting points, allowing the complete motherboard assembly to be installed or removed as a single unit.
+
+<insert-image-of-final-motherboard-assembly-mounted-here>
+
+Overall, this iteration prioritized compactness over maximum connection capacity. The previous version provided greater connection capacity and more generous internal space, but its footprint was larger than I wanted for the controller. By relocating the battery, reorganizing the mounting points, and removing one terminal block, I was able to make better use of the available space while retaining the functionality required for the controller.
        
 ## 🔸4.2 Directional Input Block
 The Directional Input Block houses the four mechanical switches that provide the controller's directional inputs (Up, Left, Down, and Right). Unlike a traditional arcade joystick, this design uses MX-compatible mechanical keyboard switches to create a MixBox-style directional input system.
