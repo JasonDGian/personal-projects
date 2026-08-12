@@ -801,7 +801,7 @@ The new position causes the locking tabs of one cluster to interfere with the ad
 This iteration reinforced the importance of validating the Blender model against the actual hardware throughout the design process. Several of these issues resulted from focusing on the primary geometry while overlooking secondary features such as connectors, locking mechanisms, and component tolerances. Future iterations should include a systematic interference check before printing to catch these types of collisions earlier.
 
 ### 🔹4.1.4 Third iteration.
-The third iteration adjusted and fixed the mistakes and oversights of the second iteration. 
+The third iteration focused on correcting the issues identified during the previous prototype and validating the updated enclosure as a complete assembly.
    
 <table>
     <caption>
@@ -815,15 +815,15 @@ The third iteration adjusted and fixed the mistakes and oversights of the second
 </table>
     
 **Iteration 3 results**    
-After assembling and testing the third iteration, only one minor design issue became apparent. The battery side stops also serve as the mounting features for the protective lid, housing the screws that secure the lid to the motherboard holder.
+After assembling and testing the third iteration, only one minor design issue became apparent. The side stops surrounding the battery also served as mounting features for the protective lid, with the screws passing through these areas to secure the lid to the enclosure.
 
-While resizing these features to provide slightly more generous battery tolerances and better control of lateral movement, I overlooked the space required for the mounting screws. As a result, the internal clearance of the mounting feature became too small for the screw heads to fit properly during assembly.
+When I resized these features to provide the battery with slightly more clearance and improve its lateral retention, I overlooked the space required for the screw heads. As a result, the internal clearance was too small for the screws to be installed properly.
 
-The issue was straightforward to resolve by slightly increasing the internal dimensions of the mounting features. This restored the required screw clearance while preserving their secondary function as battery side stops.
+The solution was straightforward: I slightly increased the internal dimensions of the mounting features. This provided enough clearance for the screw heads while preserving the secondary function of the features as battery side stops.
 
 <table>
     <caption>
-        <i>Screw clearance issue.</i>
+        <i>Screw clearance issue identified during assembly.</i>
     </caption>
     <tr>
         <td>
@@ -833,31 +833,64 @@ The issue was straightforward to resolve by slightly increasing the internal dim
 </table>
 
 **Takeaways**   
-This iteration highlighted the importance of paying close attention to multi-purpose features. A seemingly minor dimensional change made to improve one function can unintentionally affect another. In future iterations, any feature serving more than one purpose should be reviewed to ensure all of its functional requirements are still met after modifications.
+This iteration was a good reminder that some of the smallest features in a design can have several different functions. In this case, changing a feature to improve battery retention unintentionally affected the lid mounting system. 
+         
+It reinforced the need to check every function of a shared feature whenever its dimensions are changed.
 
-### 🔹4.1.5 Final result.
-After implementing the changes identified during the previous design iterations, I arrived at the final version of the motherboard housing. The completed design combines the motherboard support, battery retention system, terminal block mounts, and protective lid into a single assembly that fulfils the original design objectives while remaining serviceable.
-      
-The motherboard is supported at multiple locations to minimise PCB flex while avoiding contact with sensitive components or obstructing wire routing paths. The validated reference model ensured that the USB-C port, headphone jack, and other key features remained correctly aligned with the enclosure.
-       
-_Enclosure complete assembly_
-<img width="2000" height="900" alt="mobo-holder-printed-2" src="https://github.com/user-attachments/assets/dc1af6dc-e4ba-4bf0-91eb-834724e42bc2" />
+### 🔹4.1.5 Fourth itertion.
+At this point, the design combined the main motherboard supports, battery retention system, terminal block mounts, protective lid, and mounting interface into a single assembly.
+
+The motherboard is supported at multiple locations to minimise PCB flex while avoiding contact with sensitive components and keeping the wire-routing paths accessible. The validated reference model also ensured that important features such as the USB-C port and headphone jack remained correctly positioned.
         
+<table>
+    <caption><i>Enclosure complete assembly.</i></caption>
+    <tr>
+        <td>
+            <img width="2000" height="900" alt="mobo-holder-printed-2" src="https://github.com/user-attachments/assets/dc1af6dc-e4ba-4bf0-91eb-834724e42bc2" />
+        </td>
+    </tr>
+</table>
+    
 The enclosure accommodates twenty-three terminal blocks, allowing all required signals to be connected through screw terminals. The removable lid protects the motherboard and solder joints while still allowing easy access for maintenance or future modifications.
      
-_Final internal layout._
-<img width="2000" height="900" alt="mobo-holder-printe-1" src="https://github.com/user-attachments/assets/3435296f-d6ac-473a-99b8-b093cbc19daa" />
+<table>
+    <caption><i>Final internal layout.</i></caption>
+    <tr>
+        <td>
+            <img width="2000" height="900" alt="mobo-holder-printe-1" src="https://github.com/user-attachments/assets/3435296f-d6ac-473a-99b8-b093cbc19daa" />
+        </td>
+    </tr>
+</table>
           
 Battery retention is provided by the flexible PLA strip developed during the final design iteration. Together with the side supports integrated into the lid, it keeps the battery securely positioned without applying excessive pressure.
-        
-_Battery retaining mechanism_
-<img width="1920" height="864" alt="remarked-side-blocker-gif" src="https://github.com/user-attachments/assets/6d284c0a-c4e1-47d9-940c-c34bcc6867d4" />
-       
-The final enclosure mounts directly to the internal MixBox structure using dedicated mounting points, allowing the complete assembly to be installed or removed as a single unit.
-   
-<mark>TODO: PICTURE OF MOUNTED MOBO</mark>
-        
-Overall, the final design is the result of several prototype iterations and physical validation. Although most of the changes between iterations were relatively small, they significantly improved the reliability, serviceability, and overall fit of the enclosure, resulting in a practical solution ready for integration into the completed MixBox.
+
+<table>
+    <caption><i>Battery retaining mechanism.</i></caption>
+    <tr>
+        <td>
+            <img width="1920" height="864" alt="remarked-side-blocker-gif" src="https://github.com/user-attachments/assets/6d284c0a-c4e1-47d9-940c-c34bcc6867d4" />
+        </td>
+    </tr>
+</table>
+
+Although this version fulfilled the original functional requirements, I was not completely satisfied with its overall size. At this point, I did not yet have the final dimensions of the main controller body, but I already had a general idea of how large I wanted the finished controller to be. Compared with that intended scale, the motherboard assembly was clearly becoming larger than it should be.
+
+In particular, the improvements made to serviceability and battery access had increased the footprint of the enclosure more than I was comfortable with. Rather than accepting this increase, I looked for ways to make better use of the vertical space that was already available in the assembly.
+
+This led me to one more iteration focused specifically on reducing the footprint of the motherboard assembly while maintaining the functionality achieved in the previous versions.
+
+### 🔹4.1.6 Final iteration.
+For the final iteration, I focused on reducing the overall footprint of the motherboard assembly without sacrificing the functionality achieved in the previous versions.
+
+The main change was to make better use of the vertical space already available inside the assembly. Instead of keeping the battery beside the motherboard, I moved it underneath the PCB, positioning it within the space created between the joystick assemblies.
+
+This space was already required to prevent the joysticks from interfering with the main controller body. Using it for the battery therefore allowed me to reduce the footprint of the motherboard assembly without requiring additional space elsewhere.
+
+I also repositioned the mounting points to accommodate the new arrangement. Two mounting points were moved into the main body of the enclosure, while the remaining two were kept in their previous positions. The protective lid was then redesigned around the new internal layout.
+
+The result is a more compact motherboard assembly that makes better use of the available three-dimensional space rather than simply increasing its footprint.
+
+The final enclosure mounts directly to the internal MixBox structure through dedicated mounting points. This allows the complete motherboard assembly to be installed or removed as a single unit, simplifying both assembly and future maintenance.
        
 ## 🔸4.2 Directional Input Block
 The Directional Input Block houses the four mechanical switches that provide the controller's directional inputs (Up, Left, Down, and Right). Unlike a traditional arcade joystick, this design uses MX-compatible mechanical keyboard switches to create a MixBox-style directional input system.
