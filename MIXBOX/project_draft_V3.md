@@ -931,6 +931,10 @@ This was a trade-off I considered acceptable because the resulting 22 terminal b
 Overall, this iteration prioritized compactness over maximum connection capacity. The previous version provided greater connection capacity and more generous internal space, but its footprint was larger than I wanted for the controller. By relocating the battery, reorganizing the mounting points, and removing one terminal block, I was able to make better use of the available space while retaining the functionality required for the controller.
 
 **Final iteration results**
+
+<mark>
+    Corregir imagenes con tapa vieja versión.
+</mark>
        
 
 
