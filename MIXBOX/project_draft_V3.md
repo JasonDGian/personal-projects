@@ -2120,7 +2120,7 @@ The front profile proved considerably easier to reproduce. The traced reference 
    
 Because the rear fillet radii had already been validated using the printed gauges, the front profile aligned correctly with the surrounding geometry. With these individual features already validated, I could proceed to reconstruct the complete model without requiring additional intermediate test pieces.
 
-**Measuring the Vertical Travel Limitation**
+**Measuring the Vertical Travel Limitation**     
 The LED module also contains an integrated click button. The module is supported by a flexible plastic structure that interacts with three support points protruding from the controller's internal button support body.
    
 <insert-image-of-led-module-working-principle-here>
