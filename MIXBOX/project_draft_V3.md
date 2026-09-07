@@ -2121,11 +2121,24 @@ The front profile proved considerably easier to reproduce. The traced reference 
 Because the rear fillet radii had already been validated using the printed gauges, the front profile aligned correctly with the surrounding geometry. With these individual features already validated, I could proceed to reconstruct the complete model without requiring additional intermediate test pieces.
 
 **Measuring the Vertical Travel Limitation**     
-The LED module also contains an integrated click button. The module is supported by a flexible plastic structure that interacts with three support points protruding from the controller's internal button support body.
+The LED module also contains an integrated click button. The module is supported by two flexible plastic arms that interact with three support points protruding from the controller's internal button support body.
+
+Two of these support points act as contact surfaces for the flexible plastic arms of the module. When the module is pressed, these arms deflect against the support points and generate the restoring force that returns the module to its resting position. The central support point actuates the internal click button.
    
 <insert-image-of-led-module-working-principle-here>
-   
-Two of these support points act as contact surfaces for the flexible plastic arms of the module. When the module is pressed, these arms deflect against the support points and generate the restoring force that returns the module to its resting position. The central support point actuates the internal click button.
+    
+<table>
+    <tr>
+        <td>
+        <p><i>Bottom side view.</i></p>
+            <img width="1070" height="953" alt="image" src="https://github.com/user-attachments/assets/9f2a3c87-56bb-448f-9e63-f1f75851325c" />
+        </td>
+        <td>
+        <p><i>Function schematics.</i></p>
+        <img width="1652" height="952" alt="image" src="https://github.com/user-attachments/assets/5df2fa39-f748-47d9-8cf4-9d47619bc836" />
+        </td>
+    </tr>
+</table>
    
 <insert-image-of-led-module-support-points-and-button-actuator-here>
    
@@ -2136,12 +2149,33 @@ The position of these supports is important because they also determine the modu
 To determine the correct position of this limitation feature, I used the test piece previously created for the horizontal profile. I marked the relevant reference locations directly onto the test piece and measured the maximum vertical travel permitted by the original controller.
    
 <insert-image-of-marked-test-piece-and-measurements-here>
+<table>
+    <caption><i>Measurements and marked test piece used as reference</i>
+</caption>
+    <tr>
+        <td><img width="2191" height="734" alt="image" src="https://github.com/user-attachments/assets/fc233656-b608-4b18-bb57-a76f4daaa0ad" />
+</td>
+    </tr>
+</table>
    
 Using this approach, I established that the module required approximately 0.85 mm of vertical clearance. Some trial and error was still necessary, but this feature proved relatively straightforward to refine once the reference positions had been established.
    
 <insert-image-of-3d-test-model-here>
-   
+<table>
+    <caption><i>3D model used for testing.</i>
+</caption>
+    <tr>
+        <td><img width="2191" height="885" alt="image" src="https://github.com/user-attachments/assets/ec945d86-d2b4-4d7b-a050-7d9025f4fe34" /></td>
+    </tr>
+</table>
+       
 <insert-image-of-test-fit-result-here>
+<table>
+    <caption><i>Resulting prototype.</i></caption>
+    <tr>
+        <td><img width="2191" height="726" alt="image" src="https://github.com/user-attachments/assets/a74234f1-70e0-4e55-b07c-19a8379a3dab" /></td>
+    </tr>
+</table>
    
 **Reconstructing the Model in Blender**    
 Once the main profiles and functional dimensions had been validated, I could begin reconstructing the LED module in Blender.
