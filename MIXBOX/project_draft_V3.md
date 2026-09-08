@@ -2267,3 +2267,28 @@ TODO:
 - Interfaz audio auxiliar conectada al mando.
 - Modulo de sonido integrado al mando.
 - 
+
+
+
+
+---
+
+Actuator test piece.
+
+For the bottom side of the led module housing piece, I placed some painter tape on the piece and traced the features on it with a pencil, then detached the tape from the piece and attached it to a sheet of paper and scanned it. 
+The resulting image would be an accurate representation of the geometry of the underside of the led module including the guiding holes for the arms support points and the actuator hole. 
+
+<img width="1151" height="531" alt="image" src="https://github.com/user-attachments/assets/081f7438-309b-460d-824c-64a3e9ea361f" />
+
+I imported the image in blender and calibrated the size to then use it as a reference like i've done with the other images before this one. 
+
+I created a simple test to see how accurate my scan is and tested the push down funcionality on it. The goal of this first test piece is just to see if the size of the pins is correct and if they are correctly positioned to make the piece work as well as the vertical altitude of each pin.
+    
+<img width="1245" height="727" alt="image" src="https://github.com/user-attachments/assets/84411b4e-da21-45e1-ba88-aaa5d0db0dd0" />
+    
+<img width="1111" height="819" alt="image" src="https://github.com/user-attachments/assets/b20ee6c1-611c-448e-b047-180aee32f23f" />
+    
+<img width="1214" height="858" alt="image" src="https://github.com/user-attachments/assets/966e046e-a6b9-4ceb-8eed-4aff61665fee" />
+
+With this test pin I 
+ 
