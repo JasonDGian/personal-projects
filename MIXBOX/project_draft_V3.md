@@ -2316,10 +2316,10 @@ La primera prueba la hice solo para ver si los botones cabían bien en su alojam
 <img width="1422" height="782" alt="image" src="https://github.com/user-attachments/assets/48862b39-b5d8-4caf-8c2c-633ad6f79662" />
 
 A partir de esta primera prueba queda claro que el diametro para alojar los interruptores es justo pero demasiado exacto, es más comodo introducir una pequeña tolerancia más.
-Además 
-
+Tras comprobar que 4 botones caben comodamente y no hay peligro de confundirse en el input, pasé al diseño final de 3 botones al que apunto. 
 
 <img width="1411" height="735" alt="image" src="https://github.com/user-attachments/assets/5214b6ab-61ae-4781-bc5f-aec7af1fb816" />
 
  <img width="1328" height="782" alt="image" src="https://github.com/user-attachments/assets/8260a49a-355a-4e66-8996-c58e8a26ae74" />
+
 
