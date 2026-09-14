@@ -2234,7 +2234,7 @@ The Auxiliary Button Console houses the secondary control buttons used for funct
 
 Unlike the main action buttons and directional input, these buttons do not need to be positioned around the hands' natural resting position. Instead, I wanted them to occupy a secondary area of the controller where they could be reached when needed without becoming something I could accidentally press during normal gameplay.
 
-I also wanted to keep these buttons as a separate component rather than integrating them directly into the main enclosure. This would make the console easier to design, print and replace, while also giving me more freedom to experiment with its layout.
+I also decided to make these buttons a separate component rather than integrating them directly into the main controller body. The main reason for this was **modularity**. If I ever needed to add, remove, or modify an auxiliary button, I could redesign and replace the console without having to modify the entire controller body.
 
 **The main design goals of this component are to:**
 - Provide convenient access to the auxiliary controller functions.
@@ -2269,21 +2269,13 @@ This was particularly useful for this component because the buttons have connect
 With the reference models in place, I could start experimenting with the button spacing and the overall size of the console without having to rely only on measurements taken from the physical components.
       
 ### 🔹4.5.2 Initial console design. 
-One of the first things I considered when designing this component was future expandability.
+The component was relatively simple and straightforward to develop. Most of the design decisions were related to leaving enough flexibility for future changes without making the console unnecessarily large.
 
-At the moment, the controller only requires three auxiliary buttons: Home, Share, and Options. However, I didn't want to design the console around exactly three buttons and use every available millimetre of space.
+I initially designed the console around four buttons eventhough the controller only needs three (Home, Share, Options). This leaves the possibility of adding another function in the future without having to redesign the entire component.
 
-If I ever decide to add another function in the future, having to redesign the entire console just to accommodate one additional button would be inconvenient.
+I positioned the four buttons in a single row and adjusted the spacing between them so that they could be operated individually without making it too easy to press two buttons at the same time. 
 
-For that reason, I initially designed the console around four buttons instead of three.
-
-I positioned the four buttons in a single row and adjusted the spacing between them so that they could be used individually without making it too easy to press two buttons at the same time.
-
-<mark> TODO -> Poner imagen de cuatro botones? vale la pena? </mark>
-
-I also decided not to make the console as compact as possible. The additional space could be useful if I ever wanted to use different button sizes or configurations. More importantly, I could use some of this space for labels identifying the function of each button.
-
-I reserved approximately 10 mm above the button mounting area for this purpose. Around the button and label area I left approximately 1 mm of margin, followed by roughly 4 mm of additional space that could be used to accommodate the screws used to attach the console to the main body.
+I reserved approximately 10 mm above the button mounting area, which could also be used for labels identifying the function of each button. Around the button and label area I left approximately 1 mm of margin, followed by roughly 4 mm of additional space around the outside for the mounting screws.
 
 <table>
     <tr>
@@ -2298,7 +2290,9 @@ I reserved approximately 10 mm above the button mounting area for this purpose. 
     </tr>
 </table>
 
-This resulted in a mounting plate that was slightly larger than strictly necessary, but the extra space gave me more freedom for future modifications without making the component unnecessarily large.
+This resulted in a mounting plate that was slightly larger than strictly necessary, but gave me enough flexibility for future modifications while keeping the component compact.
+
+I then printed the design to test the button fit and its integration with the main controller body.
 
 <table> 
     <tr> 
@@ -2313,19 +2307,34 @@ This resulted in a mounting plate that was slightly larger than strictly necessa
     </tr> 
 </table>
 
-### 🔹4.5.3 First prototype.
-The first prototype was mainly a fit and appearance test.
+The button fit and spacing were as comfortable as expected, but the test revealed that the mounting surface was too low. 
+Once installed into the main controller body, the buttons would sit lower than the surrounding surface and would therefore be uncomfortable to use.
 
-I wanted to check whether the buttons fitted correctly into their openings and whether the overall proportions of the console looked reasonable as a physical part. I already expected this version to change, but printing it would give me a better idea of how the design actually worked outside Blender.
+### 🔹4.5.3 Final iteration.
+For the final iteration, I raised the button mounting surface to better match the thickness of the main controller body. I also reduced the number of buttons from four to the three actually required: Home, Share, and Options.
 
+To test the integration more realistically, I printed a section representing the relevant part of the main controller body. This allowed me to check the fit of the console within the opening and verify the height of the buttons relative to the main body.
+   
+<table> 
+    <tr> 
+        <td> 
+            <i>Printed first iteration.</i></br> 
+            <img width="1230" height="921" alt="Proyecto nuevo (6)" src="https://github.com/user-attachments/assets/d4e69577-2759-4a76-9323-fac5f80632ac" />
+        </td> 
+        <td> 
+            <i>Printed iteration with buttons.</i></br> 
+            <img width="1230" height="921" alt="Proyecto nuevo (7)" src="https://github.com/user-attachments/assets/0cbeb216-2850-41f2-b738-0e8231609e18" />
+        </td> 
+        <td> 
+            <i>Printed console installed in the test piece with buttons.</i></br> 
+            <img width="1230" height="921" alt="Proyecto nuevo (8)" src="https://github.com/user-attachments/assets/b7f6dd22-18f8-4ba8-ace6-7238a249ae15" />
+        </td> 
+    </tr> 
+</table>
 
+The test confirmed that the console fitted correctly into the opening and that the raised mounting surface placed the buttons at a comfortable height relative to the main controller body.
 
-
-
-
-
-
-
+With these changes, the console achieved the requirements I had established for it. It provided the three required auxiliary controls while remaining a separate and easily replaceable component, with enough space to accommodate possible future modifications.
 
 # 📌 5. Final Assembly
 ## 🔸5.1 Internal Layout
