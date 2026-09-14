@@ -2300,6 +2300,33 @@ I reserved approximately 10 mm above the button mounting area for this purpose. 
 
 This resulted in a mounting plate that was slightly larger than strictly necessary, but the extra space gave me more freedom for future modifications without making the component unnecessarily large.
 
+<table> 
+    <tr> 
+        <td> 
+            <i>Printed prototype.</i></br> 
+            <img width="1230" height="920" alt="image" src="https://github.com/user-attachments/assets/d90ce735-1af6-446c-bed2-4b580c4fcae7" />
+        </td> 
+        <td> 
+            <i>Printed prototype with buttons installed.</i></br> 
+            <img width="1230" height="921" alt="image" src="https://github.com/user-attachments/assets/448b8d3b-4e0c-477d-90c0-8a8407bcfb8e" />
+        </td> 
+    </tr> 
+</table>
+
+### 🔹4.5.3 First prototype.
+The first prototype was mainly a fit and appearance test.
+
+I wanted to check whether the buttons fitted correctly into their openings and whether the overall proportions of the console looked reasonable as a physical part. I already expected this version to change, but printing it would give me a better idea of how the design actually worked outside Blender.
+
+
+
+
+
+
+
+
+
+
 # 📌 5. Final Assembly
 ## 🔸5.1 Internal Layout
 ## 🔸5.2 Wiring
