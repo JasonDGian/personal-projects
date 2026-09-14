@@ -2291,4 +2291,35 @@ I created a simple test to see how accurate my scan is and tested the push down 
 <img width="1214" height="858" alt="image" src="https://github.com/user-attachments/assets/966e046e-a6b9-4ceb-8eed-4aff61665fee" />
 
 With this test pin I 
- 
+
+
+
+
+
+
+
+   
+--- 
+   
+
+To begin the concept i positioned four buttons in series. I only needed 3 but i wanted to leave the option of including a fourth one. so to calculate enough space I started with 4 buttons instead of 3.
+    
+<i>4 Buttons aligned in the 3d environment to allocate the space.</i>
+<img width="1411" height="711" alt="image" src="https://github.com/user-attachments/assets/ff4bdf70-5b1a-4c9f-a34d-72344ebedae6" />
+
+
+Intenté minimizar el espacio necesario para la consola de botones auxiliares pero dejé un espacio extra encima de cada botón para potenciales etiquetas de función para cada boton. 
+El espacio reservado para las etiquetas es de 10mm, alrededor del espacio reservado para el montado de botones + etiquetas dejé 1 milimetro de margen y luego aproximadamente 4 milimetros que fuera del a vista del usuario alojarían los tornillos para montar la pieza al cuerpo principal.. 
+<img width="1129" height="782" alt="image" src="https://github.com/user-attachments/assets/e78902e7-bdb8-444b-8e8f-0a6c99ca7c33" />
+
+La primera prueba la hice solo para ver si los botones cabían bien en su alojamiento y el aspecto y sensación general de la pieza. Ya sabía que esta no iba a ser la última iteración. 
+<img width="1422" height="782" alt="image" src="https://github.com/user-attachments/assets/48862b39-b5d8-4caf-8c2c-633ad6f79662" />
+
+A partir de esta primera prueba queda claro que el diametro para alojar los interruptores es justo pero demasiado exacto, es más comodo introducir una pequeña tolerancia más.
+Además 
+
+
+<img width="1411" height="735" alt="image" src="https://github.com/user-attachments/assets/5214b6ab-61ae-4781-bc5f-aec7af1fb816" />
+
+ <img width="1328" height="782" alt="image" src="https://github.com/user-attachments/assets/8260a49a-355a-4e66-8996-c58e8a26ae74" />
+
