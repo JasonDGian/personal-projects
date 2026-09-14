@@ -2312,7 +2312,20 @@ Once installed into the main controller body, the buttons would sit lower than t
 
 ### 🔹4.5.3 Final iteration.
 For the final iteration, I raised the button mounting surface to better match the thickness of the main controller body. I also reduced the number of buttons from four to the three actually required: Home, Share, and Options.
-
+   
+<table> 
+    <tr> 
+        <td> 
+            <i>Initial design.</i></br> 
+            <img width="924" height="524" alt="console_before" src="https://github.com/user-attachments/assets/415b58c6-80f3-46b4-a512-e5fefc84658f" />
+        </td> 
+        <td> 
+            <i>Final elevated iteration.</i></br> 
+            <img width="924" height="524" alt="console_after" src="https://github.com/user-attachments/assets/db8778e6-3c54-45d6-a058-c17875c8bda7" />
+        </td> 
+    </tr> 
+</table>
+    
 To test the integration more realistically, I printed a section representing the relevant part of the main controller body. This allowed me to check the fit of the console within the opening and verify the height of the buttons relative to the main body.
    
 <table> 
