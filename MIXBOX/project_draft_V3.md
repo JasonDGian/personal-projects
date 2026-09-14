@@ -2230,9 +2230,11 @@ A bullet list of design goals.
 
   
 ## 🔸4.5 Auxiliary Button Console
-The Auxiliary Button Console houses the secondary control buttons used for functions such as Home, Share, and Options. Although these controls are not used during normal gameplay as frequently as the main inputs, they still need to remain easily accessible without interfering with the primary controls.
+The Auxiliary Button Console houses the secondary control buttons used for functions such as Home, Share, and Options. These buttons are not used as frequently as the main controls, but they still need to be easy to reach without interfering with the primary controls.
 
-In addition to their functional role, this component also contributes to the overall appearance of the controller by integrating the auxiliary buttons into the enclosure in a clean and consistent way.
+Unlike the main action buttons and directional input, these buttons do not need to be positioned around the hands' natural resting position. Instead, I wanted them to occupy a secondary area of the controller where they could be reached when needed without becoming something I could accidentally press during normal gameplay.
+
+I also wanted to keep these buttons as a separate component rather than integrating them directly into the main enclosure. This would make the console easier to design, print and replace, while also giving me more freedom to experiment with its layout.
 
 **The main design goals of this component are to:**
 - Provide convenient access to the auxiliary controller functions.
@@ -2240,14 +2242,63 @@ In addition to their functional role, this component also contributes to the ove
 - Integrate aesthetically with the rest of the controller.
 - Allow easy installation and replacement of the buttons.
 - Maintain a compact footprint within the overall enclosure.
+- Leave some room for future customization.
+  
+### 🔹4.5.1 Reference model creation.
+Before designing the console, I first created a reference model of the auxiliary buttons.
 
-  ### Design Requirements & Goals
-  ### Reference Models
-  ### Initial Design
-  ### Prototype 1
-  ### Prototype 2
-  ### Final Design
-  ### Evaluation
+As with the other components, I didn't need to recreate every detail of the physical buttons. I mainly needed an accurate representation of their dimensions and the space occupied by the connectors and wiring underneath them.
+
+This was particularly useful for this component because the buttons have connections on their underside. I wanted to account for these connections and leave enough room for the wires to exit without interfering with the mounting plate or the main controller body.
+
+<table>
+    <caption><i>Auxiliary button reference model.</i></caption>
+    <tr>
+        <td>
+            <img width="800" height="800" alt="btn1" src="https://github.com/user-attachments/assets/79f306de-2d5b-41c2-a53f-16f746f851d5" />
+        </td>
+        <td>
+            <img width="800" height="800" alt="btn3" src="https://github.com/user-attachments/assets/8702f344-2e21-4afc-89cb-29da0502d8ad" />
+        </td>
+        <td>
+            <img width="800" height="800" alt="btn2" src="https://github.com/user-attachments/assets/ecab91be-6e95-40ac-bc97-9ceb31c8b411" />
+        </td>
+    </tr>
+</table>
+   
+With the reference models in place, I could start experimenting with the button spacing and the overall size of the console without having to rely only on measurements taken from the physical components.
+      
+### 🔹4.5.2 Initial console design. 
+One of the first things I considered when designing this component was future expandability.
+
+At the moment, the controller only requires three auxiliary buttons: Home, Share, and Options. However, I didn't want to design the console around exactly three buttons and use every available millimetre of space.
+
+If I ever decide to add another function in the future, having to redesign the entire console just to accommodate one additional button would be inconvenient.
+
+For that reason, I initially designed the console around four buttons instead of three.
+
+I positioned the four buttons in a single row and adjusted the spacing between them so that they could be used individually without making it too easy to press two buttons at the same time.
+
+<mark> TODO -> Poner imagen de cuatro botones? vale la pena? </mark>
+
+I also decided not to make the console as compact as possible. The additional space could be useful if I ever wanted to use different button sizes or configurations. More importantly, I could use some of this space for labels identifying the function of each button.
+
+I reserved approximately 10 mm above the button mounting area for this purpose. Around the button and label area I left approximately 1 mm of margin, followed by roughly 4 mm of additional space that could be used to accommodate the screws used to attach the console to the main body.
+
+<table>
+    <tr>
+        <td>
+            <i>Initial design</i></br>
+            <img alt="image" src="https://github.com/user-attachments/assets/04e607e5-6cb6-4176-8114-cc6eede3e173" />
+        </td>
+        <td>
+            <i>Areas and perimeters.</i></br>
+            <img width="1129" height="782" alt="areas consola" src="https://github.com/user-attachments/assets/4ffd54f8-2964-41a6-bfaa-1913c37bd904" />
+        </td>
+    </tr>
+</table>
+
+This resulted in a mounting plate that was slightly larger than strictly necessary, but the extra space gave me more freedom for future modifications without making the component unnecessarily large.
 
 # 📌 5. Final Assembly
 ## 🔸5.1 Internal Layout
