@@ -2180,20 +2180,54 @@ Using this approach, I established that the module required approximately 0.85 m
 **Reconstructing the Model in Blender**    
 Once the main profiles and functional dimensions had been validated, I could begin reconstructing the LED module in Blender.
 I started by combining the validated side profile with the front curvature profile. This allowed me to recreate the compound curvature that defines the upper surface and front face of the module.
+I printed the negative geometry and tested against the original component, which fit perfectly.
    
-<insert-image-of-combined-side-and-front-profiles-here>
-  
+<!-- image-of-combined-side-and-front-profiles-here-->
+<table>
+    <caption>
+        Combined side and front profiles, resulting geometry, and test-fit.
+    </caption>
+    <tr>
+        <td>
+            <img alt="lightmodule_combined_test_fit" src="https://raw.githubusercontent.com/JasonDGian/personal-projects/refs/heads/main/MIXBOX/IMG/lightmodule_combined_test_fit.png" />
+        </td>
+    </tr>
+</table>
+      
 With the upper surface established, I reconstructed the lower body using the validated dimensions and previously measured fillet radii.
    
-<insert-image-of-base-body-with-top-view-profiles-here>
+<!--image-of-base-body-with-top-view-profiles-here-->
+<table>
+    <caption>
+        Base body with top-view profiles applied.
+    </caption>
+    <tr>
+        <td>
+            <img width="2191" height="638" alt="image" src="https://github.com/user-attachments/assets/18ee06de-fa3f-4a8a-b8da-f07b066559ea" />
+        </td>
+    </tr>
+</table>
    
 The final step was to combine these independently validated features into a single model. Because each profile had already been tested against the original component, I could use them with considerably more confidence when creating the final geometry.
   
-<insert-image-of-upper-surface-profile-applied-here>
-  
-<insert-image-of-frontal-fillet-profile-applied-here>
-   
-No manufacturing tolerances were intentionally added to this reference model. Its purpose was to reproduce the original component as accurately as possible. Any required clearances and manufacturing tolerances would instead be introduced later when designing the surrounding enclosure.
+<!--insert-image-of-upper-surface-profile-applied-here-->
+<!--insert-image-of-frontal-fillet-profile-applied-here-->
+<table>
+    <tr>
+        <td>
+            <i>Upper surface profile applied to base model.</i><br>
+            <img width="2191" height="638" alt="image" src="https://github.com/user-attachments/assets/18ee06de-fa3f-4a8a-b8da-f07b066559ea" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <i>Frontal fillet profile applied to base model.</i><br>
+            <img width="2191" height="638" alt="image" src="https://github.com/user-attachments/assets/18ee06de-fa3f-4a8a-b8da-f07b066559ea" />
+        </td>
+    </tr>
+</table>
+     
+I did not add any additional tolerances were  to this reference model. Its purpose was to reproduce the original component as accurately as possible. I decided instead to add any required clearances and tolerances later when designing the surrounding enclosure.
 
 **Reference Model Results**   
 After combining the validated profiles, dimensional measurements, and functional features, I was able to reconstruct the LED module as a complete reference model.
@@ -2208,6 +2242,17 @@ The completed model was then test-fitted against the original component to verif
 Finally, I compared the reconstructed model directly with the original LED module.
    
 <insert-image-of-original-module-and-reconstructed-model-comparison-here>
+
+<table>
+    <caption>
+        Completed LED module reference model.
+    </caption>
+    <tr>
+        <td>
+            <img width="2000" height="1456" alt="image" src="https://github.com/user-attachments/assets/1c71b274-5be4-41e4-ae5c-8b8a629ccfcf" />
+        </td>
+    </tr>
+</table>
   
 The resulting reference model provides a reliable representation of the LED module in 3D space, allowing its mounting features and the surrounding enclosure geometry to be designed without repeatedly measuring the original component.
 
