@@ -2281,7 +2281,7 @@ The main objective at this stage was to make sure that the original module fitte
     
 <table> 
 <tr>
-    <td>
+    <td colspan="5">
         <i></i></br>
         <!-- combined geometry and initial result. -->
         <img width="1511" height="789" alt="image" src="https://github.com/user-attachments/assets/28b8191e-cb31-4189-b513-c27d8d070476" />
