@@ -2273,6 +2273,86 @@ Finally, I compared the reconstructed model directly with the original LED modul
 </table>
   
 The resulting reference model provides a reliable representation of the LED module in 3D space, allowing its mounting features and the surrounding enclosure geometry to be designed without repeatedly measuring the original component.
+
+### 🔹4.4.2 Initial led module housing design. 
+Using a combination of the negative and positive geometry generated during the reference-model process, together with the completed reference model, I was able to create the initial housing design relatively easily.
+
+The main objective at this stage was to make sure that the original module fitted securely while still having enough vertical movement for the integrated button to operate correctly.
+    
+<table> 
+<tr>
+    <td>
+        <i></i></br>
+        <!-- combined geometry and initial result. -->
+        <img width="1511" height="789" alt="image" src="https://github.com/user-attachments/assets/28b8191e-cb31-4189-b513-c27d8d070476" />
+    </td>
+</tr>
+<tr>
+    <td>
+        <!-- isometric top view no module -->
+        <img width="1254" height="832" alt="image" src="https://github.com/user-attachments/assets/1d300606-3528-4320-af30-65819bc5b5ad" />
+    </td>
+    <td>
+        <!-- isometric top view with module -->
+        <img width="1245" height="793" alt="image" src="https://github.com/user-attachments/assets/7381217f-6491-4c1b-9450-cc871189dcab" />
+    </td>
+    <td>
+        <!-- front view -->
+        <img width="1341" height="736" alt="image" src="https://github.com/user-attachments/assets/f761edcd-873d-4650-a6f3-bb57eeabbe7e" />
+    </td>
+    <td>
+        <!-- side view image -->
+        <img width="1351" height="837" alt="image" src="https://github.com/user-attachments/assets/b0729f99-bd31-4782-bcfd-47b62ac29cf8" />
+    </td>
+    <td>
+        <!-- cross section image -->
+        <img width="1238" height="830" alt="image" src="https://github.com/user-attachments/assets/3571514e-bc11-4f0d-8751-f7a6f214314f" />
+    </td>
+</tr>
+</table>  
+           
+**Initial design results**       
+The initial results were quite satisfying. The original module fitted correctly, had more than enough vertical travel for the button to operate comfortably, and remained securely inside the housing without trying to escape it.
+
+The only detail that could be improved was the vertical limit strut. It could be raised slightly to make the design look cleaner, but this was not important enough to justify another iteration at this stage.
+
+<table>
+    <caption>Initial design printed component tests.</caption>
+    <tr>
+        <td>
+            <img width="1424" height="921" alt="LM-housing-1" src="https://github.com/user-attachments/assets/619aad8e-3306-4577-8421-053f429d89a3" />
+        </td>
+        <td>
+            <img width="1424" height="921" alt="imageLM-housing-2" src="https://github.com/user-attachments/assets/9749b58c-b1d5-4fc9-ab61-da174815b3b4" />
+        </td>
+        <td>
+            <img width="1424" height="921" alt="imageLM-housing-3" src="https://github.com/user-attachments/assets/f6ef3ae4-3faf-42d2-b2f2-5594910d6534" />
+        </td>
+    </tr>
+</table>
+
+### 🔹4.4.3 Actuator and support arms design.     
+The next step was to design the actuator and support arms. This was particularly important because the position of the actuator had to be quite precise: if it was slightly too low, the button would require excessive travel to activate, while if it was too high, the slightest breeze might pause your game.
+
+To get an idea of the size and position of these features, I placed adhesive paper tape on the underside of the original piece and traced the relevant protruding geometry. This included the position and shape of the support arms, as well as the actuator and support holes.
+
+I then transferred the tape to a sheet of paper and scanned it so that I could import the result into Blender. This gave me a useful 2D reference that I could use as a starting point for modelling the actuator and support arms.
+    
+<table>
+    <caption>Reference scan.</caption>
+    <tr>
+        <td>
+            <i>Traced underside.</i></br>
+            <img width="1424" height="908" alt="image" src="https://github.com/user-attachments/assets/ffa07ae8-4ae6-4fe0-8510-23ca2e0f329d" />
+        </td>
+        <td>
+            <i>Scanned results</i></br>
+            <img width="1424" height="921" alt="image" src="https://github.com/user-attachments/assets/656be273-e912-45d4-8b5b-a162beca9cfc" />
+        </td>
+    </tr>
+</table>
+
+
   
 ## 🔸4.5 Auxiliary Button Console
 The Auxiliary Button Console houses the secondary control buttons used for functions such as Home, Share, and Options. These buttons are not used as frequently as the main controls, but they still need to be easy to reach without interfering with the primary controls.
