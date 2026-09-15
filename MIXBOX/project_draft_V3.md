@@ -2193,9 +2193,9 @@ I printed the negative geometry and tested against the original component, which
         </td>
     </tr>
 </table>
-      
+         
 With the upper surface established, I reconstructed the lower body using the validated dimensions and previously measured fillet radii.
-   
+     
 <!--image-of-base-body-with-top-view-profiles-here-->
 <table>
     <caption>
@@ -2216,13 +2216,13 @@ The final step was to combine these independently validated features into a sing
     <tr>
         <td>
             <i>Upper surface profile applied to base model.</i><br>
-            <img width="2191" height="638" alt="image" src="https://github.com/user-attachments/assets/18ee06de-fa3f-4a8a-b8da-f07b066559ea" />
+            <img alt="image" src="https://github.com/user-attachments/assets/cfe5e9a7-65ba-4502-bd9d-5d9229d9c0de" />
         </td>
     </tr>
     <tr>
         <td>
             <i>Frontal fillet profile applied to base model.</i><br>
-            <img width="2191" height="638" alt="image" src="https://github.com/user-attachments/assets/18ee06de-fa3f-4a8a-b8da-f07b066559ea" />
+            <img alt="image" src="https://github.com/user-attachments/assets/35c6e3ff-9b91-426f-b01a-b76adc2f3b8d" />
         </td>
     </tr>
 </table>
@@ -2232,17 +2232,7 @@ I did not add any additional tolerances were  to this reference model. Its purpo
 **Reference Model Results**   
 After combining the validated profiles, dimensional measurements, and functional features, I was able to reconstruct the LED module as a complete reference model.
    
-<insert-image-of-completed-led-module-reference-model-here>
-  
-The model is not intended to be a perfect digital replica of the original component. Instead, it provides a sufficiently accurate representation of the external geometry and critical functional features to be used during the design of the Mixbox enclosure.
-The completed model was then test-fitted against the original component to verify the accuracy of the reconstructed geometry.
-  
-<insert-image-of-final-test-fit-here>
-   
-Finally, I compared the reconstructed model directly with the original LED module.
-   
-<insert-image-of-original-module-and-reconstructed-model-comparison-here>
-
+<!--insert-image-of-completed-led-module-reference-model-here-->
 <table>
     <caption>
         Completed LED module reference model.
@@ -2254,25 +2244,35 @@ Finally, I compared the reconstructed model directly with the original LED modul
     </tr>
 </table>
   
-The resulting reference model provides a reliable representation of the LED module in 3D space, allowing its mounting features and the surrounding enclosure geometry to be designed without repeatedly measuring the original component.
-
-
-
-
-### Introduction.
-What the component is.
-Why it exists.
-What problems it must solve.
-A bullet list of design goals.
-### Design Requirements & Goals
-### Reference Models
-### Initial Design
-### Prototype 1
-### Prototype 2
-### Final Design
-### Evaluation
+The model is not intended to be a perfect digital replica of the original component. Instead, it provides a sufficiently accurate representation of the external geometry and critical functional features to be used during the design of the Mixbox enclosure.
+I then test-fitted the completed model against the original component to verify the accuracy of the reconstructed geometry.
   
-
+<!--insert-image-of-final-test-fit-here-->
+<table>
+    <caption>
+        Printed component test fit.
+    </caption>
+    <tr>
+        <td>
+            <img width="2000" height="622" alt="image" src="https://github.com/user-attachments/assets/b8e71563-5cf2-456b-8daa-188de9158a4d" />
+        </td>
+    </tr>
+</table>
+   
+Finally, I compared the reconstructed model directly with the original LED module.
+   
+<!--insert-image-of-original-module-and-reconstructed-model-comparison-here-->
+<table>
+    <caption>
+        Comparison between the original module and the reconstructed model.
+    </caption>
+    <tr>
+        <td>
+            <img width="2000" height="900" alt="18a5f713-84eb-432e-8cf8-55b7464a4d84" src="https://github.com/user-attachments/assets/27d26003-65cd-413a-bc28-ccb90c950c2e" />
+    </tr>
+</table>
+  
+The resulting reference model provides a reliable representation of the LED module in 3D space, allowing its mounting features and the surrounding enclosure geometry to be designed without repeatedly measuring the original component.
   
 ## 🔸4.5 Auxiliary Button Console
 The Auxiliary Button Console houses the secondary control buttons used for functions such as Home, Share, and Options. These buttons are not used as frequently as the main controls, but they still need to be easy to reach without interfering with the primary controls.
