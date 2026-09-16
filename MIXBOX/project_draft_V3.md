@@ -2276,37 +2276,34 @@ The resulting reference model provides a reliable representation of the LED modu
 
 ### 🔹4.4.2 Initial led module housing design. 
 Using a combination of the negative and positive geometry generated during the reference-model process, together with the completed reference model, I was able to create the initial housing design relatively easily.
-
-The main objective at this stage was to make sure that the original module fitted securely while still having enough vertical movement for the integrated button to operate correctly.
-    
+     
 <table> 
+    <tr>
+        <td colspan="2">
+            <i>Combined profiles and resulting model.</i></br>
+            <!-- combined geometry and initial result. -->
+            <img width="1511" height="789" alt="image" src="https://github.com/user-attachments/assets/28b8191e-cb31-4189-b513-c27d8d070476" />
+        </td>
+    </tr>
+    
 <tr>
-    <td colspan="5">
-        <i></i></br>
-        <!-- combined geometry and initial result. -->
-        <img width="1511" height="789" alt="image" src="https://github.com/user-attachments/assets/28b8191e-cb31-4189-b513-c27d8d070476" />
+    <td>
+        <i>Isometric view.</i></br>
+        <img width="1157" height="822" alt="isom-1" src="https://github.com/user-attachments/assets/20f2279b-643d-40d2-bb29-5b492ae73449" />
+    </td>
+    <td>
+        <i>Isometric view with module.</i></br>
+        <img width="1157" height="822" alt="isom-2" src="https://github.com/user-attachments/assets/0bffa9d6-8453-4153-854f-74a8a9abeaca" />
     </td>
 </tr>
 <tr>
     <td>
-        <!-- isometric top view no module -->
-        <img width="1254" height="832" alt="image" src="https://github.com/user-attachments/assets/1d300606-3528-4320-af30-65819bc5b5ad" />
+        <i>Front view.</i></br>
+        <img width="1157" height="822" alt="front" src="https://github.com/user-attachments/assets/351bf5f4-e0dc-4825-ad89-c33598d8fc7a" />
     </td>
     <td>
-        <!-- isometric top view with module -->
-        <img width="1245" height="793" alt="image" src="https://github.com/user-attachments/assets/7381217f-6491-4c1b-9450-cc871189dcab" />
-    </td>
-    <td>
-        <!-- front view -->
-        <img width="1341" height="736" alt="image" src="https://github.com/user-attachments/assets/f761edcd-873d-4650-a6f3-bb57eeabbe7e" />
-    </td>
-    <td>
-        <!-- side view image -->
-        <img width="1351" height="837" alt="image" src="https://github.com/user-attachments/assets/b0729f99-bd31-4782-bcfd-47b62ac29cf8" />
-    </td>
-    <td>
-        <!-- cross section image -->
-        <img width="1238" height="830" alt="image" src="https://github.com/user-attachments/assets/3571514e-bc11-4f0d-8751-f7a6f214314f" />
+        <i>Cross section.</i></br>
+        <img width="1157" height="822" alt="x-sect" src="https://github.com/user-attachments/assets/24a38aac-1978-4c99-8aab-9ecd4ba16acc" />
     </td>
 </tr>
 </table>  
