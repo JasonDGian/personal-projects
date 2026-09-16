@@ -2245,8 +2245,8 @@ After combining the validated profiles, dimensional measurements, and functional
 </table>
   
 The model is not intended to be a perfect digital replica of the original component. Instead, it provides a sufficiently accurate representation of the external geometry and critical functional features to be used during the design of the Mixbox enclosure.
-I then test-fitted the completed model against the original component to verify the accuracy of the reconstructed geometry.
-  
+I then printed the test model and placed it in the original controller, using the original component’s mounting position to verify the accuracy of the reconstructed geometry and ensure that my measurements were correct.
+
 <!--insert-image-of-final-test-fit-here-->
 <table>
     <caption>
