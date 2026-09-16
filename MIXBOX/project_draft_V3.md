@@ -464,7 +464,7 @@ Instead of testing the full model at once, I validated it in stages. Breaking it
 - The right side was added and validated
 - The full outline was assembled and tested
    
-For each iteration, I printed a test piece and physically checked the fit against the motherboard. These parts were not meant to represent the motherboard itself — they were the negative geometry, meaning the cavity the motherboard would eventually sit in. This allowed me to test the enclosure fit directly, while keeping print time and material use low.
+For each iteration, I printed a test piece and physically checked the fit against the motherboard. These parts were not meant to represent the motherboard itself, they were the negative geometry, meaning the cavity the motherboard would eventually sit in. This allowed me to test the enclosure fit directly, while keeping print time and material use low.
    
 After each test fit, I noted any areas that needed adjustment, updated the model in Blender, and printed a new iteration. Throughout the entire process, I kept a single reference vertex as the fixed origin. This made sure that any changes stayed consistent and didn’t unintentionally shift dimensions that had already been validated.
      
@@ -2227,7 +2227,7 @@ The final step was to combine these independently validated features into a sing
     </tr>
 </table>
      
-I did not add any additional tolerances were  to this reference model. Its purpose was to reproduce the original component as accurately as possible. I decided instead to add any required clearances and tolerances later when designing the surrounding enclosure.
+I did not add any additional tolerances to this reference model. Its purpose was to reproduce the original component as accurately as possible. I decided instead to add any required clearances and tolerances later when designing the surrounding enclosure.
 
 **Reference Model Results**   
 After combining the validated profiles, dimensional measurements, and functional features, I was able to reconstruct the LED module as a complete reference model.
