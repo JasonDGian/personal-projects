@@ -2349,6 +2349,23 @@ I then transferred the tape to a sheet of paper and scanned it so that I could i
     </tr>
 </table>
 
+For the arm height, I simply measured the original geometry as accurately as possible. A perfectly precise measurement was unlikely given the small scale of the geometry. I did not bother creating a highly accurate drawing, as I only needed the measurements as a reference and would not be scanning the resulting image.
+
+<table>
+    <caption>Reference measurementes.</caption>
+    <tr>
+        <td>
+            <i>Measured geometry.</i></br>
+            <img width="1364" height="912" alt="image" src="https://github.com/user-attachments/assets/41cc063e-109f-497f-b22a-faf41787bc12" />
+        </td>
+        <td>
+            <i>Captured values.</i></br>
+            <img width="1364" height="912" alt="image" src="https://github.com/user-attachments/assets/ff8384f6-1c8f-4a45-8142-b0ed4ecc37ee" />
+        </td>
+    </tr>
+</table>
+
+
 
   
 ## 🔸4.5 Auxiliary Button Console
