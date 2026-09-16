@@ -2227,7 +2227,7 @@ The final step was to combine these independently validated features into a sing
     </tr>
 </table>
      
-I did not add any additional tolerances to this reference model. Its purpose was to reproduce the original component as accurately as possible. I decided instead to add any required clearances and tolerances later when designing the surrounding enclosure.
+I did not add any additional tolerances to this reference model. I decided instead to add any required clearances and tolerances later when designing the surrounding enclosure.
 
 **Reference Model Results**   
 After combining the validated profiles, dimensional measurements, and functional features, I was able to reconstruct the LED module as a complete reference model.
