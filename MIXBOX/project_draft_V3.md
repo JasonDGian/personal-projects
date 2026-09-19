@@ -2274,97 +2274,48 @@ Finally, I compared the reconstructed model directly with the original LED modul
   
 The resulting reference model provides a reliable representation of the LED module in 3D space, allowing its mounting features and the surrounding enclosure geometry to be designed without repeatedly measuring the original component.
 
-### 🔹4.4.2 Initial led module housing design. 
-Using a combination of the negative and positive geometry generated during the reference-model process, together with the completed reference model, I was able to create the initial housing design relatively easily.
-     
-<table> 
-    <tr>
-        <td colspan="2">
-            <i>Combined profiles and resulting model.</i></br>
-            <!-- combined geometry and initial result. -->
-            <img width="1511" height="789" alt="image" src="https://github.com/user-attachments/assets/28b8191e-cb31-4189-b513-c27d8d070476" />
-        </td>
-    </tr>
-    
-<tr>
-    <td>
-        <i>Isometric view.</i></br>
-        <img width="1157" height="822" alt="isom-1" src="https://github.com/user-attachments/assets/20f2279b-643d-40d2-bb29-5b492ae73449" />
-    </td>
-    <td>
-        <i>Isometric view with module.</i></br>
-        <img width="1157" height="822" alt="isom-2" src="https://github.com/user-attachments/assets/0bffa9d6-8453-4153-854f-74a8a9abeaca" />
-    </td>
-</tr>
-<tr>
-    <td>
-        <i>Front view.</i></br>
-        <img width="1157" height="822" alt="front" src="https://github.com/user-attachments/assets/351bf5f4-e0dc-4825-ad89-c33598d8fc7a" />
-    </td>
-    <td>
-        <i>Cross section.</i></br>
-        <img width="1157" height="822" alt="x-sect" src="https://github.com/user-attachments/assets/24a38aac-1978-4c99-8aab-9ecd4ba16acc" />
-    </td>
-</tr>
-</table>  
-           
-**Initial design results**       
-The initial results were quite satisfying. The original module fitted correctly, had more than enough vertical travel for the button to operate comfortably, and remained securely inside the housing without trying to escape it.
+### 🔹4.4.2 Initial led module housing and actuator assembly design.
+Using a combination of the negative and positive geometry generated during the reference-model process, together with the completed reference model, I was able to create the initial housing design relatively easily. This provided the basic structure needed to hold the LED module and gave me a starting point for developing the actuator and support arms.
 
-The only detail that could be improved was the vertical limit strut. It could be raised slightly to make the design look cleaner, but this was not important enough to justify another iteration at this stage.
+<table> <tr> <td colspan="2"> <i>Combined profiles and resulting model.</i></br> <img width="1511" height="789" alt="Combined profiles and resulting model" src="https://github.com/user-attachments/assets/28b8191e-cb31-4189-b513-c27d8d070476" /> </td> </tr> <tr> <td> <i>Isometric view.</i></br> <img width="1157" height="822" alt="Isometric view" src="https://github.com/user-attachments/assets/20f2279b-643d-40d2-bb29-5b492ae73449" /> </td> <td> <i>Isometric view with module.</i></br> <img width="1157" height="822" alt="Isometric view with module" src="https://github.com/user-attachments/assets/0bffa9d6-8453-4153-854f-74a8a9abeaca" /> </td> </tr> <tr> <td> <i>Front view.</i></br> <img width="1157" height="822" alt="Front view" src="https://github.com/user-attachments/assets/351bf5f4-e0dc-4825-ad89-c33598d8fc7a" /> </td> <td> <i>Cross-section.</i></br> <img width="1157" height="822" alt="Cross-section" src="https://github.com/user-attachments/assets/24a38aac-1978-4c99-8aab-9ecd4ba16acc" /> </td> </tr> </table>
 
-<table>
-    <caption>Initial design printed component tests.</caption>
-    <tr>
-        <td>
-            <img width="1424" height="921" alt="LM-housing-1" src="https://github.com/user-attachments/assets/619aad8e-3306-4577-8421-053f429d89a3" />
-        </td>
-        <td>
-            <img width="1424" height="921" alt="imageLM-housing-2" src="https://github.com/user-attachments/assets/9749b58c-b1d5-4fc9-ab61-da174815b3b4" />
-        </td>
-        <td>
-            <img width="1424" height="921" alt="imageLM-housing-3" src="https://github.com/user-attachments/assets/f6ef3ae4-3faf-42d2-b2f2-5594910d6534" />
-        </td>
-    </tr>
-</table>
+With the basic housing defined, the next step was to develop the actuator and support arms. This was particularly important because the actuator position had to be quite precise: if it was slightly too low, the button would require excessive travel to activate, while if it was too high, the slightest breeze might pause your game.
 
-### 🔹4.4.3 Actuator and support arms design.     
-The next step was to design the actuator and support arms. This was particularly important because the position of the actuator had to be quite precise: if it was slightly too low, the button would require excessive travel to activate, while if it was too high, the slightest breeze might pause your game.
+To get an idea of the size and position of these features, I placed adhesive paper tape on the underside of the original piece and traced the relevant protruding geometry. This included the support arms, actuator, and support holes.
 
-To get an idea of the size and position of these features, I placed adhesive paper tape on the underside of the original piece and traced the relevant protruding geometry. This included the position and shape of the support arms, as well as the actuator and support holes.
+I then transferred the tape to a sheet of paper and scanned it so I could import the result into Blender. This gave me a useful 2D reference to use as a starting point for modelling the actuator and support arms.
 
-I then transferred the tape to a sheet of paper and scanned it so that I could import the result into Blender. This gave me a useful 2D reference that I could use as a starting point for modelling the actuator and support arms.
-    
-<table>
-    <caption>Reference scan.</caption>
-    <tr>
-        <td>
-            <i>Traced underside.</i></br>
-            <img width="1424" height="908" alt="image" src="https://github.com/user-attachments/assets/ffa07ae8-4ae6-4fe0-8510-23ca2e0f329d" />
-        </td>
-        <td>
-            <i>Scanned results</i></br>
-            <img width="1424" height="921" alt="image" src="https://github.com/user-attachments/assets/656be273-e912-45d4-8b5b-a162beca9cfc" />
-        </td>
-    </tr>
-</table>
+<table> <caption>Reference scan.</caption> <tr> <td> <i>Traced underside geometry.</i></br> <img width="1424" height="908" alt="Traced underside geometry" src="https://github.com/user-attachments/assets/ffa07ae8-4ae6-4fe0-8510-23ca2e0f329d" /> </td> <td> <i>Scanned 2D reference.</i></br> <img width="1424" height="921" alt="Scanned 2D reference" src="https://github.com/user-attachments/assets/656be273-e912-45d4-8b5b-a162beca9cfc" /> </td> </tr> </table>
 
-For the arm height, I simply measured the original geometry as accurately as possible. A perfectly precise measurement was unlikely given the small scale of the geometry. I did not bother creating a highly accurate drawing, as I only needed the measurements as a reference and would not be scanning the resulting image.
+For the arm height, I measured the original geometry as accurately as possible. Given the small size of these features, perfectly precise measurements were unlikely. I therefore did not bother creating a highly accurate drawing, as I only needed the measurements as a reference and would not be scanning the drawing itself.
 
-<table>
-    <caption>Reference measurementes.</caption>
-    <tr>
-        <td>
-            <i>Measured geometry.</i></br>
-            <img width="1364" height="912" alt="image" src="https://github.com/user-attachments/assets/41cc063e-109f-497f-b22a-faf41787bc12" />
-        </td>
-        <td>
-            <i>Captured values.</i></br>
-            <img width="1364" height="912" alt="image" src="https://github.com/user-attachments/assets/ff8384f6-1c8f-4a45-8142-b0ed4ecc37ee" />
-        </td>
-    </tr>
-</table>
+<table> <caption>Reference measurements.</caption> <tr> <td> <i>Measured support-arm geometry.</i></br> <img width="1364" height="912" alt="Measured support-arm geometry" src="https://github.com/user-attachments/assets/41cc063e-109f-497f-b22a-faf41787bc12" /> </td> <td> <i>Recorded reference measurements.</i></br> <img width="1364" height="912" alt="Recorded reference measurements" src="https://github.com/user-attachments/assets/ff8384f6-1c8f-4a45-8142-b0ed4ecc37ee" /> </td> </tr> </table>
 
+I used the scan and measurements to model the first actuator and support-arm prototype. Although it took some trial and error, I eventually got it to reproduce the feel of the original LED module surprisingly well.
+
+To keep the actuator and support arms at the correct distance from the module, I added two walls that would be fixed to the housing and act as vertical positioning guides. Their height determined the position of the plane containing the actuator and support arms, making this dimension particularly important.
+
+<table> <tr> <td> <i>Actuator, support arms, and positioning guides.</i></br> <img width="1120" height="812" alt="Actuator, support arms, and positioning guides" src="https://github.com/user-attachments/assets/0bdbecbc-f852-493f-8652-d1e90cb6c591" /> </td> </tr> </table>
+
+Getting the height of these walls right required some trial and error, with each adjustment improving the feel of the button. In total, I went through five iterations of this piece, mainly due to adjustments to the positioning walls. I do not think each iteration is worth documenting individually, but the overall progression is shown below.
+
+<table> <tr> <td> <i>Progression of the five actuator iterations.</i></br> <img width="1571" height="608" alt="Progression of the five actuator iterations" src="https://github.com/user-attachments/assets/921bd8b0-ba12-49ea-83d8-2becb0b53d6b" /> </td> </tr> </table>
+
+**Initial Iteration Results**
+Once the housing and actuator designs were complete, I printed the parts to evaluate the complete first iteration as a physical assembly.
+
+<table> <caption>Initial iteration printed parts.</caption> <tr> <td> <img width="1424" height="921" alt="Initial iteration printed part 1" src="https://github.com/user-attachments/assets/619aad8e-3306-4577-8421-053f429d89a3" /> </td> <td> <img width="1424" height="921" alt="Initial iteration printed part 2" src="https://github.com/user-attachments/assets/9749b58c-b1d5-4fc9-ab61-da174815b3b4" /> </td> <td> <img width="1424" height="921" alt="Initial iteration printed part 3" src="https://github.com/user-attachments/assets/f6ef3ae4-3faf-42d2-b2f2-5594910d6534" /> </td> </tr> </table>
+
+The printed parts confirmed that the housing and actuator worked together as intended. The original module fitted correctly, had enough vertical travel for the button to operate comfortably, and remained securely inside the housing.
+
+The actuator also reproduced the feel of the original LED module reasonably well. The positioning walls provided enough control over its height to achieve the required activation point.
+
+There were still a few things that could be improved. The vertical limit strut could be raised slightly to make the housing look cleaner, while the actuator and support-arm geometry could be refined further. However, none of these issues prevented the design from functioning, so I decided to use this first iteration as the foundation for the next stage rather than refining it further at this point.
+
+This first iteration gave me a solid physical reference for the next design iteration.
+
+### 🔹4.4.3 Second iteration.
+En esta iteracion me centro en crear el sistema de fijacion de la placa de activacion al modulo de alojamiento del modulo led.
 
 
   
