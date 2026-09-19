@@ -2307,107 +2307,44 @@ Once the housing and actuator designs were complete, I printed the parts to eval
 The printed parts confirmed that the housing and actuator worked together as intended. The original module fitted correctly, had enough vertical travel for the button to operate comfortably, and remained securely inside the housing.
 The actuator also reproduced the feel of the original LED module reasonably well. The positioning walls provided enough control over its height to achieve the required activation point.
 There were still a few things that could be improved. The vertical limit strut could be raised slightly to make the housing look cleaner, while the actuator and support-arm geometry could be refined further. However, none of these issues prevented the design from functioning, so I decided to use this first iteration as the foundation for the next stage rather than refining it further at this point.
-
+   
 <table>
     <caption>First iteration results.</caption>
     <tr>
         <td>
             <i>Actuator piece.</i></br>
-            <img width="1734" height="923" alt="image" src="https://github.com/user-attachments/assets/b03f6315-6131-43fc-8465-f9c8ba0d713c" />
+            <img height="900" alt="image" src="https://github.com/user-attachments/assets/b03f6315-6131-43fc-8465-f9c8ba0d713c" />
         </td>
         <td>
             <i>Led module housing.</i></br>
-            <img width="1424" height="921" alt="LM-housing-1" src="https://github.com/user-attachments/assets/ca9a6bd7-e748-4d82-b346-8bcbb5d4d196" />
+            <img height="900" alt="LM-housing-1" src="https://github.com/user-attachments/assets/ca9a6bd7-e748-4d82-b346-8bcbb5d4d196" />
         </td>
     </tr>
     <tr>
         <td>
             <i>Complete assembly - Front view </i></br>
-            <img width="1734" height="923" alt="image" src="https://github.com/user-attachments/assets/6a8ab62d-85bc-411c-866d-63625ef26e39" />
+            <img height="900" alt="image" src="https://github.com/user-attachments/assets/6a8ab62d-85bc-411c-866d-63625ef26e39" />
         </td>
         <td>
             <i>Complete assembly - Isometric view.</i></br>
-            <img width="1200" height="921" alt="assembly-1 (1)" src="https://github.com/user-attachments/assets/3ae1bc1e-70e7-4a93-bf18-e84581e50452" />
+            <img height="900" alt="assembly-1 (1)" src="https://github.com/user-attachments/assets/3ae1bc1e-70e7-4a93-bf18-e84581e50452" />
         </td>
     </tr>
     <tr>
         <td>
             <i>Complete assembly w/ module - Front view </i></br>
-            <img width="1734" height="923" alt="image" src="https://github.com/user-attachments/assets/d32307da-1a72-4678-b101-d059267e80e0" />
+            <img height="923" alt="image" src="https://github.com/user-attachments/assets/d32307da-1a72-4678-b101-d059267e80e0" />
         </td>
         <td>
             <i>Complete assembly w/ module - Isometric view </i></br>
-            <img width="1200" height="921" alt="image" src="https://github.com/user-attachments/assets/347bb75a-71c3-4897-8a16-e64ce0893d56" />
+            <img height="900" alt="image" src="https://github.com/user-attachments/assets/347bb75a-71c3-4897-8a16-e64ce0893d56" />
         </td>
     </tr>
     <tr>
         <td>
-            <i></i></br>
-        </td>
-        <td>
-            <i></i></br>
-        </td>
-    </tr>
-</table>
-
-<table>
-<tr>
-
-<td>
-    <i>Module Housing assembly - Front view.</i></br>
-    <img width="2048" height="923" alt="image" src="https://github.com/user-attachments/assets/d2d528bf-20e4-499e-8c49-52fa326f2a41" />
-</td>
-
-<td>
-    <i>Module Housing assembly with module installed - Front view.</i></br>
-    
-</td>
-
-<td>
-    <i>Module Housing assembly with module installed - Isometric view.</i></br>
-    <img width="1200" height="921" alt="assembly-2" src="https://github.com/user-attachments/assets/36c887bb-323c-443d-adc6-8644c6129db8" />
-</td>
-
-<td>
-    <i>Module Housing assembly with module installed - Side view.</i></br>
-    <img width="1200" height="921" alt="image" src="https://github.com/user-attachments/assets/78dd78a1-e8ad-4c36-afc5-d3674c4e896f" />
-</td>
-
-<td>
-    <i>Module Housing assembly with module installed - Back view.</i></br>
-    <img width="2048" height="923" alt="image" src="https://github.com/user-attachments/assets/39c20c66-6ca7-4720-96fd-3ff94c85b97b" />    
-</td>
-</tr>
-</table>
-
-<!-- Housing images -->
-<table> <caption>Initial iteration printed parts.</caption> 
-    <tr> 
-        <td> 
-            <img width="1424" height="921" alt="Initial iteration printed part 1" src="https://github.com/user-attachments/assets/619aad8e-3306-4577-8421-053f429d89a3" /> 
-        </td> 
-        <td> 
-            <img width="1424" height="921" alt="Initial iteration printed part 2" src="https://github.com/user-attachments/assets/9749b58c-b1d5-4fc9-ab61-da174815b3b4" /> 
-        </td> 
-        <td> 
-            <img width="1424" height="921" alt="Initial iteration printed part 3" src="https://github.com/user-attachments/assets/f6ef3ae4-3faf-42d2-b2f2-5594910d6534" /> 
-        </td> 
-    </tr> 
-</table>
-
-
-<table> <caption>Initial iteration printed parts.</caption> 
-    <tr> 
-        <td rowspan="2" > 
-            <i>Led module actuator - Initial design.</i></br>
-            <img width="2048" height="923" alt="image" src="https://github.com/user-attachments/assets/b135fd84-3045-43e9-9805-2d464464122a" />
-        </td> 
-        <td> 
             <i>Led module actuator - Front view</i></br>
             <img width="2048" height="921" alt="backside_module_mounter_2" src="https://github.com/user-attachments/assets/6b66b6ae-0192-4595-84c1-0a534f654a9d" />
         </td> 
-    </tr> 
-    <tr> 
         <td> 
             <i>Led module actuator - Back view</i></br>
             <img width="2048" height="921" alt="backside_module_mounter_1 (1)" src="https://github.com/user-attachments/assets/08a84466-8082-4aeb-a3a1-a6609359eae7" />
@@ -2415,17 +2352,6 @@ There were still a few things that could be improved. The vertical limit strut c
     </tr> 
 </table>
 
-
-
-<table>
-    <tr>
-        <td>
-            
-        </td>
-    </tr>
-    
-</table>
-   
 This first iteration gave me a solid physical reference for the next design iteration.
    
 ### 🔹4.4.3 Second iteration.
