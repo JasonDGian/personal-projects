@@ -2301,19 +2301,89 @@ Getting the height of these walls right required some trial and error, with each
 
 <table> <tr> <td> <i>Progression of the five actuator iterations.</i></br> <img width="1571" height="608" alt="Progression of the five actuator iterations" src="https://github.com/user-attachments/assets/921bd8b0-ba12-49ea-83d8-2becb0b53d6b" /> </td> </tr> </table>
 
-**Initial Iteration Results**
+**Initial Iteration Results**     
 Once the housing and actuator designs were complete, I printed the parts to evaluate the complete first iteration as a physical assembly.
-
-<table> <caption>Initial iteration printed parts.</caption> <tr> <td> <img width="1424" height="921" alt="Initial iteration printed part 1" src="https://github.com/user-attachments/assets/619aad8e-3306-4577-8421-053f429d89a3" /> </td> <td> <img width="1424" height="921" alt="Initial iteration printed part 2" src="https://github.com/user-attachments/assets/9749b58c-b1d5-4fc9-ab61-da174815b3b4" /> </td> <td> <img width="1424" height="921" alt="Initial iteration printed part 3" src="https://github.com/user-attachments/assets/f6ef3ae4-3faf-42d2-b2f2-5594910d6534" /> </td> </tr> </table>
-
+   
 The printed parts confirmed that the housing and actuator worked together as intended. The original module fitted correctly, had enough vertical travel for the button to operate comfortably, and remained securely inside the housing.
-
 The actuator also reproduced the feel of the original LED module reasonably well. The positioning walls provided enough control over its height to achieve the required activation point.
-
 There were still a few things that could be improved. The vertical limit strut could be raised slightly to make the housing look cleaner, while the actuator and support-arm geometry could be refined further. However, none of these issues prevented the design from functioning, so I decided to use this first iteration as the foundation for the next stage rather than refining it further at this point.
 
-This first iteration gave me a solid physical reference for the next design iteration.
 
+<td>
+    <i>Module Housing - Front view.</i></br>
+</td>
+
+<td>
+    <i>Module Housing - Side view.</i></br>
+</td>
+
+<td>
+    <i></i></br>
+</td>
+
+<td>
+    <i></i></br>
+</td>
+
+<td>
+    <i></i></br>
+</td>
+
+<td>
+    <i></i></br>
+</td>
+
+
+
+
+<!-- Housing images -->
+<table> <caption>Initial iteration printed parts.</caption> 
+    <tr> 
+        <td> 
+            <img width="1424" height="921" alt="Initial iteration printed part 1" src="https://github.com/user-attachments/assets/619aad8e-3306-4577-8421-053f429d89a3" /> 
+        </td> 
+        <td> 
+            <img width="1424" height="921" alt="Initial iteration printed part 2" src="https://github.com/user-attachments/assets/9749b58c-b1d5-4fc9-ab61-da174815b3b4" /> 
+        </td> 
+        <td> 
+            <img width="1424" height="921" alt="Initial iteration printed part 3" src="https://github.com/user-attachments/assets/f6ef3ae4-3faf-42d2-b2f2-5594910d6534" /> 
+        </td> 
+    </tr> 
+</table>
+
+
+<table> <caption>Initial iteration printed parts.</caption> 
+    <tr> 
+        <td rowspan="2" > 
+            <i>Led module actuator - Initial design.</i></br>
+            <img width="2048" height="923" alt="image" src="https://github.com/user-attachments/assets/b135fd84-3045-43e9-9805-2d464464122a" />
+        </td> 
+        <td> 
+            <i>Led module actuator - Front view</i></br>
+            <img width="2048" height="921" alt="backside_module_mounter_2" src="https://github.com/user-attachments/assets/6b66b6ae-0192-4595-84c1-0a534f654a9d" />
+        </td> 
+    </tr> 
+    <tr> 
+        <td> 
+            <i>Led module actuator - Back view</i></br>
+            <img width="2048" height="921" alt="backside_module_mounter_1 (1)" src="https://github.com/user-attachments/assets/08a84466-8082-4aeb-a3a1-a6609359eae7" />
+        </td> 
+    </tr> 
+</table>
+
+
+
+<table>
+    <tr>
+        <td>
+            
+        </td>
+    </tr>
+    
+</table>
+   
+This first iteration gave me a solid physical reference for the next design iteration.
+   
 ### 🔹4.4.3 Second iteration.
 En esta iteracion me centro en crear el sistema de fijacion de la placa de activacion al modulo de alojamiento del modulo led.
 
