@@ -2355,8 +2355,39 @@ There were still a few things that could be improved. The vertical limit strut c
 This first iteration gave me a solid physical reference for the next design iteration.
    
 ### 🔹4.4.3 Second iteration.
-En esta iteracion me centro en crear el sistema de fijacion de la placa de activacion al modulo de alojamiento del modulo led.
+For the second iteration, I focused on developing a method to securely fasten the support and actuator panel to the module housing. I introduced four main fastening pillars for the screws, using the existing walls of the panel to define their position and spacing.
 
+To improve the alignment between the two parts, I slightly increased the width of these pillars and added a guiding geometry that allowed the walls of the Bottom Support and Actuator Panel to fit around the corresponding pillars of the top piece, similar to a puzzle-piece connection.
+
+The top piece contains the protruding cylindrical pillars, while the Bottom Support and Actuator Panel has matching cylindrical recesses positioned within its walls. When the two pieces are assembled, these features interlock and constrain the panel in both the X and Y axes, ensuring that the two parts remain correctly aligned.
+
+The screw holes are integrated into the centre of these alignment features. The screws are inserted from the bottom of the Bottom Support and Actuator Panel and fasten directly into the pillars of the top piece, securing the two parts together while the surrounding geometry provides additional mechanical alignment.
+
+<table>
+    <caption></caption>
+    <tr>
+        <td colspan="3">
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b1af87bc-44eb-4c27-95a0-b0dc053b0f07" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <i>Front view</i></br>
+            <img width="1176" height="885" alt="image" src="https://github.com/user-attachments/assets/5a6b483c-5384-4d03-943e-da6c7793e1c1" />
+        </td>
+        <td>
+            <i>Back view</i></br>
+            <img width="1176" height="877" alt="image" src="https://github.com/user-attachments/assets/3516eb51-0f02-4a4b-8498-2b78b833837e" />        
+        </td>
+        <td>
+            <i>Side view</i></br>
+            <img width="1090" height="797" alt="image" src="https://github.com/user-attachments/assets/35655a8b-7c3e-4770-943a-3994573f2a87" />
+        </td>
+    </tr>
+</table>
+    
+**Second iteration results.**    
+<mark>TODO: elaborar sobre los resultados de la pieza impresa. Ver como encajan las guias, ver que tal funcionan los tornillos y si realizan su funcion correctamente. Probar el actuador con la medida recalibrada y con el panel de grosor aumentado.</mark>
 
   
 ## 🔸4.5 Auxiliary Button Console
