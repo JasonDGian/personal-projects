@@ -1,4 +1,4 @@
-# Building a Custom Fightstick Controller
+<img width="2048" height="921" alt="image" src="https://github.com/user-attachments/assets/3ffb9d6a-ed46-4368-9d23-4ba0cd3ca8f4" /># Building a Custom Fightstick Controller
     
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/1c61ba26-ca54-4d73-951a-0f259d576594" />
 
@@ -2308,33 +2308,68 @@ The printed parts confirmed that the housing and actuator worked together as int
 The actuator also reproduced the feel of the original LED module reasonably well. The positioning walls provided enough control over its height to achieve the required activation point.
 There were still a few things that could be improved. The vertical limit strut could be raised slightly to make the housing look cleaner, while the actuator and support-arm geometry could be refined further. However, none of these issues prevented the design from functioning, so I decided to use this first iteration as the foundation for the next stage rather than refining it further at this point.
 
+<table>
+    <caption>Complete assembly</caption>
+    <tr>
+        <td>
+            <i></i></br>
+        </td>
+        <td>
+            <i></i></br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <i></i></br>
+        </td>
+        <td>
+            <i></i></br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <i></i></br>
+        </td>
+        <td>
+            <i></i></br>
+        </td>
+    </tr>
+</table>
+
+<table>
+<tr>
 
 <td>
-    <i>Module Housing - Front view.</i></br>
+    <i>Module Housing assembly - Front view.</i></br>
+    <img width="2048" height="923" alt="image" src="https://github.com/user-attachments/assets/d2d528bf-20e4-499e-8c49-52fa326f2a41" />
 </td>
 
 <td>
-    <i>Module Housing - Side view.</i></br>
+    <i>Module Housing assembly - Side view.</i></br>
+    <img width="1200" height="921" alt="assembly-1 (1)" src="https://github.com/user-attachments/assets/3ae1bc1e-70e7-4a93-bf18-e84581e50452" />
 </td>
 
 <td>
-    <i></i></br>
+    <i>Module Housing assembly with module installed - Front view.</i></br>
+    
 </td>
 
 <td>
-    <i></i></br>
+    <i>Module Housing assembly with module installed - Isometric view.</i></br>
+    <img width="1200" height="921" alt="assembly-2" src="https://github.com/user-attachments/assets/36c887bb-323c-443d-adc6-8644c6129db8" />
 </td>
 
 <td>
-    <i></i></br>
+    <i>Module Housing assembly with module installed - Side view.</i></br>
+    <img width="1200" height="921" alt="image" src="https://github.com/user-attachments/assets/78dd78a1-e8ad-4c36-afc5-d3674c4e896f" />
 </td>
 
 <td>
-    <i></i></br>
+    <i>Module Housing assembly with module installed - Back view.</i></br>
+    <img width="2048" height="923" alt="image" src="https://github.com/user-attachments/assets/39c20c66-6ca7-4720-96fd-3ff94c85b97b" />    
 </td>
-
-
-
+</tr>
+</table>
 
 <!-- Housing images -->
 <table> <caption>Initial iteration printed parts.</caption> 
