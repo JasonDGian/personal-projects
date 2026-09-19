@@ -1,4 +1,4 @@
-<img width="2048" height="921" alt="image" src="https://github.com/user-attachments/assets/3ffb9d6a-ed46-4368-9d23-4ba0cd3ca8f4" /># Building a Custom Fightstick Controller
+# Building a Custom Fightstick Controller
     
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/1c61ba26-ca54-4d73-951a-0f259d576594" />
 
@@ -2309,21 +2309,35 @@ The actuator also reproduced the feel of the original LED module reasonably well
 There were still a few things that could be improved. The vertical limit strut could be raised slightly to make the housing look cleaner, while the actuator and support-arm geometry could be refined further. However, none of these issues prevented the design from functioning, so I decided to use this first iteration as the foundation for the next stage rather than refining it further at this point.
 
 <table>
-    <caption>Complete assembly</caption>
+    <caption>First iteration results.</caption>
     <tr>
         <td>
-            <i></i></br>
+            <i>Actuator piece.</i></br>
+            <img width="1734" height="923" alt="image" src="https://github.com/user-attachments/assets/b03f6315-6131-43fc-8465-f9c8ba0d713c" />
         </td>
         <td>
-            <i></i></br>
+            <i>Led module housing.</i></br>
+            <img width="1424" height="921" alt="LM-housing-1" src="https://github.com/user-attachments/assets/ca9a6bd7-e748-4d82-b346-8bcbb5d4d196" />
         </td>
     </tr>
     <tr>
         <td>
-            <i></i></br>
+            <i>Complete assembly - Front view </i></br>
+            <img width="1734" height="923" alt="image" src="https://github.com/user-attachments/assets/6a8ab62d-85bc-411c-866d-63625ef26e39" />
         </td>
         <td>
-            <i></i></br>
+            <i>Complete assembly - Isometric view.</i></br>
+            <img width="1200" height="921" alt="assembly-1 (1)" src="https://github.com/user-attachments/assets/3ae1bc1e-70e7-4a93-bf18-e84581e50452" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <i>Complete assembly w/ module - Front view </i></br>
+            <img width="1734" height="923" alt="image" src="https://github.com/user-attachments/assets/d32307da-1a72-4678-b101-d059267e80e0" />
+        </td>
+        <td>
+            <i>Complete assembly w/ module - Isometric view </i></br>
+            <img width="1200" height="921" alt="image" src="https://github.com/user-attachments/assets/347bb75a-71c3-4897-8a16-e64ce0893d56" />
         </td>
     </tr>
     <tr>
@@ -2342,11 +2356,6 @@ There were still a few things that could be improved. The vertical limit strut c
 <td>
     <i>Module Housing assembly - Front view.</i></br>
     <img width="2048" height="923" alt="image" src="https://github.com/user-attachments/assets/d2d528bf-20e4-499e-8c49-52fa326f2a41" />
-</td>
-
-<td>
-    <i>Module Housing assembly - Side view.</i></br>
-    <img width="1200" height="921" alt="assembly-1 (1)" src="https://github.com/user-attachments/assets/3ae1bc1e-70e7-4a93-bf18-e84581e50452" />
 </td>
 
 <td>
