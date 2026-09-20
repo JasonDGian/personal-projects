@@ -2688,7 +2688,7 @@ The test confirmed that the console fitted correctly into the opening and that t
 
 With these changes, the console achieved the requirements I had established for it. It provided the three required auxiliary controls while remaining a separate and easily replaceable component, with enough space to accommodate possible future modifications.
 
-## 🔸4.6 Vibration motors. 
+## 🔸4.6 Vibration motors (rumble feature). 
 The original controller included two 5 V motors that provided the vibration feedback during gameplay, commonly known as **rumble motors**. I wanted to retain this feature in my custom controller, so I needed to design a mounting system for them.
 
 **From the beginning, I had two main requirements for this feature:**
