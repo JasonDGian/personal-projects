@@ -2697,8 +2697,7 @@ The original controller included two 5 V motors that provided the vibration feed
     
 ### 🔹4.6.1 Reference model creation.
 Creating the reference model for the rumble motor was relatively straightforward. Unlike some of the other components, there were no particularly complex curves or unusual angles to reproduce. The motor is essentially a collection of cylindrical features with different diameters and lengths.
-
-
+     
 <table>
     <tr>
         <td>
@@ -2714,8 +2713,21 @@ Creating the reference model for the rumble motor was relatively straightforward
 
 I therefore focused mainly on accurately capturing the dimensions and relative positions of these cylindrical sections, as these would be the important features when designing the mounting system.
 
-TODO: Mostrar imagenes modelo referencia y medidas tomadas para desarrollarlo.
-
+The only feature I kept in mind and represented in the model besides the main shape was the wire exit point from the main body. This would be important when designing the mount, as I needed to make sure the wires were not being pressed against the motor or trapped by the mounting geometry.
+    
+<table>
+    <tr>
+        <td>
+            <i>Reference model - Isometric view.</i><br>
+            <img width="1001" height="886" alt="image" src="https://github.com/user-attachments/assets/c23f6325-6232-4825-8977-66d4c6c86833" />
+        </td>
+        <td>
+            <i>Reference model - Side view.</i><br>
+            <img width="1001" height="886" alt="image" src="https://github.com/user-attachments/assets/53273bcd-1331-4c7a-ae1e-1344c9186857" />
+        </td>
+    </tr>
+</table>
+    
 ### 🔹4.6.2 Initial rumble motors mounting design.
 Before designing my own mounting system, I took a look at how the original controller secured the rumble motors. The original solution uses a layer of foam wrapped around the motor to provide friction, combined with several support pillars and surrounding features that keep the motor in position.
    
