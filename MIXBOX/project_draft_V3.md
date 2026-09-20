@@ -2391,6 +2391,40 @@ I also increased the overall thickness of the base supporting the actuator and s
 **Second iteration results.**    
 The second iteration successfully solved the main problem it was intended to address: the Support and Actuator Panel could now be securely fastened to the Module Housing while remaining properly aligned. The screw fastening system worked as intended, and the guiding geometry provided a clear and repeatable way of positioning the two parts during assembly.
 
+<table>
+    <caption>Printed results.</caption>
+    <tr>
+        <td>
+            <i>Module housing - Front view </i></br>
+            <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/72a6be8d-d4cc-425b-b517-367ea1ae0bdf" />
+        </td>
+        <td>
+            <i>Module housing - Bottom view </i></br>
+            <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/0b855ed5-6139-4991-9bfa-cc6b7a3d8f87" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <i>Actuator and Support pillars - Front view</i></br>
+            <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/c84b4913-444d-4715-bc32-ee2315971755" />
+        </td>
+        <td>
+            <i>Actuator and Support pillars - Bottom view</i></br>
+            <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/8619fc1e-f0a7-45d2-a1a8-3e1846148bcc" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <i>Assembled component - Front view</i></br>
+            <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/132fad35-2b16-4263-8c29-82d2b78602e0" />
+        </td>
+        <td>
+            <i>Assembled component - Side view</i></br>
+            <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/8c5335a5-c2b2-4fe8-8580-01d727de3257" />
+        </td>
+    </tr>
+</table>
+
 However, the printed test revealed several issues that needed to be addressed in the next iteration:
 
 The first issue was the tolerance of the **guiding geometry**. Although clearance had been included, the base of the guides was still too tight, making the parts difficult to separate. The guiding geometry was never intended to act as a friction-based fastening mechanism.
