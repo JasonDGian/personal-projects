@@ -2488,15 +2488,15 @@ I then corrected the relative heights of the actuator and support pillars. The a
     <tr>
         <td>
             <i>Before</i>
-            <img height="617" alt="image" src="https://github.com/user-attachments/assets/1ff5ac70-7922-46ec-b231-29ec2a67f860" />
+            <img alt="zzz1" src="https://github.com/user-attachments/assets/a879e859-2110-4b1c-8bd0-c6f244efb528" />
         </td>
         <td>
             <i>After</i>
-            <img height="617" alt="image" src="https://github.com/user-attachments/assets/a9ffbf09-74fe-4c34-a87f-b7153b11b4bb" />
+            <img alt="zzz2" src="https://github.com/user-attachments/assets/1bf2ac6c-ba70-47a1-a200-416cc6dc088f" />
         </td>
         <td>
             <i>Comparison</i>
-            <img height="617" alt="COMPARISON-gif-1gif" src="https://github.com/user-attachments/assets/eda72908-5da9-4b04-81df-82e56eefc8af" />
+            <img alt="zzz-gif" src="https://github.com/user-attachments/assets/7eeca299-304e-462f-8f1a-91c3e892892e" />
         </td>
     </tr>
 </table>
