@@ -2347,7 +2347,7 @@ There were still a few things that could be improved. The vertical limit strut c
         </td> 
         <td> 
             <i>Led module actuator - Back view</i></br>
-            <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/6ceb5f34-c61f-4555-9a0f-70a014f8f01d" />
+            <img width="1090" height="797" alt="image" src="https://github.com/user-attachments/assets/1ca79336-08b9-4403-98ef-65404680a476" />
         </td> 
     </tr> 
 </table>
@@ -2383,7 +2383,7 @@ I also increased the overall thickness of the base supporting the actuator and s
         </td>
         <td>
             <i>Side view</i></br>
-            <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/b53c58f4-8eb8-4329-b7b9-98ae4ee16642" />
+            <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/6ceb5f34-c61f-4555-9a0f-70a014f8f01d" />        
         </td>
     </tr>
 </table>
