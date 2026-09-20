@@ -2698,6 +2698,20 @@ The original controller included two 5 V motors that provided the vibration feed
 ### 🔹4.6.1 Reference model creation.
 Creating the reference model for the rumble motor was relatively straightforward. Unlike some of the other components, there were no particularly complex curves or unusual angles to reproduce. The motor is essentially a collection of cylindrical features with different diameters and lengths.
 
+
+<table>
+    <tr>
+        <td>
+            <i>Original component.</i><br>
+            <img width="1001" height="886" alt="image" src="https://github.com/user-attachments/assets/21830c2e-89b9-46a1-9e64-b4e3c15648df" />
+        </td>
+        <td>
+            <i>Captured measurements.</i><br>
+            <img width="1001" height="886" alt="image" src="https://github.com/user-attachments/assets/f362e206-49c9-4164-9a46-e3425bc3e735" />
+        </td>
+    </tr>
+</table>
+
 I therefore focused mainly on accurately capturing the dimensions and relative positions of these cylindrical sections, as these would be the important features when designing the mounting system.
 
 TODO: Mostrar imagenes modelo referencia y medidas tomadas para desarrollarlo.
