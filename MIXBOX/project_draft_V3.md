@@ -2347,7 +2347,7 @@ There were still a few things that could be improved. The vertical limit strut c
         </td> 
         <td> 
             <i>Led module actuator - Back view</i></br>
-            <img width="2048" height="921" alt="backside_module_mounter_1 (1)" src="https://github.com/user-attachments/assets/08a84466-8082-4aeb-a3a1-a6609359eae7" />
+            <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/6ceb5f34-c61f-4555-9a0f-70a014f8f01d" />
         </td> 
     </tr> 
 </table>
