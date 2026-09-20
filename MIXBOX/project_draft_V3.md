@@ -2688,6 +2688,56 @@ The test confirmed that the console fitted correctly into the opening and that t
 
 With these changes, the console achieved the requirements I had established for it. It provided the three required auxiliary controls while remaining a separate and easily replaceable component, with enough space to accommodate possible future modifications.
 
+## 🔸4.6 Vibration motors. 
+The original controller included two 5 V motors that provided the vibration feedback during gameplay, commonly known as **rumble motors**. I wanted to retain this feature in my custom controller, so I needed to design a mounting system for them.
+
+**From the beginning, I had two main requirements for this feature:**
+- **Easy maintenance**: The motors should be easy to access and remove if they ever need to be replaced or serviced.
+- **User-controlled power**: I wanted to add an on/off switch so the player could disable the rumble motors whenever desired.
+    
+### 🔹4.6.1 Reference model creation.
+Creating the reference model for the rumble motor was relatively straightforward. Unlike some of the other components, there were no particularly complex curves or unusual angles to reproduce. The motor is essentially a collection of cylindrical features with different diameters and lengths.
+
+I therefore focused mainly on accurately capturing the dimensions and relative positions of these cylindrical sections, as these would be the important features when designing the mounting system.
+
+TODO: Mostrar imagenes modelo referencia y medidas tomadas para desarrollarlo.
+
+### 🔹4.6.2 Initial rumble motors mounting design.
+Before designing my own mounting system, I took a look at how the original controller secured the rumble motors. The original solution uses a layer of foam wrapped around the motor to provide friction, combined with several support pillars and surrounding features that keep the motor in position.
+   
+<table> 
+    <caption><i>Original rumble motor mounting system.</i></caption> 
+    <tr> 
+        <td> 
+            <i>Original mounting system.</i><br> 
+            <img height="915" alt="Original rumble motor mounting system" src="https://github.com/user-attachments/assets/ce3e1446-aed6-4f16-bd5d-f8d5d06f9394" /> 
+        </td> 
+        <td> 
+            <i>Motor installed.</i><br> 
+            <img height="915" alt="Original mounting system with motor in place" src="https://github.com/user-attachments/assets/a5a75ee2-1c04-438f-b761-0e34b7b174d8" /> 
+        </td> 
+        <td> 
+            <i>Alternate view.</i><br> 
+            <img height="915" alt="Alternate view of motor in place" src="https://github.com/user-attachments/assets/663ea683-50c8-40da-9a64-d4ed98ffee1f" /> 
+        </td> 
+    </tr> 
+</table>
+   
+I decided to keep the same basic principle for my own design: a friction-based installation makes the motor easy to install and remove while keeping the mounting system simple. However, rather than trying to reproduce the original geometry, I would design the friction features myself and adapt them to the constraints of the custom controller.
+
+This gave me the benefits of the original approach without having to reproduce a mounting system that was designed specifically around the original controller's internal layout.
+
+### 🔹4.6.3 Second iteration.
+
+### 🔹4.6.4 Third iteration.
+
+### 🔹4.6.5 Final iteration.
+
+
+
+
+
+
 # 📌 5. Final Assembly
 ## 🔸5.1 Internal Layout
 ## 🔸5.2 Wiring
