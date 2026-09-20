@@ -2525,6 +2525,36 @@ I also increased the thickness of the frontal wall. The motive behind this decis
 </table>
 
 These changes were intentionally limited to the problems identified during the second iteration. Rather than introducing another major redesign, the third iteration focused on refining the geometry and making the assembly more tolerant of normal FDM printing variations.
+
+**Third iteration results**    
+The third iteration resolved the main issues identified during the previous test.
+
+The increased clearance of the guiding geometry allowed the two parts to be assembled and separated easily, without the excessive friction observed previously. The screws now provide the required fixation without the guiding features interfering with disassembly.
+
+The actuator and support pillar heights were also corrected. The actuator now sits at the intended position, while the raised support pillars provide the required support without interfering with its movement in any way.
+
+The changes to the vertical limit strut and front geometry improved both the appearance of the part and its printability. Increasing the thickness of the front wall also made the thinner details more reliable to print, addressing the inconsistencies seen in the previous iteration.
+
+Overall, the third iteration achieved the intended improvements without requiring a major redesign. At this point, the housing and actuator assembly was mechanically functional, easy to assemble and disassemble, and more tolerant of normal FDM printing variations.
+
+<table>
+    <caption>
+        Final iteration results.
+    </caption>
+    <tr>
+        <td>
+            <i>Top front view</i>
+            <img width="1544" height="858" alt="image" src="https://github.com/user-attachments/assets/1fdc7d97-d321-4816-b6e9-58c8dcefc9f7" />
+        <td>
+            <i>Front view</i>
+            <img width="1544" height="858" alt="image" src="https://github.com/user-attachments/assets/fe121abf-3006-4ca7-a71a-7a21950a2821" />
+        </td>
+        <td>
+            <i>Under view</i>
+            <img width="1544" height="858" alt="image" src="https://github.com/user-attachments/assets/d1902a9c-352e-411c-99c2-7b775b59482f" />
+        </td>
+    </tr>
+</table>
   
 ## 🔸4.5 Auxiliary Button Console
 The Auxiliary Button Console houses the secondary control buttons used for functions such as Home, Share, and Options. These buttons are not used as frequently as the main controls, but they still need to be easy to reach without interfering with the primary controls.
