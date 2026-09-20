@@ -2383,7 +2383,7 @@ I also increased the overall thickness of the base supporting the actuator and s
         </td>
         <td>
             <i>Side view</i></br>
-            <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/6ceb5f34-c61f-4555-9a0f-70a014f8f01d" />        
+           <img width="1090" height="797" alt="image" src="https://github.com/user-attachments/assets/fab19473-2a68-4228-9060-09db5a49176a" />
         </td>
     </tr>
 </table>
@@ -2420,7 +2420,7 @@ The second iteration successfully solved the main problem it was intended to add
         </td>
         <td>
             <i>Assembled component - Side view</i></br>
-            <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/8c5335a5-c2b2-4fe8-8580-01d727de3257" />
+            <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/6ceb5f34-c61f-4555-9a0f-70a014f8f01d" />     
         </td>
     </tr>
 </table>
