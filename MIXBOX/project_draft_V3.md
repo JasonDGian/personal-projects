@@ -2555,7 +2555,19 @@ Overall, the third iteration achieved the intended improvements without requirin
         </td>
     </tr>
 </table>
-  
+   
+---
+
+<mark>
+TOOD
+    
+Explore alternate support plate for actuator and pillars. Make walls be part of the main housing and utilize walls as a mounting feature against the main body (?) How to integrate in main body?
+Use protruding geometry? I Want modularity, not everyone might want the module, how to be modular in this. Avoid reprinting the whole body if module housing breaks.
+</mark>
+
+   
+---
+     
 ## 🔸4.5 Auxiliary Button Console
 The Auxiliary Button Console houses the secondary control buttons used for functions such as Home, Share, and Options. These buttons are not used as frequently as the main controls, but they still need to be easy to reach without interfering with the primary controls.
 
