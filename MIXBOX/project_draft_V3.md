@@ -164,7 +164,7 @@ Before selecting it, I inspected the PCB to verify that the button signals were 
 >Several cheaper alternatives were considered but ultimately rejected due to issues such as inaccessible PCBs, missing test pads, unreliable connectivity, or lack of PlayStation 4 compatibility. Although the T-29 was slightly more expensive at €27.99, it offered the best balance of reliability, modifiability, and cost.
     
 
-</br>
+<br>
 
 Link to the product: [T-29 Wireless controller](https://www.amazon.es/dp/B0CBRC7MKL?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
     
@@ -193,17 +193,17 @@ In the end, I chose set number 3 for the final design. The mounting challenge wo
         </tr>
         <tr>
             <td>
-              Diameter: 33mm </br>Total height: 40mm </br>Snap-fit or snap-lock system.
+              Diameter: 33mm <br>Total height: 40mm <br>Snap-fit or snap-lock system.
             </td>
-            <td>Diameter: 27mm </br>Total height: 30mm </br>Snap-fit or snap-lock system.
+            <td>Diameter: 27mm <br>Total height: 30mm <br>Snap-fit or snap-lock system.
             </td>
-            <td>Diameter: 27mm</br>Total height: 36mm </br>Threaded plastic nut system.
+            <td>Diameter: 27mm<br>Total height: 36mm <br>Threaded plastic nut system.
             </td>
         </tr>
     </tbody>
 </table> 
 
-</br>
+<br>
 
 Link to the product: [Pssopp Microswitch button](https://www.amazon.es/dp/B08RC4JC1C?ref=ppx_yo2ov_dt_b_fed_asin_title)
     
@@ -229,13 +229,13 @@ As a result, the final design uses full-height MX-compatible switches and standa
 - https://cdn.shopify.com/s/files/1/0565/8070/2297/files/SPEC-KS-9H10B045NN-Y35-G_Red_PRO_2.0_Switch.pdf?v=1667273849
 - https://cdn.shopify.com/s/files/1/0565/8070/2297/files/SPEC-KS-27H10B050NN-X5-Low_Profile_Red_Switch.pdf?v=1667274433
     
-</br>
+<br>
 
 Link to the product: [10Pcs/lot Original Cherry MX Mechanical Keyboard Switch Axis Shaft Switch RGB blue](https://es.aliexpress.com/item/1005005467023965.html?spm=a2g0o.productlist.main.2.761c2154jAsrl2&algo_pvid=663d1580-1a2d-495c-8ce1-5936a79069a1&algo_exp_id=663d1580-1a2d-495c-8ce1-5936a79069a1-1&pdp_ext_f=%7B%22order%22%3A%22522%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%211.82%211.27%21%21%2113.89%219.72%21%402103890917815484233368128ea07e%2112000033197110242%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895&curPageLogUid=3OhXWIXwbvYz&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005005467023965%7C_p_origin_prod%3A)
   
      
 # <mark>TODO</mark>   
-<mark>Write section about keycaps types.**</mark></br>
+<mark>Write section about keycaps types.**</mark><br>
 <mark>R1,R2,R3,R4, how could this impact the project design and why R3 was chosen.**</mark> 
   
          
@@ -262,7 +262,7 @@ The final choice came down mostly to aesthetics and how well the buttons fit wit
 
 </table>
 
-</br>
+<br>
 
 Link to the product: <a href="https://es.aliexpress.com/item/1005009763600457.html?spm=a2g0o.productlist.main.21.450b6311tFjwCL&algo_pvid=b312198c-d084-4474-8f0e-bfb33dbd1c6d&algo_exp_id=b312198c-d084-4474-8f0e-bfb33dbd1c6d-20&pdp_ext_f=%7B%22order%22%3A%221502%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%211.89%211.75%21%21%2114.52%2113.46%21%40211b65de17817129622565772e7b9b%2112000050090750520%21sea%21ES%21184981297%21X%211%210%21n_tag%3A-29919%3Bd%3Ae78d15fa%3Bm03_new_user%3A-29895%3BpisId%3A5000000209393528&curPageLogUid=f1lF8tP3KxVU&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009763600457%7C_p_origin_prod%3A">12mm Metal Button Switch Waterproof 1NO 3A High Head Momentary Automatic Reset</a>
      
@@ -395,7 +395,7 @@ As a result, Anycubic High Speed PLA was selected as the printing material for a
 - [PLA vs PETG vs ABS](https://ultimaker.com/learn/petg-vs-pla-vs-abs-3d-printing-strength-comparison/)
 - [Standard PLA vs High Speed PLA](https://3dprintingcanada.com/blogs/news/pla-vs-high-speed-pla-whats-the-real-difference?shpxid=c09efa71-5de1-4c63-8740-651b2d3c38b0)
 
-</br>
+<br>
 
 Link to the product: [Anycubic High Speet PLA - Mate Grey 1Kg Spool](https://uk.anycubic.com/products/high-speed-pla-filament?variant=46608821616925)
      
@@ -760,18 +760,18 @@ After assembling and testing the second iteration, a few design oversights becam
     <caption><i>Issues found and solutions applied</i></caption>
     <tr>
         <td>
-            <strong>Battery Retention</strong></br>
+            <strong>Battery Retention</strong><br>
             Although the battery fit within the designed enclosure, testing revealed that it was still able to move laterally inside the compartment. This resulted in unwanted movement ("dancing") during handling.   
 To resolve this, I designed an additional 'blocker' integrated into the protective lid of the enclosure that sits alongside the battery and prevents side-to-side displacement, securing it more reliably.
         </td>
         <td>
-        <i>New blocker to prevent lateral movement.</i></br>
+        <i>New blocker to prevent lateral movement.</i><br>
         <img width="802" height="778" alt="image" src="https://github.com/user-attachments/assets/0e1c3be5-b255-4a4b-97e9-7ff121e9bf41" />
         </td>
     </tr>
     <tr>
         <td>
-            <strong>Lid Clearance Oversight</strong></br>
+            <strong>Lid Clearance Oversight</strong><br>
             During the design of the lid, I completely overlooked two components mounted on the motherboard:
             <ul>
                 <li>The battery connector.</li>
@@ -780,18 +780,18 @@ To resolve this, I designed an additional 'blocker' integrated into the protecti
                 As a result, the first printed lid collided with both features and could not be installed correctly. The revised lid addresses this issue by increasing the internal height of the enclosure and adding the necessary cutouts to provide adequate clearance.
         </td>
         <td>
-        <i>Revised lid with the necessary cutouts</i></br>
+        <i>Revised lid with the necessary cutouts</i><br>
         <img width="1000" alt="motherboard_revised_lid" src="https://github.com/user-attachments/assets/16c9a3ff-8f0a-4daf-aee6-4b2c1b24d3ae" />
         </td>
     </tr>
     <tr>
         <td>
-            <strong>Terminal Block Positioning</strong></br>
+            <strong>Terminal Block Positioning</strong><br>
             While increasing the height of the base plate, I also adjusted the position of the terminal blocks to better match the real hardware. During this process, I unintentionally shifted them too far, failing to account for the terminal blocks' locking mechanism.
 The new position causes the locking tabs of one cluster to interfere with the adjacent cluster, preventing proper installation. This will require repositioning the terminal blocks to restore the necessary clearance while maintaining dimensional accuracy.
         </td>
         <td>
-        <i>Locking mechanism colliding with adjacent cluster.</i></br>
+        <i>Locking mechanism colliding with adjacent cluster.</i><br>
         <img width="1000" alt="unaccounted_locking_system" src="https://github.com/user-attachments/assets/2f310ada-2505-425a-bb47-0df097ec00f9" />
         </td>
     </tr>
@@ -901,11 +901,11 @@ I also repositioned two of the mounting points into the main body of the motherb
 <table>
     <tr>
         <td>
-            <i>Previous configuration.</i></br>
+            <i>Previous configuration.</i><br>
             <img height="680" alt="comparison3" src="https://github.com/user-attachments/assets/f825a392-664f-4650-b4d7-afce04b903d6" />
         </td>
         <td>
-            <i>New configuration.</i></br>
+            <i>New configuration.</i><br>
             <img height="680" alt="comparison2" src="https://github.com/user-attachments/assets/b594513c-5f93-481f-93ce-61a096d6a795" />
         </td>
     </tr>
@@ -1256,25 +1256,25 @@ This modification created a much stronger structure. In the initial concept, the
     <caption><i>Final switch retention and socket mounting mechanism.</i></caption>
     <tr>
         <td colspan="4">
-            <i>Final printed result.</i></br>
+            <i>Final printed result.</i><br>
             <img width="2000" height="578" alt="hss-compelte-result-layers" src="https://github.com/user-attachments/assets/975f4648-0642-4f2f-ae07-7ccba0aab84d" />
         </td>
     </tr>
     <tr>
         <td>
-            <i>Retention & alignment layer.</i></br>
+            <i>Retention & alignment layer.</i><br>
             <img width="1034" height="900" alt="hss-complete-result-1" src="https://github.com/user-attachments/assets/aaddb262-5af8-40cd-9971-17ee4ecd60aa" />
         </td>
         <td>
-            <i>Secured socket support layer.</i></br>
+            <i>Secured socket support layer.</i><br>
             <img width="1034" height="900" alt="hss-complete-result-2" src="https://github.com/user-attachments/assets/c9d96424-1cd4-44de-93dc-7a6645e1e398" />
         </td>
         <td>
-            <i>Complete assembly.</i></br>
+            <i>Complete assembly.</i><br>
             <img width="1034" height="900" alt="hss-complete-result-3" src="https://github.com/user-attachments/assets/7fbfe3a8-1bc5-4204-8af4-b2011165f5a3" />
         </td>
         <td>
-            <i>Side view.</i></br>
+            <i>Side view.</i><br>
             <img width="1034" height="900" alt="hss-complete-result- 4" src="https://github.com/user-attachments/assets/db06dc99-fd52-4b17-bb1d-a57ee93f25b2" />
         </td>
     </tr>
@@ -1378,11 +1378,11 @@ The first change I made in the second iteration was to reduce the height of the 
 <table>
     <tr>
         <td>
-            <i>Before layer height reduction</i></br>
+            <i>Before layer height reduction</i><br>
             <img width="1189" height="584" alt="image" src="https://github.com/user-attachments/assets/fbdd05a5-707d-4193-a567-8bb0772d1723" />
         </td>
         <td>
-            <i>After layer height reduction</i></br>
+            <i>After layer height reduction</i><br>
             <img width="1189" height="584" alt="image" src="https://github.com/user-attachments/assets/4c7c67c2-5360-4652-a0b2-9ad3acc38880" />
         </td>
     </tr>
@@ -1393,15 +1393,15 @@ Using the extra space identified in the first iteration, I then redesigned the w
 <table>    
     <tr>
         <td>
-            <i>Channels adapted to available space.</i></br>
+            <i>Channels adapted to available space.</i><br>
             <img width="888" height="690" alt="image" src="https://github.com/user-attachments/assets/e13f3438-edd1-4800-906c-e57fafd92306" />
         </td>
         <td>
-            <i>Before routing channels increse.</i></br>
+            <i>Before routing channels increse.</i><br>
             <img width="888" height="690" alt="image" src="https://github.com/user-attachments/assets/ba23e1d5-1f1b-4661-9859-c666fc15b7e4" />
         </td>
         <td>
-            <i>After routing channels increse.</i></br>
+            <i>After routing channels increse.</i><br>
             <img width="887" height="690" alt="image" src="https://github.com/user-attachments/assets/94aa5db3-9dcf-481d-b1de-94504bf03fb5" />
         </td>
     </tr>
@@ -1414,15 +1414,15 @@ Although nine mounting points were probably more than necessary, I preferred to 
 <table>    
     <tr>
         <td>
-            <i>Selected screw locations.</i></br>
+            <i>Selected screw locations.</i><br>
             <img width="1036" height="937" alt="inputblock_unified_markers" src="https://github.com/user-attachments/assets/17e096ab-2033-418f-afe1-b67f1bdbab37" />
         </td>
         <td>
-            <i>Modeled support pillars</i></br>
+            <i>Modeled support pillars</i><br>
             <img width="1036" height="937" alt="inputblock_unified_pillars" src="https://github.com/user-attachments/assets/66efd881-858f-4f8a-9632-680cc7681e9a" />
         </td>
         <td>
-            <i>New unified socket support layer.</i></br>
+            <i>New unified socket support layer.</i><br>
             <img width="1036" height="937" alt="inputblock_unified_support_layer" src="https://github.com/user-attachments/assets/4794d589-3583-4243-a6f2-c9889449ee81" />
         </td>
     </tr>
@@ -1433,21 +1433,21 @@ To add the contact status LED I modeled a reference as shown before and then use
 <table>
     <tr>
         <td>
-            <i>Led references in position - top view.</i></br>
+            <i>Led references in position - top view.</i><br>
             <img width="1036" height="937" alt="inputblock_led_positioned_top" src="https://github.com/user-attachments/assets/cc90f7c4-1b29-4c8f-9fbe-af6825cb84ec" />
         </td>
         <td>
-            <i>Led references in position - bottom view.</i></br>
+            <i>Led references in position - bottom view.</i><br>
             <img width="1036" height="937" alt="inputblock_led_positioned_bottom" src="https://github.com/user-attachments/assets/deb4446f-db63-44aa-a6cc-955bf180e8ba" />
         </td>
     </tr>    
     <tr>
         <td>
-            <i>Led cut-outs - main rotating assembly.</i></br>
+            <i>Led cut-outs - main rotating assembly.</i><br>
              <img width="1036" height="937" alt="led-cut-outs" src="https://github.com/user-attachments/assets/45fdb7ea-e91d-47a2-951d-2d6a9885aa39" />
         </td>
         <td>
-            <i>Led cut-outs - socket support layer.</i></br>
+            <i>Led cut-outs - socket support layer.</i><br>
             <img width="1036" height="937" alt="inputblock_adapted_support_layer_to_leds" src="https://github.com/user-attachments/assets/4214de9e-6453-4f05-bb7c-a29a0a75ba2f" />
         </td>
     </tr>
@@ -1457,7 +1457,7 @@ The next step was improving the switch puller cut-outs to achieve a cleaner fini
 One design used an oval profile, while the other used a simple triangular profile with angled faces to eliminate unsupported overhangs. Printing this small test piece allowed me to evaluate both the print quality and the practicality of each design before committing the changes to the full model.
 
 <table>
-    <caption><i>Tested cut-out shapes.</i></br></caption>
+    <caption><i>Tested cut-out shapes.</i><br></caption>
     <tr>
         <td>
             <img width="930" height="786" alt="image" src="https://github.com/user-attachments/assets/2950c474-90fa-4456-ab10-67828d48d8dc" />
@@ -1471,28 +1471,28 @@ One design used an oval profile, while the other used a simple triangular profil
 After comparing the results, I chose the triangular cut-out. Besides printing more cleanly, it was simpler to model and achieved the same functionality. I then integrated it into the full design and fine-tuned its dimensions to improve both its appearance and the clearance for the switch puller.
 
 <table>
-    <caption><i>Tested cut-out shapes.</i></br></caption>
+    <caption><i>Tested cut-out shapes.</i><br></caption>
     <tr>
         <td>
-            <i>Before<i></br>
+            <i>Before<i><br>
             <img width="1191" height="851" alt="Before - Cutouts 2" src="https://github.com/user-attachments/assets/aa978a0c-8b23-4e4d-9b5f-6c723b1ca0ea" />
         </td>
         <td>
-            <i>After<i></br>
+            <i>After<i><br>
             <img width="1191" height="851" alt="After - Cutouts 2" src="https://github.com/user-attachments/assets/ebb5c22c-4fa8-466a-8436-26634499a940" />
         </td>
         <td>
-            <i>Before<i></br>
+            <i>Before<i><br>
             <img width="1191" height="851" alt="Cutouts - Before 1" src="https://github.com/user-attachments/assets/28794073-bf4c-471d-9e7d-769c069b9db1" />
         </td>
         <td>
-            <i>After<i></br>
+            <i>After<i><br>
             <img width="1191" height="851" alt="After Cutouts - 1" src="https://github.com/user-attachments/assets/f6461fca-d121-4bcc-8576-e3d48f026c9b" />
         </td>
     </tr>
     <tr>
         <td colspan="4">
-            <i>Before-after comparison.</i></br>
+            <i>Before-after comparison.</i><br>
             <img alt="Cutouts-Gifs" src="https://github.com/user-attachments/assets/2ee99746-7435-4ec0-931c-1bb751f15e62" />
         </td>
     </tr>
@@ -1526,15 +1526,15 @@ The redesigned switch puller cut-outs worked as intended, but **an incorrect sli
 <table>
     <tr>
         <td colspan="2">
-            <i>Model imperfection in slicer.</i></br>
+            <i>Model imperfection in slicer.</i><br>
             <img width="1280" height="470" alt="image" src="https://github.com/user-attachments/assets/07913554-a8fa-4793-98cd-108568e0b6f9" />
         </td>
     </tr>
     <tr>
-        <td><i>Cutout imperfections caused by slicer missconfiguration.</i></br>
+        <td><i>Cutout imperfections caused by slicer missconfiguration.</i><br>
             <img width="629" height="470" alt="image" src="https://github.com/user-attachments/assets/fc0ae3b1-2d6a-4e93-a5f0-c39c0fa993ce" />
         </td>
-        <td><i>Cutout test with switch puller.</i></br>
+        <td><i>Cutout test with switch puller.</i><br>
             <img width="629" height="470" alt="image" src="https://github.com/user-attachments/assets/77eaa2d8-60a2-42fd-8bcd-f91d331f2539" />
         </td>
     </tr>
@@ -1555,15 +1555,15 @@ The next change was to reposition the fastening support pillars to improve the w
 <table>
     <tr>
         <td>
-            <i>Old support pillars placement.</i></br>
+            <i>Old support pillars placement.</i><br>
             <img width="809" height="805" alt="image" src="https://github.com/user-attachments/assets/7539c910-4d14-4ccb-a43b-3bfb2d215c81" />
         </td>
         <td>
-            <i>New support pillars placement.</i></br>
+            <i>New support pillars placement.</i><br>
             <img width="809" height="805" alt="image" src="https://github.com/user-attachments/assets/6454a164-6fc8-4de8-a8a3-47f19553f346" />
         </td>
         <td>
-            <i>Planner wire routing paths.</i></br>
+            <i>Planner wire routing paths.</i><br>
             <img width="809" height="805" alt="image" src="https://github.com/user-attachments/assets/28a5456c-15e7-4ad6-b800-c2563b49fd52" />
         </td>
     </tr>
@@ -1578,16 +1578,16 @@ I also added spherical indentations above the solder joints of each hot-swap soc
 <table>
     <tr>
         <td>
-            <i>Clearance pockets for solder joints.</i></br>
+            <i>Clearance pockets for solder joints.</i><br>
             <!--img width="1120" height="853" alt="image" src="https://github.com/user-attachments/assets/3a80ff64-bb46-4653-80d5-3e2c1c3a1ba1" /-->
             <img width="1242" height="784" alt="image" src="https://github.com/user-attachments/assets/b7e6a51f-0cb9-4abb-879c-0d2c5c0dde57" />
         </td>
         <td>
-            <i>Support layer with solder-joint clearance pockets.</i></br>
+            <i>Support layer with solder-joint clearance pockets.</i><br>
            <img width="1242" height="784" alt="image" src="https://github.com/user-attachments/assets/c156135d-64d3-4f42-9666-b825473373fa" />
         </td>
         <td>
-            <i>Reinforced support layer with structural ribs.</i></br>
+            <i>Reinforced support layer with structural ribs.</i><br>
            <img width="1210" height="784" alt="image" src="https://github.com/user-attachments/assets/560fb28c-c651-492d-931b-20f62eed760f" />
         </td>
     </tr>
@@ -1599,11 +1599,11 @@ One final thing I didnt document but certainly helped with the final feeling of 
 <table>
     <tr>
         <td>
-            <i>Rotating body 32 vertices.</i></br>
+            <i>Rotating body 32 vertices.</i><br>
             <img width="1242" height="784" alt="image" src="https://github.com/user-attachments/assets/a23d0ba8-d05e-45e6-919b-8d935d17f3a4" />
         </td>
         <td>
-            <i>Rotating body 64 vertices.</i></br>
+            <i>Rotating body 64 vertices.</i><br>
             <img width="1242" height="784" alt="image" src="https://github.com/user-attachments/assets/76fdc296-08d4-4b3a-a127-83e1afee8c75" />
         </td>
     </tr>
@@ -1618,38 +1618,38 @@ The redesigned support layer provides sufficient rigidity without interfering wi
 Finally, the complete directional input block rotates smoothly within its intended range of adjustment, providing the ergonomic positioning originally envisioned while remaining mechanically stable.
 
 <table>
-    <caption><i>Final iteration results.</i></br></caption>
+    <caption><i>Final iteration results.</i><br></caption>
     </tr>
         <td colspan="2">
-            <i></i></br>
+            <i></i><br>
             <img width="666" height="910" alt="image" src="https://github.com/user-attachments/assets/07c9273b-2e74-47e9-bba3-cb12c6c85134" />
         </td>
         <td colspan="2">
-            <i></i></br>
+            <i></i><br>
             <img width="666" height="911" alt="image" src="https://github.com/user-attachments/assets/e51aa9e9-423d-4dad-8937-e88fdebb17ac" />
         </td>
     </tr>
     <tr>
         <td colspan="4">
-            <i></i></br>
+            <i></i><br>
             <img width="2000" height="884" alt="image" src="https://github.com/user-attachments/assets/59303493-b82c-42b3-85db-98f4a4877a4a" />
         </td>
     <tr>
     <tr>
         <td>
-            <i>Sockets sitting flush.</i></br>
+            <i>Sockets sitting flush.</i><br>
             <img width="959" height="894" alt="image" src="https://github.com/user-attachments/assets/229cc6df-181c-474d-aa86-37f9a518d131" />
         </td>
         <td>
-            <i>Led placed cut-out.</i></br>
+            <i>Led placed cut-out.</i><br>
             <img width="959" height="900" alt="image" src="https://github.com/user-attachments/assets/3b45b7de-ca03-4caf-8132-daf486e76c01" />
         </td>
         <td>
-            <i>Support layer screwed in place.</i></br>
+            <i>Support layer screwed in place.</i><br>
             <img width="959" height="904" alt="image" src="https://github.com/user-attachments/assets/baec81dd-19e4-40c1-b2e8-c10a9fe7d5a8" />
         </td>
         <td>
-            <i>Fully aseembled input block (no soldering).</i></br>
+            <i>Fully aseembled input block (no soldering).</i><br>
             <img width="959" height="904" alt="image" src="https://github.com/user-attachments/assets/8afaee4a-1e14-4846-8edf-5fa3bc9c610d" />
         </td>
     </tr>
@@ -1715,17 +1715,17 @@ The main motivation behind this approach was to reduce to a minimum the space be
 <table>
     <tr>
         <td>
-            <i>Size adapted prototype.</i></br>
+            <i>Size adapted prototype.</i><br>
             <img height="808" alt="image" src="https://github.com/user-attachments/assets/441f3e3f-a7f1-4205-aa6a-2f1b10b89ead" />
         </td>
         <td>
-            <i>Section view.</i></br>
+            <i>Section view.</i><br>
             <img height="808" alt="image" src="https://github.com/user-attachments/assets/a55cc0f4-2fd5-481e-a062-5322c5d131c3" />
         </td>
     </tr>
     <tr>
         <td colspan="2">
-            <i>Threaded cutouts.</i></br>
+            <i>Threaded cutouts.</i><br>
             <img width="1685" height="769" alt="threaded-cutouts" src="https://github.com/user-attachments/assets/1b6a8cf9-c431-47eb-b187-7147f5f060a4" />
         </td>
     </tr>
@@ -1746,17 +1746,17 @@ Although the concept worked, it became clear that I had prioritized compactness 
     </tr>
     <tr>
         <td>
-            <i>Face view.</i></br>
+            <i>Face view.</i><br>
             <img width="2000" height="900" alt="image" src="https://github.com/user-attachments/assets/f32c02d3-0e95-411e-a9fb-aaf2a858fd61" />
         </td>
         <td>
-            <i>Backside view.</i></br>
+            <i>Backside view.</i><br>
             <img width="2000" height="900" alt="image" src="https://github.com/user-attachments/assets/e2d3dc80-6379-44d6-a37d-50f0171a8e20" />
         </td>
     </tr>
     <!--tr>
         <td colspan="2">
-            <i>Integrated thread.</i></br>
+            <i>Integrated thread.</i><br>
             <img width="2000" height="900" alt="image" src="https://github.com/user-attachments/assets/4e24bae3-a36c-4315-9a3c-02155cc29d4a" />
         </td>
     </tr-->
@@ -1804,12 +1804,12 @@ To compensate for the tolerances introduced by FDM 3D printing, I modelled the i
     <caption><i>Custom nut test piece.</i></caption>
     <tr>
         <td>
-            <i>Thread section view.</i></br>
+            <i>Thread section view.</i><br>
             <!--img width="819" height="600" alt="image" src="https://github.com/user-attachments/assets/55c30cd9-90ff-495f-870c-06c6fa40360a" /-->
             <img width="819" height="600" alt="image" src="https://github.com/user-attachments/assets/6edda47f-1a58-437e-9c70-0377f38b5f76" />
         </td>
         <td>
-            <i>Retaining nut test piece design.</i></br>
+            <i>Retaining nut test piece design.</i><br>
             <img width="819" height="600" alt="image" src="https://github.com/user-attachments/assets/8a50e39f-7425-4ce1-b175-156d651a340d" />
         </td>
     </tr>
@@ -1821,13 +1821,13 @@ With the retaining nut dimensions established, I redesigned the mounting plate a
     <tr>
         <td>
             <!--img width="1481" height="600" alt="Clean-cutouts" src="https://github.com/user-attachments/assets/01278133-97a7-4062-8993-0e1b5b9a1471" /-->
-            <i>Unthreaded mounting holes - 24mm diameter </i></br>
+            <i>Unthreaded mounting holes - 24mm diameter </i><br>
             <img width="1481" height="600" alt="image" src="https://github.com/user-attachments/assets/0ce9780a-8625-4ebc-9d1c-0b94bf04d186" />
         </td>
     </tr>
     <tr> 
         <td>
-            <i>Mounting holes new placement - 5mm distance from button to button. </i></br>
+            <i>Mounting holes new placement - 5mm distance from button to button. </i><br>
             <img width="1595" height="523" alt="image" src="https://github.com/user-attachments/assets/3988f2d8-2e09-4329-95cc-5035a05c8941" />
         </td>
     </tr>
@@ -1842,17 +1842,17 @@ Comparing both retaining nuts, the original manufacturer's nut has an outer diam
     <caption><i>Arcade button original vs custom retaining nut.</i></caption>
     <tr>
         <td>
-            <i>Original retaining nut.</i></br>
+            <i>Original retaining nut.</i><br>
             <img width="1016" height="814" alt="og-nut" src="https://github.com/user-attachments/assets/00ed341b-e6e9-48cd-8d93-f7d965dd5821" />
         </td>
         <td>
-            <i>Custom retaining nut.</i></br>
+            <i>Custom retaining nut.</i><br>
             <img width="1016" height="814" alt="custom nut" src="https://github.com/user-attachments/assets/c081f65d-5f25-47e4-a5f4-b6f56972ba92" />
         </td>
     </tr>
     <tr>
         <td colspan="2">
-            <i>Result test piece.</i></br>
+            <i>Result test piece.</i><br>
             <img width="2000" height="670" alt="image" src="https://github.com/user-attachments/assets/0ec05cdc-1d93-4706-b4ec-7965e35632e5" />
         </td>
     </tr>
@@ -2277,7 +2277,7 @@ The resulting reference model provides a reliable representation of the LED modu
 ### 🔹4.4.2 Initial led module housing and actuator assembly design.
 Using a combination of the negative and positive geometry generated during the reference-model process, together with the completed reference model, I was able to create the initial housing design relatively easily. This provided the basic structure needed to hold the LED module and gave me a starting point for developing the actuator and support arms.
 
-<table> <tr> <td colspan="2"> <i>Combined profiles and resulting model.</i></br> <img width="1511" height="789" alt="Combined profiles and resulting model" src="https://github.com/user-attachments/assets/28b8191e-cb31-4189-b513-c27d8d070476" /> </td> </tr> <tr> <td> <i>Isometric view.</i></br> <img width="1157" height="822" alt="Isometric view" src="https://github.com/user-attachments/assets/20f2279b-643d-40d2-bb29-5b492ae73449" /> </td> <td> <i>Isometric view with module.</i></br> <img width="1157" height="822" alt="Isometric view with module" src="https://github.com/user-attachments/assets/0bffa9d6-8453-4153-854f-74a8a9abeaca" /> </td> </tr> <tr> <td> <i>Front view.</i></br> <img width="1157" height="822" alt="Front view" src="https://github.com/user-attachments/assets/351bf5f4-e0dc-4825-ad89-c33598d8fc7a" /> </td> <td> <i>Cross-section.</i></br> <img width="1157" height="822" alt="Cross-section" src="https://github.com/user-attachments/assets/24a38aac-1978-4c99-8aab-9ecd4ba16acc" /> </td> </tr> </table>
+<table> <tr> <td colspan="2"> <i>Combined profiles and resulting model.</i><br> <img width="1511" height="789" alt="Combined profiles and resulting model" src="https://github.com/user-attachments/assets/28b8191e-cb31-4189-b513-c27d8d070476" /> </td> </tr> <tr> <td> <i>Isometric view.</i><br> <img width="1157" height="822" alt="Isometric view" src="https://github.com/user-attachments/assets/20f2279b-643d-40d2-bb29-5b492ae73449" /> </td> <td> <i>Isometric view with module.</i><br> <img width="1157" height="822" alt="Isometric view with module" src="https://github.com/user-attachments/assets/0bffa9d6-8453-4153-854f-74a8a9abeaca" /> </td> </tr> <tr> <td> <i>Front view.</i><br> <img width="1157" height="822" alt="Front view" src="https://github.com/user-attachments/assets/351bf5f4-e0dc-4825-ad89-c33598d8fc7a" /> </td> <td> <i>Cross-section.</i><br> <img width="1157" height="822" alt="Cross-section" src="https://github.com/user-attachments/assets/24a38aac-1978-4c99-8aab-9ecd4ba16acc" /> </td> </tr> </table>
 
 With the basic housing defined, the next step was to develop the actuator and support arms. This was particularly important because the actuator position had to be quite precise: if it was slightly too low, the button would require excessive travel to activate, while if it was too high, the slightest breeze might pause your game.
 
@@ -2285,21 +2285,21 @@ To get an idea of the size and position of these features, I placed adhesive pap
 
 I then transferred the tape to a sheet of paper and scanned it so I could import the result into Blender. This gave me a useful 2D reference to use as a starting point for modelling the actuator and support arms.
 
-<table> <caption>Reference scan.</caption> <tr> <td> <i>Traced underside geometry.</i></br> <img width="1424" height="908" alt="Traced underside geometry" src="https://github.com/user-attachments/assets/ffa07ae8-4ae6-4fe0-8510-23ca2e0f329d" /> </td> <td> <i>Scanned 2D reference.</i></br> <img width="1424" height="921" alt="Scanned 2D reference" src="https://github.com/user-attachments/assets/656be273-e912-45d4-8b5b-a162beca9cfc" /> </td> </tr> </table>
+<table> <caption>Reference scan.</caption> <tr> <td> <i>Traced underside geometry.</i><br> <img width="1424" height="908" alt="Traced underside geometry" src="https://github.com/user-attachments/assets/ffa07ae8-4ae6-4fe0-8510-23ca2e0f329d" /> </td> <td> <i>Scanned 2D reference.</i><br> <img width="1424" height="921" alt="Scanned 2D reference" src="https://github.com/user-attachments/assets/656be273-e912-45d4-8b5b-a162beca9cfc" /> </td> </tr> </table>
 
 For the arm height, I measured the original geometry as accurately as possible. Given the small size of these features, perfectly precise measurements were unlikely. I therefore did not bother creating a highly accurate drawing, as I only needed the measurements as a reference and would not be scanning the drawing itself.
 
-<table> <caption>Reference measurements.</caption> <tr> <td> <i>Measured support-arm geometry.</i></br> <img width="1364" height="912" alt="Measured support-arm geometry" src="https://github.com/user-attachments/assets/41cc063e-109f-497f-b22a-faf41787bc12" /> </td> <td> <i>Recorded reference measurements.</i></br> <img width="1364" height="912" alt="Recorded reference measurements" src="https://github.com/user-attachments/assets/ff8384f6-1c8f-4a45-8142-b0ed4ecc37ee" /> </td> </tr> </table>
+<table> <caption>Reference measurements.</caption> <tr> <td> <i>Measured support-arm geometry.</i><br> <img width="1364" height="912" alt="Measured support-arm geometry" src="https://github.com/user-attachments/assets/41cc063e-109f-497f-b22a-faf41787bc12" /> </td> <td> <i>Recorded reference measurements.</i><br> <img width="1364" height="912" alt="Recorded reference measurements" src="https://github.com/user-attachments/assets/ff8384f6-1c8f-4a45-8142-b0ed4ecc37ee" /> </td> </tr> </table>
 
 I used the scan and measurements to model the first actuator and support-arm prototype. Although it took some trial and error, I eventually got it to reproduce the feel of the original LED module surprisingly well.
 
 To keep the actuator and support arms at the correct distance from the module, I added two walls that would be fixed to the housing and act as vertical positioning guides. Their height determined the position of the plane containing the actuator and support arms, making this dimension particularly important.
 
-<table> <tr> <td> <i>Actuator, support arms, and positioning guides.</i></br> <img width="1120" height="812" alt="Actuator, support arms, and positioning guides" src="https://github.com/user-attachments/assets/0bdbecbc-f852-493f-8652-d1e90cb6c591" /> </td> </tr> </table>
+<table> <tr> <td> <i>Actuator, support arms, and positioning guides.</i><br> <img width="1120" height="812" alt="Actuator, support arms, and positioning guides" src="https://github.com/user-attachments/assets/0bdbecbc-f852-493f-8652-d1e90cb6c591" /> </td> </tr> </table>
 
 Getting the height of these walls right required some trial and error, with each adjustment improving the feel of the button. In total, I went through five iterations of this piece, mainly due to adjustments to the positioning walls. I do not think each iteration is worth documenting individually, but the overall progression is shown below.
 
-<table> <tr> <td> <i>Progression of the five actuator iterations.</i></br> <img width="1571" height="608" alt="Progression of the five actuator iterations" src="https://github.com/user-attachments/assets/921bd8b0-ba12-49ea-83d8-2becb0b53d6b" /> </td> </tr> </table>
+<table> <tr> <td> <i>Progression of the five actuator iterations.</i><br> <img width="1571" height="608" alt="Progression of the five actuator iterations" src="https://github.com/user-attachments/assets/921bd8b0-ba12-49ea-83d8-2becb0b53d6b" /> </td> </tr> </table>
 
 **Initial Iteration Results**     
 Once the housing and actuator designs were complete, I printed the parts to evaluate the complete first iteration as a physical assembly.
@@ -2312,41 +2312,41 @@ There were still a few things that could be improved. The vertical limit strut c
     <caption>First iteration results.</caption>
     <tr>
         <td>
-            <i>Actuator piece.</i></br>
+            <i>Actuator piece.</i><br>
             <img height="900" alt="image" src="https://github.com/user-attachments/assets/b03f6315-6131-43fc-8465-f9c8ba0d713c" />
         </td>
         <td>
-            <i>Led module housing.</i></br>
+            <i>Led module housing.</i><br>
             <img height="900" alt="LM-housing-1" src="https://github.com/user-attachments/assets/ca9a6bd7-e748-4d82-b346-8bcbb5d4d196" />
         </td>
     </tr>
     <tr>
         <td>
-            <i>Complete assembly - Front view </i></br>
+            <i>Complete assembly - Front view </i><br>
             <img height="900" alt="image" src="https://github.com/user-attachments/assets/6a8ab62d-85bc-411c-866d-63625ef26e39" />
         </td>
         <td>
-            <i>Complete assembly - Isometric view.</i></br>
+            <i>Complete assembly - Isometric view.</i><br>
             <img height="900" alt="assembly-1 (1)" src="https://github.com/user-attachments/assets/3ae1bc1e-70e7-4a93-bf18-e84581e50452" />
         </td>
     </tr>
     <tr>
         <td>
-            <i>Complete assembly w/ module - Front view </i></br>
+            <i>Complete assembly w/ module - Front view </i><br>
             <img height="923" alt="image" src="https://github.com/user-attachments/assets/d32307da-1a72-4678-b101-d059267e80e0" />
         </td>
         <td>
-            <i>Complete assembly w/ module - Isometric view </i></br>
+            <i>Complete assembly w/ module - Isometric view </i><br>
             <img height="900" alt="image" src="https://github.com/user-attachments/assets/347bb75a-71c3-4897-8a16-e64ce0893d56" />
         </td>
     </tr>
     <tr>
         <td>
-            <i>Led module actuator - Front view</i></br>
+            <i>Led module actuator - Front view</i><br>
             <img width="2048" height="921" alt="backside_module_mounter_2" src="https://github.com/user-attachments/assets/6b66b6ae-0192-4595-84c1-0a534f654a9d" />
         </td> 
         <td> 
-            <i>Led module actuator - Back view</i></br>
+            <i>Led module actuator - Back view</i><br>
             <img width="1090" height="797" alt="image" src="https://github.com/user-attachments/assets/1ca79336-08b9-4403-98ef-65404680a476" />
         </td> 
     </tr> 
@@ -2374,15 +2374,15 @@ I also increased the overall thickness of the base supporting the actuator and s
     </tr>
     <tr>
         <td>
-            <i>Front view</i></br>
+            <i>Front view</i><br>
             <img width="1176" height="885" alt="image" src="https://github.com/user-attachments/assets/5a6b483c-5384-4d03-943e-da6c7793e1c1" />
         </td>
         <td>
-            <i>Back view</i></br>
+            <i>Back view</i><br>
             <img width="1176" height="877" alt="image" src="https://github.com/user-attachments/assets/3516eb51-0f02-4a4b-8498-2b78b833837e" />        
         </td>
         <td>
-            <i>Side view</i></br>
+            <i>Side view</i><br>
            <img width="1090" height="797" alt="image" src="https://github.com/user-attachments/assets/fab19473-2a68-4228-9060-09db5a49176a" />
         </td>
     </tr>
@@ -2395,31 +2395,31 @@ The second iteration successfully solved the main problem it was intended to add
     <caption>Printed results.</caption>
     <tr>
         <td>
-            <i>Module housing - Front view </i></br>
+            <i>Module housing - Front view </i><br>
             <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/72a6be8d-d4cc-425b-b517-367ea1ae0bdf" />
         </td>
         <td>
-            <i>Module housing - Bottom view </i></br>
+            <i>Module housing - Bottom view </i><br>
             <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/0b855ed5-6139-4991-9bfa-cc6b7a3d8f87" />
         </td>
     </tr>
     <tr>
         <td>
-            <i>Actuator and Support pillars - Front view</i></br>
+            <i>Actuator and Support pillars - Front view</i><br>
             <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/c84b4913-444d-4715-bc32-ee2315971755" />
         </td>
         <td>
-            <i>Actuator and Support pillars - Bottom view</i></br>
+            <i>Actuator and Support pillars - Bottom view</i><br>
             <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/8619fc1e-f0a7-45d2-a1a8-3e1846148bcc" />
         </td>
     </tr>
     <tr>
         <td>
-            <i>Assembled component - Front view</i></br>
+            <i>Assembled component - Front view</i><br>
             <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/132fad35-2b16-4263-8c29-82d2b78602e0" />
         </td>
         <td>
-            <i>Assembled component - Side view</i></br>
+            <i>Assembled component - Side view</i><br>
             <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/6ceb5f34-c61f-4555-9a0f-70a014f8f01d" />     
         </td>
     </tr>
@@ -2431,10 +2431,100 @@ The first issue was the tolerance of the **guiding geometry**. Although clearanc
 
 The **increased thickness** of the support panel also revealed a **height mismatch**. The actuator was a fraction of a millimetre too high, while the support pillars were slightly too low. In previous iterations, the thinner base could flex during assembly and effectively mask this difference. With the thicker and more rigid base, the mismatch became much more apparent. Both dimensions would therefore need to be corrected.
 
-Another small improvement identified since the first prototype was the v**ertical limit strut height**. It could be made slightly taller to give the housing a cleaner appearance. Since the geometry was already being modified, I also decided to straighten and standardise its front profile to make it easier to integrate into the main controller body later.
+Another small improvement identified since the first prototype was the **vertical limit strut height**. It could be made slightly taller to give the housing a cleaner appearance. Since the geometry was already being modified, I also decided to straighten and standardise its front profile to make it easier to integrate into the main controller body later.
 
 Finally, the printed tests showed that some areas of the Module Housing needed **additional clearance**. This was particularly noticeable on the right-hand side when viewed from the front, where small printing imperfections could interfere with the fit. Increasing the local tolerances would make the housing less sensitive to normal FDM printing variations without compromising its function.
 
+<table>
+    <tr>
+        <td>
+            <i>Reduced tolerance caused by FMD printing variations.</i><br>
+            <img height="850" alt="image" src="https://github.com/user-attachments/assets/e0bbb641-bcec-4f32-90cf-a849c42b072d" />
+        </td>
+        <td>
+            <i>Support pillar clearance issue.</i><br>
+            <img height="850" alt="image" src="https://github.com/user-attachments/assets/57640d68-cbf2-4dca-afd4-dab89c13b322" />
+        </td>
+        <td>
+            <i>Vertical limit strut.</i><br>
+            <img height="850" alt="strut-g-gif" src="https://github.com/user-attachments/assets/ccc43da7-b14e-4cf3-ba2c-562cbb1068f2" />
+        </td>
+    </tr>
+</table>
+   
+### 🔹4.4.4 Third iteration.
+With the issues identified during the second iteration, I moved on to the third iteration with a focused set of changes. 
+    
+The first change was to increase the clearance of the guiding geometry. This allowed the two parts to slide together and separate without relying on friction, while the screws continued to provide the required structural fixation.
+    
+<table>
+    <caption>
+        Guiding geometry tolerances comparison.
+    </caption>
+    <tr>
+        <td>
+            <i>Before</i>
+            <!--img width="1573" height="807" alt="image" src="https://github.com/user-attachments/assets/4556236d-95db-465d-918b-cdda735248d2" /-->
+            <img height="714" alt="image" src="https://github.com/user-attachments/assets/75424f55-115e-4632-962b-f81324429034" />
+        </td>
+        <td>
+            <i>After</i>
+            <!--img width="1565" height="807" alt="image" src="https://github.com/user-attachments/assets/6390a804-36bd-4568-b2b8-4b6c6fa10f25" /-->
+            <img height="714" alt="image" src="https://github.com/user-attachments/assets/b762311b-bfb4-4b82-b4ce-6c0a6a574137" />
+        </td>
+        <td>
+            <i>Comparison</i>
+            <img height="714" alt="comparacion-3" src="https://github.com/user-attachments/assets/db84930f-e8ca-49bc-bfda-55815c334e21" />
+        </td>
+    </tr>
+</table>
+    
+I then corrected the relative heights of the actuator and support pillars. The actuator was lowered slightly, while the support pillars were raised to compensate for the mismatch observed during testing. These changes were made independently so that the actuator could reach the correct activation position without compromising the support provided by the pillars.
+
+<table>
+    <caption>
+        Actuator and support pillar height comparison.
+    </caption>
+    <tr>
+        <td>
+            <i>Before</i>
+            <img height="617" alt="image" src="https://github.com/user-attachments/assets/1ff5ac70-7922-46ec-b231-29ec2a67f860" />
+        </td>
+        <td>
+            <i>After</i>
+            <img height="617" alt="image" src="https://github.com/user-attachments/assets/a9ffbf09-74fe-4c34-a87f-b7153b11b4bb" />
+        </td>
+        <td>
+            <i>Comparison</i>
+            <img height="617" alt="COMPARISON-gif-1gif" src="https://github.com/user-attachments/assets/eda72908-5da9-4b04-81df-82e56eefc8af" />
+        </td>
+    </tr>
+</table>
+
+The vertical limit strut was also raised and its front profile was straightened to give it a cleaner and more consistent shape. At the same time, I increased the clearance in the areas of the housing where the printed tests had shown that tolerances were too tight, particularly around the right-hand side of the module.
+
+I also increased the thickness of the frontal wall. The motive behind this decision was the difficulty that some printers have to print certain thin details. 
+
+<table>
+    <caption>
+        Vertical limit strut height comparison.
+    </caption>
+    <tr>
+        <td>
+            <i>Before</i>
+            <img height="629" alt="image" src="https://github.com/user-attachments/assets/907ce8b7-69bb-4e4f-a00f-ad90dc13a231" />
+        <td>
+            <i>After</i>
+            <img height="629" alt="image" src="https://github.com/user-attachments/assets/45acb216-9cf6-4167-960f-3168733fcea4" />
+        </td>
+        <td>
+            <i>Comparison</i>
+            <img height="629" alt="comparison-gif-2" src="https://github.com/user-attachments/assets/5b435cbb-5d32-4714-9a99-d84587e5c43d" />
+        </td>
+    </tr>
+</table>
+
+These changes were intentionally limited to the problems identified during the second iteration. Rather than introducing another major redesign, the third iteration focused on refining the geometry and making the assembly more tolerant of normal FDM printing variations.
   
 ## 🔸4.5 Auxiliary Button Console
 The Auxiliary Button Console houses the secondary control buttons used for functions such as Home, Share, and Options. These buttons are not used as frequently as the main controls, but they still need to be easy to reach without interfering with the primary controls.
@@ -2487,11 +2577,11 @@ I reserved approximately 10 mm above the button mounting area, which could also 
 <table>
     <tr>
         <td>
-            <i>Initial design</i></br>
+            <i>Initial design</i><br>
             <img alt="image" src="https://github.com/user-attachments/assets/04e607e5-6cb6-4176-8114-cc6eede3e173" />
         </td>
         <td>
-            <i>Areas and perimeters.</i></br>
+            <i>Areas and perimeters.</i><br>
             <img width="1129" height="782" alt="areas consola" src="https://github.com/user-attachments/assets/4ffd54f8-2964-41a6-bfaa-1913c37bd904" />
         </td>
     </tr>
@@ -2504,11 +2594,11 @@ I then printed the design to test the button fit and its integration with the ma
 <table> 
     <tr> 
         <td> 
-            <i>Printed prototype.</i></br> 
+            <i>Printed prototype.</i><br> 
             <img width="1230" height="920" alt="image" src="https://github.com/user-attachments/assets/d90ce735-1af6-446c-bed2-4b580c4fcae7" />
         </td> 
         <td> 
-            <i>Printed prototype with buttons installed.</i></br> 
+            <i>Printed prototype with buttons installed.</i><br> 
             <img width="1230" height="921" alt="image" src="https://github.com/user-attachments/assets/448b8d3b-4e0c-477d-90c0-8a8407bcfb8e" />
         </td> 
     </tr> 
@@ -2523,11 +2613,11 @@ For the final iteration, I raised the button mounting surface to better match th
 <table> 
     <tr> 
         <td> 
-            <i>Initial design.</i></br> 
+            <i>Initial design.</i><br> 
             <img width="924" height="524" alt="console_before" src="https://github.com/user-attachments/assets/415b58c6-80f3-46b4-a512-e5fefc84658f" />
         </td> 
         <td> 
-            <i>Final elevated iteration.</i></br> 
+            <i>Final elevated iteration.</i><br> 
             <img width="924" height="524" alt="console_after" src="https://github.com/user-attachments/assets/db8778e6-3c54-45d6-a058-c17875c8bda7" />
         </td> 
     </tr> 
@@ -2538,15 +2628,15 @@ To test the integration more realistically, I printed a section representing the
 <table> 
     <tr> 
         <td> 
-            <i>Printed first iteration.</i></br> 
+            <i>Printed first iteration.</i><br> 
             <img width="1230" height="921" alt="Proyecto nuevo (6)" src="https://github.com/user-attachments/assets/d4e69577-2759-4a76-9323-fac5f80632ac" />
         </td> 
         <td> 
-            <i>Printed iteration with buttons.</i></br> 
+            <i>Printed iteration with buttons.</i><br> 
             <img width="1230" height="921" alt="Proyecto nuevo (7)" src="https://github.com/user-attachments/assets/0cbeb216-2850-41f2-b738-0e8231609e18" />
         </td> 
         <td> 
-            <i>Printed console installed in the test piece with buttons.</i></br> 
+            <i>Printed console installed in the test piece with buttons.</i><br> 
             <img width="1230" height="921" alt="Proyecto nuevo (8)" src="https://github.com/user-attachments/assets/b7f6dd22-18f8-4ba8-ace6-7238a249ae15" />
         </td> 
     </tr> 
