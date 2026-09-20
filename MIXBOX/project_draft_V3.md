@@ -2363,6 +2363,8 @@ The top piece contains the protruding cylindrical pillars, while the Bottom Supp
 
 The screw holes are integrated into the centre of these alignment features. The screws are inserted from the bottom of the Bottom Support and Actuator Panel and fasten directly into the pillars of the top piece, securing the two parts together while the surrounding geometry provides additional mechanical alignment.
 
+I also increased the overall thickness of the base supporting the actuator and support pillars to improve its rigidity and make it more durable for heavy use.
+   
 <table>
     <caption></caption>
     <tr>
@@ -2387,7 +2389,17 @@ The screw holes are integrated into the centre of these alignment features. The 
 </table>
     
 **Second iteration results.**    
-<mark>TODO: elaborar sobre los resultados de la pieza impresa. Ver como encajan las guias, ver que tal funcionan los tornillos y si realizan su funcion correctamente. Probar el actuador con la medida recalibrada y con el panel de grosor aumentado.</mark>
+The second iteration successfully solved the main problem it was intended to address: the Support and Actuator Panel could now be securely fastened to the Module Housing while remaining properly aligned. The screw fastening system worked as intended, and the guiding geometry provided a clear and repeatable way of positioning the two parts during assembly.
+
+However, the printed test revealed several issues that needed to be addressed in the next iteration:
+
+The first issue was the tolerance of the **guiding geometry**. Although clearance had been included, the base of the guides was still too tight, making the parts difficult to separate. The guiding geometry was never intended to act as a friction-based fastening mechanism.
+
+The **increased thickness** of the support panel also revealed a **height mismatch**. The actuator was a fraction of a millimetre too high, while the support pillars were slightly too low. In previous iterations, the thinner base could flex during assembly and effectively mask this difference. With the thicker and more rigid base, the mismatch became much more apparent. Both dimensions would therefore need to be corrected.
+
+Another small improvement identified since the first prototype was the v**ertical limit strut height**. It could be made slightly taller to give the housing a cleaner appearance. Since the geometry was already being modified, I also decided to straighten and standardise its front profile to make it easier to integrate into the main controller body later.
+
+Finally, the printed tests showed that some areas of the Module Housing needed **additional clearance**. This was particularly noticeable on the right-hand side when viewed from the front, where small printing imperfections could interfere with the fit. Increasing the local tolerances would make the housing less sensitive to normal FDM printing variations without compromising its function.
 
   
 ## 🔸4.5 Auxiliary Button Console
