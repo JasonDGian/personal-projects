@@ -2383,7 +2383,7 @@ I also increased the overall thickness of the base supporting the actuator and s
         </td>
         <td>
             <i>Side view</i></br>
-            <img width="1090" height="797" alt="image" src="https://github.com/user-attachments/assets/35655a8b-7c3e-4770-943a-3994573f2a87" />
+            <img width="1824" height="850" alt="image" src="https://github.com/user-attachments/assets/b53c58f4-8eb8-4329-b7b9-98ae4ee16642" />
         </td>
     </tr>
 </table>
