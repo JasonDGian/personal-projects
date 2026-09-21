@@ -2688,79 +2688,192 @@ The test confirmed that the console fitted correctly into the opening and that t
 
 With these changes, the console achieved the requirements I had established for it. It provided the three required auxiliary controls while remaining a separate and easily replaceable component, with enough space to accommodate possible future modifications.
 
-## 🔸4.6 Vibration motors (rumble feature). 
-The original controller included two 5 V motors that provided the vibration feedback during gameplay, commonly known as **rumble motors**. I wanted to retain this feature in my custom controller, so I needed to design a mounting system for them.
+## 🔸4.6 Vibration Motors (Rumble Feature)
 
-**From the beginning, I had two main requirements for this feature:**
-- **Easy maintenance**: The motors should be easy to access and remove if they ever need to be replaced or serviced.
-- **User-controlled power**: I wanted to add an on/off switch so the player could disable the rumble motors whenever desired.
-    
-### 🔹4.6.1 Reference model creation.
+The original controller included two 5 V motors that provided vibration feedback during gameplay, commonly known as **rumble motors**. I wanted to retain this feature in my custom controller, so I needed to design a mounting system for them.
+
+**From the beginning, I had one main requirement for this feature:**
+
+* **Easy maintenance:** The motors should be easy to access and remove if they ever need to be replaced or serviced.
+
+### 🔹4.6.1 Reference Model Creation
+
 Creating the reference model for the rumble motor was relatively straightforward. Unlike some of the other components, there were no particularly complex curves or unusual angles to reproduce. The motor is essentially a collection of cylindrical features with different diameters and lengths.
-     
+
 <table>
     <tr>
         <td>
             <i>Original component.</i><br>
-            <img width="1001" height="886" alt="image" src="https://github.com/user-attachments/assets/21830c2e-89b9-46a1-9e64-b4e3c15648df" />
+            <img width="1001" height="886" alt="Original rumble motor" src="https://github.com/user-attachments/assets/21830c2e-89b9-46a1-9e64-b4e3c15648df" />
         </td>
         <td>
             <i>Captured measurements.</i><br>
-            <img width="1001" height="886" alt="image" src="https://github.com/user-attachments/assets/f362e206-49c9-4164-9a46-e3425bc3e735" />
+            <img width="1001" height="886" alt="Rumble motor measurements" src="https://github.com/user-attachments/assets/f362e206-49c9-4164-9a46-e3425bc3e735" />
         </td>
     </tr>
 </table>
 
 I therefore focused mainly on accurately capturing the dimensions and relative positions of these cylindrical sections, as these would be the important features when designing the mounting system.
 
-The only feature I kept in mind and represented in the model besides the main shape was the wire exit point from the main body. This would be important when designing the mount, as I needed to make sure the wires were not being pressed against the motor or trapped by the mounting geometry.
-    
+The only feature I kept in mind and represented in the model besides the main shape was the wire exit point from the motor body. This would be important when designing the mount, as I needed to make sure the wires were not pressed against the motor or trapped by the mounting geometry.
+
 <table>
     <tr>
         <td>
             <i>Reference model - Isometric view.</i><br>
-            <img width="1001" height="886" alt="image" src="https://github.com/user-attachments/assets/c23f6325-6232-4825-8977-66d4c6c86833" />
+            <img width="1001" height="886" alt="Rumble motor reference model isometric view" src="https://github.com/user-attachments/assets/c23f6325-6232-4825-8977-66d4c6c86833" />
         </td>
         <td>
             <i>Reference model - Side view.</i><br>
-            <img width="1001" height="886" alt="image" src="https://github.com/user-attachments/assets/53273bcd-1331-4c7a-ae1e-1344c9186857" />
+            <img width="1001" height="886" alt="Rumble motor reference model side view" src="https://github.com/user-attachments/assets/53273bcd-1331-4c7a-ae1e-1344c9186857" />
         </td>
     </tr>
 </table>
-    
-### 🔹4.6.2 Initial rumble motors mounting design.
+
+### 🔹4.6.2 Initial Rumble Motor Mounting Design
+
 Before designing my own mounting system, I took a look at how the original controller secured the rumble motors. The original solution uses a layer of foam wrapped around the motor to provide friction, combined with several support pillars and surrounding features that keep the motor in position.
-   
-<table> 
-    <caption><i>Original rumble motor mounting system.</i></caption> 
-    <tr> 
-        <td> 
-            <i>Original mounting system.</i><br> 
-            <img height="915" alt="Original rumble motor mounting system" src="https://github.com/user-attachments/assets/ce3e1446-aed6-4f16-bd5d-f8d5d06f9394" /> 
-        </td> 
-        <td> 
-            <i>Motor installed.</i><br> 
-            <img height="915" alt="Original mounting system with motor in place" src="https://github.com/user-attachments/assets/a5a75ee2-1c04-438f-b761-0e34b7b174d8" /> 
-        </td> 
-        <td> 
-            <i>Alternate view.</i><br> 
-            <img height="915" alt="Alternate view of motor in place" src="https://github.com/user-attachments/assets/663ea683-50c8-40da-9a64-d4ed98ffee1f" /> 
-        </td> 
-    </tr> 
+
+<table>
+    <caption><i>Original rumble motor mounting system.</i></caption>
+    <tr>
+        <td>
+            <i>Original mounting system.</i><br>
+            <img height="915" alt="Original rumble motor mounting system" src="https://github.com/user-attachments/assets/ce3e1446-aed6-4f16-bd5d-f8d5d06f9394" />
+        </td>
+        <td>
+            <i>Motor installed.</i><br>
+            <img height="915" alt="Original mounting system with motor in place" src="https://github.com/user-attachments/assets/a5a75ee2-1c04-438f-b761-0e34b7b174d8" />
+        </td>
+        <td>
+            <i>Alternate view.</i><br>
+            <img height="915" alt="Alternate view of motor in place" src="https://github.com/user-attachments/assets/663ea683-50c8-40da-9a64-d4ed98ffee1f" />
+        </td>
+    </tr>
 </table>
-   
+
 I decided to keep the same basic principle for my own design: a friction-based installation makes the motor easy to install and remove while keeping the mounting system simple. However, rather than trying to reproduce the original geometry, I would design the friction features myself and adapt them to the constraints of the custom controller.
 
-This gave me the benefits of the original approach without having to reproduce a mounting system that was designed specifically around the original controller's internal layout.
+This allowed me to keep the useful part of the original approach without having to reproduce a mounting system designed specifically around the original controller's internal layout.
 
-### 🔹4.6.3 Second iteration.
+My first concept was a simple half-cylinder with extended walls to capture the motor body, leaving an opening for the shaft and eccentric weight. By adjusting the diameter of the inner cylinder, I could create enough interference to grip the foam wrapped around the motor and hold it in place.
 
-### 🔹4.6.4 Third iteration.
+<table>
+    <caption><i>Initial rumble motor mounting concept.</i></caption>
+    <tr>
+        <td>
+            <i>Half-cylinder friction concept.</i><br>
+            <img width="1079" height="893" alt="Half-cylinder friction mounting concept" src="https://github.com/user-attachments/assets/78d2e904-d559-42ae-8ed6-b470b8ea8a68" />
+        </td>
+        <td>
+            <i>Motor installed.</i><br>
+            <img width="1079" height="893" alt="Motor installed in the friction mounting concept" src="https://github.com/user-attachments/assets/a4c2328e-6e11-4a43-94ad-ef8dca79e28d" />
+        </td>
+    </tr>
+</table>
 
-### 🔹4.6.5 Final iteration.
+**Initial Results**    
 
+The printed test piece validated the concept and the initial measurements. The motor fit correctly, and the foam wrap provided enough friction to keep it securely in place.
 
+The only change I considered necessary for the next iteration was reducing the wall thickness around the shaft opening. This would make the feature thinner and leave a little more clearance for the eccentric weight while it rotates.
 
+The basic friction system itself worked as intended, so I did not see a reason to redesign it.
+
+The next iteration would therefore focus on developing a way to attach the mounting piece securely to the main controller body.
+
+<table>
+    <caption><i>Initial rumble motor mounting results.</i></caption>
+    <tr>
+        <td colspan="3">
+            <i>Friction mounting concept - front view.</i><br>
+            <img height="893" alt="Friction mounting concept front view" src="https://github.com/user-attachments/assets/3518684d-8aee-4726-a57f-d9b66a624181" />
+        </td>
+        <td colspan="3">
+            <i>Friction mounting concept - isometric view.</i><br>
+            <img height="893" alt="Friction mounting concept isometric view" src="https://github.com/user-attachments/assets/53b6fefa-914a-41b8-92c8-a7fe7c954de5" />
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <i>Top view - Motor installed.</i><br>
+            <img width="1079" height="893" alt="Top view of motor installed" src="https://github.com/user-attachments/assets/20b8cb0d-ff14-4c3f-808f-bac704ea2a32" />
+        </td>
+        <td colspan="2">
+            <i>Front view - Motor installed.</i><br>
+            <img width="1079" height="893" alt="Front view of motor installed" src="https://github.com/user-attachments/assets/35695a5f-27c3-4c17-ae95-b79b2fdb3999" />
+        </td>
+        <td colspan="2">
+            <i>Isometric view - Motor installed.</i><br>
+            <img width="1079" height="893" alt="Isometric view of motor installed" src="https://github.com/user-attachments/assets/b2f86ae3-361f-40e8-a664-9ee342528080" />
+        </td>
+    </tr>
+</table>
+
+### 🔹4.6.3 Second Iteration
+
+With the friction-based mounting system working, I could move on to the next problem: finding a way to securely attach the motor mount to the main controller body.
+
+For this iteration, I extended the parallel walls to house the complete motor unit and added two L-shaped fastening arms on either side of the motor housing. These arms would provide the attachment points needed to secure the mount to the main controller body.
+
+I also added an opening at the rear of the motor housing for the wires to exit. This prevented the wires from being pressed against the motor or pinched between the motor and the printed housing.
+
+<table>
+    <caption><i>Rumble motor mounting system - second iteration.</i></caption>
+    <tr>
+        <td>
+            <i>Fastening arms and wire exit.</i><br>
+            <img width="946" height="763" alt="Fastening arms and wire exit point" src="https://github.com/user-attachments/assets/c3cf11c6-e62a-41d9-ba28-817e16e6f346" />
+        </td>
+        <td>
+            <i>Fastening arms and shaft opening.</i><br>
+            <img width="946" height="763" alt="Fastening arms and shaft opening" src="https://github.com/user-attachments/assets/8b087d51-2b94-4561-97ad-8ddd0487749c" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <i>Fastening arms and wire exit - alternate view.</i><br>
+            <img width="946" height="763" alt="Fastening arms and wire exit alternate view" src="https://github.com/user-attachments/assets/635df87c-f074-48f8-8103-365e5dff6af7" />
+        </td>
+        <td>
+            <i>Fastening arms and shaft opening - alternate view.</i><br>
+            <img width="946" height="763" alt="Fastening arms and shaft opening alternate view" src="https://github.com/user-attachments/assets/509305a2-a77e-445e-9c20-057e43c086ea" />
+        </td>
+    </tr>
+</table>
+
+**Second iteration results**    
+
+The fastening arms felt sturdy enough, and the motor fit entirely within the housing. However, once the complete housing was assembled, it became apparent that the inner dimensions of the housing had too much clearance.
+
+The motor body is approximately 12.5 mm thick, but the clearance I had allowed around it was enough for the motor to move downward inside the housing. This caused the motor to sag and brought it closer to the mounting surface than intended.
+
+I also noticed that the fastening arms could be reduced in size without compromising their function. Their footprint was larger than necessary, making the overall mounting piece more bulky than it needed to be.
+
+These observations defined the two main changes for the final iteration: reducing the clearance around the motor to prevent sagging and reducing the footprint of the fastening arms to make the mounting piece more compact.
+
+### 🔹4.6.4 Final Iteration
+
+This iteration focused on fixing the dimensional issue identified during the previous test and making a small improvement to the fastening arms.
+
+I reduced the footprint of the fastening arms to make them more compact. I also reduced the clearance around the motor body inside the main cylinder. The previous clearance was slightly excessive and allowed the motor to move downwards, causing it to sag within the housing.
+
+<table>
+    <tr>
+        <td>
+            <i>Reduced fastening arm footprint.</i><br>
+            <img height="616" alt="Reduced fastening arm footprint" src="https://github.com/user-attachments/assets/3b50a29d-f2c1-4fda-b0b1-a4c565be12ce" />
+        </td>
+    </tr>
+</table>
+
+**Final iteration results**     
+
+The final iteration eliminated the motor sagging and improved the overall footprint of the fastening arms.
+
+At this point, the mounting piece achieved the requirement established for this part of the design. The motor can be installed and removed using the friction-based system, while the mounting piece can be securely attached to the main controller body.
+
+The final mounting piece is attached to the main body using two screws positioned at a specific distance from each other. I will use the completed mounting piece as the reference for positioning these screw holes on the main body, ensuring that they match the actual geometry of the finished mount.
 
 
 
