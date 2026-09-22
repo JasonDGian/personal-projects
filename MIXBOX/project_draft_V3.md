@@ -2753,9 +2753,7 @@ Before designing my own mounting system, I took a look at how the original contr
 </table>
 
 I decided to keep the same basic principle for my own design: a friction-based installation makes the motor easy to install and remove while keeping the mounting system simple. However, rather than trying to reproduce the original geometry, I would design the friction features myself and adapt them to the constraints of the custom controller.
-
-This allowed me to keep the useful part of the original approach without having to reproduce a mounting system designed specifically around the original controller's internal layout.
-
+   
 My first concept was a simple half-cylinder with extended walls to capture the motor body, leaving an opening for the shaft and eccentric weight. By adjusting the diameter of the inner cylinder, I could create enough interference to grip the foam wrapped around the motor and hold it in place.
 
 <table>
