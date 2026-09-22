@@ -2844,7 +2844,7 @@ I also added an opening at the rear of the motor housing for the wires to exit. 
 
 The fastening arms felt sturdy enough, and the motor fit entirely within the housing. However, once the complete housing was assembled, it became apparent that the inner dimensions of the housing had too much clearance.
 
-The motor body is approximately 12.5 mm thick, but the clearance I had allowed around it was enough for the motor to move downward inside the housing. This caused the motor to sag and brought it closer to the mounting surface than intended.
+The motor body is approximately 12.5 mm thick, but the clearance I had allowed around it caused it to tilt downward inside the housing, bringing the eccentric weight closer to the mounting surface than intended.
 
 I also noticed that the fastening arms could be reduced in size without compromising their function. Their footprint was larger than necessary, making the overall mounting piece more bulky than it needed to be.
 
