@@ -2848,6 +2848,26 @@ The motor body is approximately 12.5 mm thick, but the clearance I had allowed a
 
 I also noticed that the fastening arms could be reduced in size without compromising their function. Their footprint was larger than necessary, making the overall mounting piece more bulky than it needed to be.
 
+I also printed a test piece that would serve as a mounting plate to test fastening strength of the screws and a preview of the final result once fastened.
+
+<table>
+    <caption>Second iteration results</caption>
+    <tr>
+        <td>
+            <i>Fastened mount - Front view</i>
+        </td>
+        <td>
+            <i>Fastened mount - Isometric view</i>
+        </td>
+        <td>
+            <i>Motor tilted downward.</i>
+        </td>
+        <td>
+            <i>Fastening arms current size.</i>
+        </td>
+    </tr>
+</table>
+
 These observations defined the two main changes for the final iteration: reducing the clearance around the motor to prevent sagging and reducing the footprint of the fastening arms to make the mounting piece more compact.
 
 ### 🔹4.6.4 Final Iteration
@@ -2873,6 +2893,23 @@ At this point, the mounting piece achieved the requirement established for this 
 
 The final mounting piece is attached to the main body using two screws positioned at a specific distance from each other. I will use the completed mounting piece as the reference for positioning these screw holes on the main body, ensuring that they match the actual geometry of the finished mount.
 
+<table>
+    <caption>Final iteration results</caption>
+    <tr>
+        <td>
+            <i>Fastened mount - Front view</i>
+        </td>
+        <td>
+            <i>Fastened mount - Isometric view</i>
+        </td>
+        <td>
+            <i>Motor tightly held - Downward tilt corrected.</i>
+        </td>
+        <td>
+            <i>Fastening arms reduced size.</i>
+        </td>
+    </tr>
+</table>
 
 
 # 📌 5. Final Assembly
