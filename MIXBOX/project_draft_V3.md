@@ -2842,39 +2842,40 @@ I also added an opening at the rear of the motor housing for the wires to exit. 
 
 **Second iteration results**    
 
-The fastening arms felt sturdy enough, and the motor fit entirely within the housing. However, once the complete housing was assembled, it became apparent that the inner dimensions of the housing had too much clearance.
-
-The motor body is approximately 12.5 mm thick, but the clearance I had allowed around it caused it to tilt downward inside the housing, bringing the eccentric weight closer to the mounting surface than intended.
-
-I also noticed that the fastening arms could be reduced in size without compromising their function. Their footprint was larger than necessary, making the overall mounting piece more bulky than it needed to be.
+The fastening arms felt sturdy enough, and the motor fit entirely within the housing.
 
 I also printed a test piece that would serve as a mounting plate to test fastening strength of the screws and a preview of the final result once fastened.
+
+I noticed that the fastening arms could be reduced in size without compromising their function. Their footprint was larger than necessary, making the overall mounting piece more bulky than it needed to be.
 
 <table>
     <caption>Second iteration results</caption>
     <tr>
         <td>
             <i>Fastened mount - Front view</i>
+            <img width="1258" height="921" alt="image" src="https://github.com/user-attachments/assets/ec3b4f42-4390-4e4d-a13d-5886ca547232" />
         </td>
         <td>
-            <i>Fastened mount - Isometric view</i>
+            <i>Fastened mount - Rear view</i>
+            <img width="1258" height="921" alt="image" src="https://github.com/user-attachments/assets/b7a24035-3524-4691-8dcf-794742bd63d9" />
+        </td>
+        </tr>
+        <tr>
+        <td>
+            <i>Fastened mount - Isometric front view</i>
+            <img width="1258" height="921" alt="image" src="https://github.com/user-attachments/assets/e4799c32-82b4-4936-8c81-bbe33a4dbff7" />
         </td>
         <td>
-            <i>Motor tilted downward.</i>
-        </td>
-        <td>
-            <i>Fastening arms current size.</i>
+            <i>Fastened mount - Isometric rear view</i>
+            <img width="1258" height="921" alt="image (4)" src="https://github.com/user-attachments/assets/e0f9ea66-606a-417a-95c3-87780471c549" />
         </td>
     </tr>
 </table>
 
-These observations defined the two main changes for the final iteration: reducing the clearance around the motor to prevent sagging and reducing the footprint of the fastening arms to make the mounting piece more compact.
+The main change for the final iteration would be reducing the footprint of the fastening arms to make the mounting piece more compact.
 
 ### 🔹4.6.4 Final Iteration
-
-This iteration focused on fixing the dimensional issue identified during the previous test and making a small improvement to the fastening arms.
-
-I reduced the footprint of the fastening arms to make them more compact. I also reduced the clearance around the motor body inside the main cylinder. The previous clearance was slightly excessive and allowed the motor to move downwards, causing it to sag within the housing.
+This iteration focused on making a small improvement to the fastening arms to make them more compact. 
 
 <table>
     <tr>
@@ -2887,7 +2888,32 @@ I reduced the footprint of the fastening arms to make them more compact. I also 
 
 **Final iteration results**     
 
-The final iteration eliminated the motor sagging and improved the overall footprint of the fastening arms.
+The final iteration improved the overall footprint of the fastening arms.
+
+<table>
+    <tr>
+        <td>
+            <i>Reduced fastening arm footprint.</i><br>
+            <img height="616" alt="Reduced fastening arm footprint" src="https://github.com/user-attachments/assets/3b50a29d-f2c1-4fda-b0b1-a4c565be12ce" />
+        </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td colspan="2">
+            <i>Overall footprint comparison.</i><br>
+            <img width="2048" height="921" alt="image" src="https://github.com/user-attachments/assets/d008c0ad-5184-4227-90ed-e911fd640a45" />
+        </td>
+        <td>
+            <i>Arm footprint comparison.</i><br>
+            <img width="1258" height="921" alt="image" src="https://github.com/user-attachments/assets/1ea53c4e-ba67-421b-9bd9-9be71ad589b2" />
+        </td>
+        <td>
+        </td>
+    </tr>
+</table>
+
 
 At this point, the mounting piece achieved the requirement established for this part of the design. The motor can be installed and removed using the friction-based system, while the mounting piece can be securely attached to the main controller body.
 
@@ -2898,15 +2924,21 @@ The final mounting piece is attached to the main body using two screws positione
     <tr>
         <td>
             <i>Fastened mount - Front view</i>
+            <img width="1258" height="921" alt="image" src="https://github.com/user-attachments/assets/df07227a-671c-470e-a05b-ed4301cbbf84" />
+        </td>
+        <td>
+            <i>Fastened mount - Rear exit wire view </i>
+            <img width="1258" height="921" alt="image" src="https://github.com/user-attachments/assets/fe21512e-9175-4c47-b129-6f3c2d5fb64f" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <i>Fastened mount - Side view</i>
+            <img width="1258" height="921" alt="image" src="https://github.com/user-attachments/assets/c9dea736-623e-4f54-9d8d-9971c9364e28" />
         </td>
         <td>
             <i>Fastened mount - Isometric view</i>
-        </td>
-        <td>
-            <i>Motor tightly held - Downward tilt corrected.</i>
-        </td>
-        <td>
-            <i>Fastening arms reduced size.</i>
+            <img width="1258" height="921" alt="image" src="https://github.com/user-attachments/assets/c3eb5e98-59ce-42e4-acfb-e29a80d4de81" />
         </td>
     </tr>
 </table>
