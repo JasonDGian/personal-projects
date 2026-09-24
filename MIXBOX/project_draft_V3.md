@@ -2887,18 +2887,7 @@ This iteration focused on making a small improvement to the fastening arms to ma
 </table>
 
 **Final iteration results**     
-
-The final iteration improved the overall footprint of the fastening arms.
-
-<table>
-    <tr>
-        <td>
-            <i>Reduced fastening arm footprint.</i><br>
-            <img height="616" alt="Reduced fastening arm footprint" src="https://github.com/user-attachments/assets/3b50a29d-f2c1-4fda-b0b1-a4c565be12ce" />
-        </td>
-    </tr>
-</table>
-
+The final iteration reduced the size of the fastening arms and improved overall footprint of the component.
 <table>
     <tr>
         <td colspan="2">
@@ -2915,30 +2904,38 @@ The final iteration improved the overall footprint of the fastening arms.
 </table>
 
 
-At this point, the mounting piece achieved the requirement established for this part of the design. The motor can be installed and removed using the friction-based system, while the mounting piece can be securely attached to the main controller body.
+### 🔹4.6.5 Final results
 
-The final mounting piece is attached to the main body using two screws positioned at a specific distance from each other. I will use the completed mounting piece as the reference for positioning these screw holes on the main body, ensuring that they match the actual geometry of the finished mount.
+At this point, the mounting piece achieved the requirement established for this part of the design. The motor can be installed and removed using the friction-based system, while the mounting piece can be securely attached to the main controller body via the fastening arms.
 
 <table>
-    <caption>Final iteration results</caption>
+    <caption>Final results</caption>
     <tr>
-        <td>
-            <i>Fastened mount - Front view</i>
-            <img width="1258" height="921" alt="image" src="https://github.com/user-attachments/assets/df07227a-671c-470e-a05b-ed4301cbbf84" />
+        <td colspan="2"> 
+            <i>Exploded view</i>
+            <img alt="image" src="https://github.com/user-attachments/assets/f702ac17-6011-4281-a327-36b93e94d235" />
         </td>
-        <td>
-            <i>Fastened mount - Rear exit wire view </i>
-            <img width="1258" height="921" alt="image" src="https://github.com/user-attachments/assets/fe21512e-9175-4c47-b129-6f3c2d5fb64f" />
+        <td colspan="2"> 
+            <i>Exploded view</i>
+            <img alt="image" src="https://github.com/user-attachments/assets/c632ab32-63b5-499f-bf1e-745a348e5611" />
         </td>
     </tr>
     <tr>
         <td>
-            <i>Fastened mount - Side view</i>
-            <img width="1258" height="921" alt="image" src="https://github.com/user-attachments/assets/c9dea736-623e-4f54-9d8d-9971c9364e28" />
+            <i>Fastened mount - Front view</i>
+            <img height="921" alt="image" src="https://github.com/user-attachments/assets/df07227a-671c-470e-a05b-ed4301cbbf84" />
         </td>
         <td>
-            <i>Fastened mount - Isometric view</i>
-            <img width="1258" height="921" alt="image" src="https://github.com/user-attachments/assets/c3eb5e98-59ce-42e4-acfb-e29a80d4de81" />
+            <i>Fastened mount - Side view</i>
+            <img height="921" alt="image" src="https://github.com/user-attachments/assets/c9dea736-623e-4f54-9d8d-9971c9364e28" />
+        </td>
+        <td>
+            <i>Fastening arm</i>
+            <img height="921" alt="image" src="https://github.com/user-attachments/assets/faac035d-d13e-42b5-8ab0-f8e8bcea7022" />
+        </td>
+        <td>
+            <i>Rear wire exit point.</i>
+            <img height="921" alt="image" src="https://github.com/user-attachments/assets/6608581a-3439-4a9f-bbf1-71e0d4d7f8e7" />
         </td>
     </tr>
 </table>
