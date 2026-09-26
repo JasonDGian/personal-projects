@@ -2947,19 +2947,35 @@ At this point, the mounting piece achieved the requirement established for this 
 ## 🔸5.3 Final Controller
 
 
----
+
 
 ---
+
 TODO:
-- Interfaz de montado con escalas de 5 grados para el input block y la placa de montado de los botones arcade.
-- Consola de botones auxiliares (modulo)
-- Rediseñar la caja de la placa madre para que sea más compacta.
-- Pieza de montado del modulo led, integrar en cuerpo y permitir funcionalidad click con pieza "Actuator" imitando pieza original.
 - Interfaz de recarga USB-C expuesta en el cuerpo.
 - Interfaz audio auxiliar conectada al mando.
 - Modulo de sonido integrado al mando.
-- 
 
+
+# WIP - Testeo de diseño y montado de subsistemas en cuerpo principal.
+
+Una vez desarrollados y probados todos los subsistemas principales, quedaba encontrar una forma de integrarlos dentro de lo que acabaría siendo el cuerpo principal del mando.
+
+Para ello, comencé probando distintas configuraciones de los componentes, intentando encontrar un equilibrio entre tres factores principales: **facilidad de montaje, comodidad durante el uso y tamaño mínimo posible**.
+
+Esto resultó ser más complicado de lo que esperaba. Al intentar reducir el tamaño del mando, los componentes quedaban más juntos, haciendo que el montaje y el mantenimiento fueran más difíciles. Por otro lado, dejar más espacio entre ellos facilitaba el montaje y permitía una distribución más cómoda, pero aumentaba el tamaño final del mando y, con ello, la cantidad de material y tiempo necesarios para imprimirlo.
+
+Por tanto, el objetivo no era simplemente hacer el mando lo más compacto posible, sino encontrar el punto en el que pudiera ser **cómodo de usar, razonablemente fácil de montar y lo más compacto posible**, minimizando al mismo tiempo el material necesario para replicarlo.
+   
+<img width="1180" height="659" alt="image" src="https://github.com/user-attachments/assets/1456f2e9-9c43-4ec0-8b93-eeb7fbcac645" />
+   
+<img width="1141" height="648" alt="image" src="https://github.com/user-attachments/assets/ae1131a0-6d07-49e2-b410-5442a95d7d5c" />
+
+
+
+
+
+<!--
 
 
 
@@ -3013,5 +3029,5 @@ Tras comprobar que 4 botones caben comodamente y no hay peligro de confundirse e
 <img width="1411" height="735" alt="image" src="https://github.com/user-attachments/assets/5214b6ab-61ae-4781-bc5f-aec7af1fb816" />
 
  <img width="1328" height="782" alt="image" src="https://github.com/user-attachments/assets/8260a49a-355a-4e66-8996-c58e8a26ae74" />
-
+-->
 
