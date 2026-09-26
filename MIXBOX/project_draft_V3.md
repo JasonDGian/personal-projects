@@ -2971,6 +2971,7 @@ Por tanto, el objetivo no era simplemente hacer el mando lo más compacto posibl
    
 <img width="1141" height="648" alt="image" src="https://github.com/user-attachments/assets/ae1131a0-6d07-49e2-b410-5442a95d7d5c" />
 
+<img width="1180" height="808" alt="image" src="https://github.com/user-attachments/assets/dd0ddabb-08ee-4705-b613-2e6244ca3cdf" />
 
 
 
