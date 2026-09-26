@@ -2985,6 +2985,16 @@ Teniendo la placa base debajo del modulo led podría resultar beneficioso para e
 
 <img width="1287" height="641" alt="image" src="https://github.com/user-attachments/assets/382ff793-c1d4-45bb-9b69-53663297313e" />
 
+primer concepto general.
+<img width="1535" height="790" alt="image" src="https://github.com/user-attachments/assets/493a17c4-ae1c-4341-922f-656fa89a9f70" />
+
+
+
+
+
+
+
+
 
 <!--
 
