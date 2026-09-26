@@ -2989,6 +2989,26 @@ primer concepto general.
 <img width="1535" height="790" alt="image" src="https://github.com/user-attachments/assets/493a17c4-ae1c-4341-922f-656fa89a9f70" />
 
 
+Con el concepto general establecido empecé a deconstruirlo en piezas individuales desde las cuales llegar a la forma final deseada pero integrando los subsistemas y añadiendo geometria de refuerzo y tratando de crear un dispositivo fácil de desomntar.
+
+Aislando el panel superior donde encajarán la mayoria de las piezas.
+<img width="1485" height="787" alt="image" src="https://github.com/user-attachments/assets/2d92b075-e1c5-4fa1-8d97-07965cd0d5dd" />
+
+Panel de huella minima necesaria para alojar los componentes a partir del cual se expandirá la geometría.
+<img width="1329" height="717" alt="image" src="https://github.com/user-attachments/assets/1c23be9a-cc7d-4f2e-94e9-c20392824dcf" />
+
+<img width="1446" height="752" alt="image" src="https://github.com/user-attachments/assets/b203ff3d-daeb-469c-b94b-6612827192f3" />
+
+Poco a poco descomponiendo la imagen se fué dibujando sola, para la primera versión almenos. 
+En esta versión separé la placa superior, que facilitaría luego la customización con vinilo.
+También mantuve separada la pared con la curva de la parte superior, la decidí extraer porque seguramente esa pieza iria iterando para ir alojando la apertura hacia el puerto de carga, que podría probarse una pieza dificil en cuanto me ponga. Deconstruir la caja en 3 partes principales me permitiría, además corregir
+errores en cada una de ellas individualmente en lugar de ir iterando sobre la caja entera. Además separar permitiría evitar una cantidad inutil de soportes durante la impresión. 
+Las partes previstas son las siguientes: 
+- Placa superior, aloja los botones.
+- Paredes lateriales e inferior, fusionadas a la parte inferior.
+- Pared superior, aloja el puerto de carga.
+<img width="1454" height="789" alt="image" src="https://github.com/user-attachments/assets/44f8ea30-fd98-4914-b190-c38bd4d885a7" />
+
 
 
 
