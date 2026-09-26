@@ -2974,6 +2974,16 @@ Por tanto, el objetivo no era simplemente hacer el mando lo más compacto posibl
 <img width="1180" height="808" alt="image" src="https://github.com/user-attachments/assets/dd0ddabb-08ee-4705-b613-2e6244ca3cdf" />
 
 
+Al final una de las ideas que tuve para encontrar un balance entre comodo, compacto y facil de montar fué crear una geometria brotuberante que permitiese alojar el ensamblado del a placa base justo debajo del modulo led. 
+
+<img width="1122" height="852" alt="image" src="https://github.com/user-attachments/assets/6a30436b-2215-4efb-94e3-df4560d5bc28" />
+
+Teniendo la placa base debajo del modulo led podría resultar beneficioso para el puerto de carga, que aun debia encontrar una solucion para ello.
+<img width="1077" height="677" alt="image" src="https://github.com/user-attachments/assets/f242ca5d-3a86-4f70-9fbb-0e7f3a51d26f" />
+
+<img width="1268" height="796" alt="image" src="https://github.com/user-attachments/assets/3ebe896a-7ac3-4ec6-807a-380e9c5b06a3" />
+
+<img width="1287" height="641" alt="image" src="https://github.com/user-attachments/assets/382ff793-c1d4-45bb-9b69-53663297313e" />
 
 
 <!--
