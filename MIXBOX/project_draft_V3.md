@@ -2957,6 +2957,19 @@ TODO:
 - Modulo de sonido integrado al mando.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 # WIP - Testeo de diseño y montado de subsistemas en cuerpo principal.
 
 Una vez desarrollados y probados todos los subsistemas principales, quedaba encontrar una forma de integrarlos dentro de lo que acabaría siendo el cuerpo principal del mando.
@@ -2966,21 +2979,32 @@ Para ello, comencé probando distintas configuraciones de los componentes, inten
 Esto resultó ser más complicado de lo que esperaba. Al intentar reducir el tamaño del mando, los componentes quedaban más juntos, haciendo que el montaje y el mantenimiento fueran más difíciles. Por otro lado, dejar más espacio entre ellos facilitaba el montaje y permitía una distribución más cómoda, pero aumentaba el tamaño final del mando y, con ello, la cantidad de material y tiempo necesarios para imprimirlo.
 
 Por tanto, el objetivo no era simplemente hacer el mando lo más compacto posible, sino encontrar el punto en el que pudiera ser **cómodo de usar, razonablemente fácil de montar y lo más compacto posible**, minimizando al mismo tiempo el material necesario para replicarlo.
+
+<table>
+    <caption>Tested configurations.</caption>
+    <tr>
+        <td>
+            <i>Motherboard on left side, charging port on left side.</i><br>
+            <img width="1180" height="659" alt="image" src="https://github.com/user-attachments/assets/1456f2e9-9c43-4ec0-8b93-eeb7fbcac645" />
+        </td>
+        <td>
+            <i>Motherboard centered, no charging port available to any side.</i><br>
+            <img width="1141" height="648" alt="image" src="https://github.com/user-attachments/assets/ae1131a0-6d07-49e2-b410-5442a95d7d5c" />
+        </td>
+        <td>
+            <i>Motherboard under led module, charing port towards the front.</i><br>
+            <img width="1180" height="808" alt="image" src="https://github.com/user-attachments/assets/dd0ddabb-08ee-4705-b613-2e6244ca3cdf" />   
+        </td>
+    </tr>
+</table>
    
-<img width="1180" height="659" alt="image" src="https://github.com/user-attachments/assets/1456f2e9-9c43-4ec0-8b93-eeb7fbcac645" />
-   
-<img width="1141" height="648" alt="image" src="https://github.com/user-attachments/assets/ae1131a0-6d07-49e2-b410-5442a95d7d5c" />
-
-<img width="1180" height="808" alt="image" src="https://github.com/user-attachments/assets/dd0ddabb-08ee-4705-b613-2e6244ca3cdf" />
-
-
 Al final una de las ideas que tuve para encontrar un balance entre comodo, compacto y facil de montar fué crear una geometria brotuberante que permitiese alojar el ensamblado del a placa base justo debajo del modulo led. 
-
 <img width="1122" height="852" alt="image" src="https://github.com/user-attachments/assets/6a30436b-2215-4efb-94e3-df4560d5bc28" />
 
 Teniendo la placa base debajo del modulo led podría resultar beneficioso para el puerto de carga, que aun debia encontrar una solucion para ello.
 <img width="1077" height="677" alt="image" src="https://github.com/user-attachments/assets/f242ca5d-3a86-4f70-9fbb-0e7f3a51d26f" />
 
+Avanzando por corriente, llegué a un diseño asimetrico que me pareció una mezcla balanceada.
 <img width="1268" height="796" alt="image" src="https://github.com/user-attachments/assets/3ebe896a-7ac3-4ec6-807a-380e9c5b06a3" />
 
 <img width="1287" height="641" alt="image" src="https://github.com/user-attachments/assets/382ff793-c1d4-45bb-9b69-53663297313e" />
@@ -3076,6 +3100,8 @@ Tras comprobar que 4 botones caben comodamente y no hay peligro de confundirse e
 
 ---
 
+
+
 Una vez hecho hueco para los distintos modulos, separé la placa en dos piezas para que pudiera caber en la cama de impresion de mi impresora. En hacer eso, introduje dos encajes distintos para poder alinear la placa superior al montarla.  
 <img width="1239" height="782" alt="image" src="https://github.com/user-attachments/assets/e60b0691-0edc-4d4a-aafd-80bba666b293" />
 
@@ -3097,6 +3123,11 @@ Para sujetar las paredes creé unos pilares que conectaran las peredes laterales
 <img width="1469" height="800" alt="image" src="https://github.com/user-attachments/assets/53b2431a-d6bf-4ccd-9cc1-8f2328fd7e3d" />
 
 <img width="1378" height="788" alt="image" src="https://github.com/user-attachments/assets/260717af-5d43-4285-8d83-7994904ec3e8" />
+
+
+
+Columnas de soporte con encaje.
+
 
 
 
