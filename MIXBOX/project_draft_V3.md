@@ -3072,3 +3072,31 @@ Tras comprobar que 4 botones caben comodamente y no hay peligro de confundirse e
  <img width="1328" height="782" alt="image" src="https://github.com/user-attachments/assets/8260a49a-355a-4e66-8996-c58e8a26ae74" />
 -->
 
+
+
+---
+
+Una vez hecho hueco para los distintos modulos, separé la placa en dos piezas para que pudiera caber en la cama de impresion de mi impresora. En hacer eso, introduje dos encajes distintos para poder alinear la placa superior al montarla.  
+<img width="1239" height="782" alt="image" src="https://github.com/user-attachments/assets/e60b0691-0edc-4d4a-aafd-80bba666b293" />
+
+Encaje 1. 
+<img width="1144" height="764" alt="image" src="https://github.com/user-attachments/assets/52c7410e-1bcf-4646-87b8-81434a7cec05" />
+
+
+
+Encaje 2
+<img width="989" height="832" alt="image" src="https://github.com/user-attachments/assets/0c91b2e6-ac85-4765-8ec2-f9d064543b29" />
+
+<img width="870" height="711" alt="image" src="https://github.com/user-attachments/assets/05a494af-05a3-4368-8386-20938a85820c" />
+
+
+Para sujetar las paredes creé unos pilares que conectaran las peredes laterales, la placa sujperior y la placa inferior del cuerpo del mando.
+
+<img width="1545" height="645" alt="image" src="https://github.com/user-attachments/assets/3a5ca34e-1d2b-42a5-b7a9-1c0ba22cc80a" />
+
+<img width="1469" height="800" alt="image" src="https://github.com/user-attachments/assets/53b2431a-d6bf-4ccd-9cc1-8f2328fd7e3d" />
+
+<img width="1378" height="788" alt="image" src="https://github.com/user-attachments/assets/260717af-5d43-4285-8d83-7994904ec3e8" />
+
+
+
