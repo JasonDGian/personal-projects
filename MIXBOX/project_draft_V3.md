@@ -3131,3 +3131,37 @@ Columnas de soporte con encaje.
 
 
 
+---
+# Muros laterales.
+Para los muros laterales diseñé unas placas simples que irían atornilladas a los pilares de soporte del cuerpo principal. Tres tornillos a cada lado se encargan de mantener cada pieza en su posición, pero debido a las limitaciones de impresión y a los requisitos de diseño, no siempre era posible colocar tornillos en todos los puntos necesarios. Por ello, también tuve que buscar formas de evitar que los muros vibrasen o se moviesen durante el uso.
+
+<i>Ejemplo muro hacia el jugador.</i>
+<img width="1430" height="782" alt="image" src="https://github.com/user-attachments/assets/7121a7b2-6b59-49a4-998b-2c2a6eb62e98" />
+
+<i>Ejemplo de montado.</i>
+<img width="1435" height="785" alt="image" src="https://github.com/user-attachments/assets/a3b0b00d-f8ec-4806-aec3-30ecd7d98e81" />
+
+<img width="1030" height="822" alt="image" src="https://github.com/user-attachments/assets/e8d8bb24-a118-490d-acc6-f1fe4428cea1" />
+
+<img width="1415" height="861" alt="image" src="https://github.com/user-attachments/assets/e99e753c-3451-42bc-b378-d546e7dd8258" />
+
+Explorando maneras de soporte adicional para los muros.
+
+Una de las soluciones que probé para añadir soporte sin complicar el desmontaje fue un sistema de encaje que atrapa una pieza en forma de T entre dos pilares. La geometría de los pilares permite deslizar el muro hasta su posición, mientras que el ajuste por fricción ayuda a mantenerlo en su sitio.
+
+<i>Ejemplo funcionamiento.</i>
+<img width="1022" height="557" alt="prueba_encaje_muro" src="https://github.com/user-attachments/assets/1dbc00c4-7f07-416e-b31f-3f0ea77366f9" />
+
+La idea es que los muros queden fijados al cuerpo principalmente mediante los tornillos, mientras que los encajes proporcionen soporte adicional. Al colocar la tapa inferior, los encajes quedarían integrados en ella y ayudarían a mantener todavía más estable la posición de los muros.
+
+Esta solución también tiene la ventaja de facilitar el mantenimiento para el usuario final. Al retirar la tapa inferior, los encajes se liberarían junto con ella, evitando tener que añadir más tornillos únicamente para conseguir el mismo nivel de estabilidad.
+
+Estuve jugando una hora con estos diseños hasta que, quizás por el café quizas porque mi cerebro estaba encendiendose un domingo, me di cuenta que no era necesario complicarse tanto ni ocupar tanto espacio para resolver este problema.
+La solucion más sencilla fue "dar dientes" a las paredes para que encajasen donde deben encajar. 
+
+Para ello diseñe, en el muro mismo, una protuberancia a forma de encaje que 'mordería' la placa inferior al montarse y bloquearia el muro en su sitio para esa sección.
+Aunque esta solución no aporta el mismo nivel de soporte y fijación que la que inicialmente estuve desarrollando, la veo más elegante y facil de imprimir a la hora de crear la pieza. 
+
+<img width="1206" height="775" alt="image" src="https://github.com/user-attachments/assets/ee98f3aa-1205-4d9b-8f0c-218e7654d952" />
+
+
