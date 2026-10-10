@@ -3165,3 +3165,32 @@ Aunque esta solución no aporta el mismo nivel de soporte y fijación que la que
 <img width="1206" height="775" alt="image" src="https://github.com/user-attachments/assets/ee98f3aa-1205-4d9b-8f0c-218e7654d952" />
 
 
+
+---
+# Pilares de soporte.
+Esta pieza es la clave que mantiene el todo unido.
+Se trata de un pilar que encaja en la tapa superior y la tapa inferior y recibe tornillos para fijar tanto las tapas como los muros laterales. 
+Tanto la tapa inferior como la superior se fijan mediante dos tornillos, mientras que los muros se pueden fijar con hasta 3 tornillos, aunque en mis pruebas dos tornillos son más que suficientes para sujetar y asegurar los muros. 
+
+
+<table>
+    <caption>Pilares.</caption>
+    <tr>
+        <td>
+            <i></i><br>
+            
+        </td>
+        <td>
+            <i></i><br>
+            
+        </td>
+        <td>
+            <i></i><br>
+            
+        </td>
+        <td>
+            <i></i><br>
+            
+        </td>
+    </tr>
+</table>
