@@ -2973,14 +2973,50 @@ One additional complication was the motherboard's charging port. I wanted to kee
     </tr>
 </table>
 
+In the end, I decided to place the motherboard directly underneath the LED module. This arrangement would increase the overall height of the controller body by a few millimeters and make wiring somewhat more difficult compared to a centrally positioned motherboard. However, the reduction in horizontal footprint and the improved positioning of the directional input block relative to the arcade buttons made it worth exploring.
 
+To make this arrangement possible, I started experimenting with a protruding section of the body that could accommodate the motherboard assembly underneath the LED module.
 
+<table>
+    <caption>Initial concept for the protruding motherboard housing.</caption>
+    <tr>
+        <td>
+            <img width="1122" height="852" alt="Initial concept for the protruding motherboard housing" src="https://github.com/user-attachments/assets/6a30436b-2215-4efb-94e3-df4560d5bc28" />
+        </td>
+    </tr>
+</table>
+   
+This layout also offered a potential way to address the charging-port placement, although I still needed to figure out how to keep it accessible.
+   
+<table>
+    <caption>Motherboard positioned underneath the LED module.</caption>
+    <tr>
+        <td>
+            <img width="1077" height="677" alt="Motherboard positioned underneath the LED module" src="https://github.com/user-attachments/assets/f242ca5d-3a86-4f70-9fbb-0e7f3a51d26f" />
+        </td>
+    </tr>
+</table>
 
+As I continued refining the design, I arrived at an asymmetrical layout that seemed to offer a good compromise between compactness, ergonomics, and assembly requirements.
+<img width="1268" height="796" alt="Refined asymmetrical layout" src="https://github.com/user-attachments/assets/3ebe896a-7ac3-4ec6-807a-380e9c5b06a3" />
 
+<table>
+    <caption>Motherboard positioned underneath the LED module.</caption>
+    <tr>
+        <td>
+            <img width="1077" height="677" alt="Motherboard positioned underneath the LED module" src="https://github.com/user-attachments/assets/f242ca5d-3a86-4f70-9fbb-0e7f3a51d26f" />
+        </td>
+    </tr>
+        <tr>
+        <td>
+           <img width="1287" height="641" alt="Top and front views of the proposed controller body" src="https://github.com/user-attachments/assets/382ff793-c1d4-45bb-9b69-53663297313e" />
+        </td>
+    </tr>
+</table>
 
+First overall concept.
 
-
-
+<img width="1535" height="790" alt="First overall concept of the controller body" src="https://github.com/user-attachments/assets/493a17c4-ae1c-4341-922f-656fa89a9f70" />
 
 
 
@@ -3032,16 +3068,7 @@ Las partes previstas son las siguientes:
 
 
    
-Al final una de las ideas que tuve para encontrar un balance entre comodo, compacto y facil de montar fué crear una geometria brotuberante que permitiese alojar el ensamblado del a placa base justo debajo del modulo led. 
-<img width="1122" height="852" alt="image" src="https://github.com/user-attachments/assets/6a30436b-2215-4efb-94e3-df4560d5bc28" />
 
-Teniendo la placa base debajo del modulo led podría resultar beneficioso para el puerto de carga, que aun debia encontrar una solucion para ello.
-<img width="1077" height="677" alt="image" src="https://github.com/user-attachments/assets/f242ca5d-3a86-4f70-9fbb-0e7f3a51d26f" />
-
-Avanzando por corriente, llegué a un diseño asimetrico que me pareció una mezcla balanceada.
-<img width="1268" height="796" alt="image" src="https://github.com/user-attachments/assets/3ebe896a-7ac3-4ec6-807a-380e9c5b06a3" />
-
-<img width="1287" height="641" alt="image" src="https://github.com/user-attachments/assets/382ff793-c1d4-45bb-9b69-53663297313e" />
 
 
 
