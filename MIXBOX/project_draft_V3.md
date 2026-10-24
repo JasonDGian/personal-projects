@@ -2941,10 +2941,53 @@ At this point, the mounting piece achieved the requirement established for this 
 </table>
 
 
-# 📌 5. Final Assembly
+# 📌 5. Controller Body - Subsistems Assembly
+This section documents how the individual subsystems were brought together into a single, functional unit within the controller's main body.
+   
 ## 🔸5.1 Internal Layout
+Once all the main subsystems had been developed and tested, the next step was figuring out how to fit everything together into the controller's main body.
+
+I started experimenting with different component layouts, trying to balance three main factors: ease of access, user comfort, and compactness. The goal was to make the controller as small as possible without compromising ergonomics or making individual components difficult to access during assembly and maintenance.
+      
+This turned out to be more complicated than I initially expected. Bringing the components closer together reduced the overall size, but also made assembly and maintenance more challenging. Leaving more room between them made the layout easier to work with, but increased the controller's footprint and the amount of material and printing time required.
+  
+The challenge was therefore not simply to make everything fit, but to find a reasonable compromise between these three factors.
+   
+One additional complication was the motherboard's charging port. I wanted to keep the original port directly accessible without relying on an extension cable, which would add to the overall cost. However, positioning the motherboard to achieve this limited the available layout options and made it harder to access the motherboard and surrounding wiring during maintenance. I tested several configurations that sacrificed direct access to the port in exchange for more flexibility when arranging the internal components, but ultimately decided that convenient charging was worth some compromise in serviceability. 
+    
+<table>
+    <caption>Tested configurations.</caption>
+    <tr>
+        <td>
+            <i>Motherboard positioned on the left, with the charging port accessible from the left side.</i><br>
+            <img width="1180" height="659" alt="Motherboard on the left side, charging port on the left side" src="https://github.com/user-attachments/assets/1456f2e9-9c43-4ec0-8b93-eeb7fbcac645" />
+        </td>
+        <td>
+            <i>Motherboard centered, leaving no accessible charging port on either side.</i><br>
+            <img width="1141" height="648" alt="Centered motherboard with no side access to the charging port" src="https://github.com/user-attachments/assets/ae1131a0-6d07-49e2-b410-5442a95d7d5c" />
+        </td>
+        <td>
+            <i>Motherboard positioned underneath the LED module, with the charging port facing forward.</i><br>
+            <img width="1180" height="808" alt="Motherboard underneath the LED module, charging port facing forward" src="https://github.com/user-attachments/assets/dd0ddabb-08ee-4705-b613-2e6244ca3cdf" />
+        </td>
+    </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
 ## 🔸5.2 Wiring
+
 ## 🔸5.3 Final Controller
+
 
 
 
@@ -2960,54 +3003,6 @@ TODO:
 
 
 
-
-
-
-
-
-
-
-
-
-
-# WIP - Testeo de diseño y montado de subsistemas en cuerpo principal.
-
-Una vez desarrollados y probados todos los subsistemas principales, quedaba encontrar una forma de integrarlos dentro de lo que acabaría siendo el cuerpo principal del mando.
-
-Para ello, comencé probando distintas configuraciones de los componentes, intentando encontrar un equilibrio entre tres factores principales: **facilidad de montaje, comodidad durante el uso y tamaño mínimo posible**.
-
-Esto resultó ser más complicado de lo que esperaba. Al intentar reducir el tamaño del mando, los componentes quedaban más juntos, haciendo que el montaje y el mantenimiento fueran más difíciles. Por otro lado, dejar más espacio entre ellos facilitaba el montaje y permitía una distribución más cómoda, pero aumentaba el tamaño final del mando y, con ello, la cantidad de material y tiempo necesarios para imprimirlo.
-
-Por tanto, el objetivo no era simplemente hacer el mando lo más compacto posible, sino encontrar el punto en el que pudiera ser **cómodo de usar, razonablemente fácil de montar y lo más compacto posible**, minimizando al mismo tiempo el material necesario para replicarlo.
-
-<table>
-    <caption>Tested configurations.</caption>
-    <tr>
-        <td>
-            <i>Motherboard on left side, charging port on left side.</i><br>
-            <img width="1180" height="659" alt="image" src="https://github.com/user-attachments/assets/1456f2e9-9c43-4ec0-8b93-eeb7fbcac645" />
-        </td>
-        <td>
-            <i>Motherboard centered, no charging port available to any side.</i><br>
-            <img width="1141" height="648" alt="image" src="https://github.com/user-attachments/assets/ae1131a0-6d07-49e2-b410-5442a95d7d5c" />
-        </td>
-        <td>
-            <i>Motherboard under led module, charing port towards the front.</i><br>
-            <img width="1180" height="808" alt="image" src="https://github.com/user-attachments/assets/dd0ddabb-08ee-4705-b613-2e6244ca3cdf" />   
-        </td>
-    </tr>
-</table>
-   
-Al final una de las ideas que tuve para encontrar un balance entre comodo, compacto y facil de montar fué crear una geometria brotuberante que permitiese alojar el ensamblado del a placa base justo debajo del modulo led. 
-<img width="1122" height="852" alt="image" src="https://github.com/user-attachments/assets/6a30436b-2215-4efb-94e3-df4560d5bc28" />
-
-Teniendo la placa base debajo del modulo led podría resultar beneficioso para el puerto de carga, que aun debia encontrar una solucion para ello.
-<img width="1077" height="677" alt="image" src="https://github.com/user-attachments/assets/f242ca5d-3a86-4f70-9fbb-0e7f3a51d26f" />
-
-Avanzando por corriente, llegué a un diseño asimetrico que me pareció una mezcla balanceada.
-<img width="1268" height="796" alt="image" src="https://github.com/user-attachments/assets/3ebe896a-7ac3-4ec6-807a-380e9c5b06a3" />
-
-<img width="1287" height="641" alt="image" src="https://github.com/user-attachments/assets/382ff793-c1d4-45bb-9b69-53663297313e" />
 
 primer concepto general.
 <img width="1535" height="790" alt="image" src="https://github.com/user-attachments/assets/493a17c4-ae1c-4341-922f-656fa89a9f70" />
@@ -3033,6 +3028,20 @@ Las partes previstas son las siguientes:
 - Pared superior, aloja el puerto de carga.
 <img width="1454" height="789" alt="image" src="https://github.com/user-attachments/assets/44f8ea30-fd98-4914-b190-c38bd4d885a7" />
 
+
+
+
+   
+Al final una de las ideas que tuve para encontrar un balance entre comodo, compacto y facil de montar fué crear una geometria brotuberante que permitiese alojar el ensamblado del a placa base justo debajo del modulo led. 
+<img width="1122" height="852" alt="image" src="https://github.com/user-attachments/assets/6a30436b-2215-4efb-94e3-df4560d5bc28" />
+
+Teniendo la placa base debajo del modulo led podría resultar beneficioso para el puerto de carga, que aun debia encontrar una solucion para ello.
+<img width="1077" height="677" alt="image" src="https://github.com/user-attachments/assets/f242ca5d-3a86-4f70-9fbb-0e7f3a51d26f" />
+
+Avanzando por corriente, llegué a un diseño asimetrico que me pareció una mezcla balanceada.
+<img width="1268" height="796" alt="image" src="https://github.com/user-attachments/assets/3ebe896a-7ac3-4ec6-807a-380e9c5b06a3" />
+
+<img width="1287" height="641" alt="image" src="https://github.com/user-attachments/assets/382ff793-c1d4-45bb-9b69-53663297313e" />
 
 
 
