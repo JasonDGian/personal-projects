@@ -2941,14 +2941,10 @@ At this point, the mounting piece achieved the requirement established for this 
 </table>
 
 
-# 📌 5. Controller Body - Design & Assembly
+# 📌 5. Controller Body - Design & Assembly.
 With the individual subsystems developed and tested, the next step was to design a main body that could accommodate them all. This meant working out how the components would be arranged, designing the physical structure around that layout, and planning how everything would eventually be assembled.
      
-## 🔸5.1 Body design
-Once all the main subsystems had been developed and tested, the next step was figuring out how to fit everything together into the controller's main body.
-I needed to figure out the internal layout and then create a design for the phyisical body to fit all the subsistems in and assemble.
-
-### 🔹5.1.1 Internal Layout
+## 🔸5.1 Internal Layout.
 Before designing the body itself, I needed to settle on an internal layout. I started experimenting with different component configurations, trying to balance three main factors: ease of access, user comfort, and compactness. The goal was to make the controller as small as possible without compromising ergonomics or making individual components difficult to access during assembly and maintenance.
 
 This turned out to be more complicated than I initially expected. Bringing the components closer together reduced the overall footprint, but also made assembly and maintenance more challenging. Leaving more room between them made the layout easier to work with, but increased the controller's size and the amount of material and printing time required.
@@ -2977,14 +2973,22 @@ One additional complication was the motherboard's charging port. I wanted to kee
 
 In the end, I decided to place the motherboard directly underneath the LED module. This arrangement would increase the overall height of the controller body by a few millimeters and make the wiring process somewhat more difficult than with a centrally positioned motherboard. However, the reduction in horizontal footprint and the improved positioning of the directional input block relative to the arcade buttons made this trade-off worth exploring.
     
-### 🔹5.1.1 Controller body design
+## 🔸5.2 Controller body design
 With the general component layout established, I could start designing the physical body around it. The goal was to turn the layout into a structure that could accommodate the individual subsystems, provide the necessary mounting points, and allow the parts to be assembled and accessed without unnecessary difficulty.
 
 This stage would involve translating the space occupied by the components into a practical enclosure, while accounting for clearances, fastening points, and the constraints of FDM 3D printing. The body would also need to preserve the compact layout established in the previous stage.
 
-**Initial concept.** 
+---
 
 
+**Deconstructing the initial concept.**    
+As a good professor taught me once, sometimes the best idea is to start from the end, with this tip in mind i started deconstructing the initial concept and split into parts. KEeping in mind that this would be printed on an FDM print and it has it's limitations. 
+
+After some extensive taught I decided to split the main body into parts, categorized in top, middle, bottom and sides. There were two main factors behind this decision. Although a single piece to print was the beast most solid solution for many projects, in this specific case, in which modularity is one of my main goals, splitting the object into multiple, interchangeable parts, looked like the most logical solution. For this reason mainly, i decided to categorize the pieces and allow for individual removal for each one. 
+Basicallyt the idea is, if another user downloads my project and wants to change some pieces, they don't need to redesign everything, theyu only need to redesign the affected piece and print only that new piece. Also this would make it easier to gradually print and valideate each piece. and if something went wrong during a printing session, not the hole controller would be thrown away, only the printed failed piece would need to be repritned. Although this decision made the assembly a little more tedious, it borught many advantages with it as well.
+
+
+**Side walls.**
 
 
 
@@ -3005,32 +3009,13 @@ This stage would involve translating the space occupied by the components into a
 
    
 ---
-   
-Before I could design the body itself, i needed to know the internal layout. I started experimenting with different component layouts, trying to balance three main factors: ease of access, user comfort, and compactness. The goal was to make the controller as small as possible without compromising ergonomics or making individual components difficult to access during assembly and maintenance.
-      
-This turned out to be more complicated than I initially expected. Bringing the components closer together reduced the overall size, but also made assembly and maintenance more challenging. Leaving more room between them made the layout easier to work with, but increased the controller's footprint and the amount of material and printing time required.
-  
-The challenge was therefore not simply to make everything fit, but to find a reasonable compromise between these three factors.
-   
-One additional complication was the motherboard's charging port. I wanted to keep the original port directly accessible without relying on an extension cable, which would add to the overall cost. However, positioning the motherboard to achieve this limited the available layout options and made it harder to access the motherboard and surrounding wiring during maintenance. I tested several configurations that sacrificed direct access to the port in exchange for more flexibility when arranging the internal components, but ultimately decided that convenient charging was worth some compromise in serviceability. 
-    
-<table>
-    <caption>Tested configurations.</caption>
-    <tr>
-        <td>
-            <i>Motherboard positioned on the left, with the charging port accessible from the left side.</i><br>
-            <img width="1180" height="659" alt="Motherboard on the left side, charging port on the left side" src="https://github.com/user-attachments/assets/1456f2e9-9c43-4ec0-8b93-eeb7fbcac645" />
-        </td>
-        <td>
-            <i>Motherboard centered, leaving no accessible charging port on either side.</i><br>
-            <img width="1141" height="648" alt="Centered motherboard with no side access to the charging port" src="https://github.com/user-attachments/assets/ae1131a0-6d07-49e2-b410-5442a95d7d5c" />
-        </td>
-        <td>
-            <i>Motherboard positioned underneath the LED module, with the charging port facing forward.</i><br>
-            <img width="1180" height="808" alt="Motherboard underneath the LED module, charging port facing forward" src="https://github.com/user-attachments/assets/dd0ddabb-08ee-4705-b613-2e6244ca3cdf" />
-        </td>
-    </tr>
-</table>
+
+
+The initial concept was based primarily on the protruding geometry needed to place the motherboard right underneath the led module and leave accesible the charging port. 
+<img width="1122" height="852" alt="image" src="https://github.com/user-attachments/assets/bbd9fd62-de18-40b2-9a3b-483d5f83cbba" />
+
+
+---
 
 In the end, I decided to place the motherboard directly underneath the LED module. This arrangement would increase the overall height of the controller body by a few millimeters and make wiring somewhat more difficult compared to a centrally positioned motherboard. However, the reduction in horizontal footprint and the improved positioning of the directional input block relative to the arcade buttons made it worth exploring.
 
